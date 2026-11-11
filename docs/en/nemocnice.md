@@ -1,0 +1,172 @@
+# List of hospitals in the Czech Republic with location and GPS coordinates
+
+All hospitals in the Czech Republic from the National Register of Healthcare Providers: name, municipality, district, region, operator, founder type and coordinates.
+
+The National Register of Healthcare Providers lists 138 hospitals in Czechia.
+
+- **Data as of:** 1 November 2026
+- **Rows:** 138
+- **Source:** [ÚZIS ČR (National Register of Healthcare Providers)](https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv)
+- **Licence:** CC BY 4.0 (ÚZIS, ČÚZK)
+- **How to cite:** Source: ÚZIS ČR (National Register of Healthcare Providers); processed by czechdatasets.com, https://czechdatasets.com/en/otevrena-data/nemocnice
+- **Download:** [CSV](https://czechdatasets.com/open/nemocnice.csv) · [JSON](https://czechdatasets.com/open/nemocnice.json) · [Markdown](https://czechdatasets.com/open/en/nemocnice.md)
+- **Table page:** https://czechdatasets.com/en/otevrena-data/nemocnice
+- **Full dataset:** [Healthcare facilities (NRPZS)](https://czechdatasets.com/en/data/poskytovatele-zdravotni-pece)
+
+Places of provision with facility type Nemocnice (hospital). One provider can run several hospitals at different addresses.
+
+## Columns
+
+| Column | Description |
+| --- | --- |
+| `nazev` | Hospital name (place of provision) |
+| `obec` | Municipality |
+| `okres` | District (okres) |
+| `kraj` | Region (kraj) |
+| `poskytovatel` | Healthcare provider (legal entity operating the hospital) |
+| `zrizovatel` | Founder type (region, ministry, municipality, private…) |
+| `lat` | Latitude (WGS84) |
+| `lon` | Longitude (WGS84) |
+
+## Data
+
+| nazev | obec | okres | kraj | poskytovatel | zrizovatel | lat | lon |
+| --- | --- | --- | --- | --- | --- | ---: | ---: |
+| Nemocnice Milosrdných sester sv. Karla Boromejského v Praze | Praha 1 | Hlavní město Praha | Hlavní město Praha | Nemocnice Milosrdných sester sv. Karla Boromejského v Praze | Církev | 50.0870408 | 14.3962383 |
+| Nemocnice Na Františku | Praha 1 | Hlavní město Praha | Hlavní město Praha | Nemocnice Na Františku | Obec, město | 50.0927787 | 14.4214058 |
+| Institut klinické a experimentální medicíny | Praha 4 | Hlavní město Praha | Hlavní město Praha | Institut klinické a experimentální medicíny | MZ | 50.0227871 | 14.4630062 |
+| Ústav pro péči o matku a dítě | Praha 4 | Hlavní město Praha | Hlavní město Praha | Ústav pro péči o matku a dítě | MZ | 50.0621364 | 14.4192486 |
+| Mediterra s.r.o. | Praha 5 | Hlavní město Praha | Hlavní město Praha | Mediterra s.r.o. | Jiná právnická osoba | 50.0642942 | 14.3961672 |
+| ISCARE a.s. | Praha 9 | Hlavní město Praha | Hlavní město Praha | ISCARE a.s. |  | 50.1032706 | 14.4956429 |
+| Nemocnice Blansko | Blansko | Blansko | Jihomoravský kraj | Nemocnice Blansko | Obec, město | 49.3615584 | 16.6521918 |
+| Nemocnice Boskovice s.r.o. | Boskovice | Blansko | Jihomoravský kraj | Nemocnice Boskovice s.r.o. | Obec, město | 49.4909765 | 16.6430622 |
+| Centrum kardiovaskulární a transplantační chirurgie Brno | Brno | Brno-město | Jihomoravský kraj | Centrum kardiovaskulární a transplantační chirurgie Brno |  | 49.1746082 | 16.5728345 |
+| Centrum kardiovaskulární a transplantační chirurgie Brno | Brno | Brno-město | Jihomoravský kraj | Centrum kardiovaskulární a transplantační chirurgie Brno | MZ | 49.1913252 | 16.5987759 |
+| Masarykův onkologický ústav | Brno | Brno-město | Jihomoravský kraj | Masarykův onkologický ústav | MZ | 49.1945306 | 16.5890934 |
+| Nemocnice Milosrdných bratří, příspěvková organizace | Brno | Brno-město | Jihomoravský kraj | Nemocnice Milosrdných bratří, příspěvková organizace | Obec, město | 49.1856273 | 16.5969107 |
+| SurGal Clinic s.r.o. | Brno | Brno-město | Jihomoravský kraj | SurGal Clinic s.r.o. | Jiná právnická osoba | 49.2074705 | 16.6115642 |
+| Vojenská nemocnice Brno | Brno | Brno-město | Jihomoravský kraj | Vojenská nemocnice Brno | Ostatní centrální orgány | 49.2021511 | 16.630394 |
+| Úrazová nemocnice v Brně | Brno | Brno-město | Jihomoravský kraj | Úrazová nemocnice v Brně | Obec, město | 49.1976807 | 16.6152818 |
+| Nemocnice Břeclav, příspěvková organizace | Břeclav | Břeclav | Jihomoravský kraj | Nemocnice Břeclav, příspěvková organizace | Kraj | 48.7529487 | 16.8807598 |
+| Nemocnice TGM Hodonín, příspěvková organizace | Hodonín | Hodonín | Jihomoravský kraj | Nemocnice TGM Hodonín, příspěvková organizace | Kraj | 48.8642491 | 17.1450091 |
+| Nemocnice Hustopeče, příspěvková organizace | Hustopeče | Břeclav | Jihomoravský kraj | Nemocnice Hustopeče, příspěvková organizace | Kraj | 48.9447618 | 16.7303351 |
+| Nemocnice Ivančice, příspěvková organizace | Ivančice | Brno-venkov | Jihomoravský kraj | Nemocnice Ivančice, příspěvková organizace | Kraj | 49.1024382 | 16.3719435 |
+| Nemocnice Kyjov, příspěvková organizace | Kyjov | Hodonín | Jihomoravský kraj | Nemocnice Kyjov, příspěvková organizace | Kraj | 49.00947 | 17.1122536 |
+| Nemocnice Vyškov, příspěvková organizace | Vyškov | Vyškov | Jihomoravský kraj | Nemocnice Vyškov, p. o. | Kraj | 49.2775129 | 16.9799285 |
+| Nemocnice Znojmo, příspěvková organizace | Znojmo | Znojmo | Jihomoravský kraj | Nemocnice Znojmo, příspěvková organizace | Kraj | 48.8516833 | 16.0510315 |
+| Nemocnice Znojmo, příspěvková organizace | Znojmo | Znojmo | Jihomoravský kraj | Nemocnice Znojmo, příspěvková organizace | Kraj | 48.8694402 | 16.0507993 |
+| Nemocnice Jindřichův Hradec, a.s. | Jindřichův Hradec | Jindřichův Hradec | Jihočeský kraj | Nemocnice Jindřichův Hradec, a.s. | Kraj | 49.1389686 | 15.0039171 |
+| Nemocnice Prachatice, a.s. | Prachatice | Prachatice | Jihočeský kraj | Nemocnice Prachatice, a.s. | Kraj | 49.0071373 | 14.010789 |
+| Nemocnice Písek, a.s. | Písek | Písek | Jihočeský kraj | Nemocnice Písek, a.s. | Kraj | 49.3028912 | 14.1560826 |
+| Nemocnice Strakonice, a.s. | Strakonice | Strakonice | Jihočeský kraj | Nemocnice Strakonice, a.s. | Kraj | 49.2655468 | 13.9070373 |
+| Nemocnice Tábor, a.s. | Tábor | Tábor | Jihočeský kraj | Nemocnice Tábor, a.s. | Kraj | 49.4179069 | 14.6538403 |
+| Nemocnice České Budějovice, a.s. | České Budějovice | České Budějovice | Jihočeský kraj | Nemocnice České Budějovice, a.s. | Kraj | 48.960706 | 14.4694143 |
+| Nemocnice Český Krumlov, a.s. | Český Krumlov | Český Krumlov | Jihočeský kraj | Nemocnice Český Krumlov, a.s. | Kraj | 48.8114706 | 14.3266963 |
+| Karlovarská krajská nemocnice a.s., Nemocnice Cheb | Cheb | Cheb | Karlovarský kraj | Karlovarská krajská nemocnice a.s. | Kraj | 50.0699085 | 12.3669439 |
+| Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary | Karlovy Vary | Karlovy Vary | Karlovarský kraj | Karlovarská krajská nemocnice a.s. | Kraj | 50.2326679 | 12.8765991 |
+| Nemocnice Ostrov s.r.o. | Ostrov | Karlovy Vary | Karlovarský kraj | Nemocnice Ostrov s.r.o. | Jiná právnická osoba | 50.3122724 | 12.9638318 |
+| Nemocnice Sokolov s.r.o., Nemocnice Sokolov | Sokolov | Sokolov | Karlovarský kraj | Nemocnice Sokolov s.r.o. | Jiná právnická osoba | 50.1780198 | 12.6505763 |
+| Nemocnice Havlíčkův Brod, příspěvková organizace | Havlíčkův Brod | Havlíčkův Brod | Kraj Vysočina | Nemocnice Havlíčkův Brod, příspěvková organizace | Kraj | 49.6094799 | 15.5712751 |
+| Nemocnice Jihlava, příspěvková organizace | Jihlava | Jihlava | Kraj Vysočina | Nemocnice Jihlava, příspěvková organizace | Kraj | 49.3979281 | 15.5706199 |
+| Nemocnice Nové Město na Moravě, příspěvová organizace | Nové Město na Moravě | Žďár nad Sázavou | Kraj Vysočina | Nemocnice Nové Město na Moravě, příspěvková organizace | Kraj | 49.5603203 | 16.0628147 |
+| Nemocnice Pelhřimov, příspěvková organizace | Pelhřimov | Pelhřimov | Kraj Vysočina | Nemocnice Pelhřimov, příspěvková organizace | Kraj | 49.433513 | 15.2298436 |
+| Nemocnice Třebíč, příspěvková organizace | Třebíč | Třebíč | Kraj Vysočina | Nemocnice Třebíč, příspěvková organizace | Kraj | 49.2122136 | 15.8907724 |
+| Nemocnice sv. Zdislavy, a.s. | Velké Meziříčí | Žďár nad Sázavou | Kraj Vysočina | Nemocnice sv.Zdislavy,a.s. | Jiná právnická osoba | 49.3912662 | 16.0081832 |
+| Oblastní nemocnice Náchod a.s., Nemocnice Broumov | Broumov | Náchod | Královéhradecký kraj | Oblastní nemocnice Náchod a.s. | Kraj | 50.5809749 | 16.3338888 |
+| Městská nemocnice, a.s., Nemocnice Dvůr Králové nad Labem | Dvůr Králové nad Labem | Trutnov | Královéhradecký kraj | Městská nemocnice, a.s. | Kraj | 50.4485468 | 15.8157675 |
+| Oblastní nemocnice Jičín a.s | Jičín | Jičín | Královéhradecký kraj | Oblastní nemocnice Jičín a.s. | Kraj | 50.4390613 | 15.3559317 |
+| Oblastní nemocnice Jičín a.s. | Jičín | Jičín | Královéhradecký kraj | Oblastní nemocnice Jičín a.s. | Kraj | 50.4401108 | 15.3574041 |
+| Oblastní nemocnice Náchod a.s., Nemocnice Nové Město nad Metují | Nové Město nad Metují | Náchod | Královéhradecký kraj | Oblastní nemocnice Náchod a.s. | Kraj | 50.359022 | 16.1492462 |
+| Oblastní nemocnice Jičín a.s., Nemocnice Nový Bydžov | Nový Bydžov | Hradec Králové | Královéhradecký kraj | Oblastní nemocnice Jičín a.s. | Kraj | 50.2428074 | 15.4823449 |
+| Oblastní nemocnice Náchod a.s. | Náchod | Náchod | Královéhradecký kraj | Oblastní nemocnice Náchod a.s. | Kraj | 50.4064303 | 16.1646179 |
+| Oblastní nemocnice Náchod a.s. | Náchod | Náchod | Královéhradecký kraj | Oblastní nemocnice Náchod a.s. | Kraj | 50.4107608 | 16.1674732 |
+| Oblastní nemocnice Náchod a.s., Nemocnice Rychnov nad Kněžnou | Rychnov nad Kněžnou | Rychnov nad Kněžnou | Královéhradecký kraj | Oblastní nemocnice Náchod a.s. | Kraj | 50.1679847 | 16.2707926 |
+| Oblastní nemocnice Trutnov a.s. | Trutnov | Trutnov | Královéhradecký kraj | Oblastní nemocnice Trutnov a.s. | Kraj | 50.560443 | 15.9193386 |
+| Nemocnice Vrchlabí, s.r.o. | Vrchlabí | Trutnov | Královéhradecký kraj | Nemocnice Vrchlabí, s.r.o. | Jiná právnická osoba | 50.6224131 | 15.6088863 |
+| Krajská nemocnice Liberec, a.s., Nemocnice Frýdlant | Frýdlant | Liberec | Liberecký kraj | Krajská nemocnice Liberec, a.s. | Kraj | 50.9256835 | 15.0874706 |
+| Nemocnice Jablonec nad Nisou, p.o. | Jablonec nad Nisou | Jablonec nad Nisou | Liberecký kraj | Nemocnice Jablonec nad Nisou, p.o. | Obec, město | 50.7293021 | 15.1595627 |
+| MMN, a.s., Nemocnice Jilemnice | Jilemnice | Semily | Liberecký kraj | MMN, a.s. | Obec, město | 50.6114511 | 15.4995553 |
+| Krajská nemocnice Liberec, a.s. | Liberec | Liberec | Liberecký kraj | Krajská nemocnice Liberec, a.s. | Kraj | 50.7693039 | 15.0628493 |
+| Krajská nemocnice Liberec, a.s. | Liberec | Liberec | Liberecký kraj | Krajská nemocnice Liberec, a.s. | Kraj | 50.7707563 | 15.0656411 |
+| Krajská nemocnice Liberec, a.s., dětská psychiatrie | Liberec | Liberec | Liberecký kraj | Krajská nemocnice Liberec, a.s. | Kraj | 50.7710872 | 15.0654503 |
+| Krajská nemocnice Liberec, a.s., infekční, kožní | Liberec | Liberec | Liberecký kraj | Krajská nemocnice Liberec, a.s. | Kraj | 50.7715123 | 15.0687848 |
+| MMN, a.s., Nemocnice Semily | Semily | Semily | Liberecký kraj | MMN, a.s. | Obec, město | 50.597423 | 15.3532965 |
+| Nemocnice Tanvald, s.r.o. | Tanvald | Jablonec nad Nisou | Liberecký kraj | Nemocnice Tanvald, s.r.o. | Jiná právnická osoba | 50.7401774 | 15.3015973 |
+| Krajská nemocnice Liberec, a.s., Nemocnice Turnov | Turnov | Semily | Liberecký kraj | Krajská nemocnice Liberec, a.s. | Kraj | 50.5890942 | 15.1690945 |
+| KN Liberec, a.s., Nemocnice Česká Lípa | Česká Lípa | Česká Lípa | Liberecký kraj | Krajská nemocnice Liberec, a.s. |  | 50.6858542 | 14.5488331 |
+| Bohumínská městská nemocnice, a.s. | Bohumín | Karviná | Moravskoslezský kraj | Bohumínská městská nemocnice, a.s. | Obec, město | 49.917938 | 18.3354434 |
+| Moravskoslezská nemocnice Krnov, příspěvková organizace, Nemocnice | Bruntál | Bruntál | Moravskoslezský kraj | Moravskoslezská nemocnice Krnov, příspěvková organizace |  | 49.9946874 | 17.4712523 |
+| Bílovecká nemocnice, a.s. | Bílovec | Nový Jičín | Moravskoslezský kraj | Bílovecká nemocnice, a.s. | Kraj | 49.7630075 | 18.0174773 |
+| Moravskoslezská nemocnice Frýdek - Místek, příspěvková organizace | Frýdek-Místek | Frýdek-Místek | Moravskoslezský kraj | Moravskoslezská nemocnice Frýdek-Místek, příspěvková organizace | Kraj | 49.6899907 | 18.3553988 |
+| Moravskoslezská nemocnice Havířov, příspěvková organizace | Havířov | Karviná | Moravskoslezský kraj | Moravskoslezská nemocnice Havířov, příspěvková organizace | Kraj | 49.7845169 | 18.4379897 |
+| Moravskoslezská nemocnice Karviná - Ráj, příspěvková organizace | Karviná | Karviná | Moravskoslezský kraj | Moravskoslezská nemocnice Karviná - Ráj, příspěvková organizace | Kraj | 49.8483132 | 18.549898 |
+| Nemocnice AGEL Karviná a.s. | Karviná | Karviná | Moravskoslezský kraj | Nemocnice AGEL Karviná a.s. | Jiná právnická osoba | 49.8695995 | 18.5408725 |
+| Moravskoslezská nemocnice Krnov, příspěvková organizace, Nemocnice | Krnov | Bruntál | Moravskoslezský kraj | Moravskoslezská nemocnice Krnov, příspěvková organizace | Kraj | 50.0951253 | 17.6874426 |
+| Nemocnice AGEL Nový Jičín a.s. | Nový Jičín | Nový Jičín | Moravskoslezský kraj | Nemocnice AGEL Nový Jičín a.s. | Jiná právnická osoba | 49.5889787 | 18.0075678 |
+| Městská nemocnice v Odrách, příspěvková organizace | Odry | Nový Jičín | Moravskoslezský kraj | Městská nemocnice v Odrách, příspěvková organizace | Obec, město | 49.6655159 | 17.827959 |
+| Moravskoslezská nemocnice Opava, příspěvková organizace | Opava | Opava | Moravskoslezský kraj | Moravskoslezská nemocnice Opava, příspěvková organizace | Kraj | 49.9337912 | 17.8793429 |
+| Moravskoslezská nemocnice Karviná - Ráj, příspěvková organizace, pracoviště Orlová | Orlová | Karviná | Moravskoslezský kraj | Moravskoslezská nemocnice Karviná - Ráj, příspěvková organizace | Kraj | 49.8756544 | 18.4348121 |
+| Městská nemocnice Ostrava, příspěvková organizace | Ostrava | Ostrava-město | Moravskoslezský kraj | Městská nemocnice Ostrava, příspěvková organizace | Obec, město | 49.8330502 | 18.2746773 |
+| Nemocnice AGEL Ostrava-Vítkovice a.s. | Ostrava | Ostrava-město | Moravskoslezský kraj | Nemocnice AGEL Ostrava-Vítkovice a.s. | Jiná právnická osoba | 49.8147896 | 18.2687477 |
+| Moravskoslezská nemocnice Krnov, příspěvková organizace, Nemocnice | Rýmařov | Bruntál | Moravskoslezský kraj | Moravskoslezská nemocnice Krnov, příspěvková organizace |  | 49.9313362 | 17.2625188 |
+| Moravskoslezská nemocnice Třinec, příspěvková organizace | Třinec | Frýdek-Místek | Moravskoslezský kraj | Moravskoslezská nemocnice Třinec, příspěvková organizace | Kraj | 49.6747616 | 18.6907101 |
+| Nemocnice AGEL Třinec-Podlesí a.s. | Třinec | Frýdek-Místek | Moravskoslezský kraj | Nemocnice AGEL Třinec-Podlesí a.s. | Jiná právnická osoba | 49.6808334 | 18.6416309 |
+| Nemocnice AGEL Český Těšín a.s. | Český Těšín | Karviná | Moravskoslezský kraj | Nemocnice AGEL Český Těšín a.s. | Jiná právnická osoba | 49.7453691 | 18.6100363 |
+| Nemocnice Hranice a.s. | Hranice | Přerov | Olomoucký kraj | Nemocnice Hranice a.s. | Jiná právnická osoba | 49.5552816 | 17.7448575 |
+| Nemocnice AGEL Jeseník a.s. | Jeseník | Jeseník | Olomoucký kraj | Nemocnice AGEL Jeseník a.s. | Jiná právnická osoba | 50.22778 | 17.1983364 |
+| Vojenská nemocnice Olomouc | Olomouc | Olomouc | Olomoucký kraj | Vojenská nemocnice Olomouc | Ostatní centrální orgány | 49.6056085 | 17.2651288 |
+| AGEL Středomoravská nemocniční a.s., Nemocnice Prostějov | Prostějov | Prostějov | Olomoucký kraj | AGEL Středomoravská nemocniční a.s. | Jiná právnická osoba | 49.4756741 | 17.0883107 |
+| AGEL Středomoravská nemocniční a.s., Nemocnice Přerov | Přerov | Přerov | Olomoucký kraj | AGEL Středomoravská nemocniční a.s. | Jiná právnická osoba | 49.4568709 | 17.4736704 |
+| AGEL Středomoravská nemocniční a.s., Nemocnice Šternberk | Šternberk | Olomouc | Olomoucký kraj | AGEL Středomoravská nemocniční a.s. | Jiná právnická osoba | 49.7224595 | 17.298149 |
+| Nemocnice Šumperk a.s. | Šumperk | Šumperk | Olomoucký kraj | Nemocnice Šumperk a.s. | Jiná právnická osoba | 49.9595449 | 16.9675244 |
+| Nemocnice Pardubického kraje, a.s., Chrudimská nemocnice | Chrudim | Chrudim | Pardubický kraj | Nemocnice Pardubického kraje, a.s. | Kraj | 49.9422681 | 15.8073548 |
+| Nemocnice Pardubického kraje, a.s., Litomyšlská nemocnice | Litomyšl | Svitavy | Pardubický kraj | Nemocnice Pardubického kraje, a.s. | Kraj | 49.8650863 | 16.3123934 |
+| Nemocnice Pardubického kraje, a.s., Pardubická nemocnice | Pardubice | Pardubice | Pardubický kraj | Nemocnice Pardubického kraje, a.s. | Kraj | 50.0295764 | 15.7889287 |
+| Nemocnice Pardubického kraje, a.s., Svitavská nemocnice | Svitavy | Svitavy | Pardubický kraj | Nemocnice Pardubického kraje, a.s. | Kraj | 49.7531243 | 16.4697571 |
+| Nemocnice Pardubického kraje, a.s., Svitavská nemocnice, Oddělení psychiatrie a psychoterapie | Svitavy | Svitavy | Pardubický kraj | Nemocnice Pardubického kraje, a.s. | Kraj | 49.752088 | 16.4706043 |
+| Nemocnice Pardubického kraje, a.s., Orlickoústecká nemocnice | Ústí nad Orlicí | Ústí nad Orlicí | Pardubický kraj | Nemocnice Pardubického kraje, a.s. | Kraj | 49.9704637 | 16.4018086 |
+| Domažlická nemocnice, a.s. | Domažlice | Domažlice | Plzeňský kraj | Domažlická nemocnice, a.s. | Kraj | 49.4380532 | 12.9079186 |
+| Klatovská nemocnice, a.s. | Klatovy | Klatovy | Plzeňský kraj | Klatovská nemocnice, a.s. | Kraj | 49.403713 | 13.2924292 |
+| Mulačova nemocnice s.r.o. | Plzeň | Plzeň-město | Plzeňský kraj | Mulačova nemocnice s.r.o. | Jiná právnická osoba | 49.7273326 | 13.3697362 |
+| Nemocnice u Sv. Jiří s.r.o. | Plzeň | Plzeň-město | Plzeňský kraj | Nemocnice u Sv. Jiří s.r.o. | Jiná právnická osoba | 49.7525427 | 13.4107228 |
+| PRIVAMED a.s., Městská nemocnice Plzeň | Plzeň | Plzeň-město | Plzeňský kraj | PRIVAMED a.s. | Jiná právnická osoba | 49.764515 | 13.3590966 |
+| PRIVAMED a.s., Městská nemocnice Plzeň | Plzeň | Plzeň-město | Plzeňský kraj | PRIVAMED a.s. | Jiná právnická osoba | 49.7648487 | 13.3593271 |
+| PRIVAMED a.s., Městská nemocnice Plzeň | Plzeň | Plzeň-město | Plzeňský kraj | PRIVAMED a.s. | Jiná právnická osoba | 49.7652108 | 13.3597071 |
+| Rokycanská nemocnice, a.s. | Rokycany | Rokycany | Plzeňský kraj | Rokycanská nemocnice, a.s. | Kraj | 49.7489307 | 13.604289 |
+| Stodská nemocnice, a.s. | Stod | Plzeň-jih | Plzeňský kraj | Stodská nemocnice, a.s. | Kraj | 49.6363222 | 13.1558046 |
+| Sušická nemocnice s.r.o. | Sušice | Klatovy | Plzeňský kraj | Sušická nemocnice s.r.o. | Jiná právnická osoba | 49.2300296 | 13.5264746 |
+| Nemocnice Rudolfa a Stefanie Benešov, a.s., nemocnice Středočeského kraje | Benešov | Benešov | Středočeský kraj | Nemocnice Rudolfa a Stefanie Benešov, a.s., nemocnice Středočeského kraje | Kraj | 49.7861754 | 14.6791704 |
+| PP Hospitals, s.r.o., Nemocnice Brandýs nad Labem | Brandýs nad Labem-Stará Boleslav | Praha-východ | Středočeský kraj | PP Hospitals, s.r.o. | Jiná právnická osoba | 50.1882277 | 14.6521515 |
+| NH Hospital a.s., Nemocnice Hořovice | Hořovice | Beroun | Středočeský kraj | NH Hospital a.s. | Jiná právnická osoba | 49.8406577 | 13.9155837 |
+| Oblastní nemocnice Kladno, a.s., nemocnice Středočeského kraje | Kladno | Kladno | Středočeský kraj | Oblastní nemocnice Kladno, a.s., nemocnice Středočeského kraje | Kraj | 50.1409197 | 14.0888915 |
+| Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje | Kolín | Kolín | Středočeský kraj | Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje | Kraj | 50.0204938 | 15.1974803 |
+| Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje, Nemocnice Kutná Hora | Kutná Hora | Kutná Hora | Středočeský kraj | Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje | Kraj | 49.9461358 | 15.2534969 |
+| Oblastní nemocnice Mladá Boleslav, a.s., nemocnice Středočeského kraje | Mladá Boleslav | Mladá Boleslav | Středočeský kraj | Oblastní nemocnice Mladá Boleslav, a.s., nemocnice Středočeského kraje | Kraj | 50.4173646 | 14.9101812 |
+| Oblastní nemocnice Mladá Boleslav, a.s., nemocnice Středočeského kraje | Mladá Boleslav | Mladá Boleslav | Středočeský kraj | Oblastní nemocnice Mladá Boleslav, a.s., nemocnice Středočeského kraje | Kraj | 50.4177558 | 14.9118802 |
+| Mělnická zdravotní, a.s., Nemocnice Mělník | Mělník | Mělník | Středočeský kraj | Mělnická zdravotní, a.s. | Jiná právnická osoba | 50.3471249 | 14.4841322 |
+| Městská nemocnice Městec Králové a.s. | Městec Králové | Nymburk | Středočeský kraj | Městská nemocnice Městec Králové a.s. | Obec, město | 50.2052979 | 15.2886937 |
+| Nemocnice Na Pleši s.r.o. | Nová Ves pod Pleší | Příbram | Středočeský kraj | Nemocnice Na Pleši s.r.o. | Jiná právnická osoba | 49.8336622 | 14.2861638 |
+| Nemocnice Nymburk s.r.o. | Nymburk | Nymburk | Středočeský kraj | Nemocnice Nymburk s.r.o. | Obec, město | 50.1868673 | 15.0374483 |
+| Oblastní nemocnice Příbram, a.s. | Příbram | Příbram | Středočeský kraj | Oblastní nemocnice Příbram, a.s. | Kraj | 49.6917707 | 14.0104431 |
+| Masarykova nemocnice Rakovník s.r.o. | Rakovník | Rakovník | Středočeský kraj | Masarykova nemocnice Rakovník s.r.o. | Jiná právnická osoba | 50.1080169 | 13.7153847 |
+| Nemocnice Slaný | Slaný | Kladno | Středočeský kraj | Nemocnice Slaný | Obec, město | 50.2344614 | 14.0839717 |
+| Městská nemocnice Čáslav | Čáslav | Kutná Hora | Středočeský kraj | Městská nemocnice Čáslav | Obec, město | 49.9042383 | 15.4007216 |
+| Nemocnice AGEL Říčany a.s. | Říčany | Praha-východ | Středočeský kraj | Nemocnice AGEL Říčany a.s. | Jiná právnická osoba | 49.9959511 | 14.6748385 |
+| Kroměřížská nemocnice a.s. | Kroměříž | Kroměříž | Zlínský kraj | Kroměřížská nemocnice a.s. | Kraj | 49.2928435 | 17.380754 |
+| Uherskohradišťská nemocnice a.s. | Uherské Hradiště | Uherské Hradiště | Zlínský kraj | Uherskohradišťská nemocnice a.s. | Kraj | 49.0630641 | 17.4524455 |
+| Nemocnice AGEL Valašské Meziříčí a.s. | Valašské Meziříčí | Vsetín | Zlínský kraj | Nemocnice AGEL Valašské Meziříčí a.s. | Jiná právnická osoba | 49.4629186 | 17.9770313 |
+| Vsetínská nemocnice a.s. | Vsetín | Vsetín | Zlínský kraj | Vsetínská nemocnice a.s. | Kraj | 49.332167 | 17.9982193 |
+| EUC Klinika Zlín a.s. | Zlín | Zlín | Zlínský kraj | EUC Klinika Zlín a.s. | Jiná právnická osoba | 49.2226081 | 17.6570328 |
+| Krajská nemocnice T. Bati, a. s. | Zlín | Zlín | Zlínský kraj | Krajská nemocnice T. Bati, a. s. | Kraj | 49.2300896 | 17.6940345 |
+| Krajská zdravotní, a.s. - Nemocnice Chomutov, o.z. | Chomutov | Chomutov | Ústecký kraj | Krajská zdravotní, a.s. | Kraj | 50.4551745 | 13.4112934 |
+| AHC Nemocnice Duchcov s.r.o. | Duchcov | Teplice | Ústecký kraj | AHC Nemocnice Duchcov s.r.o. | Jiná právnická osoba | 50.6090302 | 13.742678 |
+| Krajská zdravotní, a.s. - Nemocnice Děčín, o.z. | Děčín | Děčín | Ústecký kraj | Krajská zdravotní, a.s. | Kraj | 50.7814075 | 14.2250283 |
+| Nemocnice Kadaň s.r.o. | Kadaň | Chomutov | Ústecký kraj | Nemocnice Kadaň s.r.o. | Obec, město | 50.3912251 | 13.2701556 |
+| Krajská zdravotní, a.s. - Nemocnice Most, o.z. | Most | Most | Ústecký kraj | Krajská zdravotní, a.s. | Kraj | 50.5076985 | 13.6273397 |
+| Nemocnice Roudnice nad Labem s.r.o. | Roudnice nad Labem | Litoměřice | Ústecký kraj | Nemocnice Roudnice nad Labem s.r.o. | Jiná právnická osoba | 50.423031 | 14.2497334 |
+| Krajská zdravotní, a.s. - Masarykova nemocnice v Ústí nad Labem, o.z., pracoviště Rumburk | Rumburk | Děčín | Ústecký kraj | Krajská zdravotní, a.s. |  | 50.9487855 | 14.5475838 |
+| Krajská zdravotní, a.s. - Nemocnice Teplice, o.z. | Teplice | Teplice | Ústecký kraj | Krajská zdravotní, a.s. | Kraj | 50.6365697 | 13.8108554 |
+| Krajská zdravotní, a.s. - Masarykova nemocnice v Ústí nad Labem, o.z. | Ústí nad Labem | Ústí nad Labem | Ústecký kraj | Krajská zdravotní, a.s. | Kraj | 50.6766388 | 14.0114822 |
+| Krajská zdravotní, a.s. - Masarykova nemocnice v Ústí nad Labem, o.z. | Ústí nad Labem | Ústí nad Labem | Ústecký kraj | Krajská zdravotní, a.s. | Kraj | 50.6809194 | 14.015191 |
+| Krajská zdravotní, a.s. - Masarykova nemocnice v Ústí nad Labem, o.z. | Ústí nad Labem | Ústí nad Labem | Ústecký kraj | Krajská zdravotní, a.s. | Kraj | 50.6812547 | 14.0223615 |
+| Žatecká regionální nemocnice, a.s. | Žatec | Louny | Ústecký kraj | Žatecká regionální nemocnice, a.s. |  | 50.3195441 | 13.5379816 |

@@ -1,0 +1,2189 @@
+{
+  "name": "czech-open-data",
+  "title": "Czech open data tables",
+  "description": "35 open tables about the Czech Republic, built from official open data: municipalities, postcodes and territorial units (RÚIAN), companies, data boxes, schools, healthcare providers, pharmacies, medicines, election results, wages, population and municipal statistics. 53,124 rows in total, as UTF-8 CSV with documented columns.",
+  "homepage": "https://czechdatasets.com/en/otevrena-data",
+  "keywords": [
+    "Czech Republic",
+    "Czechia",
+    "open data",
+    "RÚIAN",
+    "municipalities",
+    "postcodes",
+    "companies",
+    "elections",
+    "wages",
+    "population"
+  ],
+  "contributors": [
+    {
+      "title": "czechdatasets.com",
+      "path": "https://czechdatasets.com",
+      "role": "publisher"
+    }
+  ],
+  "resources": [
+    {
+      "name": "obce-cr",
+      "path": "data/obce-cr.csv",
+      "title": "List of Czech municipalities with codes (CSV, JSON)",
+      "description": "Every municipality in the Czech Republic with its municipality code (RÚIAN = Czech Statistical Office, LAU 2), status, district, region, PSČ postcodes, number of addresses and centre coordinates.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 802873,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/obce-cr",
+      "sources": [
+        {
+          "title": "ČÚZK, the Czech Office for Surveying, Mapping and Cadastre (RÚIAN register)",
+          "path": "https://vdp.cuzk.gov.cz/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČÚZK)",
+          "path": "https://creativecommons.org/licenses/by/4.0/deed.cs"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "obec_kod",
+            "type": "number",
+            "description": "Municipality code (RÚIAN, same as the Czech Statistical Office code)"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Municipality name"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Status: Obec (municipality), Město (town), Městys (market town), Statutární město (statutory city), Hlavní město (capital), Vojenský újezd (military area)"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "okres_kod",
+            "type": "number",
+            "description": "District code (RÚIAN)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "kraj_kod",
+            "type": "number",
+            "description": "Region code (RÚIAN)"
+          },
+          {
+            "name": "orp",
+            "type": "string",
+            "description": "Municipality with extended powers (ORP) the municipality belongs to"
+          },
+          {
+            "name": "pou",
+            "type": "string",
+            "description": "Municipality with an authorised municipal office (POU)"
+          },
+          {
+            "name": "lau",
+            "type": "string",
+            "description": "LAU 2 code (CZ + district + municipality code)"
+          },
+          {
+            "name": "psc",
+            "type": "string",
+            "description": "Postcodes (PSČ) used in the municipality, separated by semicolons"
+          },
+          {
+            "name": "pocet_adres",
+            "type": "number",
+            "description": "Number of address points"
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude (WGS84)"
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude (WGS84)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kraje-a-okresy",
+      "path": "data/kraje-a-okresy.csv",
+      "title": "Czech regions and districts with CZ-NUTS 3 and LAU 1 codes",
+      "description": "The 14 regions (kraje) and all districts (okresy) of the Czech Republic with RÚIAN code, Czech Statistical Office code and CZ-NUTS 3 (regions) or LAU 1 (districts) code.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 4792,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/kraje-a-okresy",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://apl.czso.cz/iSMS/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "typ",
+            "type": "string",
+            "description": "kraj (region) or okres (district)"
+          },
+          {
+            "name": "kod_ruian",
+            "type": "number",
+            "description": "RÚIAN code"
+          },
+          {
+            "name": "kod_csu",
+            "type": "number",
+            "description": "Czech Statistical Office code"
+          },
+          {
+            "name": "nuts_lau",
+            "type": "string",
+            "description": "CZ-NUTS 3 code (region) or LAU 1 code (district), e.g. CZ010, CZ0201"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Name"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region the district belongs to"
+          },
+          {
+            "name": "zkratka",
+            "type": "string",
+            "description": "Three-letter region abbreviation"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pocty-uzemnich-prvku",
+      "path": "data/pocty-uzemnich-prvku.csv",
+      "title": "How many municipalities, cadastral areas, streets and addresses are in the Czech Republic",
+      "description": "Counts of territorial units of the Czech Republic from the RÚIAN register: regions, districts, municipalities, municipality parts, cadastral areas, streets, postcodes and address points.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 869,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/pocty-uzemnich-prvku",
+      "sources": [
+        {
+          "title": "ČÚZK, the Czech Office for Surveying, Mapping and Cadastre (RÚIAN register)",
+          "path": "https://vdp.cuzk.gov.cz/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČÚZK)",
+          "path": "https://creativecommons.org/licenses/by/4.0/deed.cs"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "prvek",
+            "type": "string",
+            "description": "Territorial unit (Czech)"
+          },
+          {
+            "name": "prvek_en",
+            "type": "string",
+            "description": "Territorial unit (English)"
+          },
+          {
+            "name": "pocet",
+            "type": "number",
+            "description": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "psc",
+      "path": "data/psc.csv",
+      "title": "Czech postcodes (PSČ) by municipality (CSV)",
+      "description": "Postcodes (PSČ) of the Czech Republic with delivery post office, municipality, district, region and number of addresses. One postcode can serve several municipalities; each postcode and municipality pair has its own row.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 548308,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/psc",
+      "sources": [
+        {
+          "title": "ČÚZK, the Czech Office for Surveying, Mapping and Cadastre (RÚIAN register)",
+          "path": "https://vdp.cuzk.gov.cz/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČÚZK)",
+          "path": "https://creativecommons.org/licenses/by/4.0/deed.cs"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "psc",
+            "type": "number",
+            "description": "Postcode (5 digits)"
+          },
+          {
+            "name": "posta",
+            "type": "string",
+            "description": "Delivery post office"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Municipality name"
+          },
+          {
+            "name": "obec_kod",
+            "type": "number",
+            "description": "Municipality code (RÚIAN, same as the Czech Statistical Office code)"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "pocet_adres",
+            "type": "number",
+            "description": "Number of address points with this postcode in the municipality"
+          }
+        ]
+      }
+    },
+    {
+      "name": "adresy-podle-okresu",
+      "path": "data/adresy-podle-okresu.csv",
+      "title": "Number of address points in the Czech Republic by district",
+      "description": "How many addresses there are in the Czech Republic: number of RÚIAN address points and municipalities in each district and in the whole country.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 3000,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/adresy-podle-okresu",
+      "sources": [
+        {
+          "title": "ČÚZK, the Czech Office for Surveying, Mapping and Cadastre (RÚIAN register)",
+          "path": "https://vdp.cuzk.gov.cz/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČÚZK)",
+          "path": "https://cuzk.gov.cz/Predpisy/Podminky-poskytovani-prostor-dat-a-sitovych-sluzeb/Podminky-poskytovani-prostorovych-dat-CUZK.aspx"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (Česko = whole country; Prague has its own row)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "obci",
+            "type": "number",
+            "description": "Number of municipalities"
+          },
+          {
+            "name": "pocet_adres",
+            "type": "number",
+            "description": "Number of address points"
+          }
+        ]
+      }
+    },
+    {
+      "name": "rizika-podle-obci",
+      "path": "data/rizika-podle-obci.csv",
+      "title": "Flood risk by municipality in the Czech Republic: share of addresses in the 100-year flood zone",
+      "description": "For every Czech municipality: number and share of addresses in the 5-, 20- and 100-year flood zones (Q5, Q20, Q100), in the active flood zone, on undermined land, with a high radon index and on landslide areas.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 492842,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/rizika-podle-obci",
+      "sources": [
+        {
+          "title": "VÚV TGM, Czech Geological Survey, AOPK ČR, ČHMÚ and ČÚZK",
+          "path": "https://heis.vuv.cz/isvs/zapluz"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (VÚV TGM, ČGS, AOPK ČR, ČHMÚ, ČÚZK), MŽP",
+          "path": "https://creativecommons.org/licenses/by/4.0/deed.cs"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "obec_kod",
+            "type": "number",
+            "description": "Municipality code (RÚIAN, same as the Czech Statistical Office code)"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Municipality name"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "pocet_adres",
+            "type": "number",
+            "description": "Number of address points"
+          },
+          {
+            "name": "adres_q5",
+            "type": "number",
+            "description": "Addresses in the 5-year flood zone (Q5)"
+          },
+          {
+            "name": "adres_q20",
+            "type": "number",
+            "description": "Addresses in the 20-year flood zone (Q20)"
+          },
+          {
+            "name": "adres_q100",
+            "type": "number",
+            "description": "Addresses in the 100-year flood zone (Q100)"
+          },
+          {
+            "name": "podil_q100_pct",
+            "type": "number",
+            "description": "Share of the municipality's addresses in the Q100 flood zone, percent"
+          },
+          {
+            "name": "adres_aktivni_zona",
+            "type": "number",
+            "description": "Addresses in the active flood zone"
+          },
+          {
+            "name": "adres_poddolovani",
+            "type": "number",
+            "description": "Addresses on undermined land"
+          },
+          {
+            "name": "podil_poddolovani_pct",
+            "type": "number",
+            "description": "Share of addresses on undermined land, percent"
+          },
+          {
+            "name": "adres_radon_vysoky",
+            "type": "number",
+            "description": "Addresses with a high radon index of the bedrock"
+          },
+          {
+            "name": "podil_radon_vysoky_pct",
+            "type": "number",
+            "description": "Share of addresses with a high radon index, percent"
+          },
+          {
+            "name": "adres_svahova_nestabilita",
+            "type": "number",
+            "description": "Addresses on a landslide area"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firmy-podle-pravni-formy",
+      "path": "data/firmy-podle-pravni-formy.csv",
+      "title": "Number of companies in the Czech Republic by legal form",
+      "description": "How many limited liability companies (s.r.o.), joint-stock companies (a.s.), associations, cooperatives and other legal entities exist in Czechia: counts from the Czech Statistical Office's Register of Economic Subjects by legal form, total and active.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 3327,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/firmy-podle-pravni-formy",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (Register of Economic Subjects)",
+          "path": "https://csu.gov.cz/registr-ekonomickych-subjektu-otevrena-data-dokumentace"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ, ČÚZK)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "pravni_forma_kod",
+            "type": "number",
+            "description": "Legal form code (Czech Statistical Office), e.g. 112 = s.r.o. (limited liability company), 121 = a.s. (joint-stock company)"
+          },
+          {
+            "name": "pravni_forma",
+            "type": "string",
+            "description": "Legal form name (Czech)"
+          },
+          {
+            "name": "subjektu",
+            "type": "number",
+            "description": "Number of entities in the register including dissolved ones"
+          },
+          {
+            "name": "aktivnich",
+            "type": "number",
+            "description": "Number of active entities (no dissolution date)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "firmy-podle-kraju-a-odvetvi",
+      "path": "data/firmy-podle-kraju-a-odvetvi.csv",
+      "title": "Number of Czech companies by region and CZ-NACE industry section",
+      "description": "Number of active legal entities in each Czech region by section of their main activity in CZ-NACE 2025 (agriculture, manufacturing, construction, trade, IT and others).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 33052,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/firmy-podle-kraju-a-odvetvi",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (Register of Economic Subjects)",
+          "path": "https://csu.gov.cz/registr-ekonomickych-subjektu-otevrena-data-dokumentace"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ, ČÚZK)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "sekce",
+            "type": "string",
+            "description": "CZ-NACE 2025 section (letter A–V), - = not known"
+          },
+          {
+            "name": "odvetvi",
+            "type": "string",
+            "description": "Section name (Czech)"
+          },
+          {
+            "name": "odvetvi_en",
+            "type": "string",
+            "description": "Section name (English)"
+          },
+          {
+            "name": "aktivnich",
+            "type": "number",
+            "description": "Number of active entities seated in the region"
+          }
+        ]
+      }
+    },
+    {
+      "name": "datove-schranky-podle-typu",
+      "path": "data/datove-schranky-podle-typu.csv",
+      "title": "Number of Czech data boxes (datové schránky) by type",
+      "description": "How many data boxes (datová schránka, the Czech government e-delivery system) of legal entities and public authorities exist, by box type.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 305,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/datove-schranky-podle-typu",
+      "sources": [
+        {
+          "title": "Digital and Information Agency of the Czech Republic (list of data boxes)",
+          "path": "https://www.datovka.gov.cz/sds/welcome?part=opendata"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Free use (NKOD), addresses CC BY 4.0",
+          "path": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "typ_ds",
+            "type": "string",
+            "description": "Box type: PO = legal entity, OVM = public authority"
+          },
+          {
+            "name": "podtyp_ds",
+            "type": "string",
+            "description": "Box subtype (Czech)"
+          },
+          {
+            "name": "pocet",
+            "type": "number",
+            "description": "Number of data boxes"
+          }
+        ]
+      }
+    },
+    {
+      "name": "datove-schranky-uradu",
+      "path": "data/datove-schranky-uradu.csv",
+      "title": "Data box IDs of Czech public authorities and municipalities (downloadable list)",
+      "description": "Data box identifiers (ID datové schránky) of Czech public authorities: ministries, offices, courts, municipalities and regions, with company number (IČO) and seat.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 593641,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/datove-schranky-uradu",
+      "sources": [
+        {
+          "title": "Digital and Information Agency of the Czech Republic (list of data boxes)",
+          "path": "https://www.datovka.gov.cz/sds/welcome?part=opendata"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Free use (NKOD), addresses CC BY 4.0",
+          "path": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "id_ds",
+            "type": "string",
+            "description": "Data box ID (7 characters)"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Name of the public authority"
+          },
+          {
+            "name": "ico",
+            "type": "string",
+            "description": "Company registration number (IČO)"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Seat municipality"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "volna-mista-podle-kraju",
+      "path": "data/volna-mista-podle-kraju.csv",
+      "title": "Job vacancies in the Czech Republic by region",
+      "description": "Job vacancies registered with the Czech Labour Office by region of the workplace: number of postings, number of positions and median offered monthly wage (from, to).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 672,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/volna-mista-podle-kraju",
+      "sources": [
+        {
+          "title": "Czech Ministry of Labour and Social Affairs and the Labour Office",
+          "path": "https://data.mpsv.cz/web/data/volna-mista-za-celou-cr"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Free use (NKOD); RES and RÚIAN CC BY 4.0",
+          "path": "https://data.mpsv.cz/web/data/podminky-uziti"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region of the workplace (Česko = whole country)"
+          },
+          {
+            "name": "nabidek",
+            "type": "number",
+            "description": "Number of postings"
+          },
+          {
+            "name": "mist",
+            "type": "number",
+            "description": "Number of open positions (one posting can cover several)"
+          },
+          {
+            "name": "median_mzda_od",
+            "type": "number",
+            "description": "Median of the lower bound of the offered monthly wage, CZK"
+          },
+          {
+            "name": "median_mzda_do",
+            "type": "number",
+            "description": "Median of the upper bound of the offered monthly wage, CZK (postings that state it)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "volna-mista-podle-profesi",
+      "path": "data/volna-mista-podle-profesi.csv",
+      "title": "Most in-demand occupations and offered wages in the Czech Republic (CZ-ISCO)",
+      "description": "Czech Labour Office vacancies by CZ-ISCO occupation: number of postings, positions and median offered monthly wage. Occupations with at least ten postings.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 39352,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/volna-mista-podle-profesi",
+      "sources": [
+        {
+          "title": "Czech Ministry of Labour and Social Affairs and the Labour Office",
+          "path": "https://data.mpsv.cz/web/data/volna-mista-za-celou-cr"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Free use (NKOD); RES and RÚIAN CC BY 4.0",
+          "path": "https://data.mpsv.cz/web/data/podminky-uziti"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "profese_kod",
+            "type": "number",
+            "description": "CZ-ISCO occupation code (5 digits)"
+          },
+          {
+            "name": "profese",
+            "type": "string",
+            "description": "Occupation name (Czech)"
+          },
+          {
+            "name": "nabidek",
+            "type": "number",
+            "description": "Number of postings"
+          },
+          {
+            "name": "mist",
+            "type": "number",
+            "description": "Number of open positions"
+          },
+          {
+            "name": "median_mzda_od",
+            "type": "number",
+            "description": "Median lower bound of the offered monthly wage, CZK"
+          },
+          {
+            "name": "median_mzda_do",
+            "type": "number",
+            "description": "Median upper bound of the offered monthly wage, CZK"
+          }
+        ]
+      }
+    },
+    {
+      "name": "skoly-podle-kraju",
+      "path": "data/skoly-podle-kraju.csv",
+      "title": "Number of schools in the Czech Republic by region and type",
+      "description": "Number of nursery, primary (basic), secondary and tertiary professional schools, conservatoires and basic art schools in each Czech region according to the Ministry of Education school register.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 654,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/skoly-podle-kraju",
+      "sources": [
+        {
+          "title": "Czech Ministry of Education (school register)",
+          "path": "https://lkod-ftp.msmt.gov.cz/00022985/88a7c12b-6084-4e47-8b50-46097c6e683f/RSSZ-cela-CR.jsonld"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Free use (NKOD), addresses CC BY 4.0",
+          "path": "https://data.gov.cz/zdroj/datové-sady/00022985/1c063ba63b80cbb7b0e600dfcd9a47d9/distribuce/f3888446f0df12416de8d94a0cbb3e36/podmínky-užití"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region of the school's legal entity (Česko = whole country)"
+          },
+          {
+            "name": "materske_skoly",
+            "type": "number",
+            "description": "Nursery schools (mateřská škola)"
+          },
+          {
+            "name": "zakladni_skoly",
+            "type": "number",
+            "description": "Primary / basic schools (základní škola)"
+          },
+          {
+            "name": "stredni_skoly",
+            "type": "number",
+            "description": "Secondary schools (střední škola)"
+          },
+          {
+            "name": "konzervatore",
+            "type": "number",
+            "description": "Conservatoires"
+          },
+          {
+            "name": "vyssi_odborne_skoly",
+            "type": "number",
+            "description": "Tertiary professional schools (vyšší odborná škola)"
+          },
+          {
+            "name": "zakladni_umelecke_skoly",
+            "type": "number",
+            "description": "Basic art schools (ZUŠ)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "leciva-podle-atc",
+      "path": "data/leciva-podle-atc.csv",
+      "title": "Number of medicinal products in the Czech Republic by ATC group",
+      "description": "How many medicinal products the Czech drug regulator SÚKL lists in each anatomical and therapeutic ATC group (levels 1 and 2), and how many are reimbursed by public health insurance.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8013,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/leciva-podle-atc",
+      "sources": [
+        {
+          "title": "SÚKL, the Czech State Institute for Drug Control (medicinal products database)",
+          "path": "https://opendata.sukl.cz/katalog-otevrenych-dat/databaze-lecivych-pripravku-dlp"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "SÚKL terms, commercial use allowed",
+          "path": "https://opendata.sukl.cz/podminky-uziti-otevrenych-dat"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "atc_kod",
+            "type": "string",
+            "description": "ATC code (1 letter = anatomical group, 3 characters = therapeutic group)"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Group name (Czech)"
+          },
+          {
+            "name": "nazev_en",
+            "type": "string",
+            "description": "Group name (English)"
+          },
+          {
+            "name": "uroven",
+            "type": "number",
+            "description": "ATC level (1 or 2)"
+          },
+          {
+            "name": "pripravku",
+            "type": "number",
+            "description": "Number of products (SÚKL codes, i.e. strength and pack variants)"
+          },
+          {
+            "name": "hrazenych",
+            "type": "number",
+            "description": "Of which reimbursed by health insurance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "vypadky-leku-podle-let",
+      "path": "data/vypadky-leku-podle-let.csv",
+      "title": "Drug shortages in the Czech Republic by year: supply interruptions and their length",
+      "description": "Number of supply interruptions and discontinuations of medicinal products reported to the Czech regulator SÚKL each year since 2007, median interruption length in days and the number still ongoing.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 482,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/vypadky-leku-podle-let",
+      "sources": [
+        {
+          "title": "SÚKL, the Czech State Institute for Drug Control (supply reports)",
+          "path": "https://opendata.sukl.gov.cz/katalog-otevrenych-dat/hlaseni-o-uvedeni-preruseni-ukonceni-obnoveni-dodavek-leciveho-pripravku-na-trh"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "SÚKL terms, commercial use allowed",
+          "path": "https://opendata.sukl.gov.cz/podminky-uziti-otevrenych-dat"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "rok",
+            "type": "number",
+            "description": "Year the interruption started"
+          },
+          {
+            "name": "preruseni",
+            "type": "number",
+            "description": "Number of supply interruptions"
+          },
+          {
+            "name": "ukonceni",
+            "type": "number",
+            "description": "Number of supply discontinuations"
+          },
+          {
+            "name": "median_dni_preruseni",
+            "type": "number",
+            "description": "Median length of finished interruptions, days"
+          },
+          {
+            "name": "preruseni_trva",
+            "type": "number",
+            "description": "Interruptions from that year still ongoing on the data date"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nedostupne-leky-podle-atc",
+      "path": "data/nedostupne-leky-podle-atc.csv",
+      "title": "Currently unavailable medicines in the Czech Republic by ATC group",
+      "description": "How many medicinal products currently have interrupted or discontinued supply to the Czech market, by anatomical ATC group.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1030,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/nedostupne-leky-podle-atc",
+      "sources": [
+        {
+          "title": "SÚKL, the Czech State Institute for Drug Control (supply reports)",
+          "path": "https://opendata.sukl.gov.cz/katalog-otevrenych-dat/hlaseni-o-uvedeni-preruseni-ukonceni-obnoveni-dodavek-leciveho-pripravku-na-trh"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "SÚKL terms, commercial use allowed",
+          "path": "https://opendata.sukl.gov.cz/podminky-uziti-otevrenych-dat"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "atc_kod",
+            "type": "string",
+            "description": "Anatomical ATC group (1 letter)"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Group name (Czech)"
+          },
+          {
+            "name": "nazev_en",
+            "type": "string",
+            "description": "Group name (English)"
+          },
+          {
+            "name": "preruseno",
+            "type": "number",
+            "description": "Products with interrupted supply"
+          },
+          {
+            "name": "ukonceno",
+            "type": "number",
+            "description": "Products with discontinued supply"
+          }
+        ]
+      }
+    },
+    {
+      "name": "lekarny-podle-okresu",
+      "path": "data/lekarny-podle-okresu.csv",
+      "title": "How many pharmacies are in the Czech Republic: pharmacies by district and region",
+      "description": "Number of pharmacies and dispensing outlets in each Czech district according to the SÚKL list, including pharmacies with emergency service, mail-order (online) dispensing and non-stop opening.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 3181,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/lekarny-podle-okresu",
+      "sources": [
+        {
+          "title": "SÚKL, the Czech State Institute for Drug Control (list of pharmacies)",
+          "path": "https://opendata.sukl.gov.cz/katalog-otevrenych-dat/seznam-lekaren"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "SÚKL terms, commercial use allowed; addresses CC BY 4.0 (ČÚZK)",
+          "path": "https://opendata.sukl.gov.cz/podminky-uziti-otevrenych-dat"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (Česko = whole country)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "lekaren",
+            "type": "number",
+            "description": "Number of pharmacies (excluding detached dispensing units)"
+          },
+          {
+            "name": "vydejen",
+            "type": "number",
+            "description": "Number of detached dispensing units (OOVL)"
+          },
+          {
+            "name": "s_pohotovosti",
+            "type": "number",
+            "description": "Pharmacies with emergency service"
+          },
+          {
+            "name": "se_zasilkovym_vydejem",
+            "type": "number",
+            "description": "Pharmacies with mail-order dispensing (online pharmacies)"
+          },
+          {
+            "name": "nonstop",
+            "type": "number",
+            "description": "Pharmacies open non-stop"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ordinace-podle-okresu",
+      "path": "data/ordinace-podle-okresu.csv",
+      "title": "Number of GP, dental and paediatric practices and hospitals by Czech district",
+      "description": "Number of places of healthcare provision in each Czech district according to the National Register of Healthcare Providers: general practitioners, paediatric GPs, dentists, gynaecology, hospitals and all places in total.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 3766,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/ordinace-podle-okresu",
+      "sources": [
+        {
+          "title": "ÚZIS ČR (National Register of Healthcare Providers)",
+          "path": "https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ÚZIS, ČÚZK)",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (Česko = whole country)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "prakticky_lekar",
+            "type": "number",
+            "description": "Places providing general practice"
+          },
+          {
+            "name": "detsky_lekar",
+            "type": "number",
+            "description": "Places providing paediatric general practice"
+          },
+          {
+            "name": "zubni_lekar",
+            "type": "number",
+            "description": "Places providing dentistry"
+          },
+          {
+            "name": "gynekologie",
+            "type": "number",
+            "description": "Places providing gynaecology and obstetrics"
+          },
+          {
+            "name": "nemocnice",
+            "type": "number",
+            "description": "Hospitals"
+          },
+          {
+            "name": "mist_celkem",
+            "type": "number",
+            "description": "All places of healthcare provision"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nemocnice",
+      "path": "data/nemocnice.csv",
+      "title": "List of hospitals in the Czech Republic with location and GPS coordinates",
+      "description": "All hospitals in the Czech Republic from the National Register of Healthcare Providers: name, municipality, district, region, operator, founder type and coordinates.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 21708,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/nemocnice",
+      "sources": [
+        {
+          "title": "ÚZIS ČR (National Register of Healthcare Providers)",
+          "path": "https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ÚZIS, ČÚZK)",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Hospital name (place of provision)"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Municipality"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "poskytovatel",
+            "type": "string",
+            "description": "Healthcare provider (legal entity operating the hospital)"
+          },
+          {
+            "name": "zrizovatel",
+            "type": "string",
+            "description": "Founder type (region, ministry, municipality, private…)"
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude (WGS84)"
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude (WGS84)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "volby-prehled",
+      "path": "data/volby-prehled.csv",
+      "title": "Voter turnout in Czech elections since 1996: overview of all elections",
+      "description": "Nationwide turnout in Czech elections to the Chamber of Deputies, Senate, European Parliament, regional assemblies and for president: registered voters, envelopes issued, valid votes and turnout in percent for each round.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 6415,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/volby-prehled",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (volby.gov.cz)",
+          "path": "https://www.volby.cz/opendata/opendata.htm"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ, ČÚZK)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "volba_id",
+            "type": "string",
+            "description": "Election identifier (type and year), e.g. ps2025"
+          },
+          {
+            "name": "typ",
+            "type": "string",
+            "description": "Election type (Czech): Poslanecká sněmovna = Chamber of Deputies, Senát = Senate, Evropský parlament, Zastupitelstva krajů = regional assemblies, Prezident republiky"
+          },
+          {
+            "name": "rok",
+            "type": "number",
+            "description": "Year"
+          },
+          {
+            "name": "druh",
+            "type": "string",
+            "description": "řádné = regular, doplňovací = by-election"
+          },
+          {
+            "name": "kolo",
+            "type": "number",
+            "description": "Round (1 or 2)"
+          },
+          {
+            "name": "datum",
+            "type": "string",
+            "description": "First day of voting"
+          },
+          {
+            "name": "volici_v_seznamu",
+            "type": "number",
+            "description": "Registered voters"
+          },
+          {
+            "name": "vydane_obalky",
+            "type": "number",
+            "description": "Envelopes issued (voters who turned out)"
+          },
+          {
+            "name": "platne_hlasy",
+            "type": "number",
+            "description": "Valid votes"
+          },
+          {
+            "name": "ucast_pct",
+            "type": "number",
+            "description": "Turnout in percent (envelopes issued / registered voters)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "volby-ps-2025-kraje",
+      "path": "data/volby-ps-2025-kraje.csv",
+      "title": "Czech parliamentary election 2025: results by region",
+      "description": "Votes and vote share of every party in the Czech Chamber of Deputies election of 3–4 October 2025, in each region, abroad and nationwide.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 16557,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/volby-ps-2025-kraje",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (volby.gov.cz)",
+          "path": "https://www.volby.cz/opendata/opendata.htm"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ, ČÚZK)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (Česko = whole country including votes abroad; Zahraničí = abroad)"
+          },
+          {
+            "name": "strana",
+            "type": "string",
+            "description": "Party or coalition name"
+          },
+          {
+            "name": "hlasy",
+            "type": "number",
+            "description": "Valid votes"
+          },
+          {
+            "name": "pct",
+            "type": "number",
+            "description": "Share of valid votes in the region, percent"
+          }
+        ]
+      }
+    },
+    {
+      "name": "volby-ps-2025-obce",
+      "path": "data/volby-ps-2025-obce.csv",
+      "title": "Czech parliamentary election 2025: results by municipality (CSV)",
+      "description": "Results of the 2025 Czech Chamber of Deputies election for every municipality: registered voters, turnout, valid votes and vote share of the seven strongest parties (ANO, SPOLU, STAN, Pirates, SPD, Motorists, Stačilo!).",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 612515,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/volby-ps-2025-obce",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (volby.gov.cz)",
+          "path": "https://www.volby.cz/opendata/opendata.htm"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ, ČÚZK)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "obec_kod",
+            "type": "number",
+            "description": "Municipality code (RÚIAN, same as the Czech Statistical Office code)"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Municipality name"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "volici_v_seznamu",
+            "type": "number",
+            "description": "Registered voters"
+          },
+          {
+            "name": "ucast_pct",
+            "type": "number",
+            "description": "Turnout, percent"
+          },
+          {
+            "name": "platne_hlasy",
+            "type": "number",
+            "description": "Valid votes"
+          },
+          {
+            "name": "ano_pct",
+            "type": "number",
+            "description": "ANO 2011, vote share in percent"
+          },
+          {
+            "name": "spolu_pct",
+            "type": "number",
+            "description": "SPOLU (ODS, KDU-ČSL, TOP 09), vote share in percent"
+          },
+          {
+            "name": "stan_pct",
+            "type": "number",
+            "description": "Mayors and Independents (STAN), vote share in percent"
+          },
+          {
+            "name": "pirati_pct",
+            "type": "number",
+            "description": "Czech Pirate Party, vote share in percent"
+          },
+          {
+            "name": "spd_pct",
+            "type": "number",
+            "description": "Freedom and Direct Democracy (SPD), vote share in percent"
+          },
+          {
+            "name": "motoriste_pct",
+            "type": "number",
+            "description": "Motorists for Themselves, vote share in percent"
+          },
+          {
+            "name": "stacilo_pct",
+            "type": "number",
+            "description": "Stačilo!, vote share in percent"
+          }
+        ]
+      }
+    },
+    {
+      "name": "obyvatelstvo-obci-2026",
+      "path": "data/obyvatelstvo-obci-2026.csv",
+      "title": "Population of Czech municipalities on 1 January 2026 (CSV)",
+      "description": "Population of every municipality in the Czech Republic on 1 January 2026 by sex and age group (0–14, 15–64, 65 and over), with municipality code, district and region.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 437212,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/obyvatelstvo-obci-2026",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://data.csu.gov.cz/datastat/info/SADA/OBY02E"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "obec_kod",
+            "type": "number",
+            "description": "Municipality code (RÚIAN, same as the Czech Statistical Office code)"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Municipality name"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "pocet_obyvatel",
+            "type": "number",
+            "description": "Population on 1 January 2026"
+          },
+          {
+            "name": "muzi",
+            "type": "number",
+            "description": "Men"
+          },
+          {
+            "name": "zeny",
+            "type": "number",
+            "description": "Women"
+          },
+          {
+            "name": "vek_0_14",
+            "type": "number",
+            "description": "Residents aged 0–14"
+          },
+          {
+            "name": "vek_15_64",
+            "type": "number",
+            "description": "Residents aged 15–64"
+          },
+          {
+            "name": "vek_65_a_vice",
+            "type": "number",
+            "description": "Residents aged 65 and over"
+          }
+        ]
+      }
+    },
+    {
+      "name": "obyvatelstvo-kraju",
+      "path": "data/obyvatelstvo-kraju.csv",
+      "title": "Population of the Czech Republic and its regions 2000–2026",
+      "description": "Population of the Czech Republic and each of its regions on 1 January of every year since 2000, by sex and age group.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 28040,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/obyvatelstvo-kraju",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://data.csu.gov.cz/datastat/info/SADA/OBY02E"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "rok",
+            "type": "number",
+            "description": "Year (as of 1 January)"
+          },
+          {
+            "name": "typ",
+            "type": "string",
+            "description": "stát = country, kraj = region"
+          },
+          {
+            "name": "uzemi",
+            "type": "string",
+            "description": "Territory name"
+          },
+          {
+            "name": "pocet_obyvatel",
+            "type": "number",
+            "description": "Population on 1 January"
+          },
+          {
+            "name": "muzi",
+            "type": "number",
+            "description": "Men"
+          },
+          {
+            "name": "zeny",
+            "type": "number",
+            "description": "Women"
+          },
+          {
+            "name": "vek_0_14",
+            "type": "number",
+            "description": "Residents aged 0–14"
+          },
+          {
+            "name": "vek_15_64",
+            "type": "number",
+            "description": "Residents aged 15–64"
+          },
+          {
+            "name": "vek_65_a_vice",
+            "type": "number",
+            "description": "Residents aged 65 and over"
+          }
+        ]
+      }
+    },
+    {
+      "name": "mzdy-podle-kraju",
+      "path": "data/mzdy-podle-kraju.csv",
+      "title": "Average wage in the Czech Republic by region, Q2 2026",
+      "description": "Average gross monthly wage in Czechia and in each region in Q2 2026 and in the same quarter a year earlier, with year-on-year growth in percent.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1573,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/mzdy-podle-kraju",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://data.csu.gov.cz/datastat/info/SADA/MZDQ1"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "rok",
+            "type": "number",
+            "description": "Year"
+          },
+          {
+            "name": "ctvrtleti",
+            "type": "number",
+            "description": "Quarter (1–4)"
+          },
+          {
+            "name": "typ",
+            "type": "string",
+            "description": "stát = country, kraj = region"
+          },
+          {
+            "name": "uzemi",
+            "type": "string",
+            "description": "Territory name"
+          },
+          {
+            "name": "nuts_kod",
+            "type": "string",
+            "description": "CZ-NUTS code"
+          },
+          {
+            "name": "prumerna_mzda",
+            "type": "number",
+            "description": "Average gross monthly wage in CZK per full-time equivalent employee"
+          },
+          {
+            "name": "mezirocne_pct",
+            "type": "number",
+            "description": "Year-on-year change in percent (nominal)"
+          },
+          {
+            "name": "predbezne",
+            "type": "string",
+            "description": "Preliminary figure (true/false)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "mzdy-podle-odvetvi",
+      "path": "data/mzdy-podle-odvetvi.csv",
+      "title": "Average wage in the Czech Republic by industry (CZ-NACE), Q2 2026",
+      "description": "Average gross monthly wage in each CZ-NACE section (IT, finance, manufacturing, construction, health, education and others) in Q2 2026 and a year earlier.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 2571,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/mzdy-podle-odvetvi",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://data.csu.gov.cz/datastat/info/SADA/MZDQ1"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "rok",
+            "type": "number",
+            "description": "Year"
+          },
+          {
+            "name": "ctvrtleti",
+            "type": "number",
+            "description": "Quarter (1–4)"
+          },
+          {
+            "name": "sekce",
+            "type": "string",
+            "description": "CZ-NACE section, 2008 version / NACE Rev. 2 (letter); celkem = whole economy"
+          },
+          {
+            "name": "odvetvi",
+            "type": "string",
+            "description": "Industry name (Czech)"
+          },
+          {
+            "name": "prumerna_mzda",
+            "type": "number",
+            "description": "Average gross monthly wage in CZK"
+          },
+          {
+            "name": "mezirocne_pct",
+            "type": "number",
+            "description": "Year-on-year change in percent (nominal)"
+          },
+          {
+            "name": "predbezne",
+            "type": "string",
+            "description": "Preliminary figure (true/false)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "mzdy-cesko-ctvrtletne",
+      "path": "data/mzdy-cesko-ctvrtletne.csv",
+      "title": "Average wage in the Czech Republic, quarterly since 2000",
+      "description": "Time series of the average gross monthly wage in Czechia for every quarter since 2000, with nominal and real year-on-year growth.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 2919,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/mzdy-cesko-ctvrtletne",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://data.csu.gov.cz/datastat/info/SADA/MZDQ1"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "rok",
+            "type": "number",
+            "description": "Year"
+          },
+          {
+            "name": "ctvrtleti",
+            "type": "number",
+            "description": "Quarter (1–4)"
+          },
+          {
+            "name": "prumerna_mzda",
+            "type": "number",
+            "description": "Average gross monthly wage in CZK"
+          },
+          {
+            "name": "mezirocne_pct",
+            "type": "number",
+            "description": "Year-on-year change in percent (nominal)"
+          },
+          {
+            "name": "realne_mezirocne_pct",
+            "type": "number",
+            "description": "Year-on-year change of the real wage in percent (after inflation)"
+          },
+          {
+            "name": "predbezne",
+            "type": "string",
+            "description": "Preliminary figure (true/false)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ukazatele-obci",
+      "path": "data/ukazatele-obci.csv",
+      "title": "Indicator list of Czech municipal statistics (MOS)",
+      "description": "All indicators of the Czech Statistical Office's municipal statistics (MOS) tracked for every municipality: code, name, topic, unit, source and the years covered.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 95334,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/ukazatele-obci",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (municipal statistics, MOS)",
+          "path": "https://csu.gov.cz/produkty/databaze-mos-otevrena-data"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ, ČÚZK)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "ukazatel_kod",
+            "type": "string",
+            "description": "MOS indicator code (6 digits)"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Indicator name (Czech)"
+          },
+          {
+            "name": "okruh",
+            "type": "string",
+            "description": "Topic (Czech)"
+          },
+          {
+            "name": "jednotka",
+            "type": "string",
+            "description": "Unit"
+          },
+          {
+            "name": "zdroj",
+            "type": "string",
+            "description": "Source of the figure"
+          },
+          {
+            "name": "rok_od",
+            "type": "number",
+            "description": "First year with data"
+          },
+          {
+            "name": "rok_do",
+            "type": "number",
+            "description": "Last year with data"
+          }
+        ]
+      }
+    },
+    {
+      "name": "obce-zakladni-ukazatele",
+      "path": "data/obce-zakladni-ukazatele.csv",
+      "title": "Czech municipalities in figures: area, population, unemployment, schools",
+      "description": "Key indicators of every Czech municipality from the Czech Statistical Office's municipal statistics for the latest available year: area, population, average age, completed dwellings, businesses, unemployment share, nursery and primary schools, GP practices and pharmacies.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 525902,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/obce-zakladni-ukazatele",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (municipal statistics, MOS)",
+          "path": "https://csu.gov.cz/produkty/databaze-mos-otevrena-data"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ, ČÚZK)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "obec_kod",
+            "type": "number",
+            "description": "Municipality code (RÚIAN, same as the Czech Statistical Office code)"
+          },
+          {
+            "name": "obec",
+            "type": "string",
+            "description": "Municipality name"
+          },
+          {
+            "name": "okres",
+            "type": "string",
+            "description": "District (okres)"
+          },
+          {
+            "name": "kraj",
+            "type": "string",
+            "description": "Region (kraj)"
+          },
+          {
+            "name": "rozloha_ha",
+            "type": "number",
+            "description": "Area in hectares"
+          },
+          {
+            "name": "obyvatel",
+            "type": "number",
+            "description": "Population on 31 December"
+          },
+          {
+            "name": "prumerny_vek",
+            "type": "number",
+            "description": "Average age"
+          },
+          {
+            "name": "dokoncene_byty",
+            "type": "number",
+            "description": "Dwellings completed in the year"
+          },
+          {
+            "name": "podnikatelske_subjekty",
+            "type": "number",
+            "description": "Registered businesses seated in the municipality"
+          },
+          {
+            "name": "podil_nezamestnanych_pct",
+            "type": "number",
+            "description": "Share of unemployed persons, percent"
+          },
+          {
+            "name": "materske_skoly",
+            "type": "number",
+            "description": "Nursery schools"
+          },
+          {
+            "name": "zakladni_skoly",
+            "type": "number",
+            "description": "Primary (basic) schools"
+          },
+          {
+            "name": "ordinace_praktiku",
+            "type": "number",
+            "description": "GP practices for adults"
+          },
+          {
+            "name": "lekarny",
+            "type": "number",
+            "description": "Pharmacies"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kody-bank",
+      "path": "data/kody-bank.csv",
+      "title": "Czech bank codes: Czech National Bank code list (CSV, JSON)",
+      "description": "Code list of payment system identifiers in the Czech Republic from the Czech National Bank: four-digit bank code, name, BIC (SWIFT) and CERTIS participation.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 2310,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/kody-bank",
+      "sources": [
+        {
+          "title": "Czech National Bank (ČNB)",
+          "path": "https://www.cnb.cz/cs/platebni-styk/ucty-kody-bank/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Czech National Bank website terms: may be redistributed with the credit “Source: ČNB (Czech National Bank)”; content must not be altered"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "kod_banky",
+            "type": "string",
+            "description": "Bank code (4 digits, the part of the account number after the slash), e.g. 0800"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Name of the bank or payment institution"
+          },
+          {
+            "name": "bic",
+            "type": "string",
+            "description": "BIC (SWIFT) code"
+          },
+          {
+            "name": "system_certis",
+            "type": "string",
+            "description": "Participant of the CERTIS interbank payment system (A = yes)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "repo-sazba-cnb",
+      "path": "data/repo-sazba-cnb.csv",
+      "title": "Czech National Bank repo rate: history of changes since 1995",
+      "description": "History of the Czech National Bank's two-week repo rate (the main policy rate): date from which the rate applies and its level in percent.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1941,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/repo-sazba-cnb",
+      "sources": [
+        {
+          "title": "Czech National Bank (ČNB)",
+          "path": "https://www.cnb.cz/cs/casto-kladene-dotazy/Jak-se-vyvijela-dvoutydenni-repo-sazba-CNB/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Czech National Bank website terms: may be redistributed with the credit “Source: ČNB (Czech National Bank)”; content must not be altered"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "plati_od",
+            "type": "string",
+            "description": "Date the rate applies from"
+          },
+          {
+            "name": "sazba",
+            "type": "number",
+            "description": "Two-week repo rate, percent"
+          }
+        ]
+      }
+    },
+    {
+      "name": "statni-svatky",
+      "path": "data/statni-svatky.csv",
+      "title": "Czech public holidays 2000–2050 with shop closure days (CSV, JSON)",
+      "description": "Public holidays in the Czech Republic for every year 2000–2050: date, name, weekday and whether large shops must be closed by law.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 59157,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/statni-svatky",
+      "sources": [
+        {
+          "title": "czechdatasets.com",
+          "path": "https://czechdatasets.com/data/zdarma"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "Free to use without restriction (computed from Czech Acts No. 245/2000 and No. 223/2016); attribution is welcome"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "datum",
+            "type": "string",
+            "description": "Date of the holiday"
+          },
+          {
+            "name": "rok",
+            "type": "number",
+            "description": "Year"
+          },
+          {
+            "name": "den_v_tydnu",
+            "type": "string",
+            "description": "Weekday (Czech)"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Holiday name (Czech)"
+          },
+          {
+            "name": "typ",
+            "type": "string",
+            "description": "statni_svatek = state holiday, ostatni_svatek = other holiday (both are non-working days)"
+          },
+          {
+            "name": "je_pracovni_den",
+            "type": "string",
+            "description": "Always false: a holiday is a non-working day"
+          },
+          {
+            "name": "obchody_zavreno",
+            "type": "string",
+            "description": "Shops over 200 m² must be closed all day (Act No. 223/2016)"
+          },
+          {
+            "name": "obchody_rezim",
+            "type": "string",
+            "description": "zavreno = closed, zavreno_od_12 = closed from noon (24 December), bez_omezeni = no restriction"
+          }
+        ]
+      }
+    },
+    {
+      "name": "jmeniny",
+      "path": "data/jmeniny.csv",
+      "title": "Czech name days calendar (CSV, JSON)",
+      "description": "Who has a name day when: the Czech name day calendar with the main name for each day of the year and other names listed for that day.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8492,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/jmeniny",
+      "sources": [
+        {
+          "title": "Wikipedia contributors (Name days in the Czech Republic)",
+          "path": "https://cs.wikipedia.org/wiki/Jmeniny_v_%C4%8Cesku"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY-SA 4.0",
+          "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "mesic",
+            "type": "number",
+            "description": "Month (1–12)"
+          },
+          {
+            "name": "den",
+            "type": "number",
+            "description": "Day of month"
+          },
+          {
+            "name": "mmdd",
+            "type": "string",
+            "description": "Month and day as MM-DD"
+          },
+          {
+            "name": "jmeno",
+            "type": "string",
+            "description": "Main name of the day in the Czech calendar (empty on holidays without a name)"
+          },
+          {
+            "name": "dalsi_jmena",
+            "type": "string",
+            "description": "Other names listed for the day"
+          }
+        ]
+      }
+    },
+    {
+      "name": "cz-nace-2025",
+      "path": "data/cz-nace-2025.csv",
+      "title": "CZ-NACE 2025 classification of economic activities: codes and names in Czech and English (CSV, JSON)",
+      "description": "The complete Czech classification of economic activities CZ-NACE valid from 1 January 2025 in one flat table: all sections, divisions, groups, classes and subclasses with code, Czech and English name and parent code.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 208022,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/cz-nace-2025",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://apl.czso.cz/iSMS/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "kod",
+            "type": "string",
+            "description": "CZ-NACE code (section letter or 2 to 5 digits)"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Name (Czech)"
+          },
+          {
+            "name": "nazev_en",
+            "type": "string",
+            "description": "Name (English)"
+          },
+          {
+            "name": "uroven",
+            "type": "number",
+            "description": "Level: 1 section, 2 division, 3 group, 4 class, 5 subclass"
+          },
+          {
+            "name": "uroven_nazev",
+            "type": "string",
+            "description": "Level name (Czech)"
+          },
+          {
+            "name": "nadrazeny_kod",
+            "type": "string",
+            "description": "Parent code"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pravni-formy",
+      "path": "data/pravni-formy.csv",
+      "title": "Czech legal forms code list (112 = s.r.o. limited liability company, 121 = a.s. joint-stock company)",
+      "description": "Czech Statistical Office code list of legal forms of economic entities: three-digit code, Czech and English name and validity. Used by ARES, the Register of Economic Subjects and public registers.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10495,
+      "homepage": "https://czechdatasets.com/en/otevrena-data/pravni-formy",
+      "sources": [
+        {
+          "title": "Czech Statistical Office (ČSÚ)",
+          "path": "https://apl.czso.cz/iSMS/"
+        }
+      ],
+      "licenses": [
+        {
+          "title": "CC BY 4.0 (ČSÚ)",
+          "path": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "kod",
+            "type": "string",
+            "description": "Legal form code (3 digits)"
+          },
+          {
+            "name": "nazev",
+            "type": "string",
+            "description": "Name (Czech)"
+          },
+          {
+            "name": "nazev_en",
+            "type": "string",
+            "description": "Name (English)"
+          },
+          {
+            "name": "platnost_od",
+            "type": "string",
+            "description": "Valid from"
+          },
+          {
+            "name": "platnost_do",
+            "type": "string",
+            "description": "Valid to (empty = in force)"
+          }
+        ]
+      }
+    }
+  ]
+}

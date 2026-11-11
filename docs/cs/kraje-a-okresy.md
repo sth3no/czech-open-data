@@ -1,0 +1,122 @@
+# Kraje a okresy ČR s kódy CZ-NUTS a LAU 1
+
+Čtrnáct krajů a všechny okresy České republiky s kódem RÚIAN, kódem ČSÚ a kódem CZ-NUTS 3 (kraje) nebo LAU 1 (okresy).
+
+- **Stav dat:** 11. 11. 2026
+- **Řádků:** 91
+- **Zdroj:** [ČSÚ](https://apl.czso.cz/iSMS/)
+- **Licence:** CC BY 4.0 (ČSÚ)
+- **Jak citovat:** Zdroj: ČSÚ; zpracoval czechdatasets.com, https://czechdatasets.com/otevrena-data/kraje-a-okresy
+- **Ke stažení:** [CSV](https://czechdatasets.com/open/kraje-a-okresy.csv) · [JSON](https://czechdatasets.com/open/kraje-a-okresy.json) · [Markdown](https://czechdatasets.com/open/kraje-a-okresy.md)
+- **Stránka tabulky:** https://czechdatasets.com/otevrena-data/kraje-a-okresy
+- **Plná datová sada:** [Číselníky ČSÚ](https://czechdatasets.com/data/csu-ciselniky)
+
+Hlavní město Praha je kraj (CZ010) a v členění LAU 1 také okres (CZ0100); v RÚIAN ani v číselníku okresů ČSÚ okres Praha není, proto je řádek bez kódů.
+
+## Sloupce
+
+| Sloupec | Popis |
+| --- | --- |
+| `typ` | kraj nebo okres |
+| `kod_ruian` | Kód v RÚIAN |
+| `kod_csu` | Kód v číselnících ČSÚ |
+| `nuts_lau` | Kód CZ-NUTS 3 (kraj) nebo LAU 1 (okres), např. CZ010, CZ0201 |
+| `nazev` | Název |
+| `kraj` | Kraj, do kterého okres patří |
+| `zkratka` | Třípísmenná zkratka kraje |
+
+## Data
+
+| typ | kod_ruian | kod_csu | nuts_lau | nazev | kraj | zkratka |
+| --- | ---: | ---: | --- | --- | --- | --- |
+| kraj | 19 | 3018 | CZ010 | Hlavní město Praha |  | PHA |
+| kraj | 27 | 3026 | CZ020 | Středočeský kraj |  | STC |
+| kraj | 35 | 3034 | CZ031 | Jihočeský kraj |  | JHC |
+| kraj | 43 | 3042 | CZ032 | Plzeňský kraj |  | PLK |
+| kraj | 51 | 3051 | CZ041 | Karlovarský kraj |  | KVK |
+| kraj | 60 | 3069 | CZ042 | Ústecký kraj |  | ULK |
+| kraj | 78 | 3077 | CZ051 | Liberecký kraj |  | LBK |
+| kraj | 86 | 3085 | CZ052 | Královéhradecký kraj |  | HKK |
+| kraj | 94 | 3093 | CZ053 | Pardubický kraj |  | PAK |
+| kraj | 108 | 3107 | CZ063 | Kraj Vysočina |  | VYS |
+| kraj | 116 | 3115 | CZ064 | Jihomoravský kraj |  | JHM |
+| kraj | 124 | 3123 | CZ071 | Olomoucký kraj |  | OLK |
+| kraj | 141 | 3131 | CZ072 | Zlínský kraj |  | ZLK |
+| kraj | 132 | 3140 | CZ080 | Moravskoslezský kraj |  | MSK |
+| okres |  |  | CZ0100 | Hlavní město Praha | Hlavní město Praha |  |
+| okres | 3201 | 40169 | CZ0201 | Benešov | Středočeský kraj |  |
+| okres | 3202 | 40177 | CZ0202 | Beroun | Středočeský kraj |  |
+| okres | 3203 | 40185 | CZ0203 | Kladno | Středočeský kraj |  |
+| okres | 3204 | 40193 | CZ0204 | Kolín | Středočeský kraj |  |
+| okres | 3205 | 40207 | CZ0205 | Kutná Hora | Středočeský kraj |  |
+| okres | 3206 | 40215 | CZ0206 | Mělník | Středočeský kraj |  |
+| okres | 3207 | 40223 | CZ0207 | Mladá Boleslav | Středočeský kraj |  |
+| okres | 3208 | 40231 | CZ0208 | Nymburk | Středočeský kraj |  |
+| okres | 3209 | 40240 | CZ0209 | Praha-východ | Středočeský kraj |  |
+| okres | 3210 | 40258 | CZ020A | Praha-západ | Středočeský kraj |  |
+| okres | 3211 | 40266 | CZ020B | Příbram | Středočeský kraj |  |
+| okres | 3212 | 40274 | CZ020C | Rakovník | Středočeský kraj |  |
+| okres | 3301 | 40282 | CZ0311 | České Budějovice | Jihočeský kraj |  |
+| okres | 3302 | 40291 | CZ0312 | Český Krumlov | Jihočeský kraj |  |
+| okres | 3303 | 40304 | CZ0313 | Jindřichův Hradec | Jihočeský kraj |  |
+| okres | 3305 | 40312 | CZ0314 | Písek | Jihočeský kraj |  |
+| okres | 3306 | 40321 | CZ0315 | Prachatice | Jihočeský kraj |  |
+| okres | 3307 | 40339 | CZ0316 | Strakonice | Jihočeský kraj |  |
+| okres | 3308 | 40347 | CZ0317 | Tábor | Jihočeský kraj |  |
+| okres | 3401 | 40355 | CZ0321 | Domažlice | Plzeňský kraj |  |
+| okres | 3404 | 40363 | CZ0322 | Klatovy | Plzeňský kraj |  |
+| okres | 3405 | 40371 | CZ0323 | Plzeň-město | Plzeňský kraj |  |
+| okres | 3406 | 40380 | CZ0324 | Plzeň-jih | Plzeňský kraj |  |
+| okres | 3407 | 40398 | CZ0325 | Plzeň-sever | Plzeňský kraj |  |
+| okres | 3408 | 40401 | CZ0326 | Rokycany | Plzeňský kraj |  |
+| okres | 3410 | 40410 | CZ0327 | Tachov | Plzeňský kraj |  |
+| okres | 3402 | 40428 | CZ0411 | Cheb | Karlovarský kraj |  |
+| okres | 3403 | 40436 | CZ0412 | Karlovy Vary | Karlovarský kraj |  |
+| okres | 3409 | 40444 | CZ0413 | Sokolov | Karlovarský kraj |  |
+| okres | 3502 | 40452 | CZ0421 | Děčín | Ústecký kraj |  |
+| okres | 3503 | 40461 | CZ0422 | Chomutov | Ústecký kraj |  |
+| okres | 3506 | 40479 | CZ0423 | Litoměřice | Ústecký kraj |  |
+| okres | 3507 | 40487 | CZ0424 | Louny | Ústecký kraj |  |
+| okres | 3508 | 40495 | CZ0425 | Most | Ústecký kraj |  |
+| okres | 3509 | 40509 | CZ0426 | Teplice | Ústecký kraj |  |
+| okres | 3510 | 40517 | CZ0427 | Ústí nad Labem | Ústecký kraj |  |
+| okres | 3501 | 40525 | CZ0511 | Česká Lípa | Liberecký kraj |  |
+| okres | 3504 | 40533 | CZ0512 | Jablonec nad Nisou | Liberecký kraj |  |
+| okres | 3505 | 40541 | CZ0513 | Liberec | Liberecký kraj |  |
+| okres | 3608 | 40550 | CZ0514 | Semily | Liberecký kraj |  |
+| okres | 3602 | 40568 | CZ0521 | Hradec Králové | Královéhradecký kraj |  |
+| okres | 3604 | 40576 | CZ0522 | Jičín | Královéhradecký kraj |  |
+| okres | 3605 | 40584 | CZ0523 | Náchod | Královéhradecký kraj |  |
+| okres | 3607 | 40592 | CZ0524 | Rychnov nad Kněžnou | Královéhradecký kraj |  |
+| okres | 3610 | 40606 | CZ0525 | Trutnov | Královéhradecký kraj |  |
+| okres | 3603 | 40614 | CZ0531 | Chrudim | Pardubický kraj |  |
+| okres | 3606 | 40622 | CZ0532 | Pardubice | Pardubický kraj |  |
+| okres | 3609 | 40631 | CZ0533 | Svitavy | Pardubický kraj |  |
+| okres | 3611 | 40649 | CZ0534 | Ústí nad Orlicí | Pardubický kraj |  |
+| okres | 3601 | 40657 | CZ0631 | Havlíčkův Brod | Kraj Vysočina |  |
+| okres | 3707 | 40665 | CZ0632 | Jihlava | Kraj Vysočina |  |
+| okres | 3304 | 40673 | CZ0633 | Pelhřimov | Kraj Vysočina |  |
+| okres | 3710 | 40681 | CZ0634 | Třebíč | Kraj Vysočina |  |
+| okres | 3714 | 40690 | CZ0635 | Žďár nad Sázavou | Kraj Vysočina |  |
+| okres | 3701 | 40703 | CZ0641 | Blansko | Jihomoravský kraj |  |
+| okres | 3702 | 40711 | CZ0642 | Brno-město | Jihomoravský kraj |  |
+| okres | 3703 | 40720 | CZ0643 | Brno-venkov | Jihomoravský kraj |  |
+| okres | 3704 | 40738 | CZ0644 | Břeclav | Jihomoravský kraj |  |
+| okres | 3706 | 40746 | CZ0645 | Hodonín | Jihomoravský kraj |  |
+| okres | 3712 | 40754 | CZ0646 | Vyškov | Jihomoravský kraj |  |
+| okres | 3713 | 40762 | CZ0647 | Znojmo | Jihomoravský kraj |  |
+| okres | 3811 | 40771 | CZ0711 | Jeseník | Olomoucký kraj |  |
+| okres | 3805 | 40789 | CZ0712 | Olomouc | Olomoucký kraj |  |
+| okres | 3709 | 40797 | CZ0713 | Prostějov | Olomoucký kraj |  |
+| okres | 3808 | 40801 | CZ0714 | Přerov | Olomoucký kraj |  |
+| okres | 3809 | 40819 | CZ0715 | Šumperk | Olomoucký kraj |  |
+| okres | 3708 | 40827 | CZ0721 | Kroměříž | Zlínský kraj |  |
+| okres | 3711 | 40835 | CZ0722 | Uherské Hradiště | Zlínský kraj |  |
+| okres | 3810 | 40843 | CZ0723 | Vsetín | Zlínský kraj |  |
+| okres | 3705 | 40851 | CZ0724 | Zlín | Zlínský kraj |  |
+| okres | 3801 | 40860 | CZ0801 | Bruntál | Moravskoslezský kraj |  |
+| okres | 3802 | 40878 | CZ0802 | Frýdek-Místek | Moravskoslezský kraj |  |
+| okres | 3803 | 40886 | CZ0803 | Karviná | Moravskoslezský kraj |  |
+| okres | 3804 | 40894 | CZ0804 | Nový Jičín | Moravskoslezský kraj |  |
+| okres | 3806 | 40908 | CZ0805 | Opava | Moravskoslezský kraj |  |
+| okres | 3807 | 40916 | CZ0806 | Ostrava-město | Moravskoslezský kraj |  |

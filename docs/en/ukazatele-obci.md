@@ -1,0 +1,831 @@
+# Indicator list of Czech municipal statistics (MOS)
+
+All indicators of the Czech Statistical Office's municipal statistics (MOS) tracked for every municipality: code, name, topic, unit, source and the years covered.
+
+The municipal statistics code list has 800 items, of which 786 indicators have data for municipalities.
+
+- **Data as of:** 22 July 2026
+- **Rows:** 800
+- **Source:** [Czech Statistical Office (municipal statistics, MOS)](https://csu.gov.cz/produkty/databaze-mos-otevrena-data)
+- **Licence:** CC BY 4.0 (ČSÚ, ČÚZK)
+- **How to cite:** Source: Czech Statistical Office (municipal statistics, MOS); processed by czechdatasets.com, https://czechdatasets.com/en/otevrena-data/ukazatele-obci
+- **Download:** [CSV](https://czechdatasets.com/open/ukazatele-obci.csv) · [JSON](https://czechdatasets.com/open/ukazatele-obci.json) · [Markdown](https://czechdatasets.com/open/en/ukazatele-obci.md)
+- **Table page:** https://czechdatasets.com/en/otevrena-data/ukazatele-obci
+- **Full dataset:** [Municipalities in numbers 2000–2025](https://czechdatasets.com/en/data/obce-v-cislech)
+
+## Columns
+
+| Column | Description |
+| --- | --- |
+| `ukazatel_kod` | MOS indicator code (6 digits) |
+| `nazev` | Indicator name (Czech) |
+| `okruh` | Topic (Czech) |
+| `jednotka` | Unit |
+| `zdroj` | Source of the figure |
+| `rok_od` | First year with data |
+| `rok_do` | Last year with data |
+
+## Data
+
+| ukazatel_kod | nazev | okruh | jednotka | zdroj | rok_od | rok_do |
+| --- | --- | --- | --- | --- | ---: | ---: |
+| 010000 | Druh sledovaného místa | Obecná charakteristika |  | MV ČR | 2000 | 2025 |
+| 010300 | Katastrální plocha | Obecná charakteristika | ha | ČÚZK | 2000 | 2025 |
+| 010350 | Počet katastrů | Obecná charakteristika | počet | ČÚZK | 2000 | 2025 |
+| 010360 | Počet územně technických jednotek (UTJ) | Obecná charakteristika | počet | ČÚZK | 2000 | 2025 |
+| 010370 | Počet částí obce (CO) | Obecná charakteristika | počet | ČSÚ | 2000 | 2025 |
+| 010380 | Počet městských částí (MC); městských obvodů (MO) | Obecná charakteristika | počet | ČSÚ | 2000 | 2025 |
+| 010390 | Počet urbanistických obvodů (UO) | Obecná charakteristika | počet | ČSÚ | 2000 | 2025 |
+| 010391 | Počet základních sídelních jednotek | Obecná charakteristika | počet | ČSÚ | 2008 | 2025 |
+| 040300 | Mateřská škola | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 040310 | Počet žáků mateřských škol | Školství | osoba | MŠMT ČR | 2000 | 2024 |
+| 040320 | Počet tříd mateřských škol | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 040331 | Počet pedagogů mateřských škol (přepočtené stavy) | Školství | osoba | MŠMT ČR | 2005 | 2024 |
+| 040340 | Mateřská škola celkem (ČSÚ) | Školství | počet | MŠMT ČR | 2022 | 2024 |
+| 040350 | Pracoviště mateřské školy (ČSÚ) | Školství | počet | MŠMT ČR | 2022 | 2024 |
+| 040400 | Zákadní škola pouze s 1. stupněm | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 040410 | Zákadní škola pouze s 1. stupněm - počet žáků | Školství | osoba | MŠMT ČR | 2000 | 2024 |
+| 040420 | Zákadní škola pouze s 1. stupněm - počet tříd | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 040500 | Základní škola s 1 .a 2. stupněm | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 040510 | Základní škola s 1. a 2. stupněm - počet žáků | Školství | osoba | MŠMT ČR | 2000 | 2024 |
+| 040520 | Základní škola s 1. a 2. stupněm - počet tříd | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 040540 | Základní škola pouze s 2.stupněm | Školství | počet | MŠMT ČR | 2006 | 2024 |
+| 040550 | Základní škola pouze s 2 .stupněm - počet žáků | Školství | počet | MŠMT ČR | 2006 | 2024 |
+| 040560 | Základní škola pouze s 2. stupněm - počet tříd | Školství | počet | MŠMT ČR | 2006 | 2024 |
+| 040570 | Základní škola - přepočtený počet učitelů na 1. stupni | Školství | počet | MŠMT ČR | 2006 | 2024 |
+| 040580 | Základní škola - přepočtený počet učitelů na 2. stupni | Školství | počet | MŠMT ČR | 2006 | 2024 |
+| 040590 | Základní škola | Školství | počet | MŠMT ČR | 2021 | 2024 |
+| 040731 | Počet škol v oboru gymnázií | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040733 | Počet žáků denního studia ve školách v oboru gymnázií | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040735 | Počet žáků všech typů a forem studia ve školách v oboru gymnázií | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040737 | Počet tříd denního studia ve školách v oboru gymnázií | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040741 | Počet škol v oboru středních odborných škol a praktických škol | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040743 | Počet žáků denního studia ve školách v oboru středních odborných škol a praktických škol | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040745 | Počet žáků všech typů a forem studia ve školách v oboru středních odborných škol a praktických škol | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040747 | Počet tříd denního studia ve školách v oboru středních odborných škol a praktických škol | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040751 | Počet škol v oboru středních odborných učilišť | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040753 | Počet žáků denního studia ve školách v oboru středních odborných učilišť | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040755 | Počet žáků všech typů a forem studia ve školách v oboru středních odborných učilišť | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040757 | Počet tříd denního studia ve školách v oboru středních odborných učilišť | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040761 | Počet škol v oboru nástavbového studia | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040763 | Počet žáků denního studia ve školách v oboru nástavbového studia | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040765 | Počet žáků všech typů a forem studia ve školách v oboru nástavbového studia | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040771 | Počet středisek praktického vyučování | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 040773 | Počet žáků středisek praktického vyučování | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 040830 | Konzervatoře | Školství | počet | MŠMT ČR | 2006 | 2024 |
+| 040834 | Počet žáků konzervatoří v denní formě vzdělávání | Školství | počet | MŠMT ČR | 2006 | 2024 |
+| 040837 | Počet žáků konzervatoří ve všech formách vzdělávání | Školství | počet | MŠMT ČR | 2007 | 2024 |
+| 040839 | Přepočtený počet učitelů konzervatoří | Školství | osoba | MŠMT ČR | 2007 | 2024 |
+| 041000 | Základní umělecká škola | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 041010 | Počet žáků umělecké školy | Školství | osoba | MŠMT ČR | 2000 | 2024 |
+| 041200 | Jazykové školy s právem státní zkoušky | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 041210 | Počet žáků jazykových škol | Školství | osoba | MŠMT ČR | 2000 | 2024 |
+| 041300 | Vyšší odborná škola | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 041310 | Počet studijních skupin vyšších odborných škol | Školství | počet | MŠMT ČR | 2000 | 2024 |
+| 041320 | Počet žáků vyšších odborných škol v denní formě vzdělávání | Školství | osoba | MŠMT ČR | 2000 | 2024 |
+| 041321 | Počet žáků vyšších odborných škol ve všech formách vzdělávání | Školství | počet | MŠMT ČR | 2007 | 2024 |
+| 041331 | Přepočtený počet učitelů vyšších odborných škol | Školství | osoba | MŠMT ČR | 2005 | 2024 |
+| 041430 | Počet zařízení ústavní ochranné výchovy | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 041431 | Počet míst v zařízeních ústavní ochranné výchovy | Školství | počet | MŠMT ČR | 2011 | 2024 |
+| 041432 | Počet dětí v zařízeních ústavní ochranné výchovy | Školství | osoba | MŠMT ČR | 2011 | 2024 |
+| 070100 | Sdružená ambulantní zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070101 | Detašované pracoviště sdružených ambulantních zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070110 | Počet lékařských míst sdružených ambulantních zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2022 |
+| 070200 | Zdravotní střediska | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070201 | Detašované pracoviště zdravotních středisek | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070300 | Nemocnice | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070301 | Detašované pracoviště nemocnice | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070310 | Počet lékařských míst nemocnic | Zdravotnictví | počet | ÚZIS | 2000 | 2022 |
+| 070320 | Počet lůžek nemocnic | Zdravotnictví | počet | ÚZIS | 2000 | 2021 |
+| 070400 | Odborné léčebné ústavy (mimo léčeben dlouhodobě nemocných) | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070401 | Detašované pracoviště odborného léčebného ústavu | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070410 | Počet lékařských míst odborného léčebného ústavu | Zdravotnictví | počet | ÚZIS | 2000 | 2022 |
+| 070420 | Počet lůžek odborného léčebného ústavu | Zdravotnictví | počet | ÚZIS | 2000 | 2021 |
+| 070500 | Léčebna pro dlouhodobě nemocné | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070501 | Detašované pracoviště léčebny dlohodobě nemocných | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070510 | Počet lékařských míst v léčebně dlouhodobě nemocných | Zdravotnictví | počet | ÚZIS | 2000 | 2022 |
+| 070520 | Počet lůžek v léčebně dlouhodobě nemocných | Zdravotnictví | počet | ÚZIS | 2000 | 2021 |
+| 070600 | Ostatní lůžková zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070601 | Detašované pracoviště ostatních lůžkových zařízení | Zdravotnictví | počet | ÚZIS | 2001 | 2024 |
+| 070700 | Samostatná ordinace praktického lékaře pro dospělé | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070701 | Detašované pracoviště samostatné ordinace praktického lékaře pro dospělé | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070710 | Samostatná ordinace praktického lékaře pro děti a dorost | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070711 | Detašované pracoviště samostatné ordinace praktického lékaře pro děti a dorost | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070720 | Samostatná ordinace praktického lékaře stomatologa | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070721 | Detašované pracoviště samostatné ordinace praktického lékaře stomatologa | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070730 | Samostatná ordinace praktického lékaře gynekologa | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070731 | Detašované pracoviště samostatné ordinace praktického lékaře gynekologa | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070740 | Samostatná ordinace lékaře specialisty | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070741 | Detašované pracoviště samostatné ordinace lékaře specialisty | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070800 | Ostatní samostatná zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 070801 | Detašované pracoviště ostatního samostatného zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071000 | Zařízení lékárenské péče (lékárny) | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071001 | Detašované pracoviště zařízení lékárenské péče | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071400 | Dětský domov | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071401 | Detašované pracoviště dětského domova | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071420 | Počet míst v dětském domově | Zdravotnictví | počet | ÚZIS | 2000 | 2022 |
+| 071500 | Další dětská zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071501 | Detašované pracoviště dalšího dětského zařízení | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071600 | Středisko záchranné služby a rychlé zdravotní pomoci | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071601 | Detašované pracoviště střediska záchranné služby a rychlé zdravotní pomoci | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071700 | Okresní zdravotní ústav | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 071701 | Detašované pracoviště okresního zdravotního ústavu | Zdravotnictví | počet | ÚZIS | 2000 | 2024 |
+| 110200 | Živě narození celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110210 | Živě narození - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110220 | Živě narození - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110300 | Zemřelí celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110310 | Zemřelí - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110320 | Zemřelí - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110350 | Přirozený přírůstek celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110360 | Přirozený přírůstek - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110370 | Přirozený přírůstek - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110400 | Přistěhovalí celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110410 | Přistěhovalí - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110420 | Přistěhovalí - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110500 | Vystěhovalí celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110510 | Vystěhovalí - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110520 | Vystěhovalí - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110600 | Saldo migrace celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110610 | Saldo migrace - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110620 | Saldo migrace - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110700 | Přírůstek/úbytek celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110710 | Přírůstek/úbytek - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110720 | Přírůstek/úbytek - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110900 | Počet bydlících obyvatel k 31.12. | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110910 | Počet bydlících obyvatel k 31.12. - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110920 | Počet bydlících obyvatel k 31.12. - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110930 | Počet obyvatel ve věku 0-14 let celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110931 | Počet obyvatel ve věku 0-14 let - ženy | Obyvatelstvo | osoba | ČSÚ | 2001 | 2025 |
+| 110940 | Počet obyvatel ve věku 15-59 ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110950 | Počet obyvatel ve věku 15-59 muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110960 | Počet obyv.ve věku 60 let a více celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 110970 | Počet obyvatel ve věku 60-64 let - muži | Obyvatelstvo | osoba | ČSÚ | 2001 | 2025 |
+| 110980 | Počet obyvatel ve věku 60-64 let - ženy | Obyvatelstvo | osoba | ČSÚ | 2001 | 2025 |
+| 110990 | Počet obyvatel ve věku 65 a více let celkem | Obyvatelstvo | osoba | ČSÚ | 2001 | 2025 |
+| 110991 | Počet obyvatel ve věku 65 a více let - ženy | Obyvatelstvo | osoba | ČSÚ | 2001 | 2025 |
+| 111000 | Střední stav obyvatel k 1.7. | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 111010 | Střední stav obyvatel k 1.7. - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 111020 | Střední stav obyvatel k 1.7. - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 111100 | Počet sňatků | Obyvatelstvo | počet | ČSÚ | 2000 | 2025 |
+| 111200 | Počet rozvodů | Obyvatelstvo | počet | ČSÚ | 2000 | 2025 |
+| 111300 | Počet potratů | Obyvatelstvo | počet | ČSÚ | 2000 | 2023 |
+| 111310 | Umělé přerušení těhotenství | Obyvatelstvo | počet | ČSÚ | 2000 | 2023 |
+| 111400 | Počet mrtvě narozených | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 111500 | Počet zemřelých do 1 roku | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 111600 | Počet zemřelých do 28 dnů | Obyvatelstvo | osoba | ČSÚ | 2000 | 2025 |
+| 111700 | Zemřelí na nemoci oběhové soustavy celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111710 | Zemřelí na nemoci oběhové soustavy - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111720 | Zemřelí na nemoci oběhové soustavy - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111730 | Zemřelí na diagnózu I 21 až 23 - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111740 | Zemřelí na diagnózu I 21 až 23 - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111750 | Zemřelí na diagnózu I 20; 24; 25 - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111760 | Zemřelí na diagnózu I 20; 24; 25 - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111800 | Zemřelí na novotvary celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111810 | Zemřelí na novotvary - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111820 | Zemřelí na novotvary - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111900 | Zemřelí na úrazy a otravy celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111910 | Zemřelí na úrazy a otravy - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 111920 | Zemřelí na úrazy a otravy - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 112000 | Zemřelí na nemoci dýchací soustavy celkem | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 112010 | Zemřelí na nemoci dýchací soustavy - muži | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 112020 | Zemřelí na nemoci dýchací soustavy - ženy | Obyvatelstvo | osoba | ČSÚ | 2000 | 2024 |
+| 113000 | Průměrný věk žijících celkem | Obyvatelstvo | roky | ČSÚ | 2001 | 2024 |
+| 113010 | Průměrný věk žijících - ženy | Obyvatelstvo | roky | ČSÚ | 2001 | 2024 |
+| 113020 | Průměrný věk žijících - muži | Obyvatelstvo | roky | ČSÚ | 2001 | 2024 |
+| 121800 | Počet dokončených bytů | Byty | počet | ČSÚ | 2000 | 2024 |
+| 121810 | Počet dokončených bytů v rodinných domech | Byty | počet | ČSÚ | 2000 | 2024 |
+| 121820 | Počet dokončených bytů v bytových domech | Byty | počet | ČSÚ | 2000 | 2024 |
+| 130100 | Lázeňské léčebny - počet | Lázně | počet | ÚZIS | 2000 | 2024 |
+| 130200 | Počet lůžek v lázeňských léčebnách | Lázně | počet | ÚZIS | 2000 | 2022 |
+| 140100 | Celková výměra pozemku | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 140200 | Orná půda | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 140300 | Chmelnice | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 140400 | Vinice | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 140500 | Zahrady | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 140600 | Ovocné sady | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 140700 | Trvalé travní porosty (bývalé louky) | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 140800 | Pastviny | Druhy pozemků | ha | ČÚZK | 2000 | 2000 |
+| 140900 | Zemědělská půda | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 141000 | Lesní půda | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 141200 | Vodní plochy | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 141300 | Zastavěné plochy | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 141400 | Ostatní plochy | Druhy pozemků | ha | ČÚZK | 2000 | 2025 |
+| 141410 | Plantáž dřevin | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141421 | Dráha | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141422 | Dálnice | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141423 | Silnice | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141424 | Ostatní kumunikace | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141425 | Ostatní dopravní plocha | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141431 | Zeleň | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141432 | Sportoviště a rekreační plocha | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141433 | Hřbitov; urnový háj | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141434 | Kulturní a osvětová plocha | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141441 | Manipulační plocha | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141442 | Dobývací prostor | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141443 | Skládka | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141450 | Jiná plocha | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141460 | Neplodná půda | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 141490 | Neurčeno | Druhy pozemků | ha | ČÚZK | 2006 | 2025 |
+| 142000 | Koeficient ekologické stability | Druhy pozemků | index | ČÚZK, výpočet ČSÚ | 2007 | 2025 |
+| 150139 | Azylové domy | Sociální oblast | počet | MPSV ČR | 2005 | 2024 |
+| 150140 | Počet míst v azylových domech | Sociální oblast | počet | MPSV ČR | 2005 | 2024 |
+| 150141 | Domy na půl cesty | Sociální oblast | počet | MPSV ČR | 2005 | 2024 |
+| 150142 | Počet míst v domech na půl cesty | Sociální oblast | počet | MPSV ČR | 2005 | 2024 |
+| 150143 | Noclehárny | Sociální oblast | počet | MPSV ČR | 2005 | 2024 |
+| 150144 | Počet míst v noclehárnách | Sociální oblast | počet | MPSV ČR | 2005 | 2024 |
+| 150151 | Centra denních služeb | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150152 | Počet míst v centrech denních služeb | Sociální oblast | počet | MPSV ČR | 2007 | 2018 |
+| 150153 | Denní stacionáře | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150154 | Počet míst v denních stacionářích | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150155 | Týdenní stacionáře | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150156 | Počet míst v týdenních stacionářích | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150157 | Domovy pro osoby se zdravotním postižením | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150158 | Počet míst v domovech pro osoby se zdravotním postižením | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150159 | Domovy pro seniory | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150160 | Počet míst v domovech pro seniory | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150161 | Domovy se zvláštním režimem | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150162 | Počet míst v domovech se zvláštním určením | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150163 | Chráněné bydlení | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150164 | Počet míst v chráněných bydleních | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150165 | Zařízení pro krizovou pomoc | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150166 | Počet míst v zařízení pro krizovou pomoc | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150167 | Nízkoprahová denní centra | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150169 | Nízkoprahová zařízení pro děti a mládež | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150171 | Terapeutické komunity | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150172 | Počet míst v terepeutických komunitách | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150173 | Sociální poradny | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150175 | Sociálně terapeutické dílny | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150176 | Počet míst v sociálně terapeutických dílnách | Sociální oblast | počet | MPSV ČR | 2007 | 2014 |
+| 150177 | Centra sociálně rehabilitačních služeb | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150178 | Počet míst v centrech sociálně rehabilitačních služeb | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150179 | Pracoviště rané péče | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150181 | Intervenční centra | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150183 | Služby následné péče | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 150184 | Počet míst ve službách následné péče | Sociální oblast | počet | MPSV ČR | 2007 | 2024 |
+| 160100 | Počet podnikatelských subjektů celkem | Ekonomické subjekty | počet | ČSÚ | 2000 | 2024 |
+| 160400 | Počet subjektů bez zaměstnanců | Ekonomické subjekty | počet | ČSÚ | 2004 | 2024 |
+| 160410 | Počet subjektů s 1-9 zaměstnanci - mikropodniky | Ekonomické subjekty | počet | ČSÚ | 2004 | 2024 |
+| 160420 | Počet subjektů s 10-49 zaměstnanci - malé podniky | Ekonomické subjekty | počet | ČSÚ | 2004 | 2024 |
+| 160421 | Počet subjektů s 10-19 zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160422 | Počet subjektů s 20-49 zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160430 | Počet subjektů s 50-249 zaměstnanci - střední podniky | Ekonomické subjekty | počet | ČSÚ | 2004 | 2024 |
+| 160431 | Počet subjektů s 50-99 zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160432 | Počet subjektů s 100-249 zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160440 | Počet subjektů s více než 249 zaměstnanci - velké podniky | Ekonomické subjekty | počet | ČSÚ | 2004 | 2024 |
+| 160441 | Počet subjektů s 250-499 zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160442 | Počet subjektů s 500-999 zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160443 | Počet subjektů s 1000-2499 zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160444 | Počet subjektů s 2500 a více zaměstnanci | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160450 | Počet subjektů - nezjištěno | Ekonomické subjekty | počet | ČSÚ | 2004 | 2024 |
+| 160500 | A Zemědělství; lesnictví; rybářství | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160510 | B-E Průmysl celkem | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160520 | B Těžba a dobývání | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160530 | C Zpracovatelský průmysl | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160540 | D Výroba a rozvod elektřiny; plynu; tepla a klimatizovaného vzduchu | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160550 | E Zásobování vodou; činnosti související s odpadnými vodami; odpady a sanacemi | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160560 | F Stavebnictví | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160570 | G Velkoobchod a maloobchod; opravy a údržba motorových vozidel | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160580 | H Doprava a skladování | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160590 | I Ubytování; stravování a pohostinství | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160600 | J Informační a komunikační činnosti | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160610 | K Peněžnictví a pojišťovnictví | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160620 | L Činnosti v oblasti nemovitostí | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160630 | M Profesní; vědecké a technické činnosti | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160640 | N Administrativní a podpůrné činnosti | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160650 | O Veřejná správa a obrana; povinné sociální zabezpečení | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160660 | P Vzdělávání | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160670 | Q Zdravotní a sociální péče | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160680 | R Kulturní; zábavní a rekreační činnosti | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160690 | S Ostatní činnosti | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160700 | T Činnosti domácností jako zaměstnavatelů; činnosti domácností produkujících výrobky a služby | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160710 | U Činnosti exteritoriálních organizací a orgánů | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 160720 | Nezařazeno | Ekonomické subjekty | počet | ČSÚ | 2010 | 2024 |
+| 170101 | Ubytovací zařízení celkem | Cestovní ruch | počet | ČSÚ | 2006 | 2025 |
+| 170201 | Lůžka v ubytovacích zařízeních celkem | Cestovní ruch | počet | ČSÚ | 2006 | 2025 |
+| 170501 | Pokoje v ubytovacích zařízeních celkem | Cestovní ruch | počet | ČSÚ | 2006 | 2025 |
+| 200002 | Daňové příjmy celkem | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200012 | Daně z příjmů fyzických osob | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200022 | Daně z příjmů právnických osob | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200032 | Daň z přidané hodnoty | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200042 | Daně a poplatky z vybraných činností a služeb | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200052 | Daň z nemovitostí | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200062 | Ostatní daňové příjmy | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200102 | Nedaňové příjmy celkem | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200202 | Kapitálové příjmy celkem | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200212 | Vlastní příjmy | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200302 | Přijaté dotace celkem | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200312 | Neinvestiční přijaté dotace | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200322 | Investiční přijaté dotace | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200402 | Příjmy celkem po opravě | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200502 | Běžné výdaje celkem | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200602 | Kapitálové výdaje celkem | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200702 | Výdaje celkem | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 200802 | Saldo příjmů a výdajů | Hospodaření obcí | tis. Kč | MFIN ČR | 2003 | 2025 |
+| 250100 | Obyvatelstvo celkem | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250110 | Obyvatelstvo celkem - muži | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250120 | Obyvatelstvo celkem - ženy | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250130 | Počet obyvatel ve věku 0-14 let | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250131 | Počet obyvatel ve věku 0-14 let - muži | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250132 | Počet obyvatel ve věku 0-14 let - ženy | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250140 | Počet žen ve věku 15-54 let | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250150 | Počet mužů ve věku 15-59 let | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250160 | Počet žen 55 a více let a mužů 60 a více let | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250161 | Počet mužů 60 a více let | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250162 | Počet žen 55 a více let | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250170 | Počet ekonomicky aktivních obyvatel | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250180 | Počet ekonomicky aktivních mužů | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250190 | Počet ekonomicky aktivních žen | Sčítání lidu, domů a bytů 1991 | osoba | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250191 | Obyvatelstvo věku 15 a více let s vysokoškolským vzděláním | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250192 | Obyvatelstvo věku 15 a více let se všeobecným vzděláním | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250193 | Obyvatelstvo věku 15 a více let s učňovským vzděláním a SOU bez maturity | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250194 | Obyvatelstvo věku 15 a více let se středoškolským vzděláním bez maturity | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250195 | Obyvatelstvo věku 15 a více let se základním vzděláním | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250200 | Domy celkem | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250210 | Trvale obydlené domy | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250220 | Trvale obydlené rodinné domy | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250230 | Byty celkem | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250240 | Trvale obydlené byty | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250250 | Trvale obydlené byty v rodinných domech | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250260 | Neobydlené byty | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250270 | Neobydlené byty v nevyčleněných rekreačních chalupách | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250280 | Objekty individuální rekreace | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250290 | Vyčleněné rekreační chalupy | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250300 | Bytové domácnosti s ustředním (etažovým) topením | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250310 | Bytové domácnosti s koupelnou (sprchovým koutem) | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250320 | Bytové domácnosti s automatickou pračkou | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250330 | Počet bytových domácnosti s barevnou televizí | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250340 | Počet bytových domácnosti s telefonem | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250350 | Počet bytových domácnosti s osobním automobilem | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250360 | Bytová domácnost s možností rekreace (chata; chalupa) | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250370 | Počet obytních místností v trvale obydlených bytech | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250380 | Počet m2 obytné plochy v trvale obydlených bytech | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250390 | Byty se 3 a více obytnými místnostmi | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 | 2000 | 2000 |
+| 250401 | Hospodařící domácnosti celkem | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 250402 | Hospodařící domácnosti jednotlivců | Sčítání lidu, domů a bytů 1991 | počet | ČSÚ, SLDB k 3. 3. 1991 |  |  |
+| 400100 | Obyvatelstvo celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400101 | Ženy celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400201 | Trvale bydlící obyvatelstvo | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400202 | Cizinci s dlouhodobým pobytem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400301 | Osoby s občanstvím Slovenské republiky | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400302 | Osoby s občanstvím zemí Evropské unie | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400401 | Narození v obci současného bydliště | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400501 | Obyvatelstvo ve věku 0-14 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400502 | Obyvatelstvo ve věku 15-64 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400503 | Obyvatelstvo ve věku 65 a více let (včetně nezjštěného věku) | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400601 | Obyvatelstvo věřící | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400602 | Obyvatelstvo s nezjištěným náboženským vyznáním | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400701 | Obyvatelstvo s českou, moravskou nebo slezskou národností | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400801 | Obyvatelstvo bez vzdělání a se základním a neukončeným vzděláním | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400802 | Obyvatelstvo vyučené a se středním odborným vzděláním bez maturity | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400803 | Obyvatelstvo s úplným středoškolským vzděláním s maturitou | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400804 | Obyvatelstvo s vyšším odborným vzděláním | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400805 | Obyvatelstvo s vysokoškolským vzděláním | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400900 | Ekonomicky aktivní obyvatelstvo celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400901 | Ekonomicky aktivní obyvatelstvo - do 25 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400910 | Ekonomicky aktivní obyvatelstvo - zaměstnaní celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400920 | Ekonomicky aktivní obyvatelstvo - nezaměstnaní celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 400921 | Ekonomicky aktivní obyvatelstvo - nezaměstnaní do 25 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401000 | Ekonomicky aktivní ženy celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401001 | Ekonomicky aktivní ženy - do 25 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401010 | Ekonomicky aktivní ženy - zaměstnané celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401020 | Ekonomicky aktivní ženy - nezaměstnané celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401021 | Ekonom.aktivní ženy - nezaměstnané do 25 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401050 | Ekonomicky aktivní muži celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401051 | Ekonomicky aktivní muži - do 25 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401060 | Ekonomicky aktivní muži - zaměstnaní celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401070 | Ekonomicky aktivní muži - nezamněstnaní celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401071 | Ekonomicky aktivní muži - nezaměstnaní do 25 let | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401101 | Samostatně činní celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401210 | Ekonomicky aktivní v primárním sektoru (zemědělství, lesnictví a rybolovu) | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401220 | Ekonomicky aktivní v sekundárním sektoru (průmyslu a stavebnictví) | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401221 | Ekonomicky aktivní v průmyslu | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401222 | Ekonomicky aktivní ve stavebnictví | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401230 | Ekonomicky aktivní v terciárním sektoru (službách) | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401231 | Ekonomicky aktivní ve službách - obchod, opravy motorových vozidel a spotřebního zboží | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401232 | Ekonomicky aktivní ve službách - pohostinství a ubytování | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401233 | Ekonomicky aktivní ve službách - doprava, pošty a telekomunikace | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401234 | Ekonomicky aktivní ve službách - peněžnictví a pojišťovnictví, činnost v oblasti nemovitostí, služby pro podniky, výzkum a vývoj | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401235 | Ekonomicky aktivní ve službách - veřejná správa, obrana a sociální zabezpečení | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401236 | Ekonomicky aktivní ve službách - školství, zdravotnictví, veterinární a sociální činnosti | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401237 | Ekonomicky aktivní ve službách - ostatní veřejné a sociální služby | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401240 | Ekonomicky aktivní v nezjištěných odvětvích | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401301 | Dojíždějící do zaměstnání do obce celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 |  |  |
+| 401302 | Vyjíždějící do zaměstnání mimo obec trvalého bydliště celkem | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401310 | Vyjíždějící do zaměstnání mimo obec trvalého bydliště denně | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401311 | Vyjíždějící do zaměstnání mimo obec trvalého bydliště denně s dobu cesty nad 60 minut | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401400 | Cenzové domácnosti celkem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401410 | Cenzové domácnosti - úplné rodiny | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401420 | Cenzové domácnosti - neúplné rodiny | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401430 | Cenzové domácnosti - vícečlenné nerodinné | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401440 | Cenzové domácnosti - domácnosti jednotlivců | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401441 | Cenzové domácnosti - domácnosti jednotlivců bydlící v bytě sami | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401450 | Cenzové domácnosti - průměrný počet členů | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401500 | Bytové domácnosti celkem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401501 | Bytové domácnosti tvořené 2 a více cenzovými domácnostmi | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401601 | Bytové domácnosti celkem vybavené - osobním automobilem (alespoň jedním) | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401602 | Bytové domácnosti celkem vybavené - pevným i mobilním telefonem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401603 | Bytové domácnosti celkem vybavené - osobním počítačem (bez ohledu na Internet) | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401604 | Bytové domácnosti celkem vybavené - možností rekreace | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401710 | Trvale obydlené domy celkem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401711 | Trvale obydlené domy - rodinné domy | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401720 | Neobydlené obydlené domy celkem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401721 | Neobydlené obydlené domy - sloužící k rekreaci | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401801 | Průměrné stáří trvale obydlených domů | Sčítání lidu, domů a bytů 2001 | průměr | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401901 | Trvale obydlené domy ve vlastnictví - soukromé osoby | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401902 | Trvale obydlené domy ve vlastnictví - obce, státu | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401903 | Trvale obydlené domy ve vlastnictví - bytového družstva | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 401904 | Trvale obydlené domy ve vlastnictví - ostatních vlastníků | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402001 | Trvale obydlené domy - napojené na veřejnou kanalizační síť | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402002 | Trvale obydlené domy - s vodovodem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402003 | Trvale obydlené domy - s plynem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402004 | Trvale obydlené domy - s ústředním topením | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402110 | Trvale obydlené byty celkem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402111 | Trvale obydlené byty - v rodinných domech | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402120 | Neobydlené byty - celkem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402121 | Neobydlené byty - obydlené přechodně | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402122 | Neobydlené byty - sloužící k rekreaci | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402201 | Osoby v bytech | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402202 | Osoby mimo byty a zařízení | Sčítání lidu, domů a bytů 2001 | osoba | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402301 | Trvale obydlené byty podle stáří - před rokem 1919 včetně | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402302 | Trvale obydlené byty podle stáří - 1920 - 1945 | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402303 | Trvale obydlené byty podle stáří - 1946 - 1980 | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402304 | Trvale obydlené byty podle stáří - 1981 - 1990 | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402305 | Trvale obydlené byty podle stáří - 1991 - 2001 | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402401 | Trvale obydlené byty - ve vlastním domě | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402402 | Trvale obydlené byty - v osobním vlastnictví | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402403 | Trvale obydlené byty - nájemní | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402404 | Trvale obydlené byty - členů bytového družstva | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402405 | Trvale obydlené byty - členů družstva nájemců | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402501 | Trvale obydlené byty vybavené - plynem zavedeným do bytu | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402502 | Trvale obydlené byty vybavené - vodovodem v bytě | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402503 | Trvale obydlené byty - připojené na veřejnou kanalizační síť | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402504 | Trvale obydlené byty vybavené - ústředním nebo etážovým topením | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402505 | Trvale obydlené byty vybavené - koupelnou, sprchovým koutem | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402601 | Celková plocha bytu | Sčítání lidu, domů a bytů 2001 | m2 | ČSÚ, SLDB k 1. 3. 2001 |  |  |
+| 402602 | Obytná plocha bytu | Sčítání lidu, domů a bytů 2001 | m2 | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402603 | Počet obytných místností s plochou 8m2 a více | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 |  |  |
+| 402604 | Trvale obydlené byty se 3 a více obytnými místnostmi | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402605 | Trvale obydlené byty III.a IV. kategorie | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 402606 | Trvale obydlené byty v panelových domech | Sčítání lidu, domů a bytů 2001 | počet | ČSÚ, SLDB k 1. 3. 2001 | 2001 | 2001 |
+| 410101 | Obyvatelstvo celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410102 | Obyvatelstvo celkem - ženy | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410103 | Obyvatelstvo - s trvalým pobytem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410104 | Obyvatelstvo - narození v obci obvyklého bydliště - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410105 | Obyvatelstvo - bydlící v bytech - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410106 | Obyvatelstvo - bydlící v zařízeních - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410201 | Obyvatelstvo - věk: 0-5 - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410202 | Obyvatelstvo - věk: 6 - 14 - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410203 | Obyvatelstvo - věk: 15 - 24 - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410204 | Obyvatelstvo - věk: 25 - 39 - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410205 | Obyvatelstvo - věk: 40 - 54 - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410206 | Obyvatelstvo - věk: 55 - 64 - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410207 | Obyvatelstvo - věk: nezjištěn - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410208 | Obyvatelstvo - věk: 65 a více - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410301 | Obyvatelstvo - věk 15 a více (včetně nezjištěno) - základní vzdělání včetně neukončeného - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410302 | Obyvatelstvo - věk 15 a více (včetně nezjištěno) - střední včetně vyučených (bez maturity) - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410303 | Obyvatelstvo - věk 15 a více (včetně nezjištěno) - úplné střední s maturitou - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410304 | Obyvatelstvo - věk 15 a více (včetně nezjištěno) - nástavbové a vyšší odborné vzdělání - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410305 | Obyvatelstvo - věk 15 a více (včetně nezjištěno) - vysokoškolské vzdělání - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410306 | Obyvatelstvo - věk 15 a více (včetně nezjištěno) - nejvyšší ukončené vzdělání - nezjištěno | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410401 | Obyvatelstvo - ekonomicky aktivní - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410402 | Obyvatelstvo - ekonomická aktivita: zaměstnaní - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410403 | Obyvatelstvo - ekonomická aktivita: zaměstnaní - ženy | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410404 | Obyvatelstvo - ekonomická aktivita: zaměstnanci; zaměstnavatele; samostatně činní; pomáhající členy domácnosti - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410405 | Obyvatelstvo - ekonomická aktivita: pracující důchodci - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410406 | Obyvatelstvo - ekonomická aktivita: nezaměstnaní - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410407 | Obyvatelstvo - ekonomicky neaktivní - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410408 | Obyvatelstvo - ekonomická aktivita: nepracující důchodci - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410409 | Obyvatelstvo - ekonomická aktivita: ostatní s vlastním zdrojem obživy - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410410 | Obyvatelstvo - ekonomická aktivita: osoby v domácnosti; děti předškolního věku; ostatní závislé osoby - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410411 | Obyvatelstvo - ekonomická aktivita: žáci; studenti; učni - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410412 | Obyvatelstvo - ekonomická aktivita: nezjištěno - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410413 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: zemědelství, lesnictví, rybářství - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410414 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: průmysl - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410415 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: stavebnictví - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410416 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: velkoobchod a maloobchod; opravy motorových vozidel - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410417 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: doprava a skladování - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410418 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: v oblasti nemovitostí, profesní, vědecké a technické - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410419 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: veřejná správa a obrana, sociální zabezpečení - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410420 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: vzdělávání - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410421 | Obyvatelstvo - zaměstnaní - odvětví ekonomické činnosti: zdravotnictví a sociální péče - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410422 | Obyvatelstvo - zaměstnaní - ostatní odvětví | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410423 | Obyvatelstvo - zaměstnaní - odvětví ekon.činnosti: nezjištěno - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410424 | Obyvatelstvo - zaměstnaní - postavení v zaměstnání: zaměstnanci - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410425 | Obyvatelstvo - zaměstnaní - postavení v zaměstnání: zaměstnavatelé - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410426 | Obyvatelstvo - zaměstnaní - postavení v zaměstnání: osoby prac.na vlastní účet - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410427 | Obyvatelstvo - zaměstnaní - postavení v zaměstnání: nezjištěno | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410501 | Obyvatelstvo - vyjíždka do zaměstnání a škol - zaměstnaní (bez pracujících studentů) - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410502 | Obyvatelstvo - vyjíždka do zaměstnání a škol - žáci a studenti (včetně pracujících) - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410503 | Obyvatelstvo - vyjíždka do zaměstnání a škol v rámci obce - zaměstnaní (bez pracujících studentů) - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410504 | Obyvatelstvo - vyjíždka denně mimo obec - zaměstnaní (bez pracujících studentů) - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410505 | Obyvatelstvo - vyjíždka denně mimo obec - žáci a studenti (včetně pracujících) - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410506 | Obyvatelstvo - s nezjištěným místem pracoviště; školy v ČR - zaměstnaní (bez pracujících studentů) - celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410507 | Dojíždějící do zaměstnání | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410508 | Dojíždějící do škol | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410601 | Domy celkem | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410602 | Rodinné domy | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410603 | Bytové domy | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410604 | Obydlené domy celkem | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410605 | Obydlené rodinné domy | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410606 | Obydlené bytové domy | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410607 | Domy obydlené celkem - vlastnictví: fyzická osoba | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410608 | Domy obydlené celkem - vlastnictví: obec; stát | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410609 | Domy obydlené celkem - vlastnictví: spoluvlastnictví vlastníků bytů | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410610 | Domy obydlené celkem - vlastnictví: nezjištěno | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410701 | Byty celkem | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410702 | Obydlené byty v domech celkem | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410703 | Obydlené byty v rodinných domech | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410704 | Obydlené byty v bytových domech | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410705 | Počet osob v bytech celkem | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410706 | Počet osob v bytech v rodiných domech | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410707 | Obydlené byty v domech celkem - právní důvod užívání: ve vlastním domě | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410708 | Obydlené byty v domech celkem - právní důvod užívání: v osobním vlastnictví | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410709 | Obydlené byty v domech celkem - právní důvod užívání: nájemní | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410710 | Obydlené byty v domech celkem - právní důvod užívání: družstevní | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410711 | Obydlené byty v domech celkem - právní důvod užívání: nezjištěn | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410712 | Obydlené byty v domech celkem s materiálem nosných zdí: ze stěnových panelů | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410713 | Neobydlené byty celkem | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410714 | Neobydlené byty v rodinných domech | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410715 | Neobydlené byty v bytových domech | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410716 | Neobydlené byty v domech celkem - důvod neobydlenosti: k rekreaci | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410717 | Obydlené byty v domech celkem - způsob vytápění: ústřední | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410718 | Obydlené byty v domech celkem - způsob vytápění: etážové | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410719 | Obydlené byty v domech celkem - způsob vytápění: kamna | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410720 | Obyvatelstvo bydlící v bytech - způsob vytápění: ústřední | Sčítání lidu, domů a bytů 2011 | osoba | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410721 | Obydlené byty v domech celkem - plyn zaveden do bytu | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410722 | Obydlené byty v domech celkem - vodovod v bytě | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410723 | Obydlené byty v domech celkem - s teplou vodou | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410724 | Obydlené byty v domech celkem - s přípojem na kanalizační síť | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410725 | Obydlené byty v domech celkem - s žumpou; jímkou | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410726 | Obydlené byty - období výstavby nebo rekonstrukce domu: 1919 a dříve | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410727 | Obydlené byty - období výstavby nebo rekonstrukce domu: 1920 - 1970 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410728 | Obydlené byty - období výstavby nebo rekonstrukce domu: 1971 - 1980 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410729 | Obydlené byty - období výstavby nebo rekonstrukce domu: 1981 - 2000 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410730 | Obydlené byty - období výstavby nebo rekonstrukce domu: 2001 - 2011 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410731 | Obydlené byty - období výstavby nebo rekonstrukce domu: nezjištěno | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410732 | Obydlené byty celkem - standardní | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410733 | Obydlené byty s počtem osob v bytě: 1 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410734 | Obydlené byty s počtem osob v bytě: 2 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410735 | Obydlené byty s počtem osob v bytě: 3 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410736 | Obydlené byty s počtem osob v bytě: 4 | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410737 | Obydlené byty s počtem osob v bytě: 5+ | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410738 | Obydlené byty s 1 obytnou místností (8 m2 a více) | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410739 | Obydlené byty se 2 obytnými místnostmi (8 m2 a více) | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410740 | Obydlené byty se 3 obytnými místnostmi (8 m2 a více) | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410741 | Obydlené byty se 4 obytnými místnostmi (8 m2 a více) | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410742 | Obydlené byty s 5 a více obytnými místnostmi (8 m2 a více) | Sčítání lidu, domů a bytů 2011 | počet | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 410743 | Průměrná obytná plocha obydlených bytů v m2 | Sčítání lidu, domů a bytů 2011 | m2 | ČSÚ, SLDB k 26. 3. 2011 | 2011 | 2011 |
+| 420101 | Obyvatelstvo celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420102 | Obyvatelstvo celkem - ženy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420103 | Obyvatelstvo celkem - muži | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420104 | Obyvatelstvo - bydlící osoby celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420105 | Obyvatelstvo - bydlící v bytech | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420106 | Obyvatelstvo - bydlící v zařízeních | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420107 | Obyvatelstvo - bydlící mimo byty a zařízení | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420108 | Obyvatelstvo - osoby bez domova | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420201 | Obyvatelstvo ve věku 0 - 14 let | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420202 | Obyvatelstvo ve věku 0 - 14 let ženy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420203 | Obyvatelstvo ve věku 15 - 64 let | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420204 | Obyvatelstvo ve věku 15 - 64 let ženy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420205 | Obyvatelstvo ve věku 65 a více let | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420206 | Obyvatelstvo ve věku 65 a více let ženy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420300 | Obyvatelstvo ve věku 15 a více let - bez vzdělání | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420301 | Obyvatelstvo ve věku 15 a více let - základní včetně neukončeného | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420302 | Obyvatelstvo ve věku 15 a více let - střední včetně vyučení (bez maturity) | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420303 | Obyvatelstvo ve věku 15 a více let - úplné střední (s maturitou) včetně nástavbového a pomaturitního | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420304 | Obyvatelstvo ve věku 15 a více let - vyšší odborné; konzervatoř | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420305 | Obyvatelstvo ve věku 15 a více let - vysokoškolské | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420306 | Obyvatelstvo ve věku 15 a více let - nejvyšší dosažené vzdělání nezjištěno | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420401 | Obyvatelstvo podle ekonomické aktivity: pracovní síla | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420402 | Obyvatelstvo podle ekonomické aktivity: pracovní síla - zaměstnaní | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420403 | Obyvatelstvo podle ekonomické aktivity: pracovní síla - nezaměstnaní | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420404 | Obyvatelstvo podle ekonomické aktivity: mimo pracovní sílu | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420405 | Obyvatelstvo podle ekonomické aktivity: nezjištěno | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420411 | Zaměstnaní podle postavení v zaměstnání: zaměstnanci | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420412 | Zaměstnaní podle postavení v zaměstnání: zaměstnavatelé | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420413 | Zaměstnaní podle postavení v zaměstnání: osoby pracující na vlastní účet | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420414 | Zaměstnaní podle postavení v zaměstnání: nezjištěno | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420421 | Zaměstnaní podle odvětví ekonomické činnosti: zemědělství; lesnictví a rybářství | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420422 | Zaměstnaní podle odvětví ekonomické činnosti: průmysl | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420423 | Zaměstnaní podle odvětví ekonomické činnosti: stavebnictví | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420424 | Zaměstnaní podle odvětví ekonomické činnosti: obchod; opravy a údržba motorových vozidel | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420425 | Zaměstnaní podle odvětví ekonomické činnosti: doprava a skladování | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420426 | Zaměstnaní podle odvětví ekonomické činnosti: ubytování; stravování a pohostinství | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420427 | Zaměstnaní podle odvětví ekonomické činnosti: vzdělávání | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420428 | Zaměstnaní podle odvětví ekonomické činnosti: zdravotní a sociální péče | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420429 | Zaměstnaní podle odvětví ekonomické činnosti: nezjištěno | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420441 | Zaměstnaní podle hlavních tříd zaměstnání: zákonodárci a řídící pracovníci | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420442 | Zaměstnaní podle hlavních tříd zaměstnání: specialisté | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420443 | Zaměstnaní podle hlavních tříd zaměstnání: techničtí a odborní pracovníci | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420444 | Zaměstnaní podle hlavních tříd zaměstnání: úředníci | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420445 | Zaměstnaní podle hlavních tříd zaměstnání: pracovníci ve službách a prodeji | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420446 | Zaměstnaní podle hlavních tříd zaměstnání: kvalifikovaní pracovníci v zemědělství; lesnictví a rybářství | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420447 | Zaměstnaní podle hlavních tříd zaměstnání: řemeslníci a opraváři | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420448 | Zaměstnaní podle hlavních tříd zaměstnání: obsluha strojů a zařízení; montéři | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420449 | Zaměstnaní podle hlavních tříd zaměstnání: pomocní a nekvalifikovaní pracovníci | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420450 | Zaměstnaní podle hlavních tříd zaměstnání: zaměstnanci v ozbrojených silách | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420451 | Zaměstnaní podle hlavních tříd zaměstnání: nezjištěno | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420511 | Vyjíždějící osoby celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26.3.2021 | 2021 | 2021 |
+| 420512 | Vyjíždějící osoby celkem - zaměstnaní | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26.3.2021 | 2021 | 2021 |
+| 420513 | Vyjíždějící osoby celkem - žáci a studenti | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26.3.2021 | 2021 | 2021 |
+| 420521 | Dojíždějící osoby celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26.3.2021 | 2021 | 2021 |
+| 420522 | Dojíždějící osoby celkem - zaměstnaní | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26.3.2021 | 2021 | 2021 |
+| 420523 | Dojíždějící osoby celkem - žáci a studenti | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26.3.2021 | 2021 | 2021 |
+| 420601 | Domy celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420602 | Rodinné domy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420603 | Bytové domy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420604 | Obydlené domy celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420605 | Obydlené rodinné domy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420606 | Obydlené bytové domy | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420607 | Obydlené domy celkem - vlastník domu: fyzická osoba | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420608 | Obydlené domy celkem - vlastník domu: obec; stát | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420609 | Obydlené domy celkem - vlastník domu: bytové družstvo | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420610 | Obydlené domy celkem - vlastník domu: jiná právnická osoba | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420611 | Obydlené domy celkem - vlastník domu: spoluvlastnictví vlastníků bytů | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420612 | Obydlené domy celkem - vlastník domu: kombinace vlastníků | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420613 | Obydlené domy celkem - vlastník domu: nezjištěno | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420701 | Byty celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420702 | Obydlené byty v domech celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420703 | Obydlené byty v rodinných domech | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420704 | Obydlené byty v bytových domech | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420707 | Obydlené byty v domech celkem - právní důvod užívání: ve vlastním domě | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420708 | Obydlené byty v domech celkem - právní důvod užívání: v osobním vlastnictví | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420709 | Obydlené byty v domech celkem - právní důvod užívání: nájemní/pronajatý | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420710 | Obydlené byty v domech celkem - právní důvod užívání: družstevní | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420711 | Obydlené byty v domech celkem - právní důvod užívání: nezjištěn | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420713 | Neobydlené byty celkem | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420717 | Obydlené byty v domech celkem - způsob vytápění: ústřední dálkové | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420718 | Obydlené byty v domech celkem - způsob vytápění: ústřední domovní | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420719 | Obydlené byty v domech celkem - způsob vytápění: ústřední s vlastním zdrojem (v bytě) | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420720 | Obydlené byty v domech celkem - způsob vytápění: lokální topidla (kamna) | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420721 | Obydlené byty v domech celkem - plyn zaveden do bytu | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 420722 | Obydlené byty v domech celkem - vodovod v bytě | Sčítání lidu, domů a bytů 2021 |  | ČSÚ, SLDB k 26. 3. 2021 | 2021 | 2021 |
+| 500020 | Podíl nezaměstnaných osob z dosažitelných uchazečů | Nezaměstnanost | % | GŘ Úřadu práce ČR (stav k 31. 12.) | 2014 | 2024 |
+| 500021 | Podíl nezaměstnaných osob z dosažitelných uchazečů - ženy | Nezaměstnanost | % | GŘ Úřadu práce ČR (stav k 31. 12.) | 2014 | 2024 |
+| 500022 | Podíl nezaměstnaných osob z dosažitelných uchazečů - muži | Nezaměstnanost | % | GŘ Úřadu práce ČR (stav k 31. 12.) | 2015 | 2024 |
+| 501000 | Počet uchazečů celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2000 | 2024 |
+| 501001 | Počet uchazečů - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2001 | 2024 |
+| 501002 | Počet uchazečů - muži | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 501010 | Počet uchazečů - OZP celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 501011 | Počet uchazečů - OZP - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 501020 | Počet invalidních uchazečů z OZP celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 501021 | Počet invalidních uchazečů z OZP - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 501030 | Počet uchazečů potřebující zvláštní péči celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 501031 | Počet uchazečů potřebující zvláštní péči - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502000 | Počet mladistvých uchazečů celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 502001 | Počet mladistvých uchazečů - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 502013 | Počet uchazečů do věku 19 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502014 | Počet uchazečů do věku 19 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502016 | Počet uchazečů ve věku 20-24 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502017 | Počet uchazečů ve věku 20-24 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502020 | Počet uchazečů věku 18-24 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 502021 | Počet uchazečů věku 18-24 let ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 502030 | Počet uchazečů věku 50 let a více celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 502031 | Počet uchazečů věku 50 let a více - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 502033 | Počet uchazečů ve věku 50-54 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502034 | Počet uchazečů ve věku 50-54 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502036 | Počet uchazečů ve věku 55-59 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502037 | Počet uchazečů ve věku 55-59 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502039 | Počet uchazečů starších 60 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502040 | Počet uchazečů starších 60 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502050 | Počet uchazečů ve věku 25-29 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502051 | Počet uchazečů ve věku 25-29 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502053 | Počet uchazečů ve věku 30-34 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502054 | Počet uchazečů ve věku 30-34 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502056 | Počet uchazečů ve věku 35-39 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502057 | Počet uchazečů ve věku 35-39 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502059 | Počet uchazečů ve věku 40-44 let celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502060 | Počet uchazečů ve věku 40-44 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502062 | Počet uchazečů ve věku 45-49 let-celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502063 | Počet uchazečů ve věku 45-49 let - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502090 | Průměrný věk uchazečů celkem | Nezaměstnanost | roky | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502091 | Průměrný věk uchazečů - ženy | Nezaměstnanost | roky | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 502092 | Průměrný věk uchazečů - muži | Nezaměstnanost | roky | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503000 | Počet uchazečů absolventů celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503001 | Počet uchazečů absolventů - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503010 | Počet uchazečů základního stupně vzdělání celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503011 | Počet uchazečů základního stupně vzdělání - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503020 | Počet uchazečů střední odborné vzdělání (vyučen) celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503021 | Počet uchazečů střední odborné vzdělání (vyučen)-ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503030 | Počet uchazečů s maturitou celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503031 | Počet uchazečů s maturitou - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 503040 | Počet uchazečů bez vzdělání celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503041 | Počet uchazečů bez vzdělání - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503043 | Počet uchazečů s neúplným základním vzděláním celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503044 | Počet uchazečů s neúplným základním vzděláním ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503046 | Počet uchazečů se základním vzděláním + praktická škola celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503047 | Počet uchazečů se základním vzděláním + praktická škola - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503049 | Počet uchazečů s nižším středním vzděláním celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503050 | Počet uchazečů s nižším středním vzděláním - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503052 | Počet uchazečů s nižším středním odborným vzděláním celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503053 | Počet uchazečů s nižším středním odborným vzděláním - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503055 | Počet uchazečů se středním vzděláním (bez maturity) celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503056 | Počet uchazečů se středním vzděláním (bez maturity) - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503058 | Počet uchazečů s ÚSV vzděláním celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503059 | Počet uchazečů s ÚSV vzděláním - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503061 | Počet uchazečů s ÚSO vzděláním (vyučen s maturitou) celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503062 | Počet uchazečů s ÚSO vzděláním (vyučen s maturitou) - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503064 | Počet uchazečů s ÚSO vzděláním s maturitou (bez vyučení) celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503065 | Počet uchazečů s ÚSO vzděláním s maturitou (bez vyučení) - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503067 | Počet uchazečů s vyšším odborným vzdělání celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503068 | Počet uchazečů s vyšším odborným vzdělání - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503070 | Počet uchazečů s bakalářským vzděláním celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503071 | Počet uchazečů s bakalářským vzděláním - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503073 | Počet uchazečů s vysokoškolským vzděláním celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503074 | Počet uchazečů s vysokoškolským vzděláním - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503076 | Počet uchazečů s doktorským vzděláním celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 503077 | Počet uchazečů s doktorským vzděláním - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504000 | Počet uchazečů - evidence nad 6 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504001 | Počet uchazečů - evidence nad 6 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504003 | Počet uchazečů - evidence do 3 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504004 | Počet uchazečů - evidence do 3 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504006 | Počet uchazečů - evidence 3-6 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504007 | Počet uchazečů - evidence 3-6 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504010 | Počet uchazečů - evidence nad 12 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504011 | Počet uchazečů - evidence nad 12 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504013 | Počet uchazečů - evidence 6-9 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504014 | Počet uchazečů - evidence 6-9 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504016 | Počet uchazečů - evidence 9-12 měsíců - celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504017 | Počet uchazečů - evidence 9-12 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504020 | Počet uchazečů mladistvých nad 6 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504021 | Počet uchazečů mladistvých nad 6 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504030 | Počet uchazečů - absolventů nad 6měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504031 | Počet uchazečů - absolventů nad 6měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2002 | 2024 |
+| 504040 | Počet uchazečů - evidence 12-24 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504041 | Počet uchazečů - evidence 12-24 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504050 | Počet uchazečů - evidence nad 24 měsíců celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504051 | Počet uchazečů - evidence nad 24 měsíců - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504090 | Průměrná doba evidence -celkem | Nezaměstnanost | dny | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504091 | Průměrná doba evidence - ženy | Nezaměstnanost | dny | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 504092 | Průměrná doba evidence - muži | Nezaměstnanost | dny | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505000 | Celkový počet volných míst | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505320 | Počet volných míst - požadavek na vzdělání - H | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505340 | Počet volných míst - požadavek na vzdělání - A | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505343 | Počet volných míst - požadavek na vzdělání - B | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505346 | Počet volných míst - požadavek na vzdělání - C | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505349 | Počet volných míst - požadavek na vzdělání - D | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505352 | Počet volných míst - požadavek na vzdělání - E | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505355 | Počet volných míst - požadavek na vzdělání - J | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505358 | Počet volných míst - požadavek na vzdělání - K | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505361 | Počet volných míst - požadavek na vzdělání - L | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505364 | Počet volných míst - požadavek na vzdělání - M | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505367 | Počet volných míst - požadavek na vzdělání - N | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505370 | Počet volných míst - požadavek na vzdělání - R | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505373 | Počet volných míst - požadavek na vzdělání - T | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505376 | Počet volných míst - požadavek na vzdělání - V | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505750 | Počet volných míst pro KZAM 1 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505753 | Počet volných míst pro KZAM 2 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505756 | Počet volných míst pro KZAM 3 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505759 | Počet volných míst pro KZAM 4 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505762 | Počet volných míst pro KZAM 5 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505765 | Počet volných míst pro KZAM 6 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505768 | Počet volných míst pro KZAM 7 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505771 | Počet volných míst pro KZAM 8 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505774 | Počet volných míst pro KZAM 9 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505777 | Počet volných míst pro KZAM 0 | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505800 | Počet uchazečů na jedno volné místo | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 505810 | Počet dosažitelných uchazečů na jedno volné místo | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2015 | 2024 |
+| 506000 | Počet dosažitelných uchazečů celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 506001 | Počet dosažitelných uchazečů - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 506002 | Počet dosažitelných uchazečů - muži | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507050 | Počet uchazečů požadujících KZAM 1 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507051 | Počet uchazečů požadujících KZAM 1 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507053 | Počet uchazečů požadujících KZAM 2 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507054 | Počet uchazečů požadujících KZAM 2 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507056 | Počet uchazečů požadujících KZAM 3 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507057 | Počet uchazečů požadujících KZAM 3 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507059 | Počet uchazečů požadujících KZAM 4 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507060 | Počet uchazečů požadujících KZAM 4 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507062 | Počet uchazečů požadujících KZAM 5 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507063 | Počet uchazečů požadujících KZAM 5 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507065 | Počet uchazečů požadujících KZAM 6 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507066 | Počet uchazečů požadujících KZAM 6 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507068 | Počet uchazečů požadujících KZAM 7 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507069 | Počet uchazečů požadujících KZAM 7 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507071 | Počet uchazečů požadujících KZAM 8 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507072 | Počet uchazečů požadujících KZAM 8 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507074 | Počet uchazečů požadujících KZAM 9 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507075 | Počet uchazečů požadujících KZAM 9 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507077 | Počet uchazečů požadujících KZAM 0 celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507078 | Počet uchazečů požadujících KZAM 0 - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507090 | Počet uchazečů bez uvedení KZAM celkem | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 507091 | Počet uchazečů bez uvedení KZAM - ženy | Nezaměstnanost | počet | GŘ Úřadu práce ČR (stav k 31. 12.) | 2005 | 2024 |
+| 600101 | Byty napojené na veřejný vodovod | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600201 | Byty napojené na veřejnou kanalizaci | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600301 | Byty napojené na veřejnou kanalizaci s ČOV | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600401 | Byty napojené na veřejný rozvod plynu | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600501 | Délka místních komunikací bez cyklostezek a stezek pro pěší | Technické a obč. vybavení obcí 2016, 2021 | km | ČSÚ | 2016 | 2016 |
+| 600601 | Sběrný dvůr nebezpečných a objemných odpadů | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600701 | Dům s pečovatelskou službou | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600702 | Počet bytů v domech s pečovatelskou službou | Technické a obč. vybavení obcí 2016, 2021 | počet | ČSÚ | 2016 | 2021 |
+| 600801 | Kino | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600802 | Kulturní dům (sál) pro pořádání společenských akcí | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600803 | Turistické informační centrum | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600804 | Středisko pro volný čas dětí a mládeže | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600805 | Kostel s náboženským využitím | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600806 | Koupaliště | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600807 | Krytý bazén | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600808 | Hřiště | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600809 | Dětské hřiště | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600810 | Víceúčelová tělocvična; sokolovna; sportovní hala | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |
+| 600811 | Jednoúčelové kryté sportovní zařízení | Technické a obč. vybavení obcí 2016, 2021 | ano-ne | ČSÚ | 2016 | 2021 |

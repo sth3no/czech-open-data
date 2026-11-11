@@ -1,0 +1,6 @@
+typ_ds,podtyp_ds,pocet
+PO,PO – právnická osoba (ze zákona),838214
+OVM,OVM_PO – právnická osoba zapsaná v rejstříku OVM,9481
+OVM,OVM – orgán veřejné moci (schránka ze zákona),7554
+PO,PO_REQ – právnická osoba (na žádost),1717
+OVM,OVM_REQ – další schránka OVM (na žádost),900

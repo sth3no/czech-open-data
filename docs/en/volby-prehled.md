@@ -1,0 +1,118 @@
+# Voter turnout in Czech elections since 1996: overview of all elections
+
+Nationwide turnout in Czech elections to the Chamber of Deputies, Senate, European Parliament, regional assemblies and for president: registered voters, envelopes issued, valid votes and turnout in percent for each round.
+
+- **Data as of:** 17 October 2026
+- **Rows:** 84
+- **Source:** [Czech Statistical Office (volby.gov.cz)](https://www.volby.cz/opendata/opendata.htm)
+- **Licence:** CC BY 4.0 (ČSÚ, ČÚZK)
+- **How to cite:** Source: Czech Statistical Office (volby.gov.cz); processed by czechdatasets.com, https://czechdatasets.com/en/otevrena-data/volby-prehled
+- **Download:** [CSV](https://czechdatasets.com/open/volby-prehled.csv) · [JSON](https://czechdatasets.com/open/volby-prehled.json) · [Markdown](https://czechdatasets.com/open/en/volby-prehled.md)
+- **Table page:** https://czechdatasets.com/en/otevrena-data/volby-prehled
+- **Full dataset:** [Election results 1996–2026](https://czechdatasets.com/en/data/volby)
+
+Senate elections are held in a third of the constituencies (by-elections in one), so figures cover those constituencies only. Municipal elections are not included.
+
+## Columns
+
+| Column | Description |
+| --- | --- |
+| `volba_id` | Election identifier (type and year), e.g. ps2025 |
+| `typ` | Election type (Czech): Poslanecká sněmovna = Chamber of Deputies, Senát = Senate, Evropský parlament, Zastupitelstva krajů = regional assemblies, Prezident republiky |
+| `rok` | Year |
+| `druh` | řádné = regular, doplňovací = by-election |
+| `kolo` | Round (1 or 2) |
+| `datum` | First day of voting |
+| `volici_v_seznamu` | Registered voters |
+| `vydane_obalky` | Envelopes issued (voters who turned out) |
+| `platne_hlasy` | Valid votes |
+| `ucast_pct` | Turnout in percent (envelopes issued / registered voters) |
+
+## Data
+
+| volba_id | typ | rok | druh | kolo | datum | volici_v_seznamu | vydane_obalky | platne_hlasy | ucast_pct |
+| --- | --- | ---: | --- | ---: | --- | ---: | ---: | ---: | ---: |
+| se2026 | Senát | 2026 | řádné | 2 | 2026-10-16 | 2252325 | 475714 | 473245 | 21.12 |
+| se2026 | Senát | 2026 | řádné | 1 | 2026-10-09 | 2781935 | 1204983 | 1154407 | 43.31 |
+| ps2025 | Poslanecká sněmovna | 2025 | řádné | 1 | 2025-10-03 | 8253316 | 5690635 | 5621717 | 68.95 |
+| se20250117 | Senát | 2025 | doplňovací | 1 | 2025-01-17 | 96797 | 19962 | 19842 | 20.62 |
+| se2024 | Senát | 2024 | řádné | 2 | 2024-09-27 | 2239246 | 392779 | 390601 | 17.54 |
+| kz2024 | Zastupitelstva krajů | 2024 | řádné | 1 | 2024-09-20 | 7325529 | 2410892 | 2382422 | 32.91 |
+| se2024 | Senát | 2024 | řádné | 1 | 2024-09-20 | 2693038 | 820452 | 793489 | 30.47 |
+| ep2024 | Evropský parlament | 2024 | řádné | 1 | 2024-06-07 | 8212628 | 2993252 | 2968889 | 36.45 |
+| prez2023 | Prezident republiky | 2023 | řádné | 2 | 2023-01-27 | 8242566 | 5790001 | 5759199 | 70.25 |
+| prez2023 | Prezident republiky | 2023 | řádné | 1 | 2023-01-13 | 8245962 | 5626824 | 5578689 | 68.24 |
+| se2022 | Senát | 2022 | řádné | 2 | 2022-09-30 | 2479869 | 481993 | 479783 | 19.44 |
+| se2022 | Senát | 2022 | řádné | 1 | 2022-09-23 | 2749658 | 1172795 | 1112519 | 42.65 |
+| ps2021 | Poslanecká sněmovna | 2021 | řádné | 1 | 2021-10-08 | 8275752 | 5414637 | 5375090 | 65.43 |
+| se2020 | Senát | 2020 | řádné | 2 | 2020-10-09 | 2711956 | 453855 | 451863 | 16.74 |
+| kz2020 | Zastupitelstva krajů | 2020 | řádné | 1 | 2020-10-02 | 7399299 | 2807967 | 2769361 | 37.95 |
+| se2020 | Senát | 2020 | řádné | 1 | 2020-10-02 | 2815827 | 1034469 | 997261 | 36.74 |
+| se20200605 | Senát | 2020 | doplňovací | 2 | 2020-06-12 | 100834 | 9333 | 9274 | 9.26 |
+| se20200605 | Senát | 2020 | doplňovací | 1 | 2020-06-05 | 100725 | 15908 | 15684 | 15.79 |
+| ep2019 | Evropský parlament | 2019 | řádné | 1 | 2019-05-24 | 8316737 | 2388304 | 2370765 | 28.72 |
+| se20190405 | Senát | 2019 | doplňovací | 2 | 2019-04-12 | 104225 | 11938 | 11881 | 11.45 |
+| se20190405 | Senát | 2019 | doplňovací | 1 | 2019-04-05 | 104235 | 19262 | 19177 | 18.48 |
+| se2018 | Senát | 2018 | řádné | 2 | 2018-10-12 | 2547488 | 420118 | 417772 | 16.49 |
+| se2018 | Senát | 2018 | řádné | 1 | 2018-10-05 | 2743745 | 1159603 | 1089689 | 42.26 |
+| se20180518 | Senát | 2018 | doplňovací | 2 | 2018-05-25 | 107488 | 11184 | 11139 | 10.4 |
+| se20180518 | Senát | 2018 | doplňovací | 1 | 2018-05-18 | 107460 | 17139 | 17025 | 15.95 |
+| prez2018 | Prezident republiky | 2018 | řádné | 2 | 2018-01-26 | 8362987 | 5569665 | 5554596 | 66.6 |
+| prez2018 | Prezident republiky | 2018 | řádné | 1 | 2018-01-12 | 8366433 | 5180290 | 5148141 | 61.92 |
+| se20180105 | Senát | 2018 | doplňovací | 2 | 2018-01-12 | 99263 | 58989 | 45190 | 59.43 |
+| se20180105 | Senát | 2018 | doplňovací | 1 | 2018-01-05 | 100438 | 23000 | 22718 | 22.9 |
+| ps2017 | Poslanecká sněmovna | 2017 | řádné | 1 | 2017-10-20 | 8374501 | 5094633 | 5060745 | 60.84 |
+| se20170127 | Senát | 2017 | opakované | 1 | 2017-01-27 | 90567 | 10869 | 10805 | 12.0 |
+| se2016 | Senát | 2016 | řádné | 2 | 2016-10-14 | 2780597 | 427774 | 424089 | 15.38 |
+| kz2016 | Zastupitelstva krajů | 2016 | řádné | 1 | 2016-10-07 | 7461766 | 2579668 | 2532311 | 34.57 |
+| se2016 | Senát | 2016 | řádné | 1 | 2016-10-07 | 2780706 | 932616 | 881170 | 33.54 |
+| se2014 | Senát | 2014 | řádné | 2 | 2014-10-17 | 2853618 | 476334 | 473926 | 16.69 |
+| se2014 | Senát | 2014 | řádné | 1 | 2014-10-10 | 2853106 | 1101753 | 1026615 | 38.62 |
+| se20140919 | Senát | 2014 | doplňovací | 2 | 2014-09-26 | 83763 | 7332 | 7196 | 8.75 |
+| se20140919 | Senát | 2014 | doplňovací | 1 | 2014-09-19 | 84211 | 13305 | 13213 | 15.8 |
+| ep2014 | Evropský parlament | 2014 | řádné | 1 | 2014-05-23 | 8395132 | 1528250 | 1515492 | 18.2 |
+| se20140110 | Senát | 2014 | doplňovací | 2 | 2014-01-17 | 99017 | 16200 | 16086 | 16.36 |
+| se20140110 | Senát | 2014 | doplňovací | 1 | 2014-01-10 | 99034 | 23100 | 22953 | 23.33 |
+| ps2013 | Poslanecká sněmovna | 2013 | řádné | 1 | 2013-10-25 | 8424227 | 5010944 | 4969984 | 59.48 |
+| prez2013 | Prezident republiky | 2013 | řádné | 2 | 2013-01-25 | 8434941 | 4986040 | 4958576 | 59.11 |
+| prez2013 | Prezident republiky | 2013 | řádné | 1 | 2013-01-11 | 8435522 | 5171666 | 5143966 | 61.31 |
+| se2012 | Senát | 2012 | řádné | 2 | 2012-10-19 | 2796196 | 520216 | 514092 | 18.6 |
+| kz2012 | Zastupitelstva krajů | 2012 | řádné | 1 | 2012-10-12 | 7491806 | 2763464 | 2637115 | 36.89 |
+| se2012 | Senát | 2012 | řádné | 1 | 2012-10-12 | 2795405 | 975511 | 879222 | 34.9 |
+| se20110318 | Senát | 2011 | doplňovací | 2 | 2011-03-25 | 117843 | 20780 | 20732 | 17.63 |
+| se20110318 | Senát | 2011 | doplňovací | 1 | 2011-03-18 | 117826 | 27474 | 27304 | 23.32 |
+| se2010 | Senát | 2010 | řádné | 2 | 2010-10-22 | 2774982 | 683705 | 680437 | 24.64 |
+| se2010 | Senát | 2010 | řádné | 1 | 2010-10-15 | 2774178 | 1237072 | 1147390 | 44.59 |
+| ps2010 | Poslanecká sněmovna | 2010 | řádné | 1 | 2010-05-28 | 8415892 | 5268098 | 5230859 | 62.6 |
+| ep2009 | Evropský parlament | 2009 | řádné | 1 | 2009-06-05 | 8401374 | 2371009 | 2358934 | 28.22 |
+| se2008 | Senát | 2008 | řádné | 2 | 2008-10-24 | 2764218 | 825126 | 822353 | 29.85 |
+| kz2008 | Zastupitelstva krajů | 2008 | řádné | 1 | 2008-10-17 | 7415830 | 2988487 | 2913642 | 40.3 |
+| se2008 | Senát | 2008 | řádné | 1 | 2008-10-17 | 2852506 | 1127259 | 1047358 | 39.52 |
+| se20070427 | Senát | 2007 | doplňovací | 2 | 2007-05-04 | 108659 | 10493 | 10429 | 9.66 |
+| se20070427 | Senát | 2007 | doplňovací | 1 | 2007-04-27 | 108608 | 18946 | 18871 | 17.44 |
+| se20070413 | Senát | 2007 | doplňovací | 2 | 2007-04-20 | 100147 | 9746 | 9711 | 9.73 |
+| se20070413 | Senát | 2007 | doplňovací | 1 | 2007-04-13 | 100115 | 10937 | 10860 | 10.92 |
+| se2006 | Senát | 2006 | řádné | 2 | 2006-10-27 | 2781827 | 576630 | 574555 | 20.73 |
+| se2006 | Senát | 2006 | řádné | 1 | 2006-10-20 | 2780914 | 1170474 | 1063614 | 42.09 |
+| ps2006 | Poslanecká sněmovna | 2006 | řádné | 1 | 2006-06-02 | 8333305 | 5372449 | 5348976 | 64.47 |
+| se2004 | Senát | 2004 | řádné | 2 | 2004-11-12 | 2614630 | 481475 | 478891 | 18.41 |
+| kz2004 | Zastupitelstva krajů | 2004 | řádné | 1 | 2004-11-05 | 7307378 | 2164456 | 2117443 | 29.62 |
+| se2004 | Senát | 2004 | řádné | 1 | 2004-11-05 | 2715437 | 786732 | 724686 | 28.97 |
+| se20041008 | Senát | 2004 | doplňovací | 2 | 2004-10-15 | 179360 | 26195 | 26066 | 14.6 |
+| se20041008 | Senát | 2004 | doplňovací | 1 | 2004-10-08 | 179430 | 35437 | 35217 | 19.75 |
+| ep2004 | Evropský parlament | 2004 | řádné | 1 | 2004-06-11 | 8283485 | 2346010 | 2332862 | 28.32 |
+| se20031107 | Senát | 2003 | doplňovací | 2 | 2003-11-14 | 93065 | 9554 | 9501 | 10.27 |
+| se20031031 | Senát | 2003 | doplňovací | 2 | 2003-11-07 | 109912 | 13809 | 13696 | 12.56 |
+| se20031107 | Senát | 2003 | doplňovací | 1 | 2003-11-07 | 92870 | 15498 | 15358 | 16.69 |
+| se20031031 | Senát | 2003 | doplňovací | 1 | 2003-10-31 | 109760 | 20237 | 20033 | 18.44 |
+| se2002 | Senát | 2002 | řádné | 2 | 2002-11-01 | 2708764 | 881693 | 822287 | 32.55 |
+| se2002 | Senát | 2002 | řádné | 1 | 2002-10-25 | 2797846 | 674333 | 666455 | 24.1 |
+| ps2002 | Poslanecká sněmovna | 2002 | řádné | 1 | 2002-06-14 | 8264484 | 4793706 | 4768006 | 58.0 |
+| se2000 | Senát | 2000 | řádné | 2 | 2000-11-19 | 2633794 | 567872 | 563524 | 21.56 |
+| kz2000 | Zastupitelstva krajů | 2000 | řádné | 1 | 2000-11-12 | 7182503 | 2416385 | 2349124 | 33.64 |
+| se2000 | Senát | 2000 | řádné | 1 | 2000-11-12 | 2730142 | 920704 | 860442 | 33.72 |
+| se19990828 | Senát | 1999 | doplňovací | 1 | 1999-08-27 | 94237 | 31759 | 31529 | 33.7 |
+| se1998 | Senát | 1998 | řádné | 2 | 1998-11-20 | 2665043 | 542660 | 537091 | 20.36 |
+| se1998 | Senát | 1998 | řádné | 1 | 1998-11-13 | 2666398 | 1129648 | 962111 | 42.37 |
+| se1996 | Senát | 1996 | řádné | 2 | 1996-11-22 | 7594316 | 2326464 | 2307259 | 30.63 |
+| se1996 | Senát | 1996 | řádné | 1 | 1996-11-15 | 7992740 | 2800108 | 2758125 | 35.03 |

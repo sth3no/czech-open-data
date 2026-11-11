@@ -1,0 +1,111 @@
+# Kolik je lékáren v ČR: počet lékáren podle okresů a krajů
+
+Počet lékáren a výdejen léčiv v každém okrese podle seznamu SÚKL, včetně lékáren s pohotovostní službou, se zásilkovým výdejem (internetových) a s nepřetržitým provozem.
+
+V Česku je 2 479 lékáren a 203 odloučených oddělení výdeje léčiv, dohromady 2 682 pracovišť. Zásilkový výdej nabízí 232 lékáren, pohotovostní službu 16 a nepřetržitý provoz 8.
+
+- **Stav dat:** 1. 11. 2026
+- **Řádků:** 78
+- **Zdroj:** [SÚKL (seznam lékáren)](https://opendata.sukl.gov.cz/katalog-otevrenych-dat/seznam-lekaren)
+- **Licence:** Podmínky SÚKL, komerční užití povoleno; adresy CC BY 4.0 (ČÚZK)
+- **Jak citovat:** Zdroj: SÚKL (seznam lékáren); zpracoval czechdatasets.com, https://czechdatasets.com/otevrena-data/lekarny-podle-okresu
+- **Ke stažení:** [CSV](https://czechdatasets.com/open/lekarny-podle-okresu.csv) · [JSON](https://czechdatasets.com/open/lekarny-podle-okresu.json) · [Markdown](https://czechdatasets.com/open/lekarny-podle-okresu.md)
+- **Stránka tabulky:** https://czechdatasets.com/otevrena-data/lekarny-podle-okresu
+- **Plná datová sada:** [Lékárny s otevírací dobou a GPS](https://czechdatasets.com/data/lekarny)
+
+Jednotkou je pracoviště v seznamu lékáren SÚKL. Lékárna a její odloučené oddělení výdeje (výdejna v jiné obci) se počítají zvlášť, proto se počty v různých zdrojích liší.
+
+## Sloupce
+
+| Sloupec | Popis |
+| --- | --- |
+| `okres` | Okres (Česko = celá republika) |
+| `kraj` | Kraj |
+| `lekaren` | Počet lékáren (bez odloučených oddělení výdeje) |
+| `vydejen` | Počet odloučených oddělení výdeje léčiv (OOVL) |
+| `s_pohotovosti` | Lékáren s pohotovostní službou |
+| `se_zasilkovym_vydejem` | Lékáren se zásilkovým výdejem (internetových) |
+| `nonstop` | Lékáren s nepřetržitým provozem |
+
+## Data
+
+| okres | kraj | lekaren | vydejen | s_pohotovosti | se_zasilkovym_vydejem | nonstop |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Česko |  | 2479 | 203 | 16 | 232 | 8 |
+| Hlavní město Praha | Hlavní město Praha | 333 | 3 | 9 | 49 | 3 |
+| Brno-město | Jihomoravský kraj | 134 | 2 | 1 | 21 | 1 |
+| Ostrava-město | Moravskoslezský kraj | 85 | 4 | 2 | 14 | 2 |
+| Olomouc | Olomoucký kraj | 62 | 7 | 1 | 6 | 0 |
+| Karviná | Moravskoslezský kraj | 58 | 0 | 0 | 9 | 0 |
+| Plzeň-město | Plzeňský kraj | 52 | 1 | 1 | 6 | 1 |
+| Zlín | Zlínský kraj | 51 | 4 | 0 | 2 | 0 |
+| Hradec Králové | Královéhradecký kraj | 50 | 4 | 1 | 6 | 1 |
+| Hodonín | Jihomoravský kraj | 46 | 10 | 0 | 7 | 0 |
+| Pardubice | Pardubický kraj | 46 | 4 | 0 | 1 | 0 |
+| Frýdek-Místek | Moravskoslezský kraj | 45 | 4 | 0 | 5 | 0 |
+| Brno-venkov | Jihomoravský kraj | 42 | 8 | 0 | 5 | 0 |
+| České Budějovice | Jihočeský kraj | 41 | 3 | 1 | 3 | 0 |
+| Praha-východ | Středočeský kraj | 37 | 2 | 0 | 3 | 0 |
+| Uherské Hradiště | Zlínský kraj | 36 | 8 | 0 | 0 | 0 |
+| Náchod | Královéhradecký kraj | 35 | 3 | 0 | 3 | 0 |
+| Ústí nad Orlicí | Pardubický kraj | 35 | 3 | 0 | 1 | 0 |
+| Kroměříž | Zlínský kraj | 34 | 0 | 0 | 3 | 0 |
+| Opava | Moravskoslezský kraj | 34 | 8 | 0 | 4 | 0 |
+| Liberec | Liberecký kraj | 32 | 1 | 0 | 3 | 0 |
+| Nový Jičín | Moravskoslezský kraj | 32 | 2 | 0 | 3 | 0 |
+| Děčín | Ústecký kraj | 31 | 0 | 0 | 3 | 0 |
+| Vsetín | Zlínský kraj | 31 | 6 | 0 | 2 | 0 |
+| Praha-západ | Středočeský kraj | 30 | 3 | 0 | 4 | 0 |
+| Přerov | Olomoucký kraj | 30 | 2 | 0 | 1 | 0 |
+| Teplice | Ústecký kraj | 30 | 1 | 0 | 3 | 0 |
+| Karlovy Vary | Karlovarský kraj | 28 | 0 | 0 | 4 | 0 |
+| Kladno | Středočeský kraj | 28 | 4 | 0 | 2 | 0 |
+| Trutnov | Královéhradecký kraj | 28 | 2 | 0 | 1 | 0 |
+| Litoměřice | Ústecký kraj | 27 | 1 | 0 | 1 | 0 |
+| Svitavy | Pardubický kraj | 27 | 3 | 0 | 0 | 0 |
+| Šumperk | Olomoucký kraj | 27 | 5 | 0 | 4 | 0 |
+| Blansko | Jihomoravský kraj | 26 | 4 | 0 | 0 | 0 |
+| Břeclav | Jihomoravský kraj | 26 | 7 | 0 | 1 | 0 |
+| Chrudim | Pardubický kraj | 26 | 3 | 0 | 4 | 0 |
+| Třebíč | Kraj Vysočina | 26 | 7 | 0 | 2 | 0 |
+| Benešov | Středočeský kraj | 25 | 0 | 0 | 1 | 0 |
+| Jindřichův Hradec | Jihočeský kraj | 24 | 3 | 0 | 2 | 0 |
+| Nymburk | Středočeský kraj | 24 | 1 | 0 | 1 | 0 |
+| Cheb | Karlovarský kraj | 23 | 1 | 0 | 1 | 0 |
+| Havlíčkův Brod | Kraj Vysočina | 23 | 1 | 0 | 0 | 0 |
+| Mladá Boleslav | Středočeský kraj | 23 | 1 | 0 | 1 | 0 |
+| Žďár nad Sázavou | Kraj Vysočina | 23 | 5 | 0 | 0 | 0 |
+| Bruntál | Moravskoslezský kraj | 22 | 1 | 0 | 0 | 0 |
+| Jablonec nad Nisou | Liberecký kraj | 22 | 0 | 0 | 1 | 0 |
+| Jihlava | Kraj Vysočina | 22 | 2 | 0 | 1 | 0 |
+| Prostějov | Olomoucký kraj | 22 | 2 | 0 | 2 | 0 |
+| Rychnov nad Kněžnou | Královéhradecký kraj | 22 | 2 | 0 | 1 | 0 |
+| Tábor | Jihočeský kraj | 22 | 4 | 0 | 2 | 0 |
+| Příbram | Středočeský kraj | 21 | 2 | 0 | 1 | 0 |
+| Ústí nad Labem | Ústecký kraj | 21 | 0 | 0 | 2 | 0 |
+| Klatovy | Plzeňský kraj | 20 | 2 | 0 | 1 | 0 |
+| Kolín | Středočeský kraj | 20 | 0 | 0 | 1 | 0 |
+| Kutná Hora | Středočeský kraj | 20 | 1 | 0 | 1 | 0 |
+| Mělník | Středočeský kraj | 20 | 3 | 0 | 2 | 0 |
+| Vyškov | Jihomoravský kraj | 20 | 3 | 0 | 1 | 0 |
+| Znojmo | Jihomoravský kraj | 20 | 7 | 0 | 4 | 0 |
+| Jičín | Královéhradecký kraj | 19 | 3 | 0 | 2 | 0 |
+| Chomutov | Ústecký kraj | 18 | 0 | 0 | 3 | 0 |
+| Most | Ústecký kraj | 18 | 0 | 0 | 1 | 0 |
+| Česká Lípa | Liberecký kraj | 18 | 2 | 0 | 2 | 0 |
+| Sokolov | Karlovarský kraj | 17 | 1 | 0 | 1 | 0 |
+| Pelhřimov | Kraj Vysočina | 16 | 0 | 0 | 0 | 0 |
+| Strakonice | Jihočeský kraj | 16 | 1 | 0 | 1 | 0 |
+| Beroun | Středočeský kraj | 15 | 5 | 0 | 4 | 0 |
+| Plzeň-jih | Plzeňský kraj | 15 | 2 | 0 | 0 | 0 |
+| Semily | Liberecký kraj | 15 | 3 | 0 | 2 | 0 |
+| Domažlice | Plzeňský kraj | 14 | 2 | 0 | 1 | 0 |
+| Louny | Ústecký kraj | 14 | 0 | 0 | 0 | 0 |
+| Písek | Jihočeský kraj | 14 | 0 | 0 | 1 | 0 |
+| Plzeň-sever | Plzeňský kraj | 12 | 3 | 0 | 1 | 0 |
+| Rakovník | Středočeský kraj | 11 | 0 | 0 | 0 | 0 |
+| Tachov | Plzeňský kraj | 11 | 3 | 0 | 1 | 0 |
+| Český Krumlov | Jihočeský kraj | 11 | 2 | 0 | 0 | 0 |
+| Prachatice | Jihočeský kraj | 9 | 2 | 0 | 0 | 0 |
+| Rokycany | Plzeňský kraj | 9 | 2 | 0 | 0 | 0 |
+| Jeseník | Olomoucký kraj | 7 | 2 | 0 | 0 | 0 |

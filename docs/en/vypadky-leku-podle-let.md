@@ -1,0 +1,51 @@
+# Drug shortages in the Czech Republic by year: supply interruptions and their length
+
+Number of supply interruptions and discontinuations of medicinal products reported to the Czech regulator SÚKL each year since 2007, median interruption length in days and the number still ongoing.
+
+- **Data as of:** 9 November 2026
+- **Rows:** 22
+- **Source:** [SÚKL, the Czech State Institute for Drug Control (supply reports)](https://opendata.sukl.gov.cz/katalog-otevrenych-dat/hlaseni-o-uvedeni-preruseni-ukonceni-obnoveni-dodavek-leciveho-pripravku-na-trh)
+- **Licence:** SÚKL terms, commercial use allowed
+- **How to cite:** Source: SÚKL, the Czech State Institute for Drug Control (supply reports); processed by czechdatasets.com, https://czechdatasets.com/en/otevrena-data/vypadky-leku-podle-let
+- **Download:** [CSV](https://czechdatasets.com/open/vypadky-leku-podle-let.csv) · [JSON](https://czechdatasets.com/open/vypadky-leku-podle-let.json) · [Markdown](https://czechdatasets.com/open/en/vypadky-leku-podle-let.md)
+- **Table page:** https://czechdatasets.com/en/otevrena-data/vypadky-leku-podle-let
+- **Full dataset:** [Medicine shortages and availability](https://czechdatasets.com/en/data/sukl-vypadky)
+
+A shortage = the interval from a reported interruption or discontinuation to the reported renewal. Counted per SÚKL code (pack variant); one medicine can have several. The latest year is incomplete.
+
+## Columns
+
+| Column | Description |
+| --- | --- |
+| `rok` | Year the interruption started |
+| `preruseni` | Number of supply interruptions |
+| `ukonceni` | Number of supply discontinuations |
+| `median_dni_preruseni` | Median length of finished interruptions, days |
+| `preruseni_trva` | Interruptions from that year still ongoing on the data date |
+
+## Data
+
+| rok | preruseni | ukonceni | median_dni_preruseni | preruseni_trva |
+| ---: | ---: | ---: | ---: | ---: |
+| 2026 | 1910 | 623 | 42 | 678 |
+| 2025 | 2034 | 765 | 52 | 137 |
+| 2024 | 2567 | 910 | 50 | 70 |
+| 2023 | 3054 | 1008 | 42 | 98 |
+| 2022 | 2353 | 1017 | 48 | 34 |
+| 2021 | 1548 | 908 | 37 | 21 |
+| 2020 | 1744 | 754 | 45 | 29 |
+| 2019 | 2039 | 1180 | 51 | 28 |
+| 2018 | 1625 | 866 | 36 | 17 |
+| 2017 | 1372 | 623 | 40 | 60 |
+| 2016 | 1040 | 879 | 37 | 11 |
+| 2015 | 1144 | 735 | 48 | 37 |
+| 2014 | 906 | 681 | 50 | 31 |
+| 2013 | 820 | 704 | 55 | 30 |
+| 2012 | 852 | 568 | 77 | 71 |
+| 2011 | 524 | 589 | 65 | 50 |
+| 2010 | 416 | 495 | 183 | 81 |
+| 2009 | 138 | 329 | 354 | 30 |
+| 2008 | 56 | 123 | 161 | 11 |
+| 2007 | 1 | 5 | 811 | 0 |
+| 2006 | 0 | 2 |  | 0 |
+| 2001 | 2 | 0 | 5691 | 0 |

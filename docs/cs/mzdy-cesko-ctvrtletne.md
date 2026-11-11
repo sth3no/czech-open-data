@@ -1,0 +1,134 @@
+# Průměrná mzda v ČR po čtvrtletích od roku 2000
+
+Časová řada průměrné hrubé měsíční mzdy v Česku za každé čtvrtletí od roku 2000 s nominálním a reálným meziročním růstem.
+
+- **Stav dat:** 30. 6. 2026
+- **Řádků:** 106
+- **Zdroj:** [ČSÚ](https://data.csu.gov.cz/datastat/info/SADA/MZDQ1)
+- **Licence:** CC BY 4.0 (ČSÚ)
+- **Jak citovat:** Zdroj: ČSÚ; zpracoval czechdatasets.com, https://czechdatasets.com/otevrena-data/mzdy-cesko-ctvrtletne
+- **Ke stažení:** [CSV](https://czechdatasets.com/open/mzdy-cesko-ctvrtletne.csv) · [JSON](https://czechdatasets.com/open/mzdy-cesko-ctvrtletne.json) · [Markdown](https://czechdatasets.com/open/mzdy-cesko-ctvrtletne.md)
+- **Stránka tabulky:** https://czechdatasets.com/otevrena-data/mzdy-cesko-ctvrtletne
+- **Plná datová sada:** [Mzdy podle krajů a odvětví](https://czechdatasets.com/data/mzdy)
+
+## Sloupce
+
+| Sloupec | Popis |
+| --- | --- |
+| `rok` | Rok |
+| `ctvrtleti` | Čtvrtletí (1–4) |
+| `prumerna_mzda` | Průměrná hrubá měsíční mzda v Kč |
+| `mezirocne_pct` | Meziroční změna v procentech (nominálně) |
+| `realne_mezirocne_pct` | Meziroční změna reálné mzdy v procentech (po odečtení inflace) |
+| `predbezne` | Předběžný údaj ČSÚ (true/false) |
+
+## Data
+
+| rok | ctvrtleti | prumerna_mzda | mezirocne_pct | realne_mezirocne_pct | predbezne |
+| ---: | ---: | ---: | ---: | ---: | --- |
+| 2026 | 2 | 51966 | 6.4 | 4.3 | true |
+| 2026 | 1 | 49328 | 6.1 | 4.4 | true |
+| 2025 | 4 | 51580 | 6.7 | 4.4 | true |
+| 2025 | 3 | 47717 | 6.5 | 3.9 | true |
+| 2025 | 2 | 48860 | 7.2 | 4.7 | true |
+| 2025 | 1 | 46493 | 6.2 | 3.4 | true |
+| 2024 | 4 | 48350 | 6.2 | 3.2 | true |
+| 2024 | 3 | 44810 | 6.5 | 4.1 | true |
+| 2024 | 2 | 45590 | 6.6 | 4.0 | true |
+| 2024 | 1 | 43781 | 7.3 | 5.1 | true |
+| 2023 | 4 | 45532 | 6.2 | -1.3 | true |
+| 2023 | 3 | 42071 | 6.8 | -1.1 | true |
+| 2023 | 2 | 42774 | 7.7 | -3.1 | true |
+| 2023 | 1 | 40801 | 8.3 | -7.0 | true |
+| 2022 | 4 | 42878 | 5.6 | -8.7 | false |
+| 2022 | 3 | 39386 | 3.9 | -11.6 | false |
+| 2022 | 2 | 39726 | 2.5 | -11.5 | false |
+| 2022 | 1 | 37691 | 5.3 | -5.3 | false |
+| 2021 | 4 | 40601 | 3.9 | -2.1 | false |
+| 2021 | 3 | 37896 | 5.3 | 1.2 | false |
+| 2021 | 2 | 38770 | 11.2 | 8.1 | false |
+| 2021 | 1 | 35804 | 3.0 | 0.8 | false |
+| 2020 | 4 | 39092 | 6.7 | 4.0 | false |
+| 2020 | 3 | 35975 | 5.4 | 2.0 | false |
+| 2020 | 2 | 34875 | 0.9 | -2.1 | false |
+| 2020 | 1 | 34761 | 5.5 | 1.8 | false |
+| 2019 | 4 | 36634 | 7.6 | 4.5 | false |
+| 2019 | 3 | 34127 | 7.7 | 4.8 | false |
+| 2019 | 2 | 34576 | 8.0 | 5.1 | false |
+| 2019 | 1 | 32951 | 8.3 | 5.5 | false |
+| 2018 | 4 | 34057 | 7.1 | 4.9 | false |
+| 2018 | 3 | 31685 | 8.4 | 5.9 | false |
+| 2018 | 2 | 32003 | 8.7 | 6.3 | false |
+| 2018 | 1 | 30427 | 8.5 | 6.5 | false |
+| 2017 | 4 | 31802 | 7.8 | 5.1 | false |
+| 2017 | 3 | 29234 | 6.7 | 4.1 | false |
+| 2017 | 2 | 29432 | 7.2 | 4.9 | false |
+| 2017 | 1 | 28034 | 5.1 | 2.6 | false |
+| 2016 | 4 | 29491 | 4.4 | 3.0 | false |
+| 2016 | 3 | 27396 | 4.7 | 4.2 | false |
+| 2016 | 2 | 27452 | 4.0 | 3.8 | false |
+| 2016 | 1 | 26683 | 4.7 | 4.2 | false |
+| 2015 | 4 | 28258 | 3.7 | 3.6 | false |
+| 2015 | 3 | 26163 | 3.5 | 3.1 | false |
+| 2015 | 2 | 26408 | 3.3 | 2.6 | false |
+| 2015 | 1 | 25497 | 2.3 | 2.2 | false |
+| 2014 | 4 | 27261 | 2.8 | 2.3 | false |
+| 2014 | 3 | 25279 | 2.2 | 1.6 | false |
+| 2014 | 2 | 25569 | 2.8 | 2.6 | false |
+| 2014 | 1 | 24931 | 3.9 | 3.7 | false |
+| 2013 | 4 | 26525 | -2.0 | -3.1 | false |
+| 2013 | 3 | 24735 | 1.2 | 0.0 | false |
+| 2013 | 2 | 24877 | 1.0 | -0.5 | false |
+| 2013 | 1 | 23985 | -0.6 | -2.4 | false |
+| 2012 | 4 | 27055 | 3.2 | 0.4 | false |
+| 2012 | 3 | 24439 | 1.4 | -1.8 | false |
+| 2012 | 2 | 24627 | 2.1 | -1.3 | false |
+| 2012 | 1 | 24131 | 3.2 | -0.5 | false |
+| 2011 | 4 | 26211 | 2.4 | 0.0 | false |
+| 2011 | 3 | 24107 | 2.1 | 0.3 | false |
+| 2011 | 2 | 24116 | 2.6 | 0.8 | false |
+| 2011 | 1 | 23372 | 2.8 | 1.1 | false |
+| 2010 | 4 | 25591 | 0.7 | -1.4 | false |
+| 2010 | 3 | 23600 | 2.2 | 0.3 | false |
+| 2010 | 2 | 23504 | 3.1 | 1.9 | false |
+| 2010 | 1 | 22738 | 2.8 | 2.1 | false |
+| 2009 | 4 | 25418 | 4.6 | 4.2 | false |
+| 2009 | 3 | 23091 | 4.1 | 4.0 | false |
+| 2009 | 2 | 22796 | 2.5 | 1.1 | false |
+| 2009 | 1 | 22108 | 2.2 | 0.1 | false |
+| 2008 | 4 | 24309 | 7.4 | 2.6 | false |
+| 2008 | 3 | 22181 | 7.0 | 0.4 | false |
+| 2008 | 2 | 22246 | 7.3 | 0.5 | false |
+| 2008 | 1 | 21632 | 9.9 | 2.3 | false |
+| 2007 | 4 | 22641 | 6.5 | 1.6 | false |
+| 2007 | 3 | 20721 | 7.3 | 4.7 | false |
+| 2007 | 2 | 20740 | 7.5 | 5.0 | false |
+| 2007 | 1 | 19687 | 7.8 | 6.2 | false |
+| 2006 | 4 | 21269 | 6.5 | 4.9 | false |
+| 2006 | 3 | 19305 | 6.1 | 3.1 | false |
+| 2006 | 2 | 19300 | 6.6 | 3.6 | false |
+| 2006 | 1 | 18270 | 7.0 | 4.1 | false |
+| 2005 | 4 | 19963 | 4.1 | 1.7 | false |
+| 2005 | 3 | 18203 | 5.9 | 3.9 | false |
+| 2005 | 2 | 18112 | 5.2 | 3.5 | false |
+| 2005 | 1 | 17067 | 5.2 | 3.5 | false |
+| 2004 | 4 | 19183 | 6.0 | 2.8 | false |
+| 2004 | 3 | 17190 | 6.8 | 3.5 | false |
+| 2004 | 2 | 17223 | 4.2 | 1.6 | false |
+| 2004 | 1 | 16231 | 8.3 | 5.9 | false |
+| 2003 | 4 | 18096 | 5.6 | 4.8 | false |
+| 2003 | 3 | 16088 | 5.4 | 5.5 | false |
+| 2003 | 2 | 16529 | 6.0 | 5.9 | false |
+| 2003 | 1 | 14986 | 6.4 | 6.8 | false |
+| 2002 | 4 | 17133 | 7.7 | 7.2 | false |
+| 2002 | 3 | 15268 | 8.2 | 7.4 | false |
+| 2002 | 2 | 15599 | 8.4 | 6.0 | false |
+| 2002 | 1 | 14083 | 7.9 | 4.1 | false |
+| 2001 | 4 | 15908 | 8.1 | 3.6 | false |
+| 2001 | 3 | 14117 | 8.9 | 3.3 | false |
+| 2001 | 2 | 14391 | 8.8 | 3.6 | false |
+| 2001 | 1 | 13052 | 9.3 | 5.0 | false |
+| 2000 | 4 | 14717 |  |  | false |
+| 2000 | 3 | 12963 |  |  | false |
+| 2000 | 2 | 13227 |  |  | false |
+| 2000 | 1 | 11941 |  |  | false |

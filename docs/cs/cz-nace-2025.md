@@ -1,0 +1,1833 @@
+# CZ-NACE 2025: číselník kódů a názvů (CSV, JSON)
+
+Celá klasifikace ekonomických činností CZ-NACE platná od 1. 1. 2025 v jedné tabulce: všechny sekce, oddíly, skupiny, třídy a podtřídy s kódem, českým a anglickým názvem a nadřazeným kódem.
+
+CZ-NACE 2025 má 22 sekcí, 88 oddílů, 295 skupin, 665 tříd a 733 podtříd.
+
+- **Stav dat:** 11. 11. 2026
+- **Řádků:** 1 803
+- **Zdroj:** [ČSÚ](https://apl.czso.cz/iSMS/)
+- **Licence:** CC BY 4.0 (ČSÚ)
+- **Jak citovat:** Zdroj: ČSÚ; zpracoval czechdatasets.com, https://czechdatasets.com/otevrena-data/cz-nace-2025
+- **Ke stažení:** [CSV](https://czechdatasets.com/open/cz-nace-2025.csv) · [JSON](https://czechdatasets.com/open/cz-nace-2025.json) · [Markdown](https://czechdatasets.com/open/cz-nace-2025.md)
+- **Stránka tabulky:** https://czechdatasets.com/otevrena-data/cz-nace-2025
+- **Plná datová sada:** [Číselníky ČSÚ](https://czechdatasets.com/data/csu-ciselniky)
+
+## Sloupce
+
+| Sloupec | Popis |
+| --- | --- |
+| `kod` | Kód CZ-NACE (písmeno sekce nebo 2 až 5 číslic) |
+| `nazev` | Název česky |
+| `nazev_en` | Název anglicky |
+| `uroven` | Úroveň: 1 sekce, 2 oddíl, 3 skupina, 4 třída, 5 podtřída |
+| `uroven_nazev` | Název úrovně |
+| `nadrazeny_kod` | Kód nadřazené položky |
+
+## Data
+
+| kod | nazev | nazev_en | uroven | uroven_nazev | nadrazeny_kod |
+| --- | --- | --- | ---: | --- | --- |
+| 01 | Rostlinná a živočišná výroba, myslivost a související činnosti | Crop and animal production, hunting and related service activities | 2 | oddíl | A |
+| 011 | Pěstování plodin jiných než trvalých | Growing of non-perennial crops | 3 | skupina | 01 |
+| 0111 | Pěstování obilovin jiných než rýže, luštěnin a olejnatých semen | Growing of cereals, other than rice, leguminous crops and oil seeds | 4 | třída | 011 |
+| 01110 | Pěstování obilovin jiných než rýže, luštěnin a olejnatých semen | Growing of cereals, other than rice, leguminous crops and oil seeds | 5 | podtřída | 0111 |
+| 0112 | Pěstování rýže | Growing of rice | 4 | třída | 011 |
+| 01120 | Pěstování rýže | Growing of rice | 5 | podtřída | 0112 |
+| 0113 | Pěstování zeleniny a melounů, kořenů a hlíz | Growing of vegetables and melons, roots and tubers | 4 | třída | 011 |
+| 01130 | Pěstování zeleniny a melounů, kořenů a hlíz | Growing of vegetables and melons, roots and tubers | 5 | podtřída | 0113 |
+| 0114 | Pěstování cukrové třtiny | Growing of sugar cane | 4 | třída | 011 |
+| 01140 | Pěstování cukrové třtiny | Growing of sugar cane | 5 | podtřída | 0114 |
+| 0115 | Pěstování tabáku | Growing of tobacco | 4 | třída | 011 |
+| 01150 | Pěstování tabáku | Growing of tobacco | 5 | podtřída | 0115 |
+| 0116 | Pěstování přadných rostlin | Growing of fibre crops | 4 | třída | 011 |
+| 01160 | Pěstování přadných rostlin | Growing of fibre crops | 5 | podtřída | 0116 |
+| 0119 | Pěstování ostatních plodin jiných než trvalých | Growing of other non-perennial crops | 4 | třída | 011 |
+| 01190 | Pěstování ostatních plodin jiných než trvalých | Growing of other non-perennial crops | 5 | podtřída | 0119 |
+| 012 | Pěstování trvalých plodin | Growing of perennial crops | 3 | skupina | 01 |
+| 0121 | Pěstování vinných hroznů | Growing of grapes | 4 | třída | 012 |
+| 01210 | Pěstování vinných hroznů | Growing of grapes | 5 | podtřída | 0121 |
+| 0122 | Pěstování tropického a subtropického ovoce | Growing of tropical and subtropical fruits | 4 | třída | 012 |
+| 01220 | Pěstování tropického a subtropického ovoce | Growing of tropical and subtropical fruits | 5 | podtřída | 0122 |
+| 0123 | Pěstování citrusových plodů | Growing of citrus fruits | 4 | třída | 012 |
+| 01230 | Pěstování citrusových plodů | Growing of citrus fruits | 5 | podtřída | 0123 |
+| 0124 | Pěstování jádrového a peckového ovoce | Growing of pome fruits and stone fruits | 4 | třída | 012 |
+| 01240 | Pěstování jádrového a peckového ovoce | Growing of pome fruits and stone fruits | 5 | podtřída | 0124 |
+| 0125 | Pěstování ostatního stromového a keřového ovoce a ořechů | Growing of other tree and bush fruits and nuts | 4 | třída | 012 |
+| 01250 | Pěstování ostatního stromového a keřového ovoce a ořechů | Growing of other tree and bush fruits and nuts | 5 | podtřída | 0125 |
+| 0126 | Pěstování olejnatých plodů | Growing of oleaginous fruits | 4 | třída | 012 |
+| 01260 | Pěstování olejnatých plodů | Growing of oleaginous fruits | 5 | podtřída | 0126 |
+| 0127 | Pěstování rostlin pro výrobu nápojů | Growing of beverage crops | 4 | třída | 012 |
+| 01270 | Pěstování rostlin pro výrobu nápojů | Growing of beverage crops | 5 | podtřída | 0127 |
+| 0128 | Pěstování koření a aromatických, léčivých a farmaceutických rostlin | Growing of spices, aromatic, drug and pharmaceutical crops | 4 | třída | 012 |
+| 01280 | Pěstování koření a aromatických, léčivých a farmaceutických rostlin | Growing of spices, aromatic, drug and pharmaceutical crops | 5 | podtřída | 0128 |
+| 0129 | Pěstování ostatních trvalých plodin | Growing of other perennial crops | 4 | třída | 012 |
+| 01290 | Pěstování ostatních trvalých plodin | Growing of other perennial crops | 5 | podtřída | 0129 |
+| 013 | Množení rostlin | Plant propagation | 3 | skupina | 01 |
+| 0130 | Množení rostlin | Plant propagation | 4 | třída | 013 |
+| 01300 | Množení rostlin | Plant propagation | 5 | podtřída | 0130 |
+| 014 | Živočišná výroba | Animal production | 3 | skupina | 01 |
+| 0141 | Chov mléčného skotu | Raising of dairy cattle | 4 | třída | 014 |
+| 01410 | Chov mléčného skotu | Raising of dairy cattle | 5 | podtřída | 0141 |
+| 0142 | Chov ostatního skotu a buvolů | Raising of other cattle and buffaloes | 4 | třída | 014 |
+| 01420 | Chov ostatního skotu a buvolů | Raising of other cattle and buffaloes | 5 | podtřída | 0142 |
+| 0143 | Chov koní a ostatních koňovitých | Raising of horses and other equines | 4 | třída | 014 |
+| 01430 | Chov koní a ostatních koňovitých | Raising of horses and other equines | 5 | podtřída | 0143 |
+| 0144 | Chov velbloudů a velbloudovitých | Raising of camels and camelids | 4 | třída | 014 |
+| 01440 | Chov velbloudů a velbloudovitých | Raising of camels and camelids | 5 | podtřída | 0144 |
+| 0145 | Chov ovcí a koz | Raising of sheep and goats | 4 | třída | 014 |
+| 01450 | Chov ovcí a koz | Raising of sheep and goats | 5 | podtřída | 0145 |
+| 0146 | Chov prasat | Raising of swine and pigs | 4 | třída | 014 |
+| 01460 | Chov prasat | Raising of swine and pigs | 5 | podtřída | 0146 |
+| 0147 | Chov drůbeže | Raising of poultry | 4 | třída | 014 |
+| 01470 | Chov drůbeže | Raising of poultry | 5 | podtřída | 0147 |
+| 0148 | Chov ostatních zvířat | Raising of other animals | 4 | třída | 014 |
+| 01480 | Chov ostatních zvířat | Raising of other animals | 5 | podtřída | 0148 |
+| 015 | Smíšené hospodaření | Mixed farming | 3 | skupina | 01 |
+| 0150 | Smíšené hospodaření | Mixed farming | 4 | třída | 015 |
+| 01500 | Smíšené hospodaření | Mixed farming | 5 | podtřída | 0150 |
+| 016 | Podpůrné činnosti pro zemědělství a posklizňové činnosti | Support activities to agriculture and post-harvest crop activities | 3 | skupina | 01 |
+| 0161 | Podpůrné činnosti pro rostlinnou výrobu | Support activities for crop production | 4 | třída | 016 |
+| 01610 | Podpůrné činnosti pro rostlinnou výrobu | Support activities for crop production | 5 | podtřída | 0161 |
+| 0162 | Podpůrné činnosti pro živočišnou výrobu | Support activities for animal production | 4 | třída | 016 |
+| 01620 | Podpůrné činnosti pro živočišnou výrobu | Support activities for animal production | 5 | podtřída | 0162 |
+| 0163 | Posklizňové činnosti a zpracování osiva pro účely množení | Post-harvest crop activities and seed processing for propagation | 4 | třída | 016 |
+| 01630 | Posklizňové činnosti a zpracování osiva pro účely množení | Post-harvest crop activities and seed processing for propagation | 5 | podtřída | 0163 |
+| 017 | Lov a odchyt divokých zvířat a související činnosti | Hunting, trapping and related service activities | 3 | skupina | 01 |
+| 0170 | Lov a odchyt divokých zvířat a související činnosti | Hunting, trapping and related service activities | 4 | třída | 017 |
+| 01700 | Lov a odchyt divokých zvířat a související činnosti | Hunting, trapping and related service activities | 5 | podtřída | 0170 |
+| 02 | Lesnictví a těžba dřeva | Forestry and logging | 2 | oddíl | A |
+| 021 | Pěstování lesa a jiné činnosti v oblasti lesnictví | Silviculture and other forestry activities | 3 | skupina | 02 |
+| 0210 | Pěstování lesa a jiné činnosti v oblasti lesnictví | Silviculture and other forestry activities | 4 | třída | 021 |
+| 02100 | Pěstování lesa a jiné činnosti v oblasti lesnictví | Silviculture and other forestry activities | 5 | podtřída | 0210 |
+| 022 | Těžba dřeva | Logging | 3 | skupina | 02 |
+| 0220 | Těžba dřeva | Logging | 4 | třída | 022 |
+| 02200 | Těžba dřeva | Logging | 5 | podtřída | 0220 |
+| 023 | Sběr a získávání volně rostoucích plodů a materiálů, kromě dřeva | Gathering of wild growing non-wood products | 3 | skupina | 02 |
+| 0230 | Sběr a získávání volně rostoucích plodů a materiálů, kromě dřeva | Gathering of wild growing non-wood products | 4 | třída | 023 |
+| 02300 | Sběr a získávání volně rostoucích plodů a materiálů, kromě dřeva | Gathering of wild growing non-wood products | 5 | podtřída | 0230 |
+| 024 | Podpůrné činnosti pro lesnictví | Support services to forestry | 3 | skupina | 02 |
+| 0240 | Podpůrné činnosti pro lesnictví | Support services to forestry | 4 | třída | 024 |
+| 02400 | Podpůrné činnosti pro lesnictví | Support services to forestry | 5 | podtřída | 0240 |
+| 03 | Rybolov a akvakultura | Fishing and aquaculture | 2 | oddíl | A |
+| 031 | Rybolov | Fishing | 3 | skupina | 03 |
+| 0311 | Mořský rybolov | Marine fishing | 4 | třída | 031 |
+| 03110 | Mořský rybolov | Marine fishing | 5 | podtřída | 0311 |
+| 0312 | Sladkovodní rybolov | Freshwater fishing | 4 | třída | 031 |
+| 03120 | Sladkovodní rybolov | Freshwater fishing | 5 | podtřída | 0312 |
+| 032 | Akvakultura | Aquaculture | 3 | skupina | 03 |
+| 0321 | Mořská akvakultura | Marine aquaculture | 4 | třída | 032 |
+| 03210 | Mořská akvakultura | Marine aquaculture | 5 | podtřída | 0321 |
+| 0322 | Sladkovodní akvakultura | Freshwater aquaculture | 4 | třída | 032 |
+| 03220 | Sladkovodní akvakultura | Freshwater aquaculture | 5 | podtřída | 0322 |
+| 033 | Podpůrné činnosti pro rybolov a akvakulturu | Support activities for fishing and aquaculture | 3 | skupina | 03 |
+| 0330 | Podpůrné činnosti pro rybolov a akvakulturu | Support activities for fishing and aquaculture | 4 | třída | 033 |
+| 03300 | Podpůrné činnosti pro rybolov a akvakulturu | Support activities for fishing and aquaculture | 5 | podtřída | 0330 |
+| 05 | Těžba černého a hnědého uhlí | Mining of coal and lignite | 2 | oddíl | B |
+| 051 | Těžba černého uhlí | Mining of hard coal | 3 | skupina | 05 |
+| 0510 | Těžba černého uhlí | Mining of hard coal | 4 | třída | 051 |
+| 05101 | Těžba černého uhlí, kromě úpravy | Mining of hard coal without preparation for further use | 5 | podtřída | 0510 |
+| 05102 | Úprava černého uhlí | Preparation of hard coal for further use | 5 | podtřída | 0510 |
+| 052 | Těžba hnědého uhlí | Mining of lignite | 3 | skupina | 05 |
+| 0520 | Těžba hnědého uhlí | Mining of lignite | 4 | třída | 052 |
+| 05201 | Těžba hnědého uhlí jiného než lignitu, kromě úpravy | Mining of lignite with gross calorific value 9500 - 17435 kJ/kg without preparation for further use | 5 | podtřída | 0520 |
+| 05202 | Úprava hnědého uhlí jiného než lignitu | Preparation of lignite with gross calorific value 9500 - 17435 kJ/kg for further use | 5 | podtřída | 0520 |
+| 05203 | Těžba lignitu, kromě úpravy | Mining of lignite with gross calorific value less than 9500 kJ/kg without preparation for further use | 5 | podtřída | 0520 |
+| 05204 | Úprava lignitu | Preparation of lignite with gross calorific value less than 9500 kJ/kg for further use | 5 | podtřída | 0520 |
+| 06 | Těžba ropy a zemního plynu | Extraction of crude petroleum and natural gas | 2 | oddíl | B |
+| 061 | Těžba ropy | Extraction of crude petroleum | 3 | skupina | 06 |
+| 0610 | Těžba ropy | Extraction of crude petroleum | 4 | třída | 061 |
+| 06100 | Těžba ropy | Extraction of crude petroleum | 5 | podtřída | 0610 |
+| 062 | Těžba zemního plynu | Extraction of natural gas | 3 | skupina | 06 |
+| 0620 | Těžba zemního plynu | Extraction of natural gas | 4 | třída | 062 |
+| 06200 | Těžba zemního plynu | Extraction of natural gas | 5 | podtřída | 0620 |
+| 07 | Těžba rud | Mining of metal ores | 2 | oddíl | B |
+| 071 | Těžba železných rud | Mining of iron ores | 3 | skupina | 07 |
+| 0710 | Těžba železných rud | Mining of iron ores | 4 | třída | 071 |
+| 07101 | Těžba železných rud, kromě úpravy | Mining of iron ores without preparation for further use | 5 | podtřída | 0710 |
+| 07102 | Úprava železných rud | Preparation of iron ores for further use | 5 | podtřída | 0710 |
+| 072 | Těžba neželezných rud | Mining of non-ferrous metal ores | 3 | skupina | 07 |
+| 0721 | Těžba uranových a thoriových rud | Mining of uranium and thorium ores | 4 | třída | 072 |
+| 07211 | Těžba uranových a thoriových rud, kromě úpravy | Mining of uranium and thorium ores without preparation for further use | 5 | podtřída | 0721 |
+| 07212 | Úprava uranových a thoriových rud | Preparation of uranium and thorium ores for further use | 5 | podtřída | 0721 |
+| 0729 | Těžba ostatních neželezných rud | Mining of other non-ferrous metal ores | 4 | třída | 072 |
+| 07291 | Těžba ostatních neželezných rud, kromě úpravy | Mining of other non-ferrous metal ores without preparation for further use | 5 | podtřída | 0729 |
+| 07292 | Úprava ostatních neželezných rud | Preparation of other non-ferrous metal ores for further use | 5 | podtřída | 0729 |
+| 08 | Těžba a dobývání ostatních nerostných surovin | Other mining and quarrying | 2 | oddíl | B |
+| 081 | Dobývání kamene, písků a jílů | Quarrying of stone, sand and clay | 3 | skupina | 08 |
+| 0811 | Dobývání kamene, vápence, sádrovce, břidlice a jiného kamene, také pro výtvarné účely | Quarrying of ornamental stone, limestone, gypsum, slate and other stone | 4 | třída | 081 |
+| 08110 | Dobývání kamene, vápence, sádrovce, břidlice a jiného kamene, také pro výtvarné účely | Quarrying of ornamental stone, limestone, gypsum, slate and other stone | 5 | podtřída | 0811 |
+| 0812 | Provoz pískoven a štěrkopískoven a těžba jílů a kaolinu | Operation of gravel and sand pits and mining of clay and kaolin | 4 | třída | 081 |
+| 08120 | Provoz pískoven a štěrkopískoven a těžba jílů a kaolinu | Operation of gravel and sand pits and mining of clay and kaolin | 5 | podtřída | 0812 |
+| 089 | Těžba a dobývání nerostných surovin j. n. | Mining and quarrying n.e.c. | 3 | skupina | 08 |
+| 0891 | Těžba chemických minerálů a minerálů pro výrobu hnojiv | Mining of chemical and fertiliser minerals | 4 | třída | 089 |
+| 08910 | Těžba chemických minerálů a minerálů pro výrobu hnojiv | Mining of chemical and fertiliser minerals | 5 | podtřída | 0891 |
+| 0892 | Těžba rašeliny | Extraction of peat | 4 | třída | 089 |
+| 08920 | Těžba rašeliny | Extraction of peat | 5 | podtřída | 0892 |
+| 0893 | Těžba soli | Extraction of salt | 4 | třída | 089 |
+| 08930 | Těžba soli | Extraction of salt | 5 | podtřída | 0893 |
+| 0899 | Těžba a dobývání ostatních nerostných surovin j. n. | Other mining and quarrying n.e.c. | 4 | třída | 089 |
+| 08990 | Těžba a dobývání ostatních nerostných surovin j. n. | Other mining and quarrying n.e.c. | 5 | podtřída | 0899 |
+| 09 | Podpůrné činnosti pro těžbu a dobývání nerostných surovin | Mining support service activities | 2 | oddíl | B |
+| 091 | Podpůrné činnosti pro těžbu ropy a zemního plynu | Support activities for petroleum and natural gas extraction | 3 | skupina | 09 |
+| 0910 | Podpůrné činnosti pro těžbu ropy a zemního plynu | Support activities for petroleum and natural gas extraction | 4 | třída | 091 |
+| 09100 | Podpůrné činnosti pro těžbu ropy a zemního plynu | Support activities for petroleum and natural gas extraction | 5 | podtřída | 0910 |
+| 099 | Podpůrné činnosti pro těžbu a dobývání ostatních nerostných surovin | Support activities for other mining and quarrying | 3 | skupina | 09 |
+| 0990 | Podpůrné činnosti pro těžbu a dobývání ostatních nerostných surovin | Support activities for other mining and quarrying | 4 | třída | 099 |
+| 09901 | Podpůrné činnosti pro těžbu černého uhlí | Support activities for mining of hard coal | 5 | podtřída | 0990 |
+| 09902 | Podpůrné činnosti pro těžbu hnědého uhlí, kromě lignitu | Support activities for mining of lignite with gross calorific value 9500 - 17435 kJ/kg | 5 | podtřída | 0990 |
+| 09903 | Podpůrné činnosti pro těžbu lignitu | Support activities for mining of lignite with gross calorific value less than 9500 kJ/kg | 5 | podtřída | 0990 |
+| 09904 | Podpůrné činnosti pro těžbu železných rud | Support activities for mining of iron ores | 5 | podtřída | 0990 |
+| 09905 | Podpůrné činnosti pro těžbu uranových a thoriových rud | Support activities for mining of uranium and thorium ores | 5 | podtřída | 0990 |
+| 09906 | Podpůrné činnosti pro těžbu ostatních neželezných rud | Support activities for mining of other non-ferrous metal ores | 5 | podtřída | 0990 |
+| 09909 | Podpůrné činnosti pro těžbu a dobývání ostatních nerostných surovin j. n. | Support activities for mining and quarrying of other minerals n.e.c. | 5 | podtřída | 0990 |
+| 10 | Výroba potravinářských výrobků | Manufacture of food products | 2 | oddíl | C |
+| 101 | Zpracování a konzervování masa a výroba masných výrobků | Processing and preserving of meat and production of meat products | 3 | skupina | 10 |
+| 1011 | Zpracování a konzervování masa, kromě drůbežího masa | Processing and preserving of meat, except of poultry meat | 4 | třída | 101 |
+| 10110 | Zpracování a konzervování masa, kromě drůbežího masa | Processing and preserving of meat, except of poultry meat | 5 | podtřída | 1011 |
+| 1012 | Zpracování a konzervování drůbežího masa | Processing and preserving of poultry meat | 4 | třída | 101 |
+| 10120 | Zpracování a konzervování drůbežího masa | Processing and preserving of poultry meat | 5 | podtřída | 1012 |
+| 1013 | Výroba masných výrobků a výrobků z drůbežího masa | Production of meat and poultry meat products | 4 | třída | 101 |
+| 10130 | Výroba masných výrobků a výrobků z drůbežího masa | Production of meat and poultry meat products | 5 | podtřída | 1013 |
+| 102 | Zpracování a konzervování ryb, korýšů a měkkýšů | Processing and preserving of fish, crustaceans and molluscs | 3 | skupina | 10 |
+| 1020 | Zpracování a konzervování ryb, korýšů a měkkýšů | Processing and preserving of fish, crustaceans and molluscs | 4 | třída | 102 |
+| 10200 | Zpracování a konzervování ryb, korýšů a měkkýšů | Processing and preserving of fish, crustaceans and molluscs | 5 | podtřída | 1020 |
+| 103 | Zpracování a konzervování ovoce a zeleniny | Processing and preserving of fruit and vegetables | 3 | skupina | 10 |
+| 1031 | Zpracování a konzervování brambor | Processing and preserving of potatoes | 4 | třída | 103 |
+| 10310 | Zpracování a konzervování brambor | Processing and preserving of potatoes | 5 | podtřída | 1031 |
+| 1032 | Výroba ovocných a zeleninových šťáv | Manufacture of fruit and vegetable juice | 4 | třída | 103 |
+| 10320 | Výroba ovocných a zeleninových šťáv | Manufacture of fruit and vegetable juice | 5 | podtřída | 1032 |
+| 1039 | Ostatní zpracování a konzervování ovoce a zeleniny | Other processing and preserving of fruit and vegetables | 4 | třída | 103 |
+| 10390 | Ostatní zpracování a konzervování ovoce a zeleniny | Other processing and preserving of fruit and vegetables | 5 | podtřída | 1039 |
+| 104 | Výroba rostlinných a živočišných olejů a tuků | Manufacture of vegetable and animal oils and fats | 3 | skupina | 10 |
+| 1041 | Výroba olejů a tuků | Manufacture of oils and fats | 4 | třída | 104 |
+| 10410 | Výroba olejů a tuků | Manufacture of oils and fats | 5 | podtřída | 1041 |
+| 1042 | Výroba margarínu a podobných jedlých tuků | Manufacture of margarine and similar edible fats | 4 | třída | 104 |
+| 10420 | Výroba margarínu a podobných jedlých tuků | Manufacture of margarine and similar edible fats | 5 | podtřída | 1042 |
+| 105 | Výroba mléčných výrobků, výroba zmrzliny a ledu k lidské spotřebě | Manufacture of dairy products and edible ice | 3 | skupina | 10 |
+| 105 | Výroba mléčných výrobků, výroba zmrzliny a podobných výrobků | Manufacture of dairy products and edible ice | 3 | skupina | 10 |
+| 1051 | Výroba mléčných výrobků | Manufacture of dairy products | 4 | třída | 105 |
+| 10510 | Výroba mléčných výrobků | Manufacture of dairy products | 5 | podtřída | 1051 |
+| 1052 | Výroba zmrzliny a ledu k lidské spotřebě | Manufacture of ice cream and other edible ice | 4 | třída | 105 |
+| 1052 | Výroba zmrzliny a podobných výrobků | Manufacture of ice cream and other edible ice | 4 | třída | 105 |
+| 10520 | Výroba zmrzliny a ledu k lidské spotřebě | Manufacture of ice cream and other edible ice | 5 | podtřída | 1052 |
+| 10520 | Výroba zmrzliny a podobných výrobků | Manufacture of ice cream and other edible ice | 5 | podtřída | 1052 |
+| 106 | Výroba mlýnských a škrobárenských výrobků | Manufacture of grain mill products, starches and starch products | 3 | skupina | 10 |
+| 1061 | Výroba mlýnských výrobků | Manufacture of grain mill products | 4 | třída | 106 |
+| 10610 | Výroba mlýnských výrobků | Manufacture of grain mill products | 5 | podtřída | 1061 |
+| 1062 | Výroba škrobárenských výrobků | Manufacture of starches and starch products | 4 | třída | 106 |
+| 10620 | Výroba škrobárenských výrobků | Manufacture of starches and starch products | 5 | podtřída | 1062 |
+| 107 | Výroba pekařských, cukrářských a jiných moučných výrobků | Manufacture of bakery and farinaceous products | 3 | skupina | 10 |
+| 1071 | Výroba pekařských a cukrářských výrobků, kromě trvanlivých | Manufacture of bread; manufacture of fresh pastry goods and cakes | 4 | třída | 107 |
+| 10710 | Výroba pekařských a cukrářských výrobků, kromě trvanlivých | Manufacture of bread; manufacture of fresh pastry goods and cakes | 5 | podtřída | 1071 |
+| 1072 | Výroba sucharů, sušenek a trvanlivých pekařských a cukrářských výrobků | Manufacture of rusks, biscuits, preserved pastries and cakes | 4 | třída | 107 |
+| 10720 | Výroba sucharů, sušenek a trvanlivých pekařských a cukrářských výrobků | Manufacture of rusks, biscuits, preserved pastries and cakes | 5 | podtřída | 1072 |
+| 1073 | Výroba moučných výrobků | Manufacture of farinaceous products | 4 | třída | 107 |
+| 10730 | Výroba moučných výrobků | Manufacture of farinaceous products | 5 | podtřída | 1073 |
+| 108 | Výroba ostatních potravinářských výrobků | Manufacture of other food products | 3 | skupina | 10 |
+| 1081 | Výroba cukru | Manufacture of sugar | 4 | třída | 108 |
+| 10810 | Výroba cukru | Manufacture of sugar | 5 | podtřída | 1081 |
+| 1082 | Výroba kakaa, čokolády a cukrovinek | Manufacture of cocoa, chocolate and sugar confectionery | 4 | třída | 108 |
+| 10820 | Výroba kakaa, čokolády a cukrovinek | Manufacture of cocoa, chocolate and sugar confectionery | 5 | podtřída | 1082 |
+| 1083 | Zpracování čaje a kávy | Processing of tea and coffee | 4 | třída | 108 |
+| 10830 | Zpracování čaje a kávy | Processing of tea and coffee | 5 | podtřída | 1083 |
+| 1084 | Výroba koření a přísad pro ochucení | Manufacture of condiments and seasonings | 4 | třída | 108 |
+| 10840 | Výroba koření a přísad pro ochucení | Manufacture of condiments and seasonings | 5 | podtřída | 1084 |
+| 1085 | Výroba hotových pokrmů | Manufacture of prepared meals and dishes | 4 | třída | 108 |
+| 10850 | Výroba hotových pokrmů | Manufacture of prepared meals and dishes | 5 | podtřída | 1085 |
+| 1086 | Výroba homogenizovaných potravinářských přípravků a dietetických potravin | Manufacture of homogenised food preparations and dietetic food | 4 | třída | 108 |
+| 10860 | Výroba homogenizovaných potravinářských přípravků a dietetických potravin | Manufacture of homogenised food preparations and dietetic food | 5 | podtřída | 1086 |
+| 1089 | Výroba ostatních potravinářských výrobků j. n. | Manufacture of other food products n.e.c. | 4 | třída | 108 |
+| 10890 | Výroba ostatních potravinářských výrobků j. n. | Manufacture of other food products n.e.c. | 5 | podtřída | 1089 |
+| 109 | Výroba krmiv | Manufacture of prepared animal feeds | 3 | skupina | 10 |
+| 1091 | Výroba krmiv pro hospodářská zvířata | Manufacture of prepared feeds for farm animals | 4 | třída | 109 |
+| 10910 | Výroba krmiv pro hospodářská zvířata | Manufacture of prepared feeds for farm animals | 5 | podtřída | 1091 |
+| 1092 | Výroba krmiv pro zvířata v zájmovém chovu | Manufacture of prepared pet foods | 4 | třída | 109 |
+| 10920 | Výroba krmiv pro zvířata v zájmovém chovu | Manufacture of prepared pet foods | 5 | podtřída | 1092 |
+| 11 | Výroba nápojů | Manufacture of beverages | 2 | oddíl | C |
+| 110 | Výroba nápojů | Manufacture of beverages | 3 | skupina | 11 |
+| 1101 | Destilace, rektifikace a míchaní lihovin | Distilling, rectifying and blending of spirits | 4 | třída | 110 |
+| 11010 | Destilace, rektifikace a míchaní lihovin | Distilling, rectifying and blending of spirits | 5 | podtřída | 1101 |
+| 1102 | Výroba vína z vinných hroznů | Manufacture of wine from grape | 4 | třída | 110 |
+| 11020 | Výroba vína z vinných hroznů | Manufacture of wine from grape | 5 | podtřída | 1102 |
+| 1103 | Výroba ciderů a jiných kvašených ovocných nápojů | Manufacture of cider and other fermented fruit beverages | 4 | třída | 110 |
+| 11030 | Výroba ciderů a jiných kvašených ovocných nápojů | Manufacture of cider and other fermented fruit beverages | 5 | podtřída | 1103 |
+| 1104 | Výroba ostatních nedestilovaných kvašených nápojů | Manufacture of other non-distilled fermented beverages | 4 | třída | 110 |
+| 11040 | Výroba ostatních nedestilovaných kvašených nápojů | Manufacture of other non-distilled fermented beverages | 5 | podtřída | 1104 |
+| 1105 | Výroba piva | Manufacture of beer | 4 | třída | 110 |
+| 11050 | Výroba piva | Manufacture of beer | 5 | podtřída | 1105 |
+| 1106 | Výroba sladu | Manufacture of malt | 4 | třída | 110 |
+| 11060 | Výroba sladu | Manufacture of malt | 5 | podtřída | 1106 |
+| 1107 | Výroba nealkoholických nápojů a balených vod | Manufacture of soft drinks and bottled waters | 4 | třída | 110 |
+| 11070 | Výroba nealkoholických nápojů a balených vod | Manufacture of soft drinks and bottled waters | 5 | podtřída | 1107 |
+| 12 | Výroba tabákových výrobků | Manufacture of tobacco products | 2 | oddíl | C |
+| 120 | Výroba tabákových výrobků | Manufacture of tobacco products | 3 | skupina | 12 |
+| 1200 | Výroba tabákových výrobků | Manufacture of tobacco products | 4 | třída | 120 |
+| 12000 | Výroba tabákových výrobků | Manufacture of tobacco products | 5 | podtřída | 1200 |
+| 13 | Výroba textilií | Manufacture of textiles | 2 | oddíl | C |
+| 131 | Úprava a spřádání textilních vláken a příze | Preparation and spinning of textile fibres | 3 | skupina | 13 |
+| 1310 | Úprava a spřádání textilních vláken a příze | Preparation and spinning of textile fibres | 4 | třída | 131 |
+| 13100 | Úprava a spřádání textilních vláken a příze | Preparation and spinning of textile fibres | 5 | podtřída | 1310 |
+| 132 | Tkaní textilií | Weaving of textiles | 3 | skupina | 13 |
+| 1320 | Tkaní textilií | Weaving of textiles | 4 | třída | 132 |
+| 13200 | Tkaní textilií | Weaving of textiles | 5 | podtřída | 1320 |
+| 133 | Konečná úprava textilií | Finishing of textiles | 3 | skupina | 13 |
+| 1330 | Konečná úprava textilií | Finishing of textiles | 4 | třída | 133 |
+| 13300 | Konečná úprava textilií | Finishing of textiles | 5 | podtřída | 1330 |
+| 139 | Výroba ostatních textilií | Manufacture of other textiles | 3 | skupina | 13 |
+| 1391 | Výroba pletených a háčkovaných textilií | Manufacture of knitted and crocheted fabrics | 4 | třída | 139 |
+| 13910 | Výroba pletených a háčkovaných textilií | Manufacture of knitted and crocheted fabrics | 5 | podtřída | 1391 |
+| 1392 | Výroba bytového textilu a konfekčních bytových textilií | Manufacture of household textiles and made-up furnishing articles | 4 | třída | 139 |
+| 1392 | Výroba bytového textilu a zcela zhotovených bytových textilií | Manufacture of household textiles and made-up furnishing articles | 4 | třída | 139 |
+| 13920 | Výroba bytového textilu a konfekčních bytových textilií | Manufacture of household textiles and made-up furnishing articles | 5 | podtřída | 1392 |
+| 13920 | Výroba bytového textilu a zcela zhotovených bytových textilií | Manufacture of household textiles and made-up furnishing articles | 5 | podtřída | 1392 |
+| 1393 | Výroba koberců a kobercových předložek | Manufacture of carpets and rugs | 4 | třída | 139 |
+| 13930 | Výroba koberců a kobercových předložek | Manufacture of carpets and rugs | 5 | podtřída | 1393 |
+| 1394 | Výroba lan, provazů a síťovaných výrobků | Manufacture of cordage, rope, twine and netting | 4 | třída | 139 |
+| 13940 | Výroba lan, provazů a síťovaných výrobků | Manufacture of cordage, rope, twine and netting | 5 | podtřída | 1394 |
+| 1395 | Výroba netkaných textilií a výrobků z nich | Manufacture of non-wovens and non-woven articles | 4 | třída | 139 |
+| 13950 | Výroba netkaných textilií a výrobků z nich | Manufacture of non-wovens and non-woven articles | 5 | podtřída | 1395 |
+| 1396 | Výroba ostatních technických a průmyslových textilií | Manufacture of other technical and industrial textiles | 4 | třída | 139 |
+| 13960 | Výroba ostatních technických a průmyslových textilií | Manufacture of other technical and industrial textiles | 5 | podtřída | 1396 |
+| 1399 | Výroba ostatních textilií j. n. | Manufacture of other textiles n.e.c. | 4 | třída | 139 |
+| 13990 | Výroba ostatních textilií j. n. | Manufacture of other textiles n.e.c. | 5 | podtřída | 1399 |
+| 14 | Výroba oděvů | Manufacture of wearing apparel | 2 | oddíl | C |
+| 141 | Výroba pletených a háčkovaných oděvů | Manufacture of knitted and crocheted apparel | 3 | skupina | 14 |
+| 1410 | Výroba pletených a háčkovaných oděvů | Manufacture of knitted and crocheted apparel | 4 | třída | 141 |
+| 14101 | Výroba pletených a háčkovaných punčochových výrobků | Manufacture of knitted and crocheted hosiery | 5 | podtřída | 1410 |
+| 14109 | Výroba ostatních pletených a háčkovaných oděvů | Manufacture of other knitted and crocheted apparel | 5 | podtřída | 1410 |
+| 142 | Výroba ostatních oděvů a oděvních doplňků | Manufacture of other wearing apparel and accessories | 3 | skupina | 14 |
+| 1421 | Výroba svrchních oděvů | Manufacture of outerwear | 4 | třída | 142 |
+| 14210 | Výroba svrchních oděvů | Manufacture of outerwear | 5 | podtřída | 1421 |
+| 1422 | Výroba osobního prádla | Manufacture of underwear | 4 | třída | 142 |
+| 14220 | Výroba osobního prádla | Manufacture of underwear | 5 | podtřída | 1422 |
+| 1423 | Výroba pracovních oděvů | Manufacture of workwear | 4 | třída | 142 |
+| 14230 | Výroba pracovních oděvů | Manufacture of workwear | 5 | podtřída | 1423 |
+| 1424 | Výroba kožených oděvů a kožešinových výrobků | Manufacture of leather clothes and fur apparel | 4 | třída | 142 |
+| 14240 | Výroba kožených oděvů a kožešinových výrobků | Manufacture of leather clothes and fur apparel | 5 | podtřída | 1424 |
+| 1429 | Výroba ostatních oděvů a oděvních doplňků j. n. | Manufacture of other wearing apparel and accessories n.e.c. | 4 | třída | 142 |
+| 14290 | Výroba ostatních oděvů a oděvních doplňků j. n. | Manufacture of other wearing apparel and accessories n.e.c. | 5 | podtřída | 1429 |
+| 15 | Výroba usní a souvisejících výrobků z jakýchkoli materiálů | Manufacture of leather and related products of other materials | 2 | oddíl | C |
+| 151 | Činění, úprava, barvení usní a kožešin; výroba zavazadel, kabelek, sedlářských a řemenářských výrobků | Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness | 3 | skupina | 15 |
+| 1511 | Činění, úprava, barvení usní a kožešin | Tanning, dressing, dyeing of leather and fur | 4 | třída | 151 |
+| 15110 | Činění, úprava, barvení usní a kožešin | Tanning, dressing, dyeing of leather and fur | 5 | podtřída | 1511 |
+| 1512 | Výroba zavazadel, kabelek, sedlářských a řemenářských výrobků z jakýchkoli materiálů | Manufacture of luggage, handbags, saddlery and harness of any material | 4 | třída | 151 |
+| 15120 | Výroba zavazadel, kabelek, sedlářských a řemenářských výrobků z jakýchkoli materiálů | Manufacture of luggage, handbags, saddlery and harness of any material | 5 | podtřída | 1512 |
+| 152 | Výroba obuvi | Manufacture of footwear | 3 | skupina | 15 |
+| 1520 | Výroba obuvi | Manufacture of footwear | 4 | třída | 152 |
+| 15201 | Výroba obuvi s usňovým svrškem | Manufacture of footwear with leather uppers | 5 | podtřída | 1520 |
+| 15209 | Výroba ostatní obuvi | Manufacture of other footwear | 5 | podtřída | 1520 |
+| 16 | Zpracování dřeva, výroba dřevěných, korkových, proutěných a slaměných výrobků, kromě nábytku | Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials | 2 | oddíl | C |
+| 161 | Pilařská výroba a impregnace dřeva; zpracování a konečná úprava dřeva | Sawmilling and planing of wood; processing and finishing of wood | 3 | skupina | 16 |
+| 161 | Pilařská výroba; zpracování a konečná úprava dřeva | Sawmilling and planing of wood; processing and finishing of wood | 3 | skupina | 16 |
+| 1611 | Pilařská výroba | Sawmilling and planing of wood | 4 | třída | 161 |
+| 16110 | Pilařská výroba | Sawmilling and planing of wood | 5 | podtřída | 1611 |
+| 1612 | Zpracování a konečná úprava dřeva | Processing and finishing of wood | 4 | třída | 161 |
+| 16120 | Zpracování a konečná úprava dřeva | Processing and finishing of wood | 5 | podtřída | 1612 |
+| 162 | Výroba dřevěných, korkových, proutěných a slaměných výrobků | Manufacture of products of wood, cork, straw and plaiting materials | 3 | skupina | 16 |
+| 1621 | Výroba dýh a desek na bázi dřeva | Manufacture of veneer sheets and wood-based panels | 4 | třída | 162 |
+| 16210 | Výroba dýh a desek na bázi dřeva | Manufacture of veneer sheets and wood-based panels | 5 | podtřída | 1621 |
+| 1622 | Výroba sestavených parketových podlah | Manufacture of assembled parquet floors | 4 | třída | 162 |
+| 16220 | Výroba sestavených parketových podlah | Manufacture of assembled parquet floors | 5 | podtřída | 1622 |
+| 1623 | Výroba ostatních výrobků stavebního truhlářství a tesařství | Manufacture of other builders' carpentry and joinery | 4 | třída | 162 |
+| 16230 | Výroba ostatních výrobků stavebního truhlářství a tesařství | Manufacture of other builders' carpentry and joinery | 5 | podtřída | 1623 |
+| 1624 | Výroba dřevěných obalů | Manufacture of wooden containers | 4 | třída | 162 |
+| 16240 | Výroba dřevěných obalů | Manufacture of wooden containers | 5 | podtřída | 1624 |
+| 1625 | Výroba dřevěných dveří a oken | Manufacture of doors and windows of wood | 4 | třída | 162 |
+| 16250 | Výroba dřevěných dveří a oken | Manufacture of doors and windows of wood | 5 | podtřída | 1625 |
+| 1626 | Výroba pevných paliv z rostlinné biomasy | Manufacture of solid fuels from vegetable biomass | 4 | třída | 162 |
+| 16260 | Výroba pevných paliv z rostlinné biomasy | Manufacture of solid fuels from vegetable biomass | 5 | podtřída | 1626 |
+| 1627 | Konečná úprava dřevěných výrobků | Finishing of wooden products | 4 | třída | 162 |
+| 16270 | Konečná úprava dřevěných výrobků | Finishing of wooden products | 5 | podtřída | 1627 |
+| 1628 | Výroba ostatních dřevěných, korkových, proutěných a slaměných výrobků | Manufacture of other products of wood and articles of cork, straw and plaiting materials | 4 | třída | 162 |
+| 16280 | Výroba ostatních dřevěných, korkových, proutěných a slaměných výrobků | Manufacture of other products of wood and articles of cork, straw and plaiting materials | 5 | podtřída | 1628 |
+| 17 | Výroba papíru a výrobků z papíru | Manufacture of paper and paper products | 2 | oddíl | C |
+| 171 | Výroba buničiny, papíru a lepenky | Manufacture of pulp, paper and paperboard | 3 | skupina | 17 |
+| 1711 | Výroba buničiny | Manufacture of pulp | 4 | třída | 171 |
+| 17111 | Výroba chemických buničin | Manufacture of pulp by chemical processes | 5 | podtřída | 1711 |
+| 17112 | Výroba mechanických vláknin | Manufacture of pulp by mechanical processes | 5 | podtřída | 1711 |
+| 17119 | Výroba ostatních papírenských vláknin | Manufacture of other pulps | 5 | podtřída | 1711 |
+| 1712 | Výroba papíru a lepenky | Manufacture of paper and paperboard | 4 | třída | 171 |
+| 17120 | Výroba papíru a lepenky | Manufacture of paper and paperboard | 5 | podtřída | 1712 |
+| 172 | Výroba výrobků z papíru a lepenky | Manufacture of articles of paper and paperboard | 3 | skupina | 17 |
+| 1721 | Výroba vlnitého papíru a lepenky, papírových a lepenkových obalů | Manufacture of corrugated paper, paperboard and containers of paper and paperboard | 4 | třída | 172 |
+| 17210 | Výroba vlnitého papíru a lepenky, papírových a lepenkových obalů | Manufacture of corrugated paper, paperboard and containers of paper and paperboard | 5 | podtřída | 1721 |
+| 1722 | Výroba domácích potřeb, hygienických a toaletních výrobků z papíru | Manufacture of household and sanitary goods and of toilet requisites | 4 | třída | 172 |
+| 17220 | Výroba domácích potřeb, hygienických a toaletních výrobků z papíru | Manufacture of household and sanitary goods and of toilet requisites | 5 | podtřída | 1722 |
+| 1723 | Výroba kancelářských potřeb z papíru | Manufacture of paper stationery | 4 | třída | 172 |
+| 17230 | Výroba kancelářských potřeb z papíru | Manufacture of paper stationery | 5 | podtřída | 1723 |
+| 1724 | Výroba tapet | Manufacture of wallpaper | 4 | třída | 172 |
+| 17240 | Výroba tapet | Manufacture of wallpaper | 5 | podtřída | 1724 |
+| 1725 | Výroba ostatních výrobků z papíru a lepenky | Manufacture of other articles of paper and paperboard | 4 | třída | 172 |
+| 17250 | Výroba ostatních výrobků z papíru a lepenky | Manufacture of other articles of paper and paperboard | 5 | podtřída | 1725 |
+| 18 | Tisk a rozmnožování nahraných nosičů | Printing and reproduction of recorded media | 2 | oddíl | C |
+| 181 | Tisk a činnosti související s tiskem | Printing and service activities related to printing | 3 | skupina | 18 |
+| 1811 | Tisk novin | Printing of newspapers | 4 | třída | 181 |
+| 18110 | Tisk novin | Printing of newspapers | 5 | podtřída | 1811 |
+| 1812 | Ostatní tisk | Other printing | 4 | třída | 181 |
+| 18120 | Ostatní tisk | Other printing | 5 | podtřída | 1812 |
+| 1813 | Příprava tisku a digitálních dat | Pre-press and pre-media services | 4 | třída | 181 |
+| 18130 | Příprava tisku a digitálních dat | Pre-press and pre-media services | 5 | podtřída | 1813 |
+| 1814 | Vázání a související činnosti | Binding and related services | 4 | třída | 181 |
+| 18140 | Vázání a související činnosti | Binding and related services | 5 | podtřída | 1814 |
+| 182 | Rozmnožování nahraných nosičů | Reproduction of recorded media | 3 | skupina | 18 |
+| 1820 | Rozmnožování nahraných nosičů | Reproduction of recorded media | 4 | třída | 182 |
+| 18200 | Rozmnožování nahraných nosičů | Reproduction of recorded media | 5 | podtřída | 1820 |
+| 19 | Výroba koksu a rafinovaných ropných produktů | Manufacture of coke and refined petroleum products | 2 | oddíl | C |
+| 191 | Výroba koksárenských produktů | Manufacture of coke oven products | 3 | skupina | 19 |
+| 1910 | Výroba koksárenských produktů | Manufacture of coke oven products | 4 | třída | 191 |
+| 19100 | Výroba koksárenských produktů | Manufacture of coke oven products | 5 | podtřída | 1910 |
+| 192 | Výroba rafinovaných ropných produktů a produktů z fosilních paliv | Manufacture of refined petroleum products and fossil fuel products | 3 | skupina | 19 |
+| 1920 | Výroba rafinovaných ropných produktů a produktů z fosilních paliv | Manufacture of refined petroleum products and fossil fuel products | 4 | třída | 192 |
+| 19200 | Výroba rafinovaných ropných produktů a produktů z fosilních paliv | Manufacture of refined petroleum products and fossil fuel products | 5 | podtřída | 1920 |
+| 20 | Výroba chemických látek a chemických výrobků | Manufacture of chemicals and chemical products | 2 | oddíl | C |
+| 201 | Výroba základních chemických látek, hnojiv a dusíkatých sloučenin, plastů a syntetického kaučuku v primárních formách | Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms | 3 | skupina | 20 |
+| 2011 | Výroba technických plynů | Manufacture of industrial gases | 4 | třída | 201 |
+| 20110 | Výroba technických plynů | Manufacture of industrial gases | 5 | podtřída | 2011 |
+| 2012 | Výroba barviv a pigmentů | Manufacture of dyes and pigments | 4 | třída | 201 |
+| 20120 | Výroba barviv a pigmentů | Manufacture of dyes and pigments | 5 | podtřída | 2012 |
+| 2013 | Výroba jiných základních anorganických chemických látek | Manufacture of other inorganic basic chemicals | 4 | třída | 201 |
+| 20130 | Výroba jiných základních anorganických chemických látek | Manufacture of other inorganic basic chemicals | 5 | podtřída | 2013 |
+| 2014 | Výroba jiných základních organických chemických látek | Manufacture of other organic basic chemicals | 4 | třída | 201 |
+| 20140 | Výroba jiných základních organických chemických látek | Manufacture of other organic basic chemicals | 5 | podtřída | 2014 |
+| 2015 | Výroba hnojiv a dusíkatých sloučenin | Manufacture of fertilisers and nitrogen compounds | 4 | třída | 201 |
+| 20150 | Výroba hnojiv a dusíkatých sloučenin | Manufacture of fertilisers and nitrogen compounds | 5 | podtřída | 2015 |
+| 2016 | Výroba plastů v primárních formách | Manufacture of plastics in primary forms | 4 | třída | 201 |
+| 20160 | Výroba plastů v primárních formách | Manufacture of plastics in primary forms | 5 | podtřída | 2016 |
+| 2017 | Výroba syntetického kaučuku v primárních formách | Manufacture of synthetic rubber in primary forms | 4 | třída | 201 |
+| 20170 | Výroba syntetického kaučuku v primárních formách | Manufacture of synthetic rubber in primary forms | 5 | podtřída | 2017 |
+| 202 | Výroba pesticidů, dezinfekčních prostředků a jiných agrochemických přípravků | Manufacture of pesticides, disinfectants and other agrochemical products | 3 | skupina | 20 |
+| 2020 | Výroba pesticidů, dezinfekčních prostředků a jiných agrochemických přípravků | Manufacture of pesticides, disinfectants and other agrochemical products | 4 | třída | 202 |
+| 20200 | Výroba pesticidů, dezinfekčních prostředků a jiných agrochemických přípravků | Manufacture of pesticides, disinfectants and other agrochemical products | 5 | podtřída | 2020 |
+| 203 | Výroba barev, laků a jiných nátěrových hmot, tiskařských barev a tmelů | Manufacture of paints, varnishes and similar coatings, printing ink and mastics | 3 | skupina | 20 |
+| 2030 | Výroba barev, laků a jiných nátěrových hmot, tiskařských barev a tmelů | Manufacture of paints, varnishes and similar coatings, printing ink and mastics | 4 | třída | 203 |
+| 20300 | Výroba barev, laků a jiných nátěrových hmot, tiskařských barev a tmelů | Manufacture of paints, varnishes and similar coatings, printing ink and mastics | 5 | podtřída | 2030 |
+| 204 | Výroba mycích, čisticích a lešticích prostředků | Manufacture of washing, cleaning and polishing preparations | 3 | skupina | 20 |
+| 2041 | Výroba mýdel, detergentů a čisticích a lešticích prostředků | Manufacture of soap and detergents, cleaning and polishing preparations | 4 | třída | 204 |
+| 20410 | Výroba mýdel, detergentů a čisticích a lešticích prostředků | Manufacture of soap and detergents, cleaning and polishing preparations | 5 | podtřída | 2041 |
+| 2042 | Výroba parfémů a toaletních přípravků | Manufacture of perfume and toilet preparations | 4 | třída | 204 |
+| 20420 | Výroba parfémů a toaletních přípravků | Manufacture of perfume and toilet preparations | 5 | podtřída | 2042 |
+| 205 | Výroba ostatních chemických výrobků | Manufacture of other chemical products | 3 | skupina | 20 |
+| 2051 | Výroba kapalných biopaliv | Manufacture of liquid biofuels | 4 | třída | 205 |
+| 20510 | Výroba kapalných biopaliv | Manufacture of liquid biofuels | 5 | podtřída | 2051 |
+| 2059 | Výroba ostatních chemických výrobků j. n. | Manufacture of other chemical products n.e.c. | 4 | třída | 205 |
+| 20591 | Výroba aditiv do pohonných hmot na bázi ethyltercbutyléteru (ETBE) a methyltercbutyléteru (MTBE) | Manufacture of fuel additives based on Ethyl tertiary-butyl ether (ETBE) and Methyl tertiary-butyl ether (MTBE) | 5 | podtřída | 2059 |
+| 20599 | Výroba jiných chemických výrobků j. n. | Manufacture of all other chemical products n.e.c. | 5 | podtřída | 2059 |
+| 206 | Výroba chemických vláken | Manufacture of man-made fibres | 3 | skupina | 20 |
+| 2060 | Výroba chemických vláken | Manufacture of man-made fibres | 4 | třída | 206 |
+| 20600 | Výroba chemických vláken | Manufacture of man-made fibres | 5 | podtřída | 2060 |
+| 21 | Výroba základních farmaceutických výrobků a farmaceutických přípravků | Manufacture of basic pharmaceutical products and pharmaceutical preparations | 2 | oddíl | C |
+| 211 | Výroba základních farmaceutických výrobků | Manufacture of basic pharmaceutical products | 3 | skupina | 21 |
+| 2110 | Výroba základních farmaceutických výrobků | Manufacture of basic pharmaceutical products | 4 | třída | 211 |
+| 21100 | Výroba základních farmaceutických výrobků | Manufacture of basic pharmaceutical products | 5 | podtřída | 2110 |
+| 212 | Výroba farmaceutických přípravků | Manufacture of pharmaceutical preparations | 3 | skupina | 21 |
+| 2120 | Výroba farmaceutických přípravků | Manufacture of pharmaceutical preparations | 4 | třída | 212 |
+| 21200 | Výroba farmaceutických přípravků | Manufacture of pharmaceutical preparations | 5 | podtřída | 2120 |
+| 22 | Výroba pryžových a plastových výrobků | Manufacture of rubber and plastic products | 2 | oddíl | C |
+| 221 | Výroba pryžových výrobků | Manufacture of rubber products | 3 | skupina | 22 |
+| 2211 | Výroba pryžových plášťů a duší a protektorování pneumatik | Manufacture, retreading and rebuilding of rubber tyres and manufacture of tubes | 4 | třída | 221 |
+| 22110 | Výroba pryžových plášťů a duší a protektorování pneumatik | Manufacture, retreading and rebuilding of rubber tyres and manufacture of tubes | 5 | podtřída | 2211 |
+| 2212 | Výroba ostatních pryžových výrobků | Manufacture of other rubber products | 4 | třída | 221 |
+| 22120 | Výroba ostatních pryžových výrobků | Manufacture of other rubber products | 5 | podtřída | 2212 |
+| 222 | Výroba plastových výrobků | Manufacture of plastic products | 3 | skupina | 22 |
+| 2221 | Výroba plastových desek, fólií, hadic, trubek a profilů | Manufacture of plastic plates, sheets, tubes and profiles | 4 | třída | 222 |
+| 22210 | Výroba plastových desek, fólií, hadic, trubek a profilů | Manufacture of plastic plates, sheets, tubes and profiles | 5 | podtřída | 2221 |
+| 2222 | Výroba plastových obalů | Manufacture of plastic packing goods | 4 | třída | 222 |
+| 22220 | Výroba plastových obalů | Manufacture of plastic packing goods | 5 | podtřída | 2222 |
+| 2223 | Výroba plastových dveří a oken | Manufacture of doors and windows of plastic | 4 | třída | 222 |
+| 22230 | Výroba plastových dveří a oken | Manufacture of doors and windows of plastic | 5 | podtřída | 2223 |
+| 2224 | Výroba plastových výrobků pro stavebnictví | Manufacture of builders’ ware of plastic | 4 | třída | 222 |
+| 22240 | Výroba plastových výrobků pro stavebnictví | Manufacture of builders’ ware of plastic | 5 | podtřída | 2224 |
+| 2225 | Zpracování a konečná úprava plastových výrobků | Processing and finishing of plastic products | 4 | třída | 222 |
+| 22250 | Zpracování a konečná úprava plastových výrobků | Processing and finishing of plastic products | 5 | podtřída | 2225 |
+| 2226 | Výroba ostatních plastových výrobků | Manufacture of other plastic products | 4 | třída | 222 |
+| 22260 | Výroba ostatních plastových výrobků | Manufacture of other plastic products | 5 | podtřída | 2226 |
+| 23 | Výroba ostatních nekovových minerálních výrobků | Manufacture of other non-metallic mineral products | 2 | oddíl | C |
+| 231 | Výroba skla a skleněných výrobků | Manufacture of glass and glass products | 3 | skupina | 23 |
+| 2311 | Výroba plochého skla | Manufacture of flat glass | 4 | třída | 231 |
+| 23110 | Výroba plochého skla | Manufacture of flat glass | 5 | podtřída | 2311 |
+| 2312 | Tvarování a zpracování plochého skla | Shaping and processing of flat glass | 4 | třída | 231 |
+| 23120 | Tvarování a zpracování plochého skla | Shaping and processing of flat glass | 5 | podtřída | 2312 |
+| 2313 | Výroba dutého skla | Manufacture of hollow glass | 4 | třída | 231 |
+| 23130 | Výroba dutého skla | Manufacture of hollow glass | 5 | podtřída | 2313 |
+| 2314 | Výroba skleněných vláken | Manufacture of glass fibres | 4 | třída | 231 |
+| 23140 | Výroba skleněných vláken | Manufacture of glass fibres | 5 | podtřída | 2314 |
+| 2315 | Výroba a zpracování ostatního skla, včetně technického skla | Manufacture and processing of other glass, including technical glassware | 4 | třída | 231 |
+| 23150 | Výroba a zpracování ostatního skla, včetně technického skla | Manufacture and processing of other glass, including technical glassware | 5 | podtřída | 2315 |
+| 232 | Výroba žáruvzdorných výrobků | Manufacture of refractory products | 3 | skupina | 23 |
+| 2320 | Výroba žáruvzdorných výrobků | Manufacture of refractory products | 4 | třída | 232 |
+| 23200 | Výroba žáruvzdorných výrobků | Manufacture of refractory products | 5 | podtřída | 2320 |
+| 233 | Výroba stavebních výrobků z jílovitých materiálů | Manufacture of clay building materials | 3 | skupina | 23 |
+| 2331 | Výroba keramických obkladaček a dlaždic | Manufacture of ceramic tiles and flags | 4 | třída | 233 |
+| 2331 | Výroba keramických obkládaček a dlaždic | Manufacture of ceramic tiles and flags | 4 | třída | 233 |
+| 23310 | Výroba keramických obkladaček a dlaždic | Manufacture of ceramic tiles and flags | 5 | podtřída | 2331 |
+| 23310 | Výroba keramických obkládaček a dlaždic | Manufacture of ceramic tiles and flags | 5 | podtřída | 2331 |
+| 2332 | Výroba pálených zdicích materiálů, tašek, dlaždic a podobných výrobků | Manufacture of bricks, tiles and construction products, in baked clay | 4 | třída | 233 |
+| 23320 | Výroba pálených zdicích materiálů, tašek, dlaždic a podobných výrobků | Manufacture of bricks, tiles and construction products, in baked clay | 5 | podtřída | 2332 |
+| 234 | Výroba ostatních porcelánových a keramických výrobků | Manufacture of other porcelain and ceramic products | 3 | skupina | 23 |
+| 2341 | Výroba porcelánových a keramických výrobků převážně pro domácnost a dekoračních předmětů | Manufacture of ceramic household and ornamental articles | 4 | třída | 234 |
+| 23410 | Výroba porcelánových a keramických výrobků převážně pro domácnost a dekoračních předmětů | Manufacture of ceramic household and ornamental articles | 5 | podtřída | 2341 |
+| 2342 | Výroba keramických sanitárních výrobků | Manufacture of ceramic sanitary fixtures | 4 | třída | 234 |
+| 23420 | Výroba keramických sanitárních výrobků | Manufacture of ceramic sanitary fixtures | 5 | podtřída | 2342 |
+| 2343 | Výroba keramických izolátorů a izolačního příslušenství | Manufacture of ceramic insulators and insulating fittings | 4 | třída | 234 |
+| 23430 | Výroba keramických izolátorů a izolačního příslušenství | Manufacture of ceramic insulators and insulating fittings | 5 | podtřída | 2343 |
+| 2344 | Výroba ostatních technických keramických výrobků | Manufacture of other technical ceramic products | 4 | třída | 234 |
+| 23440 | Výroba ostatních technických keramických výrobků | Manufacture of other technical ceramic products | 5 | podtřída | 2344 |
+| 2345 | Výroba ostatních keramických výrobků | Manufacture of other ceramic products | 4 | třída | 234 |
+| 23450 | Výroba ostatních keramických výrobků | Manufacture of other ceramic products | 5 | podtřída | 2345 |
+| 235 | Výroba cementu, vápna a sádry | Manufacture of cement, lime and plaster | 3 | skupina | 23 |
+| 2351 | Výroba cementu | Manufacture of cement | 4 | třída | 235 |
+| 23510 | Výroba cementu | Manufacture of cement | 5 | podtřída | 2351 |
+| 2352 | Výroba vápna a sádry | Manufacture of lime and plaster | 4 | třída | 235 |
+| 23520 | Výroba vápna a sádry | Manufacture of lime and plaster | 5 | podtřída | 2352 |
+| 236 | Výroba betonových, cementových a sádrových výrobků | Manufacture of articles of concrete, cement and plaster | 3 | skupina | 23 |
+| 2361 | Výroba betonových výrobků pro stavební účely | Manufacture of concrete products for construction purposes | 4 | třída | 236 |
+| 23610 | Výroba betonových výrobků pro stavební účely | Manufacture of concrete products for construction purposes | 5 | podtřída | 2361 |
+| 2362 | Výroba sádrových výrobků pro stavební účely | Manufacture of plaster products for construction purposes | 4 | třída | 236 |
+| 23620 | Výroba sádrových výrobků pro stavební účely | Manufacture of plaster products for construction purposes | 5 | podtřída | 2362 |
+| 2363 | Výroba betonu připraveného k lití | Manufacture of ready-mixed concrete | 4 | třída | 236 |
+| 23630 | Výroba betonu připraveného k lití | Manufacture of ready-mixed concrete | 5 | podtřída | 2363 |
+| 2364 | Výroba malt | Manufacture of mortars | 4 | třída | 236 |
+| 23640 | Výroba malt | Manufacture of mortars | 5 | podtřída | 2364 |
+| 2365 | Výroba vláknocementových výrobků | Manufacture of fibre cement | 4 | třída | 236 |
+| 23650 | Výroba vláknocementových výrobků | Manufacture of fibre cement | 5 | podtřída | 2365 |
+| 2366 | Výroba ostatních betonových, cementových a sádrových výrobků | Manufacture of other articles of concrete, cement and plaster | 4 | třída | 236 |
+| 23660 | Výroba ostatních betonových, cementových a sádrových výrobků | Manufacture of other articles of concrete, cement and plaster | 5 | podtřída | 2366 |
+| 237 | Řezání, tvarování a konečná úprava kamenů | Cutting, shaping and finishing of stone | 3 | skupina | 23 |
+| 2370 | Řezání, tvarování a konečná úprava kamenů | Cutting, shaping and finishing of stone | 4 | třída | 237 |
+| 23700 | Řezání, tvarování a konečná úprava kamenů | Cutting, shaping and finishing of stone | 5 | podtřída | 2370 |
+| 239 | Výroba brusiv a ostatních nekovových minerálních výrobků j. n. | Manufacture of abrasive products and non-metallic mineral products n.e.c. | 3 | skupina | 23 |
+| 2391 | Výroba brusiv | Manufacture of abrasive products | 4 | třída | 239 |
+| 23910 | Výroba brusiv | Manufacture of abrasive products | 5 | podtřída | 2391 |
+| 2399 | Výroba ostatních nekovových minerálních výrobků j. n. | Manufacture of other non-metallic mineral products n.e.c. | 4 | třída | 239 |
+| 23990 | Výroba ostatních nekovových minerálních výrobků j. n. | Manufacture of other non-metallic mineral products n.e.c. | 5 | podtřída | 2399 |
+| 24 | Výroba základních kovů | Manufacture of basic metals | 2 | oddíl | C |
+| 241 | Výroba surového železa, oceli a feroslitin | Manufacture of basic iron and steel and of ferro-alloys | 3 | skupina | 24 |
+| 2410 | Výroba surového železa, oceli a feroslitin | Manufacture of basic iron and steel and of ferro-alloys | 4 | třída | 241 |
+| 24101 | Výroba základních hutních výrobků ze železa a oceli, výroba surového železa a oceli | Manufacture of primary materials of iron and steel and manufacture of crude iron and steel | 5 | podtřída | 2410 |
+| 24102 | Výroba plochých výrobků ze železa nebo oceli válcovaných za tepla nebo za studena, kromě úzkých pásů válcovaných za studena | Manufacture of hot-rolled and cold-rolled flat-rolled products of iron and steel, except cold rolling of narrow strip | 5 | podtřída | 2410 |
+| 24102 | Výroba plochých válcovaných výrobků ze železa nebo oceli válcovaných za tepla nebo za studena, kromě úzkých pásů válcovaných za studena | Manufacture of hot-rolled and cold-rolled flat-rolled products of iron and steel, except cold rolling of narrow strip | 5 | podtřída | 2410 |
+| 24103 | Výroba tyčí a prutů ze železa nebo oceli válcovaných za tepla | Manufacture of hot-rolled bars and rods of iron and steel | 5 | podtřída | 2410 |
+| 24109 | Výroba surového železa, oceli a feroslitin j. n. | Manufacture of basic iron and steel and of ferro-alloys n.e.c. | 5 | podtřída | 2410 |
+| 242 | Výroba ocelových trub, trubek, dutých profilů a souvisejících potrubních tvarovek | Manufacture of tubes, pipes, hollow profiles and related fittings, of steel | 3 | skupina | 24 |
+| 2420 | Výroba ocelových trub, trubek, dutých profilů a souvisejících potrubních tvarovek | Manufacture of tubes, pipes, hollow profiles and related fittings, of steel | 4 | třída | 242 |
+| 24200 | Výroba ocelových trub, trubek, dutých profilů a souvisejících potrubních tvarovek | Manufacture of tubes, pipes, hollow profiles and related fittings, of steel | 5 | podtřída | 2420 |
+| 243 | Výroba ostatních výrobků získaných primárním zpracováním oceli | Manufacture of other products of first processing of steel | 3 | skupina | 24 |
+| 2431 | Tažení ocelových tyčí za studena | Cold drawing of bars | 4 | třída | 243 |
+| 24310 | Tažení ocelových tyčí za studena | Cold drawing of bars | 5 | podtřída | 2431 |
+| 2432 | Válcování ocelových úzkých pásů za studena | Cold rolling of narrow strip | 4 | třída | 243 |
+| 24320 | Válcování ocelových úzkých pásů za studena | Cold rolling of narrow strip | 5 | podtřída | 2432 |
+| 2433 | Tváření ocelových profilů za studena | Cold forming or folding | 4 | třída | 243 |
+| 24330 | Tváření ocelových profilů za studena | Cold forming or folding | 5 | podtřída | 2433 |
+| 2434 | Tažení ocelového drátu za studena | Cold drawing of wire | 4 | třída | 243 |
+| 24340 | Tažení ocelového drátu za studena | Cold drawing of wire | 5 | podtřída | 2434 |
+| 244 | Výroba a hutní zpracování drahých a jiných neželezných kovů | Manufacture of basic precious and other non-ferrous metals | 3 | skupina | 24 |
+| 2441 | Výroba a hutní zpracování drahých kovů | Precious metals production | 4 | třída | 244 |
+| 24410 | Výroba a hutní zpracování drahých kovů | Precious metals production | 5 | podtřída | 2441 |
+| 2442 | Výroba a hutní zpracování hliníku | Aluminium production | 4 | třída | 244 |
+| 24420 | Výroba a hutní zpracování hliníku | Aluminium production | 5 | podtřída | 2442 |
+| 2443 | Výroba a hutní zpracování olova, zinku a cínu | Lead, zinc and tin production | 4 | třída | 244 |
+| 24430 | Výroba a hutní zpracování olova, zinku a cínu | Lead, zinc and tin production | 5 | podtřída | 2443 |
+| 2444 | Výroba a hutní zpracování mědi | Copper production | 4 | třída | 244 |
+| 24440 | Výroba a hutní zpracování mědi | Copper production | 5 | podtřída | 2444 |
+| 2445 | Výroba a hutní zpracování ostatních neželezných kovů | Other non-ferrous metal production | 4 | třída | 244 |
+| 24450 | Výroba a hutní zpracování ostatních neželezných kovů | Other non-ferrous metal production | 5 | podtřída | 2445 |
+| 2446 | Zpracování jaderného paliva | Processing of nuclear fuel | 4 | třída | 244 |
+| 24460 | Zpracování jaderného paliva | Processing of nuclear fuel | 5 | podtřída | 2446 |
+| 245 | Odlévání kovů | Casting of metals | 3 | skupina | 24 |
+| 2451 | Odlévání litiny | Casting of iron | 4 | třída | 245 |
+| 24511 | Odlévání litiny s lupínkovým grafitem | Casting of lamellar graphite iron | 5 | podtřída | 2451 |
+| 24512 | Odlévání litiny s kuličkovým grafitem | Casting of spheroidal graphite iron | 5 | podtřída | 2451 |
+| 24519 | Odlévání ostatní litiny | Casting of other iron | 5 | podtřída | 2451 |
+| 2452 | Odlévání oceli | Casting of steel | 4 | třída | 245 |
+| 24521 | Odlévání uhlíkatých ocelí | Casting of carbon steel | 5 | podtřída | 2452 |
+| 24521 | Odlévání uhlíkaté oceli | Casting of carbon steel | 5 | podtřída | 2452 |
+| 24522 | Odlévání legovaných ocelí | Casting of alloy-steel | 5 | podtřída | 2452 |
+| 24522 | Odlévání legované oceli | Casting of alloy-steel | 5 | podtřída | 2452 |
+| 2453 | Odlévání lehkých kovů | Casting of light metals | 4 | třída | 245 |
+| 24530 | Odlévání lehkých kovů | Casting of light metals | 5 | podtřída | 2453 |
+| 2454 | Odlévání ostatních neželezných kovů | Casting of other non-ferrous metals | 4 | třída | 245 |
+| 24540 | Odlévání ostatních neželezných kovů | Casting of other non-ferrous metals | 5 | podtřída | 2454 |
+| 25 | Výroba kovových výrobků, kromě strojů a zařízení | Manufacture of fabricated metal products, except machinery and equipment | 2 | oddíl | C |
+| 251 | Výroba konstrukčních kovových výrobků | Manufacture of structural metal products | 3 | skupina | 25 |
+| 2511 | Výroba kovových konstrukcí a jejich dílů | Manufacture of metal structures and parts of structures | 4 | třída | 251 |
+| 25110 | Výroba kovových konstrukcí a jejich dílů | Manufacture of metal structures and parts of structures | 5 | podtřída | 2511 |
+| 2512 | Výroba kovových dveří a oken | Manufacture of doors and windows of metal | 4 | třída | 251 |
+| 25120 | Výroba kovových dveří a oken | Manufacture of doors and windows of metal | 5 | podtřída | 2512 |
+| 252 | Výroba kovových cisteren, nádrží a podobných nádob | Manufacture of tanks, reservoirs and containers of metal | 3 | skupina | 25 |
+| 2521 | Výroba radiátorů k ústřednímu topení a parních kotlů | Manufacture of central heating radiators, steam generators and boilers | 4 | třída | 252 |
+| 25210 | Výroba radiátorů k ústřednímu topení a parních kotlů | Manufacture of central heating radiators, steam generators and boilers | 5 | podtřída | 2521 |
+| 2522 | Výroba ostatních kovových cisteren, nádrží a podobných nádob | Manufacture of other tanks, reservoirs and containers of metal | 4 | třída | 252 |
+| 25220 | Výroba ostatních kovových cisteren, nádrží a podobných nádob | Manufacture of other tanks, reservoirs and containers of metal | 5 | podtřída | 2522 |
+| 253 | Výroba zbraní a střeliva | Manufacture of weapons and ammunition | 3 | skupina | 25 |
+| 2530 | Výroba zbraní a střeliva | Manufacture of weapons and ammunition | 4 | třída | 253 |
+| 25300 | Výroba zbraní a střeliva | Manufacture of weapons and ammunition | 5 | podtřída | 2530 |
+| 254 | Kování a tváření kovů a prášková metalurgie | Forging and shaping metal and powder metallurgy | 3 | skupina | 25 |
+| 2540 | Kování a tváření kovů a prášková metalurgie | Forging and shaping metal and powder metallurgy | 4 | třída | 254 |
+| 25400 | Kování a tváření kovů a prášková metalurgie | Forging and shaping metal and powder metallurgy | 5 | podtřída | 2540 |
+| 255 | Povrchové úpravy a zušlechťování kovů; obrábění | Treatment and coating of metals; machining | 3 | skupina | 25 |
+| 2551 | Povlakování kovů | Coating of metals | 4 | třída | 255 |
+| 25510 | Povlakování kovů | Coating of metals | 5 | podtřída | 2551 |
+| 2552 | Tepelné zpracování kovů | Heat treatment of metals | 4 | třída | 255 |
+| 25520 | Tepelné zpracování kovů | Heat treatment of metals | 5 | podtřída | 2552 |
+| 2553 | Obrábění kovů | Machining of metals | 4 | třída | 255 |
+| 25530 | Obrábění kovů | Machining of metals | 5 | podtřída | 2553 |
+| 256 | Výroba nožířských výrobků, nástrojů a železářských výrobků | Manufacture of cutlery, tools and general hardware | 3 | skupina | 25 |
+| 2561 | Výroba nožířských výrobků | Manufacture of cutlery | 4 | třída | 256 |
+| 25610 | Výroba nožířských výrobků | Manufacture of cutlery | 5 | podtřída | 2561 |
+| 2562 | Výroba zámků a kování | Manufacture of locks and hinges | 4 | třída | 256 |
+| 25620 | Výroba zámků a kování | Manufacture of locks and hinges | 5 | podtřída | 2562 |
+| 2563 | Výroba nástrojů a nářadí | Manufacture of tools | 4 | třída | 256 |
+| 25630 | Výroba nástrojů a nářadí | Manufacture of tools | 5 | podtřída | 2563 |
+| 259 | Výroba ostatních kovových výrobků | Manufacture of other fabricated metal products | 3 | skupina | 25 |
+| 2591 | Výroba ocelových sudů a podobných nádob | Manufacture of steel drums and similar containers | 4 | třída | 259 |
+| 25910 | Výroba ocelových sudů a podobných nádob | Manufacture of steel drums and similar containers | 5 | podtřída | 2591 |
+| 2592 | Výroba obalů z lehkých kovů | Manufacture of light metal packaging | 4 | třída | 259 |
+| 25920 | Výroba obalů z lehkých kovů | Manufacture of light metal packaging | 5 | podtřída | 2592 |
+| 2593 | Výroba drátěných výrobků, řetězů a pružin | Manufacture of wire products, chain and springs | 4 | třída | 259 |
+| 25930 | Výroba drátěných výrobků, řetězů a pružin | Manufacture of wire products, chain and springs | 5 | podtřída | 2593 |
+| 2594 | Výroba spojovacích materiálů a výrobků se závity | Manufacture of fasteners and screw machine products | 4 | třída | 259 |
+| 25940 | Výroba spojovacích materiálů a výrobků se závity | Manufacture of fasteners and screw machine products | 5 | podtřída | 2594 |
+| 2599 | Výroba ostatních kovových výrobků j. n. | Manufacture of other fabricated metal products n.e.c. | 4 | třída | 259 |
+| 25990 | Výroba ostatních kovových výrobků j. n. | Manufacture of other fabricated metal products n.e.c. | 5 | podtřída | 2599 |
+| 26 | Výroba počítačů a elektronických a optických přístrojů a zařízení | Manufacture of computer, electronic and optical products | 2 | oddíl | C |
+| 261 | Výroba elektronických součástek a desek | Manufacture of electronic components and boards | 3 | skupina | 26 |
+| 2611 | Výroba elektronických součástek | Manufacture of electronic components | 4 | třída | 261 |
+| 26110 | Výroba elektronických součástek | Manufacture of electronic components | 5 | podtřída | 2611 |
+| 2612 | Výroba osazených elektronických desek | Manufacture of loaded electronic boards | 4 | třída | 261 |
+| 26120 | Výroba osazených elektronických desek | Manufacture of loaded electronic boards | 5 | podtřída | 2612 |
+| 262 | Výroba počítačů a periferních zařízení | Manufacture of computers and peripheral equipment | 3 | skupina | 26 |
+| 2620 | Výroba počítačů a periferních zařízení | Manufacture of computers and peripheral equipment | 4 | třída | 262 |
+| 26200 | Výroba počítačů a periferních zařízení | Manufacture of computers and peripheral equipment | 5 | podtřída | 2620 |
+| 263 | Výroba komunikačních zařízení | Manufacture of communication equipment | 3 | skupina | 26 |
+| 2630 | Výroba komunikačních zařízení | Manufacture of communication equipment | 4 | třída | 263 |
+| 26300 | Výroba komunikačních zařízení | Manufacture of communication equipment | 5 | podtřída | 2630 |
+| 264 | Výroba spotřební elektroniky | Manufacture of consumer electronics | 3 | skupina | 26 |
+| 2640 | Výroba spotřební elektroniky | Manufacture of consumer electronics | 4 | třída | 264 |
+| 26400 | Výroba spotřební elektroniky | Manufacture of consumer electronics | 5 | podtřída | 2640 |
+| 265 | Výroba měřicích, zkušebních a časoměrných přístrojů | Manufacture of measuring testing instruments, clocks and watches | 3 | skupina | 26 |
+| 2651 | Výroba měřicích, zkušebních a navigačních přístrojů | Manufacture of instruments and appliances for measuring, testing and navigation | 4 | třída | 265 |
+| 26510 | Výroba měřicích, zkušebních a navigačních přístrojů | Manufacture of instruments and appliances for measuring, testing and navigation | 5 | podtřída | 2651 |
+| 2652 | Výroba časoměrných přístrojů | Manufacture of watches and clocks | 4 | třída | 265 |
+| 26520 | Výroba časoměrných přístrojů | Manufacture of watches and clocks | 5 | podtřída | 2652 |
+| 266 | Výroba ozařovacích, elektroléčebných a elektroterapeutických přístrojů | Manufacture of irradiation, electromedical and electrotherapeutic equipment | 3 | skupina | 26 |
+| 2660 | Výroba ozařovacích, elektroléčebných a elektroterapeutických přístrojů | Manufacture of irradiation, electromedical and electrotherapeutic equipment | 4 | třída | 266 |
+| 26600 | Výroba ozařovacích, elektroléčebných a elektroterapeutických přístrojů | Manufacture of irradiation, electromedical and electrotherapeutic equipment | 5 | podtřída | 2660 |
+| 267 | Výroba optických přístrojů a zařízení, magnetických a optických médií a fotografických přístrojů a zařízení | Manufacture of optical instruments, magnetic and optical media and photographic equipment | 3 | skupina | 26 |
+| 2670 | Výroba optických přístrojů a zařízení, magnetických a optických médií a fotografických přístrojů a zařízení | Manufacture of optical instruments, magnetic and optical media and photographic equipment | 4 | třída | 267 |
+| 26700 | Výroba optických přístrojů a zařízení, magnetických a optických médií a fotografických přístrojů a zařízení | Manufacture of optical instruments, magnetic and optical media and photographic equipment | 5 | podtřída | 2670 |
+| 27 | Výroba elektrických zařízení | Manufacture of electrical equipment | 2 | oddíl | C |
+| 271 | Výroba elektrických motorů, generátorů, transformátorů a elektrických rozvodných a kontrolních zařízení | Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus | 3 | skupina | 27 |
+| 271 | Výroba elektrických motorů, generátorů, transformátorů a zařízení pro rozvod a ovládání elektrického proudu | Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus | 3 | skupina | 27 |
+| 2711 | Výroba elektrických motorů, generátorů a transformátorů | Manufacture of electric motors, generators and transformers | 4 | třída | 271 |
+| 27110 | Výroba elektrických motorů, generátorů a transformátorů | Manufacture of electric motors, generators and transformers | 5 | podtřída | 2711 |
+| 2712 | Výroba elektrických rozvodných a kontrolních zařízení | Manufacture of electricity distribution and control apparatus | 4 | třída | 271 |
+| 2712 | Výroba zařízení pro rozvod a ovládání elektrického proudu | Manufacture of electricity distribution and control apparatus | 4 | třída | 271 |
+| 27120 | Výroba elektrických rozvodných a kontrolních zařízení | Manufacture of electricity distribution and control apparatus | 5 | podtřída | 2712 |
+| 27120 | Výroba zařízení pro rozvod a ovládání elektrického proudu | Manufacture of electricity distribution and control apparatus | 5 | podtřída | 2712 |
+| 272 | Výroba baterií a akumulátorů | Manufacture of batteries and accumulators | 3 | skupina | 27 |
+| 2720 | Výroba baterií a akumulátorů | Manufacture of batteries and accumulators | 4 | třída | 272 |
+| 27200 | Výroba baterií a akumulátorů | Manufacture of batteries and accumulators | 5 | podtřída | 2720 |
+| 273 | Výroba optických a elektrických kabelů, elektrických vodičů a elektroinstalačních zařízení | Manufacture of wiring and wiring devices | 3 | skupina | 27 |
+| 2731 | Výroba optických kabelů | Manufacture of fibre optic cables | 4 | třída | 273 |
+| 27310 | Výroba optických kabelů | Manufacture of fibre optic cables | 5 | podtřída | 2731 |
+| 2732 | Výroba ostatních elektronických a elektrických vodičů a kabelů | Manufacture of other electronic and electric wires and cables | 4 | třída | 273 |
+| 27320 | Výroba ostatních elektronických a elektrických vodičů a kabelů | Manufacture of other electronic and electric wires and cables | 5 | podtřída | 2732 |
+| 2733 | Výroba elektroinstalačních zařízení | Manufacture of wiring devices | 4 | třída | 273 |
+| 27330 | Výroba elektroinstalačních zařízení | Manufacture of wiring devices | 5 | podtřída | 2733 |
+| 274 | Výroba osvětlovacích zařízení | Manufacture of lighting equipment | 3 | skupina | 27 |
+| 2740 | Výroba osvětlovacích zařízení | Manufacture of lighting equipment | 4 | třída | 274 |
+| 27400 | Výroba osvětlovacích zařízení | Manufacture of lighting equipment | 5 | podtřída | 2740 |
+| 275 | Výroba spotřebičů převážně pro domácnost | Manufacture of domestic appliances | 3 | skupina | 27 |
+| 2751 | Výroba elektrických spotřebičů převážně pro domácnost | Manufacture of electric domestic appliances | 4 | třída | 275 |
+| 27510 | Výroba elektrických spotřebičů převážně pro domácnost | Manufacture of electric domestic appliances | 5 | podtřída | 2751 |
+| 2752 | Výroba neelektrických spotřebičů převážně pro domácnost | Manufacture of non-electric domestic appliances | 4 | třída | 275 |
+| 27520 | Výroba neelektrických spotřebičů převážně pro domácnost | Manufacture of non-electric domestic appliances | 5 | podtřída | 2752 |
+| 279 | Výroba ostatních elektrických zařízení | Manufacture of other electrical equipment | 3 | skupina | 27 |
+| 2790 | Výroba ostatních elektrických zařízení | Manufacture of other electrical equipment | 4 | třída | 279 |
+| 27900 | Výroba ostatních elektrických zařízení | Manufacture of other electrical equipment | 5 | podtřída | 2790 |
+| 28 | Výroba strojů a zařízení j. n. | Manufacture of machinery and equipment n.e.c. | 2 | oddíl | C |
+| 281 | Výroba strojů a zařízení pro všeobecné účely | Manufacture of general-purpose machinery | 3 | skupina | 28 |
+| 2811 | Výroba motorů a turbín, kromě motorů pro letadla, automobily a motocykly | Manufacture of engines and turbines, except aircraft, vehicle and cycle engines | 4 | třída | 281 |
+| 28110 | Výroba motorů a turbín, kromě motorů pro letadla, automobily a motocykly | Manufacture of engines and turbines, except aircraft, vehicle and cycle engines | 5 | podtřída | 2811 |
+| 2812 | Výroba hydraulických zařízení | Manufacture of fluid power equipment | 4 | třída | 281 |
+| 28120 | Výroba hydraulických zařízení | Manufacture of fluid power equipment | 5 | podtřída | 2812 |
+| 2813 | Výroba ostatních čerpadel a kompresorů | Manufacture of other pumps and compressors | 4 | třída | 281 |
+| 28130 | Výroba ostatních čerpadel a kompresorů | Manufacture of other pumps and compressors | 5 | podtřída | 2813 |
+| 2814 | Výroba ostatních potrubních armatur | Manufacture of other taps and valves | 4 | třída | 281 |
+| 28140 | Výroba ostatních potrubních armatur | Manufacture of other taps and valves | 5 | podtřída | 2814 |
+| 2815 | Výroba ložisek, ozubených kol, převodů a hnacích prvků | Manufacture of bearings, gears, gearing and driving elements | 4 | třída | 281 |
+| 28150 | Výroba ložisek, ozubených kol, převodů a hnacích prvků | Manufacture of bearings, gears, gearing and driving elements | 5 | podtřída | 2815 |
+| 282 | Výroba ostatních strojů a zařízení pro všeobecné účely | Manufacture of other general-purpose machinery | 3 | skupina | 28 |
+| 2821 | Výroba pecí, kotlů a stálých tepelných zařízení pro domácnosti | Manufacture of ovens, furnaces and permanent household heating equipment | 4 | třída | 282 |
+| 28210 | Výroba pecí, kotlů a stálých tepelných zařízení pro domácnosti | Manufacture of ovens, furnaces and permanent household heating equipment | 5 | podtřída | 2821 |
+| 2822 | Výroba zdvihacích a manipulačních zařízení | Manufacture of lifting and handling equipment | 4 | třída | 282 |
+| 28220 | Výroba zdvihacích a manipulačních zařízení | Manufacture of lifting and handling equipment | 5 | podtřída | 2822 |
+| 2823 | Výroba kancelářských strojů a zařízení, kromě počítačů a periferních zařízení | Manufacture of office machinery and equipment, except computers and peripheral equipment | 4 | třída | 282 |
+| 28230 | Výroba kancelářských strojů a zařízení, kromě počítačů a periferních zařízení | Manufacture of office machinery and equipment, except computers and peripheral equipment | 5 | podtřída | 2823 |
+| 2824 | Výroba ručních mechanizovaných nástrojů | Manufacture of power-driven hand tools | 4 | třída | 282 |
+| 2824 | Výroba ručních nástrojů a nářadí s vestavěným motorem | Manufacture of power-driven hand tools | 4 | třída | 282 |
+| 28240 | Výroba ručních mechanizovaných nástrojů | Manufacture of power-driven hand tools | 5 | podtřída | 2824 |
+| 28240 | Výroba ručních nástrojů a nářadí s vestavěným motorem | Manufacture of power-driven hand tools | 5 | podtřída | 2824 |
+| 2825 | Výroba klimatizačních zařízení jiných než pro domácnost | Manufacture of non-domestic air conditioning equipment | 4 | třída | 282 |
+| 28250 | Výroba klimatizačních zařízení jiných než pro domácnost | Manufacture of non-domestic air conditioning equipment | 5 | podtřída | 2825 |
+| 2829 | Výroba ostatních strojů a zařízení pro všeobecné účely j. n. | Manufacture of other general-purpose machinery n.e.c. | 4 | třída | 282 |
+| 28290 | Výroba ostatních strojů a zařízení pro všeobecné účely j. n. | Manufacture of other general-purpose machinery n.e.c. | 5 | podtřída | 2829 |
+| 283 | Výroba zemědělských a lesnických strojů | Manufacture of agricultural and forestry machinery | 3 | skupina | 28 |
+| 2830 | Výroba zemědělských a lesnických strojů | Manufacture of agricultural and forestry machinery | 4 | třída | 283 |
+| 28300 | Výroba zemědělských a lesnických strojů | Manufacture of agricultural and forestry machinery | 5 | podtřída | 2830 |
+| 284 | Výroba tvářecích strojů na opracování kovů a obráběcích strojů | Manufacture of metal forming machinery and machine tools | 3 | skupina | 28 |
+| 2841 | Výroba tvářecích a obráběcích strojů na opracování kovů | Manufacture of metal forming machinery and machine tools for metal work | 4 | třída | 284 |
+| 28410 | Výroba tvářecích a obráběcích strojů na opracování kovů | Manufacture of metal forming machinery and machine tools for metal work | 5 | podtřída | 2841 |
+| 2842 | Výroba ostatních obráběcích strojů | Manufacture of other machine tools | 4 | třída | 284 |
+| 28420 | Výroba ostatních obráběcích strojů | Manufacture of other machine tools | 5 | podtřída | 2842 |
+| 289 | Výroba ostatních strojů pro speciální účely | Manufacture of other special-purpose machinery | 3 | skupina | 28 |
+| 2891 | Výroba strojů pro metalurgii | Manufacture of machinery for metallurgy | 4 | třída | 289 |
+| 28910 | Výroba strojů pro metalurgii | Manufacture of machinery for metallurgy | 5 | podtřída | 2891 |
+| 2892 | Výroba strojů pro těžbu, dobývání a stavebnictví | Manufacture of machinery for mining, quarrying and construction | 4 | třída | 289 |
+| 28920 | Výroba strojů pro těžbu, dobývání a stavebnictví | Manufacture of machinery for mining, quarrying and construction | 5 | podtřída | 2892 |
+| 2893 | Výroba strojů na výrobu potravin, nápojů a zpracování tabáku | Manufacture of machinery for food, beverage and tobacco processing | 4 | třída | 289 |
+| 28930 | Výroba strojů na výrobu potravin, nápojů a zpracování tabáku | Manufacture of machinery for food, beverage and tobacco processing | 5 | podtřída | 2893 |
+| 2894 | Výroba strojů na výrobu textilu, oděvních výrobků a výrobků z usní | Manufacture of machinery for textile, apparel and leather production | 4 | třída | 289 |
+| 28940 | Výroba strojů na výrobu textilu, oděvních výrobků a výrobků z usní | Manufacture of machinery for textile, apparel and leather production | 5 | podtřída | 2894 |
+| 2895 | Výroba strojů a přístrojů na výrobu papíru a lepenky | Manufacture of machinery for paper and paperboard production | 4 | třída | 289 |
+| 28950 | Výroba strojů a přístrojů na výrobu papíru a lepenky | Manufacture of machinery for paper and paperboard production | 5 | podtřída | 2895 |
+| 2896 | Výroba strojů na výrobu plastů a pryže | Manufacture of plastics and rubber machinery | 4 | třída | 289 |
+| 28960 | Výroba strojů na výrobu plastů a pryže | Manufacture of plastics and rubber machinery | 5 | podtřída | 2896 |
+| 2897 | Výroba strojů pro aditivní výrobu | Manufacture of additive manufacturing machinery | 4 | třída | 289 |
+| 28970 | Výroba strojů pro aditivní výrobu | Manufacture of additive manufacturing machinery | 5 | podtřída | 2897 |
+| 2899 | Výroba ostatních strojů pro speciální účely j. n. | Manufacture of other special-purpose machinery n.e.c. | 4 | třída | 289 |
+| 28990 | Výroba ostatních strojů pro speciální účely j. n. | Manufacture of other special-purpose machinery n.e.c. | 5 | podtřída | 2899 |
+| 29 | Výroba motorových vozidel, přívěsů a návěsů | Manufacture of motor vehicles, trailers and semi-trailers | 2 | oddíl | C |
+| 291 | Výroba motorových vozidel | Manufacture of motor vehicles | 3 | skupina | 29 |
+| 2910 | Výroba motorových vozidel | Manufacture of motor vehicles | 4 | třída | 291 |
+| 29100 | Výroba motorových vozidel | Manufacture of motor vehicles | 5 | podtřída | 2910 |
+| 292 | Výroba karoserií motorových vozidel; výroba přívěsů a návěsů | Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers | 3 | skupina | 29 |
+| 2920 | Výroba karoserií motorových vozidel; výroba přívěsů a návěsů | Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers | 4 | třída | 292 |
+| 29200 | Výroba karoserií motorových vozidel; výroba přívěsů a návěsů | Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers | 5 | podtřída | 2920 |
+| 293 | Výroba dílů a příslušenství pro motorová vozidla | Manufacture of motor vehicle parts and accessories | 3 | skupina | 29 |
+| 2931 | Výroba elektrického a elektronického zařízení pro motorová vozidla | Manufacture of electrical and electronic equipment for motor vehicles | 4 | třída | 293 |
+| 29310 | Výroba elektrického a elektronického zařízení pro motorová vozidla | Manufacture of electrical and electronic equipment for motor vehicles | 5 | podtřída | 2931 |
+| 2932 | Výroba ostatních dílů a příslušenství pro motorová vozidla | Manufacture of other parts and accessories for motor vehicles | 4 | třída | 293 |
+| 29320 | Výroba ostatních dílů a příslušenství pro motorová vozidla | Manufacture of other parts and accessories for motor vehicles | 5 | podtřída | 2932 |
+| 30 | Výroba ostatních dopravních prostředků a zařízení | Manufacture of other transport equipment | 2 | oddíl | C |
+| 301 | Stavba lodí a člunů | Building of ships and boats | 3 | skupina | 30 |
+| 3011 | Stavba civilních lodí a plavidel | Building of civilian ships and floating structures | 4 | třída | 301 |
+| 30110 | Stavba civilních lodí a plavidel | Building of civilian ships and floating structures | 5 | podtřída | 3011 |
+| 3012 | Stavba rekreačních a sportovních člunů | Building of pleasure and sporting boats | 4 | třída | 301 |
+| 30120 | Stavba rekreačních a sportovních člunů | Building of pleasure and sporting boats | 5 | podtřída | 3012 |
+| 3013 | Stavba vojenských lodí a plavidel | Building of military ships and vessels | 4 | třída | 301 |
+| 30130 | Stavba vojenských lodí a plavidel | Building of military ships and vessels | 5 | podtřída | 3013 |
+| 302 | Výroba železničních lokomotiv a kolejových vozidel | Manufacture of railway locomotives and rolling stock | 3 | skupina | 30 |
+| 3020 | Výroba železničních lokomotiv a kolejových vozidel | Manufacture of railway locomotives and rolling stock | 4 | třída | 302 |
+| 30200 | Výroba železničních lokomotiv a kolejových vozidel | Manufacture of railway locomotives and rolling stock | 5 | podtřída | 3020 |
+| 303 | Výroba letadel, kosmických lodí a souvisejících zařízení | Manufacture of air and spacecraft and related machinery | 3 | skupina | 30 |
+| 3031 | Výroba civilních letadel, kosmických lodí a souvisejících zařízení | Manufacture of civilian air and spacecraft and related machinery | 4 | třída | 303 |
+| 30310 | Výroba civilních letadel, kosmických lodí a souvisejících zařízení | Manufacture of civilian air and spacecraft and related machinery | 5 | podtřída | 3031 |
+| 3032 | Výroba vojenských letadel, kosmických lodí a souvisejících zařízení | Manufacture of military air and spacecraft and related machinery | 4 | třída | 303 |
+| 30320 | Výroba vojenských letadel, kosmických lodí a souvisejících zařízení | Manufacture of military air and spacecraft and related machinery | 5 | podtřída | 3032 |
+| 304 | Výroba vojenských bojových vozidel | Manufacture of military fighting vehicles | 3 | skupina | 30 |
+| 3040 | Výroba vojenských bojových vozidel | Manufacture of military fighting vehicles | 4 | třída | 304 |
+| 30400 | Výroba vojenských bojových vozidel | Manufacture of military fighting vehicles | 5 | podtřída | 3040 |
+| 309 | Výroba dopravních prostředků a zařízení j. n. | Manufacture of transport equipment n.e.c. | 3 | skupina | 30 |
+| 3091 | Výroba motocyklů | Manufacture of motorcycles | 4 | třída | 309 |
+| 30910 | Výroba motocyklů | Manufacture of motorcycles | 5 | podtřída | 3091 |
+| 3092 | Výroba jízdních kol a vozíků pro invalidy | Manufacture of bicycles and invalid carriages | 4 | třída | 309 |
+| 30920 | Výroba jízdních kol a vozíků pro invalidy | Manufacture of bicycles and invalid carriages | 5 | podtřída | 3092 |
+| 3099 | Výroba ostatních dopravních prostředků a zařízení j. n. | Manufacture of other transport equipment n.e.c. | 4 | třída | 309 |
+| 30990 | Výroba ostatních dopravních prostředků a zařízení j. n. | Manufacture of other transport equipment n.e.c. | 5 | podtřída | 3099 |
+| 31 | Výroba nábytku | Manufacture of furniture | 2 | oddíl | C |
+| 310 | Výroba nábytku | Manufacture of furniture | 3 | skupina | 31 |
+| 3100 | Výroba nábytku | Manufacture of furniture | 4 | třída | 310 |
+| 31000 | Výroba nábytku | Manufacture of furniture | 5 | podtřída | 3100 |
+| 32 | Ostatní zpracovatelský průmysl | Other manufacturing | 2 | oddíl | C |
+| 321 | Výroba klenotů, bižuterie a příbuzných výrobků | Manufacture of jewellery, bijouterie and related articles | 3 | skupina | 32 |
+| 3211 | Ražení mincí | Striking of coins | 4 | třída | 321 |
+| 32110 | Ražení mincí | Striking of coins | 5 | podtřída | 3211 |
+| 3212 | Výroba klenotů a příbuzných výrobků | Manufacture of jewellery and related articles | 4 | třída | 321 |
+| 32120 | Výroba klenotů a příbuzných výrobků | Manufacture of jewellery and related articles | 5 | podtřída | 3212 |
+| 3213 | Výroba bižuterie a příbuzných výrobků | Manufacture of imitation jewellery and related articles | 4 | třída | 321 |
+| 32130 | Výroba bižuterie a příbuzných výrobků | Manufacture of imitation jewellery and related articles | 5 | podtřída | 3213 |
+| 322 | Výroba hudebních nástrojů | Manufacture of musical instruments | 3 | skupina | 32 |
+| 3220 | Výroba hudebních nástrojů | Manufacture of musical instruments | 4 | třída | 322 |
+| 32200 | Výroba hudebních nástrojů | Manufacture of musical instruments | 5 | podtřída | 3220 |
+| 323 | Výroba sportovních potřeb | Manufacture of sports goods | 3 | skupina | 32 |
+| 3230 | Výroba sportovních potřeb | Manufacture of sports goods | 4 | třída | 323 |
+| 32300 | Výroba sportovních potřeb | Manufacture of sports goods | 5 | podtřída | 3230 |
+| 324 | Výroba her a hraček | Manufacture of games and toys | 3 | skupina | 32 |
+| 3240 | Výroba her a hraček | Manufacture of games and toys | 4 | třída | 324 |
+| 32400 | Výroba her a hraček | Manufacture of games and toys | 5 | podtřída | 3240 |
+| 325 | Výroba lékařských a dentálních nástrojů a potřeb | Manufacture of medical and dental instruments and supplies | 3 | skupina | 32 |
+| 3250 | Výroba lékařských a dentálních nástrojů a potřeb | Manufacture of medical and dental instruments and supplies | 4 | třída | 325 |
+| 32500 | Výroba lékařských a dentálních nástrojů a potřeb | Manufacture of medical and dental instruments and supplies | 5 | podtřída | 3250 |
+| 329 | Zpracovatelský průmysl j. n. | Manufacturing n.e.c. | 3 | skupina | 32 |
+| 3291 | Výroba košťat a kartáčnických výrobků | Manufacture of brooms and brushes | 4 | třída | 329 |
+| 32910 | Výroba košťat a kartáčnických výrobků | Manufacture of brooms and brushes | 5 | podtřída | 3291 |
+| 3299 | Ostatní zpracovatelský průmysl j. n. | Other manufacturing n.e.c. | 4 | třída | 329 |
+| 32990 | Ostatní zpracovatelský průmysl j. n. | Other manufacturing n.e.c. | 5 | podtřída | 3299 |
+| 33 | Opravy, údržba a instalace strojů a zařízení | Repair, maintenance and installation of machinery and equipment | 2 | oddíl | C |
+| 331 | Opravy a údržba kovových výrobků, strojů a zařízení | Repair and maintenance of fabricated metal products, machinery and equipment | 3 | skupina | 33 |
+| 3311 | Opravy a údržba kovových výrobků | Repair and maintenance of fabricated metal products | 4 | třída | 331 |
+| 33110 | Opravy a údržba kovových výrobků | Repair and maintenance of fabricated metal products | 5 | podtřída | 3311 |
+| 3312 | Opravy a údržba strojů | Repair and maintenance of machinery | 4 | třída | 331 |
+| 33120 | Opravy a údržba strojů | Repair and maintenance of machinery | 5 | podtřída | 3312 |
+| 3313 | Opravy a údržba elektronických a optických přístrojů a zařízení | Repair and maintenance of electronic and optical equipment | 4 | třída | 331 |
+| 33130 | Opravy a údržba elektronických a optických přístrojů a zařízení | Repair and maintenance of electronic and optical equipment | 5 | podtřída | 3313 |
+| 3314 | Opravy a údržba elektrických zařízení | Repair and maintenance of electrical equipment | 4 | třída | 331 |
+| 33140 | Opravy a údržba elektrických zařízení | Repair and maintenance of electrical equipment | 5 | podtřída | 3314 |
+| 3315 | Opravy a údržba civilních lodí a člunů | Repair and maintenance of civilian ships and boats | 4 | třída | 331 |
+| 33150 | Opravy a údržba civilních lodí a člunů | Repair and maintenance of civilian ships and boats | 5 | podtřída | 3315 |
+| 3316 | Opravy a údržba civilních letadel a kosmických lodí | Repair and maintenance of civilian air and spacecraft | 4 | třída | 331 |
+| 33160 | Opravy a údržba civilních letadel a kosmických lodí | Repair and maintenance of civilian air and spacecraft | 5 | podtřída | 3316 |
+| 3317 | Opravy a údržba ostatních civilních dopravních prostředků a zařízení | Repair and maintenance of other civilian transport equipment | 4 | třída | 331 |
+| 33171 | Opravy a údržba kolejových vozidel | Repair and maintenance of locomotives and railroad cars | 5 | podtřída | 3317 |
+| 33179 | Opravy a údržba ostatních civilních dopravních prostředků a zařízení j. n. | Repair and maintenance of other civilian transport equipment n.e.c. | 5 | podtřída | 3317 |
+| 3318 | Opravy a údržba vojenských bojových vozidel, lodí, člunů, letadel a kosmických lodí | Repair and maintenance of military fighting vehicles, ships, boats, air and spacecraft | 4 | třída | 331 |
+| 33181 | Opravy a údržba vojenských bojových vozidel | Repair and maintenance of military fighting vehicles | 5 | podtřída | 3318 |
+| 33182 | Opravy a údržba vojenských lodí a člunů | Repair and maintenance of military ships and boats | 5 | podtřída | 3318 |
+| 33183 | Opravy a údržba vojenských letadel a kosmických lodí | Repair and maintenance of military air and spacecraft | 5 | podtřída | 3318 |
+| 3319 | Opravy a údržba ostatních zařízení | Repair and maintenance of other equipment | 4 | třída | 331 |
+| 33190 | Opravy a údržba ostatních zařízení | Repair and maintenance of other equipment | 5 | podtřída | 3319 |
+| 332 | Instalace průmyslových strojů a zařízení | Installation of industrial machinery and equipment | 3 | skupina | 33 |
+| 3320 | Instalace průmyslových strojů a zařízení | Installation of industrial machinery and equipment | 4 | třída | 332 |
+| 33200 | Instalace průmyslových strojů a zařízení | Installation of industrial machinery and equipment | 5 | podtřída | 3320 |
+| 35 | Dodávání elektřiny, plynu, páry a klimatizovaného vzduchu | Electricity, gas, steam and air conditioning supply | 2 | oddíl | D |
+| 351 | Výroba, přenos a distribuce elektřiny | Electric power generation, transmission and distribution | 3 | skupina | 35 |
+| 3511 | Výroba elektřiny z neobnovitelných zdrojů | Production of electricity from non-renewable sources | 4 | třída | 351 |
+| 35110 | Výroba elektřiny z neobnovitelných zdrojů | Production of electricity from non-renewable sources | 5 | podtřída | 3511 |
+| 3512 | Výroba elektřiny z obnovitelných zdrojů | Production of electricity from renewable sources | 4 | třída | 351 |
+| 35120 | Výroba elektřiny z obnovitelných zdrojů | Production of electricity from renewable sources | 5 | podtřída | 3512 |
+| 3513 | Přenos elektřiny | Transmission of electricity | 4 | třída | 351 |
+| 35130 | Přenos elektřiny | Transmission of electricity | 5 | podtřída | 3513 |
+| 3514 | Distribuce elektřiny | Distribution of electricity | 4 | třída | 351 |
+| 35140 | Distribuce elektřiny | Distribution of electricity | 5 | podtřída | 3514 |
+| 3515 | Obchod s elektřinou | Trade of electricity | 4 | třída | 351 |
+| 35150 | Obchod s elektřinou | Trade of electricity | 5 | podtřída | 3515 |
+| 3516 | Skladování elektřiny | Storage of electricity | 4 | třída | 351 |
+| 35160 | Skladování elektřiny | Storage of electricity | 5 | podtřída | 3516 |
+| 352 | Výroba plynu a distribuce plynných paliv prostřednictvím sítí | Manufacture of gas, and distribution of gaseous fuels through mains | 3 | skupina | 35 |
+| 3521 | Výroba plynu | Manufacture of gas | 4 | třída | 352 |
+| 35210 | Výroba plynu | Manufacture of gas | 5 | podtřída | 3521 |
+| 3522 | Distribuce plynných paliv prostřednictvím sítí | Distribution of gaseous fuels through mains | 4 | třída | 352 |
+| 35220 | Distribuce plynných paliv prostřednictvím sítí | Distribution of gaseous fuels through mains | 5 | podtřída | 3522 |
+| 3523 | Obchod s plynem prostřednictvím sítí | Trade of gas through mains | 4 | třída | 352 |
+| 35230 | Obchod s plynem prostřednictvím sítí | Trade of gas through mains | 5 | podtřída | 3523 |
+| 3524 | Skladování plynu jako součást služeb síťových dodávek | Storage of gas as part of network supply services | 4 | třída | 352 |
+| 35240 | Skladování plynu jako součást služeb síťových dodávek | Storage of gas as part of network supply services | 5 | podtřída | 3524 |
+| 353 | Dodávání páry a klimatizovaného vzduchu | Steam and air conditioning supply | 3 | skupina | 35 |
+| 3530 | Dodávání páry a klimatizovaného vzduchu | Steam and air conditioning supply | 4 | třída | 353 |
+| 35301 | Výroba a distribuce páry | Production and distribution of steam | 5 | podtřída | 3530 |
+| 35302 | Výroba a distribuce klimatizovaného vzduchu | Production and distribution of cooled air | 5 | podtřída | 3530 |
+| 35303 | Výroba a distribuce chladicí vody | Production and distribution of chilled water | 5 | podtřída | 3530 |
+| 35304 | Výrobu ledu pro chladicí účely | Production of ice for cooling purposes | 5 | podtřída | 3530 |
+| 354 | Činnosti makléřů a agentů v oblasti elektrické energie a zemního plynu | Activities of brokers and agents for electric power and natural gas | 3 | skupina | 35 |
+| 3540 | Činnosti makléřů a agentů v oblasti elektrické energie a zemního plynu | Activities of brokers and agents for electric power and natural gas | 4 | třída | 354 |
+| 35400 | Činnosti makléřů a agentů v oblasti elektrické energie a zemního plynu | Activities of brokers and agents for electric power and natural gas | 5 | podtřída | 3540 |
+| 36 | Shromažďování, úprava a distribuce vody | Water collection, treatment and supply | 2 | oddíl | E |
+| 360 | Shromažďování, úprava a distribuce vody | Water collection, treatment and supply | 3 | skupina | 36 |
+| 3600 | Shromažďování, úprava a distribuce vody | Water collection, treatment and supply | 4 | třída | 360 |
+| 36000 | Shromažďování, úprava a distribuce vody | Water collection, treatment and supply | 5 | podtřída | 3600 |
+| 37 | Činnosti související s odpadními vodami | Sewerage | 2 | oddíl | E |
+| 370 | Činnosti související s odpadními vodami | Sewerage | 3 | skupina | 37 |
+| 3700 | Činnosti související s odpadními vodami | Sewerage | 4 | třída | 370 |
+| 37000 | Činnosti související s odpadními vodami | Sewerage | 5 | podtřída | 3700 |
+| 38 | Sběr odpadů, zpracování odpadů k dalšímu využití a odstraňování odpadů | Waste collection, recovery and disposal activities | 2 | oddíl | E |
+| 381 | Sběr odpadů | Waste collection | 3 | skupina | 38 |
+| 3811 | Sběr odpadů, kromě nebezpečných | Collection of non-hazardous waste | 4 | třída | 381 |
+| 38110 | Sběr odpadů, kromě nebezpečných | Collection of non-hazardous waste | 5 | podtřída | 3811 |
+| 3812 | Sběr nebezpečných odpadů | Collection of hazardous waste | 4 | třída | 381 |
+| 38120 | Sběr nebezpečných odpadů | Collection of hazardous waste | 5 | podtřída | 3812 |
+| 382 | Zpracování odpadů k dalšímu využití | Waste recovery | 3 | skupina | 38 |
+| 3821 | Zpracování odpadů k získání materiálů k dalšímu využití | Materials recovery | 4 | třída | 382 |
+| 38210 | Zpracování odpadů k získání materiálů k dalšímu využití | Materials recovery | 5 | podtřída | 3821 |
+| 3822 | Zpracování odpadů k energetickému využití | Energy recovery | 4 | třída | 382 |
+| 38220 | Zpracování odpadů k energetickému využití | Energy recovery | 5 | podtřída | 3822 |
+| 3823 | Zpracování odpadů k ostatnímu využití | Other waste recovery | 4 | třída | 382 |
+| 38230 | Zpracování odpadů k ostatnímu využití | Other waste recovery | 5 | podtřída | 3823 |
+| 383 | Odstraňování odpadů bez dalšího využití | Waste disposal without recovery | 3 | skupina | 38 |
+| 3831 | Spalování odpadů bez energetického využití | Incineration without energy recovery | 4 | třída | 383 |
+| 38310 | Spalování odpadů bez energetického využití | Incineration without energy recovery | 5 | podtřída | 3831 |
+| 3832 | Skládkování nebo trvalé uložení odpadů | Landfilling or permanent storage | 4 | třída | 383 |
+| 38320 | Skládkování nebo trvalé uložení odpadů | Landfilling or permanent storage | 5 | podtřída | 3832 |
+| 3833 | Ostatní odstraňování odpadů | Other waste disposal | 4 | třída | 383 |
+| 38330 | Ostatní odstraňování odpadů | Other waste disposal | 5 | podtřída | 3833 |
+| 39 | Sanace a jiné činnosti související s odpady | Remediation activities and other waste management service activities | 2 | oddíl | E |
+| 390 | Sanace a jiné činnosti související s odpady | Remediation activities and other waste management service activities | 3 | skupina | 39 |
+| 3900 | Sanace a jiné činnosti související s odpady | Remediation activities and other waste management service activities | 4 | třída | 390 |
+| 39000 | Sanace a jiné činnosti související s odpady | Remediation activities and other waste management service activities | 5 | podtřída | 3900 |
+| 41 | Výstavba bytových a nebytových budov | Construction of residential and non-residential buildings | 2 | oddíl | F |
+| 410 | Výstavba bytových a nebytových budov | Construction of residential and non-residential buildings | 3 | skupina | 41 |
+| 4100 | Výstavba bytových a nebytových budov | Construction of residential and non-residential buildings | 4 | třída | 410 |
+| 41000 | Výstavba bytových a nebytových budov | Construction of residential and non-residential buildings | 5 | podtřída | 4100 |
+| 42 | Výstavba inženýrských děl | Civil engineering | 2 | oddíl | F |
+| 421 | Výstavba silnic a železnic | Construction of roads and railways | 3 | skupina | 42 |
+| 4211 | Výstavba silnic a dálnic | Construction of roads and motorways | 4 | třída | 421 |
+| 42110 | Výstavba silnic a dálnic | Construction of roads and motorways | 5 | podtřída | 4211 |
+| 4212 | Výstavba železnic a podzemních drah | Construction of railways and underground railways | 4 | třída | 421 |
+| 42120 | Výstavba železnic a podzemních drah | Construction of railways and underground railways | 5 | podtřída | 4212 |
+| 4213 | Výstavba mostů a tunelů | Construction of bridges and tunnels | 4 | třída | 421 |
+| 42130 | Výstavba mostů a tunelů | Construction of bridges and tunnels | 5 | podtřída | 4213 |
+| 422 | Výstavba inženýrských sítí | Construction of utility projects | 3 | skupina | 42 |
+| 4221 | Výstavba inženýrských sítí pro kapaliny a plyny | Construction of utility projects for fluids | 4 | třída | 422 |
+| 42210 | Výstavba inženýrských sítí pro kapaliny a plyny | Construction of utility projects for fluids | 5 | podtřída | 4221 |
+| 4222 | Výstavba inženýrských sítí pro elektřinu a telekomunikace | Construction of utility projects for electricity and telecommunications | 4 | třída | 422 |
+| 42220 | Výstavba inženýrských sítí pro elektřinu a telekomunikace | Construction of utility projects for electricity and telecommunications | 5 | podtřída | 4222 |
+| 429 | Výstavba ostatních inženýrských děl | Construction of other civil engineering projects | 3 | skupina | 42 |
+| 4291 | Výstavba vodních děl | Construction of water projects | 4 | třída | 429 |
+| 42910 | Výstavba vodních děl | Construction of water projects | 5 | podtřída | 4291 |
+| 4299 | Výstavba ostatních inženýrských děl j. n. | Construction of other civil engineering projects n.e.c. | 4 | třída | 429 |
+| 42990 | Výstavba ostatních inženýrských děl j. n. | Construction of other civil engineering projects n.e.c. | 5 | podtřída | 4299 |
+| 43 | Specializované stavební činnosti | Specialised construction activities | 2 | oddíl | F |
+| 431 | Demolice a příprava staveniště | Demolition and site preparation | 3 | skupina | 43 |
+| 4311 | Demolice | Demolition | 4 | třída | 431 |
+| 43110 | Demolice | Demolition | 5 | podtřída | 4311 |
+| 4312 | Příprava staveniště | Site preparation | 4 | třída | 431 |
+| 43120 | Příprava staveniště | Site preparation | 5 | podtřída | 4312 |
+| 4313 | Průzkumné vrtné práce | Test drilling and boring | 4 | třída | 431 |
+| 43130 | Průzkumné vrtné práce | Test drilling and boring | 5 | podtřída | 4313 |
+| 432 | Elektroinstalační, instalatérské a ostatní stavebně instalační činnosti | Electrical, plumbing and other construction installation activities | 3 | skupina | 43 |
+| 4321 | Elektrické instalace | Electrical installation | 4 | třída | 432 |
+| 43210 | Elektrické instalace | Electrical installation | 5 | podtřída | 4321 |
+| 4322 | Instalace rozvodů vody, odpadu, topení a klimatizace | Plumbing, heat and air-conditioning installation | 4 | třída | 432 |
+| 43221 | Instalace vodovodních, odpadních a plynových zařízení a rozvodů | Plumbing, drain laying and gas fitting instalation | 5 | podtřída | 4322 |
+| 43222 | Instalace tepelných, chladicích a klimatizačních zařízení a rozvodů | Heating, ventilation and air-conditioning instalation | 5 | podtřída | 4322 |
+| 4323 | Instalace izolací | Installation of insulation | 4 | třída | 432 |
+| 43230 | Instalace izolací | Installation of insulation | 5 | podtřída | 4323 |
+| 4324 | Ostatní stavební instalace | Other construction installation | 4 | třída | 432 |
+| 43240 | Ostatní stavební instalace | Other construction installation | 5 | podtřída | 4324 |
+| 433 | Kompletační a dokončovací stavební práce | Building completion and finishing | 3 | skupina | 43 |
+| 4331 | Omítkářské práce | Plastering | 4 | třída | 433 |
+| 43310 | Omítkářské práce | Plastering | 5 | podtřída | 4331 |
+| 4332 | Truhlářské práce | Joinery installation | 4 | třída | 433 |
+| 43320 | Truhlářské práce | Joinery installation | 5 | podtřída | 4332 |
+| 4333 | Obkládání stěn a pokládání podlahových krytin | Floor and wall covering | 4 | třída | 433 |
+| 43330 | Obkládání stěn a pokládání podlahových krytin | Floor and wall covering | 5 | podtřída | 4333 |
+| 4334 | Sklenářské, malířské a natěračské práce | Painting and glazing | 4 | třída | 433 |
+| 43340 | Sklenářské, malířské a natěračské práce | Painting and glazing | 5 | podtřída | 4334 |
+| 4335 | Ostatní kompletační a dokončovací stavební práce | Other building completion and finishing | 4 | třída | 433 |
+| 43350 | Ostatní kompletační a dokončovací stavební práce | Other building completion and finishing | 5 | podtřída | 4335 |
+| 434 | Specializované stavební činnosti při výstavbě budov | Specialised construction activities in construction of buildings | 3 | skupina | 43 |
+| 4341 | Pokrývačské práce | Roofing activities | 4 | třída | 434 |
+| 43410 | Pokrývačské práce | Roofing activities | 5 | podtřída | 4341 |
+| 4342 | Ostatní specializované stavební činnosti při výstavbě budov | Other specialised construction activities in construction of buildings | 4 | třída | 434 |
+| 43420 | Ostatní specializované stavební činnosti při výstavbě budov | Other specialised construction activities in construction of buildings | 5 | podtřída | 4342 |
+| 435 | Specializované stavební činnosti při výstavbě inženýrských děl | Specialised construction activities in civil engineering | 3 | skupina | 43 |
+| 4350 | Specializované stavební činnosti při výstavbě inženýrských děl | Specialised construction activities in civil engineering | 4 | třída | 435 |
+| 43500 | Specializované stavební činnosti při výstavbě inženýrských děl | Specialised construction activities in civil engineering | 5 | podtřída | 4350 |
+| 436 | Zprostředkování v oblasti specializovaných stavebních činností | Intermediation service activities for specialised construction services | 3 | skupina | 43 |
+| 4360 | Zprostředkování v oblasti specializovaných stavebních činností | Intermediation service activities for specialised construction services | 4 | třída | 436 |
+| 43600 | Zprostředkování v oblasti specializovaných stavebních činností | Intermediation service activities for specialised construction services | 5 | podtřída | 4360 |
+| 439 | Ostatní specializované stavební činnosti | Other specialised construction activities | 3 | skupina | 43 |
+| 4391 | Zednické práce | Masonry and bricklaying activities | 4 | třída | 439 |
+| 43910 | Zednické práce | Masonry and bricklaying activities | 5 | podtřída | 4391 |
+| 4399 | Ostatní specializované stavební činnosti j. n. | Other specialised construction activities n.e.c. | 4 | třída | 439 |
+| 43990 | Ostatní specializované stavební činnosti j. n. | Other specialised construction activities n.e.c. | 5 | podtřída | 4399 |
+| 46 | Velkoobchod | Wholesale trade | 2 | oddíl | G |
+| 461 | Zprostředkování v oblasti velkoobchodu za provizi | Wholesale on a fee or contract basis | 3 | skupina | 46 |
+| 4611 | Zprostředkování v oblasti velkoobchodu za provizi se základními zemědělskými produkty, živými zvířaty, textilními surovinami a polotovary | Activities of agents involved in the wholesale of agricultural raw materials, live animals, textile raw materials and semi-finished goods | 4 | třída | 461 |
+| 46110 | Zprostředkování v oblasti velkoobchodu za provizi se základními zemědělskými produkty, živými zvířaty, textilními surovinami a polotovary | Activities of agents involved in the wholesale of agricultural raw materials, live animals, textile raw materials and semi-finished goods | 5 | podtřída | 4611 |
+| 4612 | Zprostředkování v oblasti velkoobchodu za provizi s palivy, rudami, kovy a technickými chemikáliemi | Activities of agents involved in the wholesale of fuels, ores, metals and industrial chemicals | 4 | třída | 461 |
+| 46120 | Zprostředkování v oblasti velkoobchodu za provizi s palivy, rudami, kovy a technickými chemikáliemi | Activities of agents involved in the wholesale of fuels, ores, metals and industrial chemicals | 5 | podtřída | 4612 |
+| 4613 | Zprostředkování v oblasti velkoobchodu za provizi se dřevem a stavebními materiály | Activities of agents involved in the wholesale of timber and building materials | 4 | třída | 461 |
+| 46130 | Zprostředkování v oblasti velkoobchodu za provizi se dřevem a stavebními materiály | Activities of agents involved in the wholesale of timber and building materials | 5 | podtřída | 4613 |
+| 4614 | Zprostředkování v oblasti velkoobchodu za provizi se stroji, průmyslovým zařízením, loděmi a letadly | Activities of agents involved in the wholesale of machinery, industrial equipment, ships and aircraft | 4 | třída | 461 |
+| 46140 | Zprostředkování v oblasti velkoobchodu za provizi se stroji, průmyslovým zařízením, loděmi a letadly | Activities of agents involved in the wholesale of machinery, industrial equipment, ships and aircraft | 5 | podtřída | 4614 |
+| 4615 | Zprostředkování v oblasti velkoobchodu za provizi s nábytkem, železářským zbožím a potřebami převážně pro domácnost | Activities of agents involved in the wholesale of furniture, household goods, hardware and ironmongery | 4 | třída | 461 |
+| 46150 | Zprostředkování v oblasti velkoobchodu za provizi s nábytkem, železářským zbožím a potřebami převážně pro domácnost | Activities of agents involved in the wholesale of furniture, household goods, hardware and ironmongery | 5 | podtřída | 4615 |
+| 4616 | Zprostředkování v oblasti velkoobchodu za provizi s textilem, oděvy, kožešinami, obuví a koženými výrobky | Activities of agents involved in the wholesale of textiles, clothing, fur, footwear and leather goods | 4 | třída | 461 |
+| 46160 | Zprostředkování v oblasti velkoobchodu za provizi s textilem, oděvy, kožešinami, obuví a koženými výrobky | Activities of agents involved in the wholesale of textiles, clothing, fur, footwear and leather goods | 5 | podtřída | 4616 |
+| 4617 | Zprostředkování v oblasti velkoobchodu za provizi s potravinami, nápoji a tabákovými výrobky | Activities of agents involved in the wholesale of food, beverages and tobacco | 4 | třída | 461 |
+| 46170 | Zprostředkování v oblasti velkoobchodu za provizi s potravinami, nápoji a tabákovými výrobky | Activities of agents involved in the wholesale of food, beverages and tobacco | 5 | podtřída | 4617 |
+| 4618 | Zprostředkování v oblasti specializovaného velkoobchodu za provizi s ostatním zbožím | Activities of agents involved in the wholesale of other particular products | 4 | třída | 461 |
+| 46180 | Zprostředkování v oblasti specializovaného velkoobchodu za provizi s ostatním zbožím | Activities of agents involved in the wholesale of other particular products | 5 | podtřída | 4618 |
+| 4619 | Zprostředkování v oblasti nespecializovaného velkoobchodu za provizi | Activities of agents involved in non-specialised wholesale | 4 | třída | 461 |
+| 46190 | Zprostředkování v oblasti nespecializovaného velkoobchodu za provizi | Activities of agents involved in non-specialised wholesale | 5 | podtřída | 4619 |
+| 462 | Velkoobchod se základními zemědělskými produkty a živými zvířaty | Wholesale of agricultural raw materials and live animals | 3 | skupina | 46 |
+| 4621 | Velkoobchod s obilím, surovým tabákem, osivy a krmivy | Wholesale of grain, unmanufactured tobacco, seeds and animal feeds | 4 | třída | 462 |
+| 46210 | Velkoobchod s obilím, surovým tabákem, osivy a krmivy | Wholesale of grain, unmanufactured tobacco, seeds and animal feeds | 5 | podtřída | 4621 |
+| 4622 | Velkoobchod s květinami a jinými rostlinami | Wholesale of flowers and plants | 4 | třída | 462 |
+| 46220 | Velkoobchod s květinami a jinými rostlinami | Wholesale of flowers and plants | 5 | podtřída | 4622 |
+| 4623 | Velkoobchod s živými zvířaty | Wholesale of live animals | 4 | třída | 462 |
+| 46230 | Velkoobchod s živými zvířaty | Wholesale of live animals | 5 | podtřída | 4623 |
+| 4624 | Velkoobchod se surovými kůžemi, kožešinami a usněmi | Wholesale of hides, skins and leather | 4 | třída | 462 |
+| 46240 | Velkoobchod se surovými kůžemi, kožešinami a usněmi | Wholesale of hides, skins and leather | 5 | podtřída | 4624 |
+| 463 | Velkoobchod s potravinami, nápoji a tabákovými výrobky | Wholesale of food, beverages and tobacco | 3 | skupina | 46 |
+| 4631 | Velkoobchod s ovocem a zeleninou | Wholesale of fruit and vegetables | 4 | třída | 463 |
+| 46310 | Velkoobchod s ovocem a zeleninou | Wholesale of fruit and vegetables | 5 | podtřída | 4631 |
+| 4632 | Velkoobchod s masem, masnými výrobky, rybami a rybími výrobky | Wholesale of meat, meat products, fish and fish products | 4 | třída | 463 |
+| 46320 | Velkoobchod s masem, masnými výrobky, rybami a rybími výrobky | Wholesale of meat, meat products, fish and fish products | 5 | podtřída | 4632 |
+| 4633 | Velkoobchod s mléčnými výrobky, vejci, jedlými oleji a tuky | Wholesale of dairy products, eggs and edible oils and fats | 4 | třída | 463 |
+| 46330 | Velkoobchod s mléčnými výrobky, vejci, jedlými oleji a tuky | Wholesale of dairy products, eggs and edible oils and fats | 5 | podtřída | 4633 |
+| 4634 | Velkoobchod s nápoji | Wholesale of beverages | 4 | třída | 463 |
+| 46340 | Velkoobchod s nápoji | Wholesale of beverages | 5 | podtřída | 4634 |
+| 4635 | Velkoobchod s tabákovými výrobky | Wholesale of tobacco products | 4 | třída | 463 |
+| 46350 | Velkoobchod s tabákovými výrobky | Wholesale of tobacco products | 5 | podtřída | 4635 |
+| 4636 | Velkoobchod s cukrem, čokoládou a cukrovinkami | Wholesale of sugar, chocolate and sugar confectionery | 4 | třída | 463 |
+| 46360 | Velkoobchod s cukrem, čokoládou a cukrovinkami | Wholesale of sugar, chocolate and sugar confectionery | 5 | podtřída | 4636 |
+| 4637 | Velkoobchod s kávou, čajem, kakaem a kořením | Wholesale of coffee, tea, cocoa and spices | 4 | třída | 463 |
+| 46370 | Velkoobchod s kávou, čajem, kakaem a kořením | Wholesale of coffee, tea, cocoa and spices | 5 | podtřída | 4637 |
+| 4638 | Specializovaný velkoobchod s ostatními potravinami | Wholesale of other food | 4 | třída | 463 |
+| 46380 | Specializovaný velkoobchod s ostatními potravinami | Wholesale of other food | 5 | podtřída | 4638 |
+| 4639 | Nespecializovaný velkoobchod s potravinami, nápoji a tabákovými výrobky | Non-specialised wholesale of food, beverages and tobacco | 4 | třída | 463 |
+| 46390 | Nespecializovaný velkoobchod s potravinami, nápoji a tabákovými výrobky | Non-specialised wholesale of food, beverages and tobacco | 5 | podtřída | 4639 |
+| 464 | Velkoobchod s výrobky převážně pro domácnost | Wholesale of household goods | 3 | skupina | 46 |
+| 4641 | Velkoobchod s textilem | Wholesale of textiles | 4 | třída | 464 |
+| 46410 | Velkoobchod s textilem | Wholesale of textiles | 5 | podtřída | 4641 |
+| 4642 | Velkoobchod s oděvy a obuví | Wholesale of clothing and footwear | 4 | třída | 464 |
+| 46420 | Velkoobchod s oděvy a obuví | Wholesale of clothing and footwear | 5 | podtřída | 4642 |
+| 4643 | Velkoobchod s elektrospotřebiči a elektronikou převážně pro domácnost | Wholesale of electrical household appliances | 4 | třída | 464 |
+| 46430 | Velkoobchod s elektrospotřebiči a elektronikou převážně pro domácnost | Wholesale of electrical household appliances | 5 | podtřída | 4643 |
+| 4644 | Velkoobchod s porcelánovými, keramickými a skleněnými výrobky a čisticími prostředky | Wholesale of china and glassware and cleaning materials | 4 | třída | 464 |
+| 46440 | Velkoobchod s porcelánovými, keramickými a skleněnými výrobky a čisticími prostředky | Wholesale of china and glassware and cleaning materials | 5 | podtřída | 4644 |
+| 4645 | Velkoobchod s parfémy a kosmetickými přípravky | Wholesale of perfume and cosmetics | 4 | třída | 464 |
+| 46450 | Velkoobchod s parfémy a kosmetickými přípravky | Wholesale of perfume and cosmetics | 5 | podtřída | 4645 |
+| 4646 | Velkoobchod s farmaceutickými a zdravotnickými výrobky | Wholesale of pharmaceutical and medical goods | 4 | třída | 464 |
+| 46460 | Velkoobchod s farmaceutickými a zdravotnickými výrobky | Wholesale of pharmaceutical and medical goods | 5 | podtřída | 4646 |
+| 4647 | Velkoobchod s nábytkem, koberci a osvětlovacími zařízeními pro domácnosti, kanceláře a obchody | Wholesale of household, office and shop furniture, carpets and lighting equipment | 4 | třída | 464 |
+| 46470 | Velkoobchod s nábytkem, koberci a osvětlovacími zařízeními pro domácnosti, kanceláře a obchody | Wholesale of household, office and shop furniture, carpets and lighting equipment | 5 | podtřída | 4647 |
+| 4648 | Velkoobchod s hodinami, hodinkami a klenoty | Wholesale of watches and jewellery | 4 | třída | 464 |
+| 46480 | Velkoobchod s hodinami, hodinkami a klenoty | Wholesale of watches and jewellery | 5 | podtřída | 4648 |
+| 4649 | Velkoobchod s ostatními výrobky převážně pro domácnost | Wholesale of other household goods | 4 | třída | 464 |
+| 46490 | Velkoobchod s ostatními výrobky převážně pro domácnost | Wholesale of other household goods | 5 | podtřída | 4649 |
+| 465 | Velkoobchod s počítačovými a komunikačními zařízeními | Wholesale of information and communication equipment | 3 | skupina | 46 |
+| 4650 | Velkoobchod s počítačovými a komunikačními zařízeními | Wholesale of information and communication equipment | 4 | třída | 465 |
+| 46500 | Velkoobchod s počítačovými a komunikačními zařízeními | Wholesale of information and communication equipment | 5 | podtřída | 4650 |
+| 466 | Velkoobchod s ostatními stroji, strojním zařízením a příslušenstvím | Wholesale of other machinery, equipment and supplies | 3 | skupina | 46 |
+| 4661 | Velkoobchod se zemědělskými stroji, strojním zařízením a příslušenstvím | Wholesale of agricultural machinery, equipment and supplies | 4 | třída | 466 |
+| 46610 | Velkoobchod se zemědělskými stroji, strojním zařízením a příslušenstvím | Wholesale of agricultural machinery, equipment and supplies | 5 | podtřída | 4661 |
+| 4662 | Velkoobchod s obráběcími stroji | Wholesale of machine tools | 4 | třída | 466 |
+| 46620 | Velkoobchod s obráběcími stroji | Wholesale of machine tools | 5 | podtřída | 4662 |
+| 4663 | Velkoobchod s těžebními a stavebními stroji a zařízením | Wholesale of mining, construction and civil engineering machinery | 4 | třída | 466 |
+| 46630 | Velkoobchod s těžebními a stavebními stroji a zařízením | Wholesale of mining, construction and civil engineering machinery | 5 | podtřída | 4663 |
+| 4664 | Velkoobchod s ostatními stroji a zařízením | Wholesale of other machinery and equipment | 4 | třída | 466 |
+| 46640 | Velkoobchod s ostatními stroji a zařízením | Wholesale of other machinery and equipment | 5 | podtřída | 4664 |
+| 467 | Velkoobchod s motorovými vozidly, motocykly, jejich díly a příslušenstvím | Wholesale of motor vehicles, motorcycles and related parts and accessories | 3 | skupina | 46 |
+| 4671 | Velkoobchod s motorovými vozidly | Wholesale of motor vehicles | 4 | třída | 467 |
+| 46710 | Velkoobchod s motorovými vozidly | Wholesale of motor vehicles | 5 | podtřída | 4671 |
+| 4672 | Velkoobchod s díly a příslušenstvím pro motorová vozidla | Wholesale of motor vehicle parts and accessories | 4 | třída | 467 |
+| 46720 | Velkoobchod s díly a příslušenstvím pro motorová vozidla | Wholesale of motor vehicle parts and accessories | 5 | podtřída | 4672 |
+| 4673 | Velkoobchod s motocykly a jejich díly a příslušenstvím | Wholesale of motorcycles, motorcycle parts and accessories | 4 | třída | 467 |
+| 46730 | Velkoobchod s motocykly a jejich díly a příslušenstvím | Wholesale of motorcycles, motorcycle parts and accessories | 5 | podtřída | 4673 |
+| 468 | Ostatní specializovaný velkoobchod | Other specialised wholesale | 3 | skupina | 46 |
+| 4681 | Velkoobchod s pevnými, kapalnými a plynnými palivy a příbuznými výrobky | Wholesale of solid, liquid and gaseous fuels and related products | 4 | třída | 468 |
+| 46810 | Velkoobchod s pevnými, kapalnými a plynnými palivy a příbuznými výrobky | Wholesale of solid, liquid and gaseous fuels and related products | 5 | podtřída | 4681 |
+| 4682 | Velkoobchod s rudami, kovy a hutními výrobky | Wholesale of metals and metal ores | 4 | třída | 468 |
+| 46820 | Velkoobchod s rudami, kovy a hutními výrobky | Wholesale of metals and metal ores | 5 | podtřída | 4682 |
+| 4683 | Velkoobchod se dřevem, stavebními materiály a sanitárním vybavením | Wholesale of wood, construction materials and sanitary equipment | 4 | třída | 468 |
+| 46830 | Velkoobchod se dřevem, stavebními materiály a sanitárním vybavením | Wholesale of wood, construction materials and sanitary equipment | 5 | podtřída | 4683 |
+| 4684 | Velkoobchod s železářským zbožím a instalatérskými a topenářskými potřebami | Wholesale of hardware, plumbing and heating equipment and supplies | 4 | třída | 468 |
+| 46840 | Velkoobchod s železářským zbožím a instalatérskými a topenářskými potřebami | Wholesale of hardware, plumbing and heating equipment and supplies | 5 | podtřída | 4684 |
+| 4685 | Velkoobchod s chemickými výrobky | Wholesale of chemical products | 4 | třída | 468 |
+| 46850 | Velkoobchod s chemickými výrobky | Wholesale of chemical products | 5 | podtřída | 4685 |
+| 4686 | Velkoobchod s ostatními meziprodukty | Wholesale of other intermediate products | 4 | třída | 468 |
+| 46860 | Velkoobchod s ostatními meziprodukty | Wholesale of other intermediate products | 5 | podtřída | 4686 |
+| 4687 | Velkoobchod s odpadem a šrotem | Wholesale of waste and scrap | 4 | třída | 468 |
+| 46870 | Velkoobchod s odpadem a šrotem | Wholesale of waste and scrap | 5 | podtřída | 4687 |
+| 4689 | Ostatní specializovaný velkoobchod j. n. | Other specialised wholesale n.e.c. | 4 | třída | 468 |
+| 46890 | Ostatní specializovaný velkoobchod j. n. | Other specialised wholesale n.e.c. | 5 | podtřída | 4689 |
+| 469 | Nespecializovaný velkoobchod | Non-specialised wholesale trade | 3 | skupina | 46 |
+| 4690 | Nespecializovaný velkoobchod | Non-specialised wholesale trade | 4 | třída | 469 |
+| 46900 | Nespecializovaný velkoobchod | Non-specialised wholesale trade | 5 | podtřída | 4690 |
+| 47 | Maloobchod | Retail trade | 2 | oddíl | G |
+| 471 | Nespecializovaný maloobchod | Non-specialised retail sale | 3 | skupina | 47 |
+| 4711 | Nespecializovaný maloobchod s převahou potravin, nápojů a tabákových výrobků | Non-specialised retail sale of predominately food, beverages or tobacco | 4 | třída | 471 |
+| 47110 | Nespecializovaný maloobchod s převahou potravin, nápojů a tabákových výrobků | Non-specialised retail sale of predominately food, beverages or tobacco | 5 | podtřída | 4711 |
+| 4712 | Ostatní nespecializovaný maloobchod | Other non-specialised retail sale | 4 | třída | 471 |
+| 47120 | Ostatní nespecializovaný maloobchod | Other non-specialised retail sale | 5 | podtřída | 4712 |
+| 472 | Maloobchod s potravinami, nápoji a tabákovými výrobky | Retail sale of food, beverages and tobacco | 3 | skupina | 47 |
+| 4721 | Maloobchod s ovocem a zeleninou | Retail sale of fruit and vegetables | 4 | třída | 472 |
+| 47210 | Maloobchod s ovocem a zeleninou | Retail sale of fruit and vegetables | 5 | podtřída | 4721 |
+| 4722 | Maloobchod s masem a masnými výrobky | Retail sale of meat and meat products | 4 | třída | 472 |
+| 47220 | Maloobchod s masem a masnými výrobky | Retail sale of meat and meat products | 5 | podtřída | 4722 |
+| 4723 | Maloobchod s rybami, korýši a měkkýši | Retail sale of fish, crustaceans and molluscs | 4 | třída | 472 |
+| 47230 | Maloobchod s rybami, korýši a měkkýši | Retail sale of fish, crustaceans and molluscs | 5 | podtřída | 4723 |
+| 4724 | Maloobchod s pekařskými a cukrářskými výrobky a cukrovinkami | Retail sale of bread, cake and confectionery | 4 | třída | 472 |
+| 47240 | Maloobchod s pekařskými a cukrářskými výrobky a cukrovinkami | Retail sale of bread, cake and confectionery | 5 | podtřída | 4724 |
+| 4725 | Maloobchod s nápoji | Retail sale of beverages | 4 | třída | 472 |
+| 47250 | Maloobchod s nápoji | Retail sale of beverages | 5 | podtřída | 4725 |
+| 4726 | Maloobchod s tabákovými výrobky | Retail sale of tobacco products | 4 | třída | 472 |
+| 47260 | Maloobchod s tabákovými výrobky | Retail sale of tobacco products | 5 | podtřída | 4726 |
+| 4727 | Specializovaný maloobchod s ostatními potravinami | Retail sale of other food | 4 | třída | 472 |
+| 47270 | Specializovaný maloobchod s ostatními potravinami | Retail sale of other food | 5 | podtřída | 4727 |
+| 473 | Maloobchod s pohonnými hmotami | Retail sale of automotive fuel | 3 | skupina | 47 |
+| 4730 | Maloobchod s pohonnými hmotami | Retail sale of automotive fuel | 4 | třída | 473 |
+| 47300 | Maloobchod s pohonnými hmotami | Retail sale of automotive fuel | 5 | podtřída | 4730 |
+| 474 | Maloobchod s počítačovým a komunikačním zařízením | Retail sale of information and communication equipment | 3 | skupina | 47 |
+| 4740 | Maloobchod s počítačovým a komunikačním zařízením | Retail sale of information and communication equipment | 4 | třída | 474 |
+| 47400 | Maloobchod s počítačovým a komunikačním zařízením | Retail sale of information and communication equipment | 5 | podtřída | 4740 |
+| 475 | Maloobchod s ostatními výrobky převážně pro domácnost | Retail sale of other household equipment | 3 | skupina | 47 |
+| 4751 | Maloobchod s textilem | Retail sale of textiles | 4 | třída | 475 |
+| 47510 | Maloobchod s textilem | Retail sale of textiles | 5 | podtřída | 4751 |
+| 4752 | Maloobchod s železářským zbožím, stavebními materiály, barvami a sklem | Retail sale of hardware, building materials, paints and glass | 4 | třída | 475 |
+| 47520 | Maloobchod s železářským zbožím, stavebními materiály, barvami a sklem | Retail sale of hardware, building materials, paints and glass | 5 | podtřída | 4752 |
+| 4753 | Maloobchod s koberci, podlahovými krytinami a nástěnnými obklady | Retail sale of carpets, rugs, wall and floor coverings | 4 | třída | 475 |
+| 47530 | Maloobchod s koberci, podlahovými krytinami a nástěnnými obklady | Retail sale of carpets, rugs, wall and floor coverings | 5 | podtřída | 4753 |
+| 4754 | Maloobchod s elektrospotřebiči a elektronikou převážně pro domácnost | Retail sale of electrical household appliances | 4 | třída | 475 |
+| 47540 | Maloobchod s elektrospotřebiči a elektronikou převážně pro domácnost | Retail sale of electrical household appliances | 5 | podtřída | 4754 |
+| 4755 | Maloobchod s nábytkem, osvětlovacími zařízeními, nádobím a ostatními výrobky převážně pro domácnost | Retail sale of furniture, lighting equipment, tableware and other household goods | 4 | třída | 475 |
+| 47550 | Maloobchod s nábytkem, osvětlovacími zařízeními, nádobím a ostatními výrobky převážně pro domácnost | Retail sale of furniture, lighting equipment, tableware and other household goods | 5 | podtřída | 4755 |
+| 476 | Maloobchod s výrobky pro kulturní rozhled a rekreaci | Retail sale of cultural and recreation goods | 3 | skupina | 47 |
+| 4761 | Maloobchod s knihami | Retail sale of books | 4 | třída | 476 |
+| 47610 | Maloobchod s knihami | Retail sale of books | 5 | podtřída | 4761 |
+| 4762 | Maloobchod s novinami a ostatními periodickými publikacemi a papírnickým zbožím | Retail sale of newspapers, and other periodical publications and stationery | 4 | třída | 476 |
+| 47621 | Maloobchod s novinami a ostatními periodickými publikacemi | Retail sale of newspapers and other periodical publications | 5 | podtřída | 4762 |
+| 47622 | Maloobchod s papírnickým zbožím | Retail sale of stationery | 5 | podtřída | 4762 |
+| 4763 | Maloobchod se sportovním vybavením | Retail sale of sporting equipment | 4 | třída | 476 |
+| 47630 | Maloobchod se sportovním vybavením | Retail sale of sporting equipment | 5 | podtřída | 4763 |
+| 4764 | Maloobchod s hrami a hračkami | Retail sale of games and toys | 4 | třída | 476 |
+| 47640 | Maloobchod s hrami a hračkami | Retail sale of games and toys | 5 | podtřída | 4764 |
+| 4769 | Maloobchod s výrobky pro kulturní rozhled a rekreaci j. n. | Retail sale of cultural and recreational goods n.e.c. | 4 | třída | 476 |
+| 47690 | Maloobchod s výrobky pro kulturní rozhled a rekreaci j. n. | Retail sale of cultural and recreational goods n.e.c. | 5 | podtřída | 4769 |
+| 477 | Maloobchod s ostatním zbožím, kromě motorových vozidel a motocyklů | Retail sale of other goods, except motor vehicles and motorcycles | 3 | skupina | 47 |
+| 4771 | Maloobchod s oděvy | Retail sale of clothing | 4 | třída | 477 |
+| 47710 | Maloobchod s oděvy | Retail sale of clothing | 5 | podtřída | 4771 |
+| 4772 | Maloobchod s obuví a koženými výrobky | Retail sale of footwear and leather goods | 4 | třída | 477 |
+| 47720 | Maloobchod s obuví a koženými výrobky | Retail sale of footwear and leather goods | 5 | podtřída | 4772 |
+| 4773 | Maloobchod s farmaceutickými výrobky | Retail sale of pharmaceutical products | 4 | třída | 477 |
+| 47730 | Maloobchod s farmaceutickými výrobky | Retail sale of pharmaceutical products | 5 | podtřída | 4773 |
+| 4774 | Maloobchod se zdravotnickými a ortopedickými výrobky | Retail sale of medical and orthopaedic goods | 4 | třída | 477 |
+| 47740 | Maloobchod se zdravotnickými a ortopedickými výrobky | Retail sale of medical and orthopaedic goods | 5 | podtřída | 4774 |
+| 4775 | Maloobchod s kosmetickými a toaletními výrobky | Retail sale of cosmetic and toilet articles | 4 | třída | 477 |
+| 47750 | Maloobchod s kosmetickými a toaletními výrobky | Retail sale of cosmetic and toilet articles | 5 | podtřída | 4775 |
+| 4776 | Maloobchod s květinami, rostlinami, hnojivy, zvířaty pro zájmový chov a krmivy pro ně | Retail sale of flowers, plants, fertilisers, pets and pet food | 4 | třída | 477 |
+| 47760 | Maloobchod s květinami, rostlinami, hnojivy, zvířaty pro zájmový chov a krmivy pro ně | Retail sale of flowers, plants, fertilisers, pets and pet food | 5 | podtřída | 4776 |
+| 4777 | Maloobchod s hodinami, hodinkami a klenoty | Retail sale of watches and jewellery | 4 | třída | 477 |
+| 47770 | Maloobchod s hodinami, hodinkami a klenoty | Retail sale of watches and jewellery | 5 | podtřída | 4777 |
+| 4778 | Maloobchod s ostatním novým zbožím | Retail sale of other new goods | 4 | třída | 477 |
+| 47780 | Maloobchod s ostatním novým zbožím | Retail sale of other new goods | 5 | podtřída | 4778 |
+| 4779 | Maloobchod s použitým zbožím | Retail sale of second-hand goods | 4 | třída | 477 |
+| 47791 | Maloobchod s použitými knihami a starožitnostmi | Retail sale of second-hand books and antiques | 5 | podtřída | 4779 |
+| 47799 | Maloobchod s ostatním použitým zbožím | Retail sale of other second-hand goods | 5 | podtřída | 4779 |
+| 478 | Maloobchod s motorovými vozidly, motocykly, jejich díly a příslušenstvím | Retail sale of motor vehicles, motorcycles and related parts and accessories | 3 | skupina | 47 |
+| 4781 | Maloobchod s motorovými vozidly | Retail sale of motor vehicles | 4 | třída | 478 |
+| 47810 | Maloobchod s motorovými vozidly | Retail sale of motor vehicles | 5 | podtřída | 4781 |
+| 4782 | Maloobchod s díly a příslušenstvím pro motorová vozidla | Retail sale of motor vehicle parts and accessories | 4 | třída | 478 |
+| 47820 | Maloobchod s díly a příslušenstvím pro motorová vozidla | Retail sale of motor vehicle parts and accessories | 5 | podtřída | 4782 |
+| 4783 | Maloobchod s motocykly a díly a příslušenstvím pro motocykly | Retail sale of motorcycles, motorcycle parts and accessories | 4 | třída | 478 |
+| 47830 | Maloobchod s motocykly a díly a příslušenstvím pro motocykly | Retail sale of motorcycles, motorcycle parts and accessories | 5 | podtřída | 4783 |
+| 479 | Zprostředkování v oblasti maloobchodu | Intermediation service activities for retail sale | 3 | skupina | 47 |
+| 4791 | Zprostředkování v oblasti nespecializovaného maloobchodu | Intermediation service activities for non-specialised retail sale | 4 | třída | 479 |
+| 47910 | Zprostředkování v oblasti nespecializovaného maloobchodu | Intermediation service activities for non-specialised retail sale | 5 | podtřída | 4791 |
+| 4792 | Zprostředkování v oblasti specializovaného maloobchodu | Intermediation service activities for specialised retail sale | 4 | třída | 479 |
+| 47920 | Zprostředkování v oblasti specializovaného maloobchodu | Intermediation service activities for specialised retail sale | 5 | podtřída | 4792 |
+| 49 | Pozemní a potrubní doprava | Land transport and transport via pipelines | 2 | oddíl | H |
+| 491 | Kolejová osobní doprava | Passenger rail transport | 3 | skupina | 49 |
+| 4911 | Dálková železniční osobní doprava | Passenger heavy rail transport | 4 | třída | 491 |
+| 49110 | Dálková železniční osobní doprava | Passenger heavy rail transport | 5 | podtřída | 4911 |
+| 4912 | Ostatní kolejová osobní doprava | Other passenger rail transport | 4 | třída | 491 |
+| 49120 | Ostatní kolejová osobní doprava | Other passenger rail transport | 5 | podtřída | 4912 |
+| 492 | Kolejová nákladní doprava | Freight rail transport | 3 | skupina | 49 |
+| 4920 | Kolejová nákladní doprava | Freight rail transport | 4 | třída | 492 |
+| 49200 | Kolejová nákladní doprava | Freight rail transport | 5 | podtřída | 4920 |
+| 493 | Ostatní pozemní osobní doprava | Other passenger land transport | 3 | skupina | 49 |
+| 4931 | Pravidelná silniční osobní doprava | Scheduled passenger transport by road | 4 | třída | 493 |
+| 49310 | Pravidelná silniční osobní doprava | Scheduled passenger transport by road | 5 | podtřída | 4931 |
+| 4932 | Nepravidelná silniční osobní doprava | Non-scheduled passenger transport by road | 4 | třída | 493 |
+| 49320 | Nepravidelná silniční osobní doprava | Non-scheduled passenger transport by road | 5 | podtřída | 4932 |
+| 4933 | Osobní doprava vozidlem s řidičem na vyžádání | On-demand passenger transport service activities by vehicle with driver | 4 | třída | 493 |
+| 49330 | Osobní doprava vozidlem s řidičem na vyžádání | On-demand passenger transport service activities by vehicle with driver | 5 | podtřída | 4933 |
+| 4934 | Osobní doprava visutými lanovkami a lyžařskými vleky | Passenger transport by cableways and ski lifts | 4 | třída | 493 |
+| 49340 | Osobní doprava visutými lanovkami a lyžařskými vleky | Passenger transport by cableways and ski lifts | 5 | podtřída | 4934 |
+| 4939 | Ostatní pozemní osobní doprava j. n. | Other passenger land transport n.e.c. | 4 | třída | 493 |
+| 49390 | Ostatní pozemní osobní doprava j. n. | Other passenger land transport n.e.c. | 5 | podtřída | 4939 |
+| 494 | Silniční nákladní doprava a stěhovací služby | Freight transport by road and removal services | 3 | skupina | 49 |
+| 4941 | Silniční nákladní doprava | Freight transport by road | 4 | třída | 494 |
+| 49410 | Silniční nákladní doprava | Freight transport by road | 5 | podtřída | 4941 |
+| 4942 | Stěhovací služby | Removal services | 4 | třída | 494 |
+| 49420 | Stěhovací služby | Removal services | 5 | podtřída | 4942 |
+| 495 | Potrubní doprava | Transport via pipeline | 3 | skupina | 49 |
+| 4950 | Potrubní doprava | Transport via pipeline | 4 | třída | 495 |
+| 49500 | Potrubní doprava | Transport via pipeline | 5 | podtřída | 4950 |
+| 50 | Vodní doprava | Water transport | 2 | oddíl | H |
+| 501 | Námořní a pobřežní osobní doprava | Sea and coastal passenger water transport | 3 | skupina | 50 |
+| 5010 | Námořní a pobřežní osobní doprava | Sea and coastal passenger water transport | 4 | třída | 501 |
+| 50100 | Námořní a pobřežní osobní doprava | Sea and coastal passenger water transport | 5 | podtřída | 5010 |
+| 502 | Námořní a pobřežní nákladní doprava | Sea and coastal freight water transport | 3 | skupina | 50 |
+| 5020 | Námořní a pobřežní nákladní doprava | Sea and coastal freight water transport | 4 | třída | 502 |
+| 50200 | Námořní a pobřežní nákladní doprava | Sea and coastal freight water transport | 5 | podtřída | 5020 |
+| 503 | Vnitrozemská vodní osobní doprava | Inland passenger water transport | 3 | skupina | 50 |
+| 5030 | Vnitrozemská vodní osobní doprava | Inland passenger water transport | 4 | třída | 503 |
+| 50300 | Vnitrozemská vodní osobní doprava | Inland passenger water transport | 5 | podtřída | 5030 |
+| 504 | Vnitrozemská vodní nákladní doprava | Inland freight water transport | 3 | skupina | 50 |
+| 5040 | Vnitrozemská vodní nákladní doprava | Inland freight water transport | 4 | třída | 504 |
+| 50400 | Vnitrozemská vodní nákladní doprava | Inland freight water transport | 5 | podtřída | 5040 |
+| 51 | Letecká doprava | Air transport | 2 | oddíl | H |
+| 511 | Letecká osobní doprava | Passenger air transport | 3 | skupina | 51 |
+| 5110 | Letecká osobní doprava | Passenger air transport | 4 | třída | 511 |
+| 51100 | Letecká osobní doprava | Passenger air transport | 5 | podtřída | 5110 |
+| 512 | Letecká nákladní doprava a kosmická doprava | Freight air transport and space transport | 3 | skupina | 51 |
+| 5121 | Letecká nákladní doprava | Freight air transport | 4 | třída | 512 |
+| 51210 | Letecká nákladní doprava | Freight air transport | 5 | podtřída | 5121 |
+| 5122 | Kosmická doprava | Space transport | 4 | třída | 512 |
+| 51220 | Kosmická doprava | Space transport | 5 | podtřída | 5122 |
+| 52 | Skladování a podpůrné činnosti pro dopravu | Warehousing, storage and support activities for transportation | 2 | oddíl | H |
+| 521 | Skladování | Warehousing and storage | 3 | skupina | 52 |
+| 5210 | Skladování | Warehousing and storage | 4 | třída | 521 |
+| 52100 | Skladování | Warehousing and storage | 5 | podtřída | 5210 |
+| 522 | Podpůrné činnosti pro dopravu | Support activities for transportation | 3 | skupina | 52 |
+| 5221 | Činnosti související s pozemní dopravou | Service activities incidental to land transportation | 4 | třída | 522 |
+| 52210 | Činnosti související s pozemní dopravou | Service activities incidental to land transportation | 5 | podtřída | 5221 |
+| 5222 | Činnosti související s vodní dopravou | Service activities incidental to water transportation | 4 | třída | 522 |
+| 52220 | Činnosti související s vodní dopravou | Service activities incidental to water transportation | 5 | podtřída | 5222 |
+| 5223 | Činnosti související s leteckou dopravou | Service activities incidental to air transportation | 4 | třída | 522 |
+| 52230 | Činnosti související s leteckou dopravou | Service activities incidental to air transportation | 5 | podtřída | 5223 |
+| 5224 | Manipulace s nákladem | Cargo handling | 4 | třída | 522 |
+| 52240 | Manipulace s nákladem | Cargo handling | 5 | podtřída | 5224 |
+| 5225 | Logistické činnosti | Logistics service activities | 4 | třída | 522 |
+| 52250 | Logistické činnosti | Logistics service activities | 5 | podtřída | 5225 |
+| 5226 | Ostatní podpůrné činnosti pro dopravu | Other support activities for transportation | 4 | třída | 522 |
+| 52260 | Ostatní podpůrné činnosti pro dopravu | Other support activities for transportation | 5 | podtřída | 5226 |
+| 523 | Zprostředkování v oblasti dopravy | Intermediation service activities for transportation | 3 | skupina | 52 |
+| 5231 | Zprostředkování v oblasti nákladní dopravy | Intermediation service activities for freight transportation | 4 | třída | 523 |
+| 52310 | Zprostředkování v oblasti nákladní dopravy | Intermediation service activities for freight transportation | 5 | podtřída | 5231 |
+| 5232 | Zprostředkování v oblasti osobní dopravy | Intermediation service activities for passenger transportation | 4 | třída | 523 |
+| 52320 | Zprostředkování v oblasti osobní dopravy | Intermediation service activities for passenger transportation | 5 | podtřída | 5232 |
+| 53 | Poštovní a kurýrní činnosti | Postal and courier activities | 2 | oddíl | H |
+| 531 | Základní poštovní služby poskytované na základě poštovní licence | Postal activities under universal service obligation | 3 | skupina | 53 |
+| 5310 | Základní poštovní služby poskytované na základě poštovní licence | Postal activities under universal service obligation | 4 | třída | 531 |
+| 53100 | Základní poštovní služby poskytované na základě poštovní licence | Postal activities under universal service obligation | 5 | podtřída | 5310 |
+| 532 | Ostatní poštovní a kurýrní činnosti | Other postal and courier activities | 3 | skupina | 53 |
+| 5320 | Ostatní poštovní a kurýrní činnosti | Other postal and courier activities | 4 | třída | 532 |
+| 53200 | Ostatní poštovní a kurýrní činnosti | Other postal and courier activities | 5 | podtřída | 5320 |
+| 533 | Zprostředkování v oblasti poštovních a kurýrních činností | Intermediation service activities for postal and courier activities | 3 | skupina | 53 |
+| 5330 | Zprostředkování v oblasti poštovních a kurýrních činností | Intermediation service activities for postal and courier activities | 4 | třída | 533 |
+| 53300 | Zprostředkování v oblasti poštovních a kurýrních činností | Intermediation service activities for postal and courier activities | 5 | podtřída | 5330 |
+| 55 | Poskytování ubytování | Accommodation | 2 | oddíl | I |
+| 551 | Ubytování v hotelích a podobných ubytovacích zařízeních | Hotels and similar accommodation | 3 | skupina | 55 |
+| 5510 | Ubytování v hotelích a podobných ubytovacích zařízeních | Hotels and similar accommodation | 4 | třída | 551 |
+| 55100 | Ubytování v hotelích a podobných ubytovacích zařízeních | Hotels and similar accommodation | 5 | podtřída | 5510 |
+| 552 | Rekreační a ostatní krátkodobé ubytování | Holiday and other short-stay accommodation | 3 | skupina | 55 |
+| 5520 | Rekreační a ostatní krátkodobé ubytování | Holiday and other short-stay accommodation | 4 | třída | 552 |
+| 55200 | Rekreační a ostatní krátkodobé ubytování | Holiday and other short-stay accommodation | 5 | podtřída | 5520 |
+| 553 | Kempy a parkoviště pro rekreační vozidla | Camping grounds and recreational vehicle parks | 3 | skupina | 55 |
+| 5530 | Kempy a parkoviště pro rekreační vozidla | Camping grounds and recreational vehicle parks | 4 | třída | 553 |
+| 55300 | Kempy a parkoviště pro rekreační vozidla | Camping grounds and recreational vehicle parks | 5 | podtřída | 5530 |
+| 554 | Zprostředkování v oblasti ubytování | Intermediation service activities for accommodation | 3 | skupina | 55 |
+| 5540 | Zprostředkování v oblasti ubytování | Intermediation service activities for accommodation | 4 | třída | 554 |
+| 55400 | Zprostředkování v oblasti ubytování | Intermediation service activities for accommodation | 5 | podtřída | 5540 |
+| 559 | Ostatní ubytování | Other accommodation | 3 | skupina | 55 |
+| 5590 | Ostatní ubytování | Other accommodation | 4 | třída | 559 |
+| 55900 | Ostatní ubytování | Other accommodation | 5 | podtřída | 5590 |
+| 56 | Poskytování stravování a podávání nápojů | Food and beverage service activities | 2 | oddíl | I |
+| 561 | Poskytování stravování v restauracích, u stánků a mobilních zařízení | Restaurants and mobile food service activities | 3 | skupina | 56 |
+| 561 | Poskytování stravování v restauracích, z mobilních stánků a zařízení | Restaurants and mobile food service activities | 3 | skupina | 56 |
+| 5611 | Poskytování stravování v restauracích | Restaurant activities | 4 | třída | 561 |
+| 56110 | Poskytování stravování v restauracích | Restaurant activities | 5 | podtřída | 5611 |
+| 5612 | Poskytování stravování u stánků a mobilních zařízení | Mobile food service activities | 4 | třída | 561 |
+| 5612 | Poskytování stravování z mobilních stánků a zařízení | Mobile food service activities | 4 | třída | 561 |
+| 56120 | Poskytování stravování u stánků a mobilních zařízení | Mobile food service activities | 5 | podtřída | 5612 |
+| 56120 | Poskytování stravování z mobilních stánků a zařízení | Mobile food service activities | 5 | podtřída | 5612 |
+| 562 | Cateringové činnosti, poskytování smluvních a ostatních stravovacích služeb | Event catering, contract catering service activities and other food service activities | 3 | skupina | 56 |
+| 5621 | Cateringové činnosti | Event catering activities | 4 | třída | 562 |
+| 56210 | Cateringové činnosti | Event catering activities | 5 | podtřída | 5621 |
+| 5622 | Poskytování smluvních a ostatních stravovacích služeb | Contract catering service activities and other food service activities | 4 | třída | 562 |
+| 56220 | Poskytování smluvních a ostatních stravovacích služeb | Contract catering service activities and other food service activities | 5 | podtřída | 5622 |
+| 563 | Podávání nápojů | Beverage serving activities | 3 | skupina | 56 |
+| 5630 | Podávání nápojů | Beverage serving activities | 4 | třída | 563 |
+| 56300 | Podávání nápojů | Beverage serving activities | 5 | podtřída | 5630 |
+| 564 | Zprostředkování v oblasti stravování a podávání nápojů | Intermediation service activities for food and beverage services activities | 3 | skupina | 56 |
+| 5640 | Zprostředkování v oblasti stravování a podávání nápojů | Intermediation service activities for food and beverage services activities | 4 | třída | 564 |
+| 56400 | Zprostředkování v oblasti stravování a podávání nápojů | Intermediation service activities for food and beverage services activities | 5 | podtřída | 5640 |
+| 58 | Vydavatelské činnosti | Publishing activities | 2 | oddíl | J |
+| 581 | Vydávání knih, novin a ostatní vydavatelské činnosti, kromě vydávání softwaru | Publishing of books, newspapers and other publishing activities, except software publishing | 3 | skupina | 58 |
+| 5811 | Vydávání knih | Publishing of books | 4 | třída | 581 |
+| 58110 | Vydávání knih | Publishing of books | 5 | podtřída | 5811 |
+| 5812 | Vydávání novin | Publishing of newspapers | 4 | třída | 581 |
+| 58121 | Vydávání tištěných novin | Publishing of printed newspapers | 5 | podtřída | 5812 |
+| 58122 | Vydávání novin v jiných formách než tištěných | Publishing of newspapers in forms other than printed | 5 | podtřída | 5812 |
+| 5813 | Vydávání časopisů a ostatních periodik | Publishing of journals and periodicals | 4 | třída | 581 |
+| 58131 | Vydávání tištěných časopisů | Publishing of printed journals | 5 | podtřída | 5813 |
+| 58132 | Vydávání časopisů v jiných formách než tištěných | Publishing of journals in forms other than printed | 5 | podtřída | 5813 |
+| 58139 | Vydávání ostatních periodik | Publishing of other periodicals | 5 | podtřída | 5813 |
+| 5819 | Ostatní vydavatelské činnosti, kromě vydávání softwaru | Other publishing activities, except software publishing | 4 | třída | 581 |
+| 58190 | Ostatní vydavatelské činnosti, kromě vydávání softwaru | Other publishing activities, except software publishing | 5 | podtřída | 5819 |
+| 582 | Vydávání softwaru | Software publishing | 3 | skupina | 58 |
+| 5821 | Vydávání videoher | Publishing of video games | 4 | třída | 582 |
+| 58210 | Vydávání videoher | Publishing of video games | 5 | podtřída | 5821 |
+| 5829 | Ostatní vydávání softwaru | Other software publishing | 4 | třída | 582 |
+| 58290 | Ostatní vydávání softwaru | Other software publishing | 5 | podtřída | 5829 |
+| 59 | Činnosti v oblasti filmů, videozáznamů a televizních pořadů, pořizování zvukových nahrávek a hudební vydavatelské činnosti | Motion picture, video and television programme production, sound recording and music publishing activities | 2 | oddíl | J |
+| 591 | Činnosti v oblasti filmů, videozáznamů a televizních pořadů | Motion picture, video and television programme activities | 3 | skupina | 59 |
+| 5911 | Produkce filmů, videozáznamů a televizních pořadů | Motion picture, video and television programme production activities | 4 | třída | 591 |
+| 59110 | Produkce filmů, videozáznamů a televizních pořadů | Motion picture, video and television programme production activities | 5 | podtřída | 5911 |
+| 5912 | Postprodukce filmů, videozáznamů a televizních pořadů | Motion picture, video and television programme post-production activities | 4 | třída | 591 |
+| 59120 | Postprodukce filmů, videozáznamů a televizních pořadů | Motion picture, video and television programme post-production activities | 5 | podtřída | 5912 |
+| 5913 | Distribuce filmů a videozáznamů | Motion picture and video distribution activities | 4 | třída | 591 |
+| 59130 | Distribuce filmů a videozáznamů | Motion picture and video distribution activities | 5 | podtřída | 5913 |
+| 5914 | Promítání filmů | Motion picture projection activities | 4 | třída | 591 |
+| 59140 | Promítání filmů | Motion picture projection activities | 5 | podtřída | 5914 |
+| 592 | Pořizování zvukových nahrávek a hudební vydavatelské činnosti | Sound recording and music publishing activities | 3 | skupina | 59 |
+| 5920 | Pořizování zvukových nahrávek a hudební vydavatelské činnosti | Sound recording and music publishing activities | 4 | třída | 592 |
+| 59200 | Pořizování zvukových nahrávek a hudební vydavatelské činnosti | Sound recording and music publishing activities | 5 | podtřída | 5920 |
+| 60 | Tvorba programů, vysílání, činnosti zpravodajských tiskových kanceláří a agentur a ostatní činnosti související s distribucí obsahu | Programming, broadcasting, news agency and other content distribution activities | 2 | oddíl | J |
+| 601 | Rozhlasové vysílání a distribuce zvukových záznamů | Radio broadcasting and audio distribution activities | 3 | skupina | 60 |
+| 6010 | Rozhlasové vysílání a distribuce zvukových záznamů | Radio broadcasting and audio distribution activities | 4 | třída | 601 |
+| 60101 | Rozhlasové vysílání | Radio broadcasting activities | 5 | podtřída | 6010 |
+| 60102 | Distribuce zvukových záznamů | Audio distribution activities | 5 | podtřída | 6010 |
+| 602 | Tvorba televizních programů, televizní vysílání a distribuce videozáznamů | Television programming, broadcasting and video distribution activities | 3 | skupina | 60 |
+| 6020 | Tvorba televizních programů, televizní vysílání a distribuce videozáznamů | Television programming, broadcasting and video distribution activities | 4 | třída | 602 |
+| 60200 | Tvorba televizních programů, televizní vysílání a distribuce videozáznamů | Television programming, broadcasting and video distribution activities | 5 | podtřída | 6020 |
+| 603 | Činnosti zpravodajských kanceláří a agentur a ostatní činnosti související s distribucí obsahu | News agency and other content distribution activities | 3 | skupina | 60 |
+| 6031 | Činnosti zpravodajských kanceláří a agentur | News agency activities | 4 | třída | 603 |
+| 60310 | Činnosti zpravodajských kanceláří a agentur | News agency activities | 5 | podtřída | 6031 |
+| 6039 | Ostatní činnosti související s distribucí obsahu | Other content distribution activities | 4 | třída | 603 |
+| 60390 | Ostatní činnosti související s distribucí obsahu | Other content distribution activities | 5 | podtřída | 6039 |
+| 61 | Telekomunikační činnosti | Telecommunication | 2 | oddíl | K |
+| 611 | Činnosti související s kabelovou, bezdrátovou a satelitní telekomunikační sítí | Wired, wireless, and satellite telecommunication activities | 3 | skupina | 61 |
+| 6110 | Činnosti související s kabelovou, bezdrátovou a satelitní telekomunikační sítí | Wired, wireless, and satellite telecommunication activities | 4 | třída | 611 |
+| 61100 | Činnosti související s kabelovou, bezdrátovou a satelitní telekomunikační sítí | Wired, wireless, and satellite telecommunication activities | 5 | podtřída | 6110 |
+| 612 | Činnosti v oblasti přeprodeje telekomunikačních služeb a zprostředkování telekomunikačních činností | Telecommunication reselling activities and intermediation service activities for telecommunication | 3 | skupina | 61 |
+| 6120 | Činnosti v oblasti přeprodeje telekomunikačních služeb a zprostředkování telekomunikačních činností | Telecommunication reselling activities and intermediation service activities for telecommunication | 4 | třída | 612 |
+| 61200 | Činnosti v oblasti přeprodeje telekomunikačních služeb a zprostředkování telekomunikačních činností | Telecommunication reselling activities and intermediation service activities for telecommunication | 5 | podtřída | 6120 |
+| 619 | Ostatní telekomunikační činnosti | Other telecommunication activities | 3 | skupina | 61 |
+| 6190 | Ostatní telekomunikační činnosti | Other telecommunication activities | 4 | třída | 619 |
+| 61900 | Ostatní telekomunikační činnosti | Other telecommunication activities | 5 | podtřída | 6190 |
+| 62 | Počítačové programování, poradenství a související činnosti | Computer programming, consultancy and related activities | 2 | oddíl | K |
+| 621 | Počítačové programování | Computer programming activities | 3 | skupina | 62 |
+| 6210 | Počítačové programování | Computer programming activities | 4 | třída | 621 |
+| 62101 | Programování a vývoj počítačových her, herního softwaru a herních nástrojů | Development of video games, video game software, and video game software tools | 5 | podtřída | 6210 |
+| 62109 | Ostatní počítačové programování | Other computer programming activities | 5 | podtřída | 6210 |
+| 622 | Poradenství v oblasti počítačů a správa počítačových systémů | Computer consultancy and computer facilities management activities | 3 | skupina | 62 |
+| 6220 | Poradenství v oblasti počítačů a správa počítačových systémů | Computer consultancy and computer facilities management activities | 4 | třída | 622 |
+| 62200 | Poradenství v oblasti počítačů a správa počítačových systémů | Computer consultancy and computer facilities management activities | 5 | podtřída | 6220 |
+| 629 | Ostatní činnosti v oblasti informačních technologií a počítačů | Other information technology and computer service activities | 3 | skupina | 62 |
+| 6290 | Ostatní činnosti v oblasti informačních technologií a počítačů | Other information technology and computer service activities | 4 | třída | 629 |
+| 62900 | Ostatní činnosti v oblasti informačních technologií a počítačů | Other information technology and computer service activities | 5 | podtřída | 6290 |
+| 63 | Poskytování počítačové infrastruktury, zpracování dat, hosting a ostatní informační činnosti | Computing infrastructure, data processing, hosting and other information service activities | 2 | oddíl | K |
+| 631 | Poskytování počítačové infrastruktury, zpracování dat, hosting a související činnosti | Computing infrastructure, data processing, hosting and related activities | 3 | skupina | 63 |
+| 6310 | Poskytování počítačové infrastruktury, zpracování dat, hosting a související činnosti | Computing infrastructure, data processing, hosting and related activities | 4 | třída | 631 |
+| 63100 | Poskytování počítačové infrastruktury, zpracování dat, hosting a související činnosti | Computing infrastructure, data processing, hosting and related activities | 5 | podtřída | 6310 |
+| 639 | Činnosti webových vyhledávacích portálů a ostatní informační činnosti | Web search portal activities and other information service activities | 3 | skupina | 63 |
+| 6391 | Činnosti webových vyhledávacích portálů | Web search portal activities | 4 | třída | 639 |
+| 63910 | Činnosti webových vyhledávacích portálů | Web search portal activities | 5 | podtřída | 6391 |
+| 6392 | Ostatní informační činnosti | Other information service activities | 4 | třída | 639 |
+| 63920 | Ostatní informační činnosti | Other information service activities | 5 | podtřída | 6392 |
+| 64 | Finanční činnosti, kromě pojišťování a penzijního financování | Financial service activities, except insurance and pension funding | 2 | oddíl | L |
+| 641 | Peněžní zprostředkování | Monetary intermediation | 3 | skupina | 64 |
+| 6411 | Centrální bankovnictví | Central banking | 4 | třída | 641 |
+| 64110 | Centrální bankovnictví | Central banking | 5 | podtřída | 6411 |
+| 6419 | Ostatní peněžní zprostředkování | Other monetary intermediation | 4 | třída | 641 |
+| 64190 | Ostatní peněžní zprostředkování | Other monetary intermediation | 5 | podtřída | 6419 |
+| 642 | Činnosti holdingových společností a účelových finančních společností | Activities of holding companies and financing conduits | 3 | skupina | 64 |
+| 642 | Činnosti holdingových společností a vnitroskupinových finančních společností účelově založených pro financování skupiny | Activities of holding companies and financing conduits | 3 | skupina | 64 |
+| 6421 | Činnosti holdingových společností | Activities of holding companies | 4 | třída | 642 |
+| 64210 | Činnosti holdingových společností | Activities of holding companies | 5 | podtřída | 6421 |
+| 6422 | Činnosti účelových finančních společností | Activities of financing conduits | 4 | třída | 642 |
+| 6422 | Činnosti vnitroskupinových finančních společností účelově založených pro financování skupiny | Activities of financing conduits | 4 | třída | 642 |
+| 64220 | Činnosti účelových finančních společností | Activities of financing conduits | 5 | podtřída | 6422 |
+| 64220 | Činnosti vnitroskupinových finančních společností účelově založených pro financování skupiny | Activities of financing conduits | 5 | podtřída | 6422 |
+| 643 | Činnosti svěřenských a jiných fondů a podobných finančních entit | Activities of trusts, funds and similar financial entities | 3 | skupina | 64 |
+| 6431 | Činnosti investičních fondů peněžního trhu a investičních fondů jiných než peněžního trhu | Activities of money market and non-money market investments funds | 4 | třída | 643 |
+| 64310 | Činnosti investičních fondů peněžního trhu a investičních fondů jiných než peněžního trhu | Activities of money market and non-money market investments funds | 5 | podtřída | 6431 |
+| 6432 | Činnosti svěřenských fondů, majetkových a agenturních účtů | Activities of trust, estate and agency accounts | 4 | třída | 643 |
+| 6432 | Činnosti svěřenských fondů, pozůstalostních a zprostředkovatelských účtů | Activities of trust, estate and agency accounts | 4 | třída | 643 |
+| 64320 | Činnosti svěřenských fondů, majetkových a agenturních účtů | Activities of trust, estate and agency accounts | 5 | podtřída | 6432 |
+| 64320 | Činnosti svěřenských fondů, pozůstalostních a zprostředkovatelských účtů | Activities of trust, estate and agency accounts | 5 | podtřída | 6432 |
+| 649 | Ostatní finanční činnosti, kromě pojišťování a penzijního financování | Other financial service activities, except insurance and pension funding | 3 | skupina | 64 |
+| 6491 | Finanční leasing | Financial leasing | 4 | třída | 649 |
+| 64910 | Finanční leasing | Financial leasing | 5 | podtřída | 6491 |
+| 6492 | Ostatní poskytování úvěrů | Other credit granting | 4 | třída | 649 |
+| 64921 | Poskytování spotřebitelských úvěrů společnostmi, které nepřijímají vklady | Granting of consumer credit by non-depository institutions | 5 | podtřída | 6492 |
+| 64922 | Poskytování jiných úvěrů společnostmi, které nepřijímají vklady | Other credit granting by specialised non-depository institutions | 5 | podtřída | 6492 |
+| 64923 | Činnosti zastaváren | Activities of pawnbrokers | 5 | podtřída | 6492 |
+| 64924 | Faktoringové činnosti | Factoring activities | 5 | podtřída | 6492 |
+| 64929 | Ostatní poskytování úvěrů j. n. | Other credit granting n.e.c. | 5 | podtřída | 6492 |
+| 6499 | Ostatní finanční činnosti, kromě pojišťování a penzijního financování j. n. | Other financial service activities, except insurance and pension funding n.e.c. | 4 | třída | 649 |
+| 64991 | Obchodování s cennými papíry na vlastní účet | Security and derivate dealers operating on own account | 5 | podtřída | 6499 |
+| 64999 | Jiné finanční činnosti, kromě pojišťování a penzijního financování j. n. | All other financial service activities, except insurance and pension funding n.e.c. | 5 | podtřída | 6499 |
+| 65 | Pojišťovací a zajišťovací činnosti, penzijní financování, kromě povinného sociálního zabezpečení | Insurance, reinsurance and pension funding, except compulsory social security | 2 | oddíl | L |
+| 651 | Pojišťovací činnosti | Insurance | 3 | skupina | 65 |
+| 6511 | Činnosti v oblasti životního pojištění | Life insurance | 4 | třída | 651 |
+| 65110 | Činnosti v oblasti životního pojištění | Life insurance | 5 | podtřída | 6511 |
+| 6512 | Činnosti v oblasti neživotního pojištění | Non-life insurance | 4 | třída | 651 |
+| 65120 | Činnosti v oblasti neživotního pojištění | Non-life insurance | 5 | podtřída | 6512 |
+| 652 | Zajišťovací činnosti | Reinsurance | 3 | skupina | 65 |
+| 6520 | Zajišťovací činnosti | Reinsurance | 4 | třída | 652 |
+| 65200 | Zajišťovací činnosti | Reinsurance | 5 | podtřída | 6520 |
+| 653 | Penzijní financování | Pension funding | 3 | skupina | 65 |
+| 6530 | Penzijní financování | Pension funding | 4 | třída | 653 |
+| 65300 | Penzijní financování | Pension funding | 5 | podtřída | 6530 |
+| 66 | Pomocné činnosti k finančním a pojišťovacím činnostem | Activities auxiliary to financial services and insurance activities | 2 | oddíl | L |
+| 661 | Pomocné činnosti k finančním činnostem, kromě pojišťování a penzijního financování | Activities auxiliary to financial services, except insurance and pension funding | 3 | skupina | 66 |
+| 6611 | Řízení a správa finančních trhů | Administration of financial markets | 4 | třída | 661 |
+| 66110 | Řízení a správa finančních trhů | Administration of financial markets | 5 | podtřída | 6611 |
+| 6612 | Obchodování s cennými papíry a komoditami na burzách | Security and commodity contracts brokerage | 4 | třída | 661 |
+| 6612 | Obchodování s cennými papíry a komoditami na účet zákazníka | Security and commodity contracts brokerage | 4 | třída | 661 |
+| 66120 | Obchodování s cennými papíry a komoditami na burzách | Security and commodity contracts brokerage | 5 | podtřída | 6612 |
+| 66120 | Obchodování s cennými papíry a komoditami na účet zákazníka | Security and commodity contracts brokerage | 5 | podtřída | 6612 |
+| 6619 | Ostatní pomocné činnosti k finančním činnostem, kromě pojišťování a penzijního financování | Other activities auxiliary to financial services, except insurance and pension funding | 4 | třída | 661 |
+| 66190 | Ostatní pomocné činnosti k finančním činnostem, kromě pojišťování a penzijního financování | Other activities auxiliary to financial services, except insurance and pension funding | 5 | podtřída | 6619 |
+| 662 | Pomocné činnosti k pojišťování a penzijnímu financování | Activities auxiliary to insurance and pension funding | 3 | skupina | 66 |
+| 6621 | Vyhodnocování rizik a škod | Risk and damage evaluation | 4 | třída | 662 |
+| 66210 | Vyhodnocování rizik a škod | Risk and damage evaluation | 5 | podtřída | 6621 |
+| 6622 | Činnosti pojišťovacích makléřů a agentů | Activities of insurance agents and brokers | 4 | třída | 662 |
+| 66220 | Činnosti pojišťovacích makléřů a agentů | Activities of insurance agents and brokers | 5 | podtřída | 6622 |
+| 6629 | Pomocné činnosti k pojišťování a penzijnímu financování j. n. | Activities auxiliary to insurance and pension funding n.e.c. | 4 | třída | 662 |
+| 66290 | Pomocné činnosti k pojišťování a penzijnímu financování j. n. | Activities auxiliary to insurance and pension funding n.e.c. | 5 | podtřída | 6629 |
+| 663 | Správa fondů | Fund management activities | 3 | skupina | 66 |
+| 6630 | Správa fondů | Fund management activities | 4 | třída | 663 |
+| 66300 | Správa fondů | Fund management activities | 5 | podtřída | 6630 |
+| 68 | Činnosti v oblasti nemovitostí | Real estate activities | 2 | oddíl | M |
+| 681 | Činnosti v oblasti vlastních nemovitostí a developerské činnosti | Real estate activities with own property and development of building projects | 3 | skupina | 68 |
+| 6811 | Nákup a následný prodej vlastních nemovitostí | Buying and selling of own real estate | 4 | třída | 681 |
+| 68110 | Nákup a následný prodej vlastních nemovitostí | Buying and selling of own real estate | 5 | podtřída | 6811 |
+| 6812 | Developerské činnosti | Development of building projects | 4 | třída | 681 |
+| 68120 | Developerské činnosti | Development of building projects | 5 | podtřída | 6812 |
+| 682 | Pronájem a správa vlastních nebo pronajatých nemovitostí | Rental and operating of own or leased real estate | 3 | skupina | 68 |
+| 6820 | Pronájem a správa vlastních nebo pronajatých nemovitostí | Rental and operating of own or leased real estate | 4 | třída | 682 |
+| 68200 | Pronájem a správa vlastních nebo pronajatých nemovitostí | Rental and operating of own or leased real estate | 5 | podtřída | 6820 |
+| 683 | Činnosti v oblasti nemovitostí na základě smlouvy nebo dohody | Real estate activities on a fee or contract basis | 3 | skupina | 68 |
+| 6831 | Zprostředkování v oblasti nemovitostí | Intermediation service activities for real estate activities | 4 | třída | 683 |
+| 68310 | Zprostředkování v oblasti nemovitostí | Intermediation service activities for real estate activities | 5 | podtřída | 6831 |
+| 6832 | Ostatní činnosti v oblasti nemovitostí na základě smlouvy nebo dohody | Other real estate activities on a fee or contract basis | 4 | třída | 683 |
+| 68320 | Ostatní činnosti v oblasti nemovitostí na základě smlouvy nebo dohody | Other real estate activities on a fee or contract basis | 5 | podtřída | 6832 |
+| 69 | Právní a účetnické činnosti | Legal and accounting activities | 2 | oddíl | N |
+| 691 | Právní činnosti | Legal activities | 3 | skupina | 69 |
+| 6910 | Právní činnosti | Legal activities | 4 | třída | 691 |
+| 69100 | Právní činnosti | Legal activities | 5 | podtřída | 6910 |
+| 692 | Účetnické a auditorské činnosti; daňové poradenství | Accounting, bookkeeping and auditing activities; tax consultancy | 3 | skupina | 69 |
+| 6920 | Účetnické a auditorské činnosti; daňové poradenství | Accounting, bookkeeping and auditing activities; tax consultancy | 4 | třída | 692 |
+| 69200 | Účetnické a auditorské činnosti; daňové poradenství | Accounting, bookkeeping and auditing activities; tax consultancy | 5 | podtřída | 6920 |
+| 70 | Činnosti řízení podniků a poradenství v oblasti podnikání | Activities of head offices and management consultancy | 2 | oddíl | N |
+| 701 | Činnosti řízení podniků | Activities of head offices | 3 | skupina | 70 |
+| 7010 | Činnosti řízení podniků | Activities of head offices | 4 | třída | 701 |
+| 70100 | Činnosti řízení podniků | Activities of head offices | 5 | podtřída | 7010 |
+| 702 | Poradenství v oblasti podnikání a řízení podniků | Business and other management consultancy activities | 3 | skupina | 70 |
+| 7020 | Poradenství v oblasti podnikání a řízení podniků | Business and other management consultancy activities | 4 | třída | 702 |
+| 70200 | Poradenství v oblasti podnikání a řízení podniků | Business and other management consultancy activities | 5 | podtřída | 7020 |
+| 71 | Architektonické a inženýrské činnosti; technické zkoušky a analýzy | Architectural and engineering activities; technical testing and analysis | 2 | oddíl | N |
+| 711 | Architektonické a inženýrské činnosti a související technické poradenství | Architectural and engineering activities and related technical consultancy | 3 | skupina | 71 |
+| 7111 | Architektonické činnosti | Architectural activities | 4 | třída | 711 |
+| 71110 | Architektonické činnosti | Architectural activities | 5 | podtřída | 7111 |
+| 7112 | Inženýrské činnosti a související technické poradenství | Engineering activities and related technical consultancy | 4 | třída | 711 |
+| 71120 | Inženýrské činnosti a související technické poradenství | Engineering activities and related technical consultancy | 5 | podtřída | 7112 |
+| 712 | Technické zkoušky a analýzy | Technical testing and analysis | 3 | skupina | 71 |
+| 7120 | Technické zkoušky a analýzy | Technical testing and analysis | 4 | třída | 712 |
+| 71200 | Technické zkoušky a analýzy | Technical testing and analysis | 5 | podtřída | 7120 |
+| 72 | Výzkum a vývoj | Scientific research and development | 2 | oddíl | N |
+| 721 | Výzkum a vývoj v oblasti přírodních a technických věd | Research and experimental development on natural sciences and engineering | 3 | skupina | 72 |
+| 7210 | Výzkum a vývoj v oblasti přírodních a technických věd | Research and experimental development on natural sciences and engineering | 4 | třída | 721 |
+| 72100 | Výzkum a vývoj v oblasti přírodních a technických věd | Research and experimental development on natural sciences and engineering | 5 | podtřída | 7210 |
+| 722 | Výzkum a vývoj v oblasti společenských a humanitních věd | Research and experimental development on social sciences and humanities | 3 | skupina | 72 |
+| 7220 | Výzkum a vývoj v oblasti společenských a humanitních věd | Research and experimental development on social sciences and humanities | 4 | třída | 722 |
+| 72200 | Výzkum a vývoj v oblasti společenských a humanitních věd | Research and experimental development on social sciences and humanities | 5 | podtřída | 7220 |
+| 73 | Činnosti v oblasti reklamy, průzkumu trhu a vztahů s veřejností | Activities of advertising, market research and public relations | 2 | oddíl | N |
+| 731 | Reklamní činnosti | Advertising | 3 | skupina | 73 |
+| 7311 | Činnosti reklamních agentur | Activities of advertising agencies | 4 | třída | 731 |
+| 73110 | Činnosti reklamních agentur | Activities of advertising agencies | 5 | podtřída | 7311 |
+| 7312 | Zastupování médií při prodeji reklamního času a prostoru | Media representation | 4 | třída | 731 |
+| 73120 | Zastupování médií při prodeji reklamního času a prostoru | Media representation | 5 | podtřída | 7312 |
+| 732 | Průzkum trhu a veřejného mínění | Market research and public opinion polling | 3 | skupina | 73 |
+| 7320 | Průzkum trhu a veřejného mínění | Market research and public opinion polling | 4 | třída | 732 |
+| 73200 | Průzkum trhu a veřejného mínění | Market research and public opinion polling | 5 | podtřída | 7320 |
+| 733 | Činnosti v oblasti vztahů s veřejností a komunikace | Public relations and communication activities | 3 | skupina | 73 |
+| 7330 | Činnosti v oblasti vztahů s veřejností a komunikace | Public relations and communication activities | 4 | třída | 733 |
+| 73300 | Činnosti v oblasti vztahů s veřejností a komunikace | Public relations and communication activities | 5 | podtřída | 7330 |
+| 74 | Ostatní odborné, vědecké a technické činnosti | Other professional, scientific and technical activities | 2 | oddíl | N |
+| 741 | Specializované návrhářské činnosti | Specialised design activities | 3 | skupina | 74 |
+| 7411 | Činnosti v oblasti průmyslového a módního designu | Industrial product and fashion design activities | 4 | třída | 741 |
+| 74111 | Činnosti v oblasti průmyslového designu | Industrial product design activities | 5 | podtřída | 7411 |
+| 74112 | Činnosti v oblasti módního designu | Fashion design activities | 5 | podtřída | 7411 |
+| 7412 | Činnosti v oblasti grafického designu a vizuální komunikace | Graphic design and visual communication activities | 4 | třída | 741 |
+| 74120 | Činnosti v oblasti grafického designu a vizuální komunikace | Graphic design and visual communication activities | 5 | podtřída | 7412 |
+| 7413 | Navrhování interiérů | Interior design activities | 4 | třída | 741 |
+| 74130 | Navrhování interiérů | Interior design activities | 5 | podtřída | 7413 |
+| 7414 | Ostatní specializované návrhářské činnosti | Other specialised design activities | 4 | třída | 741 |
+| 74140 | Ostatní specializované návrhářské činnosti | Other specialised design activities | 5 | podtřída | 7414 |
+| 742 | Fotografické činnosti | Photographic activities | 3 | skupina | 74 |
+| 7420 | Fotografické činnosti | Photographic activities | 4 | třída | 742 |
+| 74200 | Fotografické činnosti | Photographic activities | 5 | podtřída | 7420 |
+| 743 | Překladatelské a tlumočnické činnosti | Translation and interpretation activities | 3 | skupina | 74 |
+| 7430 | Překladatelské a tlumočnické činnosti | Translation and interpretation activities | 4 | třída | 743 |
+| 74300 | Překladatelské a tlumočnické činnosti | Translation and interpretation activities | 5 | podtřída | 7430 |
+| 749 | Ostatní odborné, vědecké a technické činnosti j. n. | Other professional, scientific and technical activities n.e.c. | 3 | skupina | 74 |
+| 7491 | Činnosti v oblasti zprostředkování a marketingu patentů | Patent brokering and marketing service activities | 4 | třída | 749 |
+| 74910 | Činnosti v oblasti zprostředkování a marketingu patentů | Patent brokering and marketing service activities | 5 | podtřída | 7491 |
+| 7499 | Všechny ostatní odborné, vědecké a technické činnosti j. n. | All other professional, scientific and technical activities n.e.c. | 4 | třída | 749 |
+| 74990 | Všechny ostatní odborné, vědecké a technické činnosti j. n. | All other professional, scientific and technical activities n.e.c. | 5 | podtřída | 7499 |
+| 75 | Veterinární činnosti | Veterinary activities | 2 | oddíl | N |
+| 750 | Veterinární činnosti | Veterinary activities | 3 | skupina | 75 |
+| 7500 | Veterinární činnosti | Veterinary activities | 4 | třída | 750 |
+| 75000 | Veterinární činnosti | Veterinary activities | 5 | podtřída | 7500 |
+| 77 | Činnosti v oblasti pronájmu a leasingu | Rental and leasing activities | 2 | oddíl | O |
+| 771 | Pronájem a leasing motorových vozidel | Rental and leasing of motor vehicles | 3 | skupina | 77 |
+| 7711 | Pronájem a leasing osobních automobilů a lehkých motorových vozidel | Rental and leasing of cars and light motor vehicles | 4 | třída | 771 |
+| 77110 | Pronájem a leasing osobních automobilů a lehkých motorových vozidel | Rental and leasing of cars and light motor vehicles | 5 | podtřída | 7711 |
+| 7712 | Pronájem a leasing nákladních automobilů | Rental and leasing of trucks | 4 | třída | 771 |
+| 77120 | Pronájem a leasing nákladních automobilů | Rental and leasing of trucks | 5 | podtřída | 7712 |
+| 772 | Pronájem a leasing výrobků pro osobní potřebu a převážně pro domácnost | Rental and leasing of personal and household goods | 3 | skupina | 77 |
+| 7721 | Pronájem a leasing rekreačních a sportovních potřeb | Rental and leasing of recreational and sports goods | 4 | třída | 772 |
+| 77210 | Pronájem a leasing rekreačních a sportovních potřeb | Rental and leasing of recreational and sports goods | 5 | podtřída | 7721 |
+| 7722 | Pronájem a leasing ostatních výrobků pro osobní potřebu a převážně pro domácnost | Rental and leasing of other personal and household goods | 4 | třída | 772 |
+| 77220 | Pronájem a leasing ostatních výrobků pro osobní potřebu a převážně pro domácnost | Rental and leasing of other personal and household goods | 5 | podtřída | 7722 |
+| 773 | Pronájem a leasing ostatních strojů, zařízení a hmotných statků | Rental and leasing of other machinery, equipment and tangible goods | 3 | skupina | 77 |
+| 7731 | Pronájem a leasing zemědělských strojů a zařízení | Rental and leasing of agricultural machinery and equipment | 4 | třída | 773 |
+| 77310 | Pronájem a leasing zemědělských strojů a zařízení | Rental and leasing of agricultural machinery and equipment | 5 | podtřída | 7731 |
+| 7732 | Pronájem a leasing stavebních strojů a zařízení | Rental and leasing of construction and civil engineering machinery and equipment | 4 | třída | 773 |
+| 77320 | Pronájem a leasing stavebních strojů a zařízení | Rental and leasing of construction and civil engineering machinery and equipment | 5 | podtřída | 7732 |
+| 7733 | Pronájem a leasing kancelářských strojů a zařízení, včetně počítačů | Rental and leasing of office machinery, equipment and computers | 4 | třída | 773 |
+| 77330 | Pronájem a leasing kancelářských strojů a zařízení, včetně počítačů | Rental and leasing of office machinery, equipment and computers | 5 | podtřída | 7733 |
+| 7734 | Pronájem a leasing vodních dopravních prostředků | Rental and leasing of water transport equipment | 4 | třída | 773 |
+| 77340 | Pronájem a leasing vodních dopravních prostředků | Rental and leasing of water transport equipment | 5 | podtřída | 7734 |
+| 7735 | Pronájem a leasing leteckých dopravních prostředků | Rental and leasing of air transport equipment | 4 | třída | 773 |
+| 77350 | Pronájem a leasing leteckých dopravních prostředků | Rental and leasing of air transport equipment | 5 | podtřída | 7735 |
+| 7739 | Pronájem a leasing ostatních strojů, zařízení a hmotných statků j. n. | Rental and leasing of other machinery, equipment and tangible goods n.e.c. | 4 | třída | 773 |
+| 77390 | Pronájem a leasing ostatních strojů, zařízení a hmotných statků j. n. | Rental and leasing of other machinery, equipment and tangible goods n.e.c. | 5 | podtřída | 7739 |
+| 774 | Leasing duševního vlastnictví a podobných produktů, kromě děl chráněných autorským právem | Leasing of intellectual property and similar products, except copyrighted works | 3 | skupina | 77 |
+| 7740 | Leasing duševního vlastnictví a podobných produktů, kromě děl chráněných autorským právem | Leasing of intellectual property and similar products, except copyrighted works | 4 | třída | 774 |
+| 77400 | Leasing duševního vlastnictví a podobných produktů, kromě děl chráněných autorským právem | Leasing of intellectual property and similar products, except copyrighted works | 5 | podtřída | 7740 |
+| 775 | Zprostředkování v oblasti pronájmu a leasingu hmotných statků a nefinančních nehmotných aktiv | Intermediation service activities for rental and leasing of tangible goods and non-financial intangible assets | 3 | skupina | 77 |
+| 7751 | Zprostředkování v oblasti pronájmu a leasingu automobilů, obytných automobilů a přívěsů | Intermediation service activities for rental and leasing of cars, motorhomes and trailers | 4 | třída | 775 |
+| 77510 | Zprostředkování v oblasti pronájmu a leasingu automobilů, obytných automobilů a přívěsů | Intermediation service activities for rental and leasing of cars, motorhomes and trailers | 5 | podtřída | 7751 |
+| 7752 | Zprostředkování v oblasti pronájmu a leasingu jiných hmotných statků a nefinančních nehmotných aktiv | Intermediation service activities for rental and leasing of other tangible goods and non-financial intangible assets | 4 | třída | 775 |
+| 77520 | Zprostředkování v oblasti pronájmu a leasingu jiných hmotných statků a nefinančních nehmotných aktiv | Intermediation service activities for rental and leasing of other tangible goods and non-financial intangible assets | 5 | podtřída | 7752 |
+| 78 | Činnosti související se zaměstnáním | Employment activities | 2 | oddíl | O |
+| 781 | Činnosti agentur zprostředkujících zaměstnání | Activities of employment placement agencies | 3 | skupina | 78 |
+| 7810 | Činnosti agentur zprostředkujících zaměstnání | Activities of employment placement agencies | 4 | třída | 781 |
+| 78100 | Činnosti agentur zprostředkujících zaměstnání | Activities of employment placement agencies | 5 | podtřída | 7810 |
+| 782 | Činnosti agentur zprostředkujících práci na přechodnou dobu a ostatní poskytování lidských zdrojů | Temporary employment agency activities and other human resource provisions | 3 | skupina | 78 |
+| 7820 | Činnosti agentur zprostředkujících práci na přechodnou dobu a ostatní poskytování lidských zdrojů | Temporary employment agency activities and other human resource provisions | 4 | třída | 782 |
+| 78200 | Činnosti agentur zprostředkujících práci na přechodnou dobu a ostatní poskytování lidských zdrojů | Temporary employment agency activities and other human resource provisions | 5 | podtřída | 7820 |
+| 79 | Činnosti cestovních agentur, kanceláří a ostatní rezervační a související činnosti | Travel agency, tour operator and other reservation service and related activities | 2 | oddíl | O |
+| 791 | Činnosti cestovních agentur a cestovních kanceláří | Travel agency and tour operator activities | 3 | skupina | 79 |
+| 7911 | Činnosti cestovních agentur | Travel agency activities | 4 | třída | 791 |
+| 79110 | Činnosti cestovních agentur | Travel agency activities | 5 | podtřída | 7911 |
+| 7912 | Činnosti cestovních kanceláří | Tour operator activities | 4 | třída | 791 |
+| 79120 | Činnosti cestovních kanceláří | Tour operator activities | 5 | podtřída | 7912 |
+| 799 | Ostatní rezervační a související činnosti | Other reservation service and related activities | 3 | skupina | 79 |
+| 7990 | Ostatní rezervační a související činnosti | Other reservation service and related activities | 4 | třída | 799 |
+| 79900 | Ostatní rezervační a související činnosti | Other reservation service and related activities | 5 | podtřída | 7990 |
+| 80 | Pátrací a bezpečnostní činnosti | Investigation and security activities | 2 | oddíl | O |
+| 800 | Pátrací a bezpečnostní činnosti | Investigation and security activities | 3 | skupina | 80 |
+| 8001 | Pátrací činnosti a činnosti soukromých bezpečnostních agentur | Investigation and private security activities | 4 | třída | 800 |
+| 80010 | Pátrací činnosti a činnosti soukromých bezpečnostních agentur | Investigation and private security activities | 5 | podtřída | 8001 |
+| 8009 | Bezpečnostní činnosti j. n. | Security activities n.e.c. | 4 | třída | 800 |
+| 80090 | Bezpečnostní činnosti j. n. | Security activities n.e.c. | 5 | podtřída | 8009 |
+| 81 | Činnosti související se stavbami a úpravou krajiny | Services to buildings and landscape activities | 2 | oddíl | O |
+| 811 | Kombinované podpůrné činnosti | Combined facilities support activities | 3 | skupina | 81 |
+| 811 | Kombinované podpůrné činnosti v objektech klientů | Combined facilities support activities | 3 | skupina | 81 |
+| 8110 | Kombinované podpůrné činnosti | Combined facilities support activities | 4 | třída | 811 |
+| 8110 | Kombinované podpůrné činnosti v objektech klientů | Combined facilities support activities | 4 | třída | 811 |
+| 81100 | Kombinované podpůrné činnosti | Combined facilities support activities | 5 | podtřída | 8110 |
+| 81100 | Kombinované podpůrné činnosti v objektech klientů | Combined facilities support activities | 5 | podtřída | 8110 |
+| 812 | Úklidové činnosti | Cleaning activities | 3 | skupina | 81 |
+| 8121 | Všeobecný úklid budov | General cleaning of buildings | 4 | třída | 812 |
+| 81210 | Všeobecný úklid budov | General cleaning of buildings | 5 | podtřída | 8121 |
+| 8122 | Specializované čištění a úklid budov a průmyslových zařízení | Other building and industrial cleaning activities | 4 | třída | 812 |
+| 81220 | Specializované čištění a úklid budov a průmyslových zařízení | Other building and industrial cleaning activities | 5 | podtřída | 8122 |
+| 8123 | Ostatní úklidové činnosti | Other cleaning activities | 4 | třída | 812 |
+| 81230 | Ostatní úklidové činnosti | Other cleaning activities | 5 | podtřída | 8123 |
+| 813 | Činnosti související s úpravou krajiny | Landscape service activities | 3 | skupina | 81 |
+| 8130 | Činnosti související s úpravou krajiny | Landscape service activities | 4 | třída | 813 |
+| 81300 | Činnosti související s úpravou krajiny | Landscape service activities | 5 | podtřída | 8130 |
+| 82 | Administrativní, kancelářské a jiné podpůrné činnosti pro podnikání | Office administrative, office support and other business support activities | 2 | oddíl | O |
+| 821 | Administrativní a kancelářské činnosti | Office administrative and support activities | 3 | skupina | 82 |
+| 8210 | Administrativní a kancelářské činnosti | Office administrative and support activities | 4 | třída | 821 |
+| 82100 | Administrativní a kancelářské činnosti | Office administrative and support activities | 5 | podtřída | 8210 |
+| 822 | Činnosti call center | Activities of call centres | 3 | skupina | 82 |
+| 8220 | Činnosti call center | Activities of call centres | 4 | třída | 822 |
+| 82200 | Činnosti call center | Activities of call centres | 5 | podtřída | 8220 |
+| 823 | Pořádání kongresů a veletrhů | Organisation of conventions and trade shows | 3 | skupina | 82 |
+| 8230 | Pořádání kongresů a veletrhů | Organisation of conventions and trade shows | 4 | třída | 823 |
+| 82300 | Pořádání kongresů a veletrhů | Organisation of conventions and trade shows | 5 | podtřída | 8230 |
+| 824 | Zprostředkování v oblasti podpůrných činností pro podnikání j. n. | Intermediation service activities for business support service activities n.e.c. | 3 | skupina | 82 |
+| 8240 | Zprostředkování v oblasti podpůrných činností pro podnikání j. n. | Intermediation service activities for business support service activities n.e.c. | 4 | třída | 824 |
+| 82400 | Zprostředkování v oblasti podpůrných činností pro podnikání j. n. | Intermediation service activities for business support service activities n.e.c. | 5 | podtřída | 8240 |
+| 829 | Podpůrné činnosti pro podnikání j. n. | Business support service activities n.e.c. | 3 | skupina | 82 |
+| 8291 | Inkasní činnosti, ověřování solventnosti zákazníka | Activities of collection agencies and credit bureaus | 4 | třída | 829 |
+| 82910 | Inkasní činnosti, ověřování solventnosti zákazníka | Activities of collection agencies and credit bureaus | 5 | podtřída | 8291 |
+| 8292 | Balicí činnosti | Packaging activities | 4 | třída | 829 |
+| 82920 | Balicí činnosti | Packaging activities | 5 | podtřída | 8292 |
+| 8299 | Ostatní podpůrné činnosti pro podnikání j. n. | Other business support service activities n.e.c. | 4 | třída | 829 |
+| 82990 | Ostatní podpůrné činnosti pro podnikání j. n. | Other business support service activities n.e.c. | 5 | podtřída | 8299 |
+| 84 | Činnosti v oblasti veřejné správy, obrany a povinného sociálního zabezpečení | Public administration and defence; compulsory social security | 2 | oddíl | P |
+| 841 | Činnosti v oblasti veřejné správy a hospodářské, sociální a environmentální politiky | Administration of the State and the economic, social and environmental policies of the community | 3 | skupina | 84 |
+| 8411 | Všeobecné činnosti veřejné správy | General public administration activities | 4 | třída | 841 |
+| 84110 | Všeobecné činnosti veřejné správy | General public administration activities | 5 | podtřída | 8411 |
+| 8412 | Regulace činností souvisejících s poskytováním zdravotní péče, vzděláváním, kulturou a jiných služeb pro společnost | Regulation of health care, education, cultural services and other social services | 4 | třída | 841 |
+| 84121 | Regulace činností souvisejících s poskytováním zdravotní péče | Regulation of health care | 5 | podtřída | 8412 |
+| 84122 | Regulace činností souvisejících se vzděláváním | Regulation of education | 5 | podtřída | 8412 |
+| 84123 | Regulace činností souvisejících s kulturou | Regulation of cultural services | 5 | podtřída | 8412 |
+| 84124 | Regulace činností souvisejících se sportem | Regulation of sports | 5 | podtřída | 8412 |
+| 84125 | Regulace činností souvisejících s poskytováním sociální péče, kromě povinného sociálního zabezpečení | Regulation of social services, except compulsory social security activities | 5 | podtřída | 8412 |
+| 84129 | Regulace činností souvisejících s poskytováním ostatních služeb pro společnost j. n. | Regulation of other social services n.e.c. | 5 | podtřída | 8412 |
+| 8413 | Regulace a podpora podnikatelského prostředí | Regulation of and contribution to more efficient operation of businesses | 4 | třída | 841 |
+| 84130 | Regulace a podpora podnikatelského prostředí | Regulation of and contribution to more efficient operation of businesses | 5 | podtřída | 8413 |
+| 842 | Činnosti pro společnost jako celek | Provision of services to the community as a whole | 3 | skupina | 84 |
+| 8421 | Činnosti v oblasti zahraničních věcí | Foreign affairs | 4 | třída | 842 |
+| 84210 | Činnosti v oblasti zahraničních věcí | Foreign affairs | 5 | podtřída | 8421 |
+| 8422 | Činnosti v oblasti obrany | Defence activities | 4 | třída | 842 |
+| 84220 | Činnosti v oblasti obrany | Defence activities | 5 | podtřída | 8422 |
+| 8423 | Činnosti v oblasti spravedlnosti a soudnictví | Justice and judicial activities | 4 | třída | 842 |
+| 84230 | Činnosti v oblasti spravedlnosti a soudnictví | Justice and judicial activities | 5 | podtřída | 8423 |
+| 8424 | Činnosti v oblasti veřejného pořádku a bezpečnosti | Public order and safety activities | 4 | třída | 842 |
+| 84240 | Činnosti v oblasti veřejného pořádku a bezpečnosti | Public order and safety activities | 5 | podtřída | 8424 |
+| 8425 | Činnosti v oblasti požární ochrany | Fire service activities | 4 | třída | 842 |
+| 84250 | Činnosti v oblasti požární ochrany | Fire service activities | 5 | podtřída | 8425 |
+| 843 | Činnosti v oblasti povinného sociální zabezpečení | Compulsory social security activities | 3 | skupina | 84 |
+| 8430 | Činnosti v oblasti povinného sociální zabezpečení | Compulsory social security activities | 4 | třída | 843 |
+| 84300 | Činnosti v oblasti povinného sociální zabezpečení | Compulsory social security activities | 5 | podtřída | 8430 |
+| 85 | Vzdělávání | Education | 2 | oddíl | Q |
+| 851 | Preprimární vzdělávání | Pre-primary education | 3 | skupina | 85 |
+| 8510 | Preprimární vzdělávání | Pre-primary education | 4 | třída | 851 |
+| 85100 | Preprimární vzdělávání | Pre-primary education | 5 | podtřída | 8510 |
+| 852 | Primární vzdělávání | Primary education | 3 | skupina | 85 |
+| 8520 | Primární vzdělávání | Primary education | 4 | třída | 852 |
+| 85200 | Primární vzdělávání | Primary education | 5 | podtřída | 8520 |
+| 853 | Sekundární a postsekundární neterciární vzdělávání | Secondary and post-secondary non-tertiary education | 3 | skupina | 85 |
+| 8531 | Sekundární všeobecné vzdělávání | General secondary education | 4 | třída | 853 |
+| 85311 | Sekundární všeobecné vzdělávání na druhém stupni základních škol | General secondary education in upper grades of basic schools | 5 | podtřída | 8531 |
+| 85312 | Sekundární všeobecné vzdělávání na středních školách | General secondary education in secondary schools | 5 | podtřída | 8531 |
+| 8532 | Sekundární odborné vzdělávání | Vocational secondary education | 4 | třída | 853 |
+| 85321 | Sekundární odborné vzdělávání v uměleckých oborech | Vocational secondary education in the arts | 5 | podtřída | 8532 |
+| 85322 | Sekundární odborné vzdělávání bez maturitní zkoušky v jiných než uměleckých oborech | Vocational secondary education without A-level examination other than in the arts | 5 | podtřída | 8532 |
+| 85323 | Sekundární odborné vzdělávání s maturitní zkouškou v jiných než uměleckých oborech | Vocational secondary education with A-level examination other than in the arts | 5 | podtřída | 8532 |
+| 8533 | Postsekundární neterciární vzdělávání | Post-secondary non-tertiary education | 4 | třída | 853 |
+| 85330 | Postsekundární neterciární vzdělávání | Post-secondary non-tertiary education | 5 | podtřída | 8533 |
+| 854 | Terciární vzdělávání | Tertiary education | 3 | skupina | 85 |
+| 8540 | Terciární vzdělávání | Tertiary education | 4 | třída | 854 |
+| 85401 | Terciární vzdělávání v uměleckých oborech | Tertiary education in the arts | 5 | podtřída | 8540 |
+| 85402 | Terciární vzdělávání v jiných než uměleckých oborech | Tertiary education other than in the arts | 5 | podtřída | 8540 |
+| 855 | Ostatní vzdělávání | Other education | 3 | skupina | 85 |
+| 8551 | Sportovní a rekreační vzdělávání | Sports and recreation education | 4 | třída | 855 |
+| 85510 | Sportovní a rekreační vzdělávání | Sports and recreation education | 5 | podtřída | 8551 |
+| 8552 | Umělecké vzdělávání | Cultural education | 4 | třída | 855 |
+| 85520 | Umělecké vzdělávání | Cultural education | 5 | podtřída | 8552 |
+| 8553 | Činnosti autoškol | Driving school activities | 4 | třída | 855 |
+| 85530 | Činnosti autoškol | Driving school activities | 5 | podtřída | 8553 |
+| 8559 | Ostatní vzdělávání j. n. | Other education n.e.c. | 4 | třída | 855 |
+| 85591 | Vzdělávání v jazykových školách | Language school education | 5 | podtřída | 8559 |
+| 85599 | Jiné vzdělávání j. n. | All other education n.e.c. | 5 | podtřída | 8559 |
+| 856 | Podpůrné činnosti v oblasti vzdělávání | Educational support activities | 3 | skupina | 85 |
+| 8561 | Zprostředkování v oblasti vzdělávání | Intermediation service activities for courses and tutors | 4 | třída | 856 |
+| 85610 | Zprostředkování v oblasti vzdělávání | Intermediation service activities for courses and tutors | 5 | podtřída | 8561 |
+| 8569 | Podpůrné činnosti v oblasti vzdělávání j. n. | Educational support activities n.e.c. | 4 | třída | 856 |
+| 85690 | Podpůrné činnosti v oblasti vzdělávání j. n. | Educational support activities n.e.c. | 5 | podtřída | 8569 |
+| 86 | Zdravotní péče | Human health activities | 2 | oddíl | R |
+| 861 | Lůžková zdravotní péče | Hospital activities | 3 | skupina | 86 |
+| 8610 | Lůžková zdravotní péče | Hospital activities | 4 | třída | 861 |
+| 86100 | Lůžková zdravotní péče | Hospital activities | 5 | podtřída | 8610 |
+| 862 | Ambulantní a zubní zdravotní péče | Medical and dental practice activities | 3 | skupina | 86 |
+| 8621 | Všeobecná ambulantní zdravotní péče | General medical practice activities | 4 | třída | 862 |
+| 86210 | Všeobecná ambulantní zdravotní péče | General medical practice activities | 5 | podtřída | 8621 |
+| 8622 | Specializovaná ambulantní zdravotní péče | Medical specialists activities | 4 | třída | 862 |
+| 86220 | Specializovaná ambulantní zdravotní péče | Medical specialists activities | 5 | podtřída | 8622 |
+| 8623 | Zubní péče | Dental practice care activities | 4 | třída | 862 |
+| 86230 | Zubní péče | Dental practice care activities | 5 | podtřída | 8623 |
+| 869 | Ostatní činnosti související se zdravotní péčí | Other human health activities | 3 | skupina | 86 |
+| 8691 | Činnosti související s diagnostickým zobrazováním a zdravotnické laboratorní činnosti | Diagnostic imaging services and medical laboratory activities | 4 | třída | 869 |
+| 86910 | Činnosti související s diagnostickým zobrazováním a zdravotnické laboratorní činnosti | Diagnostic imaging services and medical laboratory activities | 5 | podtřída | 8691 |
+| 8692 | Přeprava pacientů vozidly zdravotnické dopravní služby | Patient transportation by ambulance | 4 | třída | 869 |
+| 8692 | Přeprava pacientů dopravními prostředky zdravotnické záchranné služby | Patient transportation by ambulance | 4 | třída | 869 |
+| 86920 | Přeprava pacientů vozidly zdravotnické dopravní služby | Patient transportation by ambulance | 5 | podtřída | 8692 |
+| 86920 | Přeprava pacientů dopravními prostředky zdravotnické záchranné služby | Patient transportation by ambulance | 5 | podtřída | 8692 |
+| 8693 | Činnosti psychologů a psychoterapeutů, kromě lékařů | Activities of psychologists and psychotherapists, except medical doctors | 4 | třída | 869 |
+| 86930 | Činnosti psychologů a psychoterapeutů, kromě lékařů | Activities of psychologists and psychotherapists, except medical doctors | 5 | podtřída | 8693 |
+| 8694 | Ošetřovatelské činnosti a činnosti porodních asistentek | Nursing and midwifery activities | 4 | třída | 869 |
+| 86940 | Ošetřovatelské činnosti a činnosti porodních asistentek | Nursing and midwifery activities | 5 | podtřída | 8694 |
+| 8695 | Činnosti fyzioterapeutů | Physiotherapy activities | 4 | třída | 869 |
+| 86950 | Činnosti fyzioterapeutů | Physiotherapy activities | 5 | podtřída | 8695 |
+| 8696 | Činnosti v oblasti tradiční, doplňkové a alternativní medicíny | Traditional, complementary and alternative medicine activities | 4 | třída | 869 |
+| 86960 | Činnosti v oblasti tradiční, doplňkové a alternativní medicíny | Traditional, complementary and alternative medicine activities | 5 | podtřída | 8696 |
+| 8697 | Zprostředkování v oblasti zdravotní péče | Intermediation service activities for medical, dental and other human health services | 4 | třída | 869 |
+| 86970 | Zprostředkování v oblasti zdravotní péče | Intermediation service activities for medical, dental and other human health services | 5 | podtřída | 8697 |
+| 8699 | Ostatní činnosti související se zdravotní péčí j. n. | Other human health activities n.e.c. | 4 | třída | 869 |
+| 86990 | Ostatní činnosti související se zdravotní péčí j. n. | Other human health activities n.e.c. | 5 | podtřída | 8699 |
+| 87 | Pobytové služby sociální péče | Residential care activities | 2 | oddíl | R |
+| 871 | Pobytové služby sociální péče ve zdravotnických zařízeních lůžkové péče | Residential nursing care activities | 3 | skupina | 87 |
+| 871 | Pobytové služby v zařízeních s poskytováním ošetřovatelské péče | Residential nursing care activities | 3 | skupina | 87 |
+| 8710 | Pobytové služby sociální péče ve zdravotnických zařízeních lůžkové péče | Residential nursing care activities | 4 | třída | 871 |
+| 8710 | Pobytové služby v zařízeních s poskytováním ošetřovatelské péče | Residential nursing care activities | 4 | třída | 871 |
+| 87100 | Pobytové služby sociální péče ve zdravotnických zařízeních lůžkové péče | Residential nursing care activities | 5 | podtřída | 8710 |
+| 87100 | Pobytové služby v zařízeních s poskytováním ošetřovatelské péče | Residential nursing care activities | 5 | podtřída | 8710 |
+| 872 | Pobytové služby sociální péče pro osoby s duševním onemocněním, mentálním postižením nebo osoby závislé na návykových látkách | Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse | 3 | skupina | 87 |
+| 8720 | Pobytové služby sociální péče pro osoby s duševním onemocněním, mentálním postižením nebo osoby závislé na návykových látkách | Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse | 4 | třída | 872 |
+| 87200 | Pobytové služby sociální péče pro osoby s duševním onemocněním, mentálním postižením nebo osoby závislé na návykových látkách | Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse | 5 | podtřída | 8720 |
+| 873 | Pobytové služby sociální péče pro seniory nebo osoby s fyzickým nebo smyslovým postižením | Residential care activities for older persons or persons with physical disabilities | 3 | skupina | 87 |
+| 8730 | Pobytové služby sociální péče pro seniory nebo osoby s fyzickým nebo smyslovým postižením | Residential care activities for older persons or persons with physical disabilities | 4 | třída | 873 |
+| 87300 | Pobytové služby sociální péče pro seniory nebo osoby s fyzickým nebo smyslovým postižením | Residential care activities for older persons or persons with physical disabilities | 5 | podtřída | 8730 |
+| 879 | Ostatní pobytové služby sociální péče | Other residential care activities | 3 | skupina | 87 |
+| 8791 | Zprostředkování v oblasti pobytových služeb sociální péče | Intermediation service activities for residential care activities | 4 | třída | 879 |
+| 87910 | Zprostředkování v oblasti pobytových služeb sociální péče | Intermediation service activities for residential care activities | 5 | podtřída | 8791 |
+| 8799 | Ostatní pobytové služby sociální péče j. n. | Other residential care activities n.e.c. | 4 | třída | 879 |
+| 87990 | Ostatní pobytové služby sociální péče j. n. | Other residential care activities n.e.c. | 5 | podtřída | 8799 |
+| 88 | Ambulantní nebo terénní sociální služby | Social work activities without accommodation | 2 | oddíl | R |
+| 881 | Ambulantní nebo terénní sociální služby pro seniory nebo osoby se zdravotním postižením | Social work activities without accommodation for older persons or persons with disabilities | 3 | skupina | 88 |
+| 8810 | Ambulantní nebo terénní sociální služby pro seniory nebo osoby se zdravotním postižením | Social work activities without accommodation for older persons or persons with disabilities | 4 | třída | 881 |
+| 88100 | Ambulantní nebo terénní sociální služby pro seniory nebo osoby se zdravotním postižením | Social work activities without accommodation for older persons or persons with disabilities | 5 | podtřída | 8810 |
+| 889 | Ostatní ambulantní nebo terénní sociální služby | Other social work activities without accommodation | 3 | skupina | 88 |
+| 8891 | Služby pro děti | Child day-care activities | 4 | třída | 889 |
+| 8891 | Služby denní péče pro děti | Child day-care activities | 4 | třída | 889 |
+| 88910 | Služby pro děti | Child day-care activities | 5 | podtřída | 8891 |
+| 88910 | Služby denní péče pro děti | Child day-care activities | 5 | podtřída | 8891 |
+| 8899 | Ostatní ambulantní nebo terénní sociální služby j. n. | Other social work activities without accommodation n.e.c. | 4 | třída | 889 |
+| 88990 | Ostatní ambulantní nebo terénní sociální služby j. n. | Other social work activities without accommodation n.e.c. | 5 | podtřída | 8899 |
+| 90 | Umělecká tvorba a činnosti v oblasti scénických umění | Arts creation and performing arts activities | 2 | oddíl | S |
+| 901 | Umělecká tvorba | Arts creation activities | 3 | skupina | 90 |
+| 9011 | Literární a hudební tvorba | Literary creation and musical composition activities | 4 | třída | 901 |
+| 90111 | Literární tvorba | Literary creation activities | 5 | podtřída | 9011 |
+| 90112 | Hudební tvorba | Musical composition activities | 5 | podtřída | 9011 |
+| 9012 | Výtvarná tvorba | Visual arts creation activities | 4 | třída | 901 |
+| 90120 | Výtvarná tvorba | Visual arts creation activities | 5 | podtřída | 9012 |
+| 9013 | Ostatní umělecká tvorba | Other arts creation activities | 4 | třída | 901 |
+| 90130 | Ostatní umělecká tvorba | Other arts creation activities | 5 | podtřída | 9013 |
+| 902 | Činnosti v oblasti scénických umění | Activities of performing arts | 3 | skupina | 90 |
+| 9020 | Činnosti v oblasti scénických umění | Activities of performing arts | 4 | třída | 902 |
+| 90200 | Činnosti v oblasti scénických umění | Activities of performing arts | 5 | podtřída | 9020 |
+| 903 | Podpůrné činnosti pro uměleckou tvorbu a scénická umění | Support activities to arts creation and performing arts | 3 | skupina | 90 |
+| 9031 | Provozování kulturních zařízení a areálů | Operation of arts facilities and sites | 4 | třída | 903 |
+| 90310 | Provozování kulturních zařízení a areálů | Operation of arts facilities and sites | 5 | podtřída | 9031 |
+| 9039 | Ostatní podpůrné činnosti pro uměleckou tvorbu a scénická umění | Other support activities to arts and performing arts | 4 | třída | 903 |
+| 90390 | Ostatní podpůrné činnosti pro uměleckou tvorbu a scénická umění | Other support activities to arts and performing arts | 5 | podtřída | 9039 |
+| 91 | Činnosti knihoven, archivů, muzeí a jiných kulturních zařízení | Libraries, archives, museums and other cultural activities | 2 | oddíl | S |
+| 911 | Činnosti knihoven a archivů | Library and archive activities | 3 | skupina | 91 |
+| 9111 | Činnosti knihoven | Library activities | 4 | třída | 911 |
+| 91110 | Činnosti knihoven | Library activities | 5 | podtřída | 9111 |
+| 9112 | Činnosti archivů | Archive activities | 4 | třída | 911 |
+| 91120 | Činnosti archivů | Archive activities | 5 | podtřída | 9112 |
+| 912 | Činnosti muzeí, galerií, provozování historických a kulturních památek | Museum, collection, historical site and monument activities | 3 | skupina | 91 |
+| 9121 | Činnosti muzeí a galerií | Museum and collection activities | 4 | třída | 912 |
+| 91210 | Činnosti muzeí a galerií | Museum and collection activities | 5 | podtřída | 9121 |
+| 9122 | Provozování historických a kulturních památek | Historical site and monument activities | 4 | třída | 912 |
+| 91220 | Provozování historických a kulturních památek | Historical site and monument activities | 5 | podtřída | 9122 |
+| 913 | Konzervování, restaurování a jiné podpůrné činnosti pro kulturní dědictví | Conservation, restoration and other support activities for cultural heritage | 3 | skupina | 91 |
+| 9130 | Konzervování, restaurování a jiné podpůrné činnosti pro kulturní dědictví | Conservation, restoration and other support activities for cultural heritage | 4 | třída | 913 |
+| 91300 | Konzervování, restaurování a jiné podpůrné činnosti pro kulturní dědictví | Conservation, restoration and other support activities for cultural heritage | 5 | podtřída | 9130 |
+| 914 | Činnosti botanických a zoologických zahrad, přírodních rezervací a národních parků | Botanical and zoological garden and nature reserve activities | 3 | skupina | 91 |
+| 9141 | Činnosti botanických a zoologických zahrad | Botanical and zoological garden activities | 4 | třída | 914 |
+| 91410 | Činnosti botanických a zoologických zahrad | Botanical and zoological garden activities | 5 | podtřída | 9141 |
+| 9142 | Činnosti přírodních rezervací a národních parků | Nature reserve activities | 4 | třída | 914 |
+| 91420 | Činnosti přírodních rezervací a národních parků | Nature reserve activities | 5 | podtřída | 9142 |
+| 92 | Činnosti heren, kasin a sázkových kanceláří | Gambling and betting activities | 2 | oddíl | S |
+| 92 | Provozování hazardních her a sázek | Gambling and betting activities | 2 | oddíl | S |
+| 920 | Činnosti heren, kasin a sázkových kanceláří | Gambling and betting activities | 3 | skupina | 92 |
+| 920 | Provozování hazardních her a sázek | Gambling and betting activities | 3 | skupina | 92 |
+| 9200 | Činnosti heren, kasin a sázkových kanceláří | Gambling and betting activities | 4 | třída | 920 |
+| 9200 | Provozování hazardních her a sázek | Gambling and betting activities | 4 | třída | 920 |
+| 92000 | Činnosti heren, kasin a sázkových kanceláří | Gambling and betting activities | 5 | podtřída | 9200 |
+| 92000 | Provozování hazardních her a sázek | Gambling and betting activities | 5 | podtřída | 9200 |
+| 93 | Činnosti v oblasti sportu, zábavy a rekreace | Sports activities and amusement and recreation activities | 2 | oddíl | S |
+| 931 | Činnosti v oblasti sportu | Sports activities | 3 | skupina | 93 |
+| 9311 | Provozování sportovních zařízení | Operation of sports facilities | 4 | třída | 931 |
+| 93110 | Provozování sportovních zařízení | Operation of sports facilities | 5 | podtřída | 9311 |
+| 9312 | Činnosti sportovních klubů | Activities of sports clubs | 4 | třída | 931 |
+| 93120 | Činnosti sportovních klubů | Activities of sports clubs | 5 | podtřída | 9312 |
+| 9313 | Činnosti fitcenter | Activities of fitness centres | 4 | třída | 931 |
+| 93130 | Činnosti fitcenter | Activities of fitness centres | 5 | podtřída | 9313 |
+| 9319 | Činnosti v oblasti sportu j. n. | Sports activities n.e.c. | 4 | třída | 931 |
+| 93190 | Činnosti v oblasti sportu j. n. | Sports activities n.e.c. | 5 | podtřída | 9319 |
+| 932 | Činnosti v oblasti zábavy a rekreace | Amusement and recreation activities | 3 | skupina | 93 |
+| 9321 | Činnosti zábavních parků | Activities of amusement parks and theme parks | 4 | třída | 932 |
+| 93210 | Činnosti zábavních parků | Activities of amusement parks and theme parks | 5 | podtřída | 9321 |
+| 9329 | Činnosti v oblasti zábavy a rekreace j. n. | Amusement and recreation activities n.e.c. | 4 | třída | 932 |
+| 93290 | Činnosti v oblasti zábavy a rekreace j. n. | Amusement and recreation activities n.e.c. | 5 | podtřída | 9329 |
+| 94 | Činnosti organizací sdružujících osoby za účelem prosazování společných a veřejných zájmů | Activities of membership organisations | 2 | oddíl | T |
+| 941 | Činnosti podnikatelských, zaměstnavatelských a profesních organizací | Activities of business, employers and professional membership organisations | 3 | skupina | 94 |
+| 9411 | Činnosti podnikatelských a zaměstnavatelských organizací | Activities of business and employers membership organisations | 4 | třída | 941 |
+| 94110 | Činnosti podnikatelských a zaměstnavatelských organizací | Activities of business and employers membership organisations | 5 | podtřída | 9411 |
+| 9412 | Činnosti profesních organizací | Activities of professional membership organisations | 4 | třída | 941 |
+| 94120 | Činnosti profesních organizací | Activities of professional membership organisations | 5 | podtřída | 9412 |
+| 942 | Činnosti odborových svazů | Activities of trade unions | 3 | skupina | 94 |
+| 9420 | Činnosti odborových svazů | Activities of trade unions | 4 | třída | 942 |
+| 94200 | Činnosti odborových svazů | Activities of trade unions | 5 | podtřída | 9420 |
+| 949 | Činnosti ostatních organizací sdružujících osoby za účelem prosazování společných a veřejných zájmů | Activities of other membership organisations | 3 | skupina | 94 |
+| 9491 | Činnosti náboženských organizací | Activities of religious organisations | 4 | třída | 949 |
+| 94910 | Činnosti náboženských organizací | Activities of religious organisations | 5 | podtřída | 9491 |
+| 9492 | Činnosti politických organizací | Activities of political organisations | 4 | třída | 949 |
+| 94920 | Činnosti politických organizací | Activities of political organisations | 5 | podtřída | 9492 |
+| 9499 | Činnosti ostatních organizací sdružujících osoby za účelem prosazování společných a veřejných zájmů j. n. | Activities of other membership organisations n.e.c. | 4 | třída | 949 |
+| 94991 | Činnosti organizací dětí a mládeže | Activities of associations of youth | 5 | podtřída | 9499 |
+| 94992 | Činnosti organizací na podporu kulturní činnosti | Activities of associations for the pursuit of a cultural activities | 5 | podtřída | 9499 |
+| 94993 | Činnosti organizací na podporu rekreační a zájmové činnosti | Activities of associations for the pursuit of a recreational activities or hobby | 5 | podtřída | 9499 |
+| 94994 | Činnosti spotřebitelských organizací | Activities of consumer associations | 5 | podtřída | 9499 |
+| 94995 | Činnosti environmentálních a ekologických hnutí | Activities of environmental and ecological movements | 5 | podtřída | 9499 |
+| 94996 | Činnosti organizací na ochranu a zlepšení postavení etnických, menšinových a jiných speciálních skupin | Activities of organisations for the protection and betterment of special groups, e.g. ethnic, minority groups or others | 5 | podtřída | 9499 |
+| 94997 | Činnosti občanských iniciativ, protestních hnutí | Activities of citizens initiative or protest movements | 5 | podtřída | 9499 |
+| 94999 | Činnosti jiných organizací sdružujících osoby za účelem prosazování společných a veřejných zájmů j. n. | Activities of all other membership organisations n.e.c. | 5 | podtřída | 9499 |
+| 95 | Opravy a údržba počítačů, výrobků pro osobní potřebu a převážně pro domácnost a motorových vozidel a motocyklů | Repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles | 2 | oddíl | T |
+| 951 | Opravy a údržba počítačů a komunikačních zařízení | Repair and maintenance of computers and communication equipment | 3 | skupina | 95 |
+| 9510 | Opravy a údržba počítačů a komunikačních zařízení | Repair and maintenance of computers and communication equipment | 4 | třída | 951 |
+| 95100 | Opravy a údržba počítačů a komunikačních zařízení | Repair and maintenance of computers and communication equipment | 5 | podtřída | 9510 |
+| 952 | Opravy a údržba výrobků pro osobní potřebu a převážně pro domácnost | Repair and maintenance of personal and household goods | 3 | skupina | 95 |
+| 9521 | Opravy a údržba spotřební elektroniky | Repair and maintenance of consumer electronics | 4 | třída | 952 |
+| 95210 | Opravy a údržba spotřební elektroniky | Repair and maintenance of consumer electronics | 5 | podtřída | 9521 |
+| 9522 | Opravy a údržba přístrojů a zařízení převážně pro domácnost, dům a zahradu | Repair and maintenance of household appliances and home and garden equipment | 4 | třída | 952 |
+| 95220 | Opravy a údržba přístrojů a zařízení převážně pro domácnost, dům a zahradu | Repair and maintenance of household appliances and home and garden equipment | 5 | podtřída | 9522 |
+| 9523 | Opravy a údržba obuvi a kožených výrobků | Repair and maintenance of footwear and leather goods | 4 | třída | 952 |
+| 95230 | Opravy a údržba obuvi a kožených výrobků | Repair and maintenance of footwear and leather goods | 5 | podtřída | 9523 |
+| 9524 | Opravy a údržba nábytku a bytového zařízení | Repair and maintenance of furniture and home furnishings | 4 | třída | 952 |
+| 95240 | Opravy a údržba nábytku a bytového zařízení | Repair and maintenance of furniture and home furnishings | 5 | podtřída | 9524 |
+| 9525 | Opravy a údržba hodin, hodinek a klenotů | Repair and maintenance of watches, clocks and jewellery | 4 | třída | 952 |
+| 95250 | Opravy a údržba hodin, hodinek a klenotů | Repair and maintenance of watches, clocks and jewellery | 5 | podtřída | 9525 |
+| 9529 | Opravy a údržba výrobků pro osobní potřebu a převážně pro domácnost j. n. | Repair and maintenance of personal and household goods n.e.c. | 4 | třída | 952 |
+| 95290 | Opravy a údržba výrobků pro osobní potřebu a převážně pro domácnost j. n. | Repair and maintenance of personal and household goods n.e.c. | 5 | podtřída | 9529 |
+| 953 | Opravy a údržba motorových vozidel a motocyklů | Repair and maintenance of motor vehicles and motorcycles | 3 | skupina | 95 |
+| 9531 | Opravy a údržba motorových vozidel | Repair and maintenance of motor vehicles | 4 | třída | 953 |
+| 95310 | Opravy a údržba motorových vozidel | Repair and maintenance of motor vehicles | 5 | podtřída | 9531 |
+| 9532 | Opravy a údržba motocyklů | Repair and maintenance of motorcycles | 4 | třída | 953 |
+| 95320 | Opravy a údržba motocyklů | Repair and maintenance of motorcycles | 5 | podtřída | 9532 |
+| 954 | Zprostředkování v oblasti oprav a údržby počítačů, výrobků pro osobní potřebu a převážně pro domácnost a motorových vozidel a motocyklů | Intermediation service activities for repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles | 3 | skupina | 95 |
+| 9540 | Zprostředkování v oblasti oprav a údržby počítačů, výrobků pro osobní potřebu a převážně pro domácnost a motorových vozidel a motocyklů | Intermediation service activities for repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles | 4 | třída | 954 |
+| 95400 | Zprostředkování v oblasti oprav a údržby počítačů, výrobků pro osobní potřebu a převážně pro domácnost a motorových vozidel a motocyklů | Intermediation service activities for repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles | 5 | podtřída | 9540 |
+| 96 | Poskytování osobních služeb | Personal service activities | 2 | oddíl | T |
+| 961 | Praní a čištění textilních a kožešinových výrobků | Washing and cleaning of textile and fur products | 3 | skupina | 96 |
+| 9610 | Praní a čištění textilních a kožešinových výrobků | Washing and cleaning of textile and fur products | 4 | třída | 961 |
+| 96101 | Praní a čištění textilních a kožešinových výrobků pro oblast zdravotnictví | Washing and cleaning of textile and fur products for health care | 5 | podtřída | 9610 |
+| 96102 | Praní a čištění textilních a kožešinových výrobků pro oblast ubytování a stravování | Washing and cleaning of textile and fur products for accomodation and food service | 5 | podtřída | 9610 |
+| 96103 | Praní a čištění textilních a kožešinových výrobků pro jiné oblasti podnikání | Washing and cleaning of textile and fur products for other industrial or commercial clients | 5 | podtřída | 9610 |
+| 96104 | Praní a čištění textilních a kožešinových výrobků pro veřejnost | Other washing and cleaning of textile and fur products for the general public | 5 | podtřída | 9610 |
+| 962 | Kadeřnické a kosmetické činnosti, činnosti denních lázní a podobné činnosti | Hairdressing, beauty treatment, day spa and similar activities | 3 | skupina | 96 |
+| 9621 | Kadeřnické a holičské činnosti | Hairdressing and barber activities | 4 | třída | 962 |
+| 96210 | Kadeřnické a holičské činnosti | Hairdressing and barber activities | 5 | podtřída | 9621 |
+| 9622 | Kosmetické a podobné činnosti | Beauty care and other beauty treatment activities | 4 | třída | 962 |
+| 96220 | Kosmetické a podobné činnosti | Beauty care and other beauty treatment activities | 5 | podtřída | 9622 |
+| 9623 | Činnosti denních lázní, saun a parních lázní | Day spa, sauna and steam bath activities | 4 | třída | 962 |
+| 96230 | Činnosti denních lázní, saun a parních lázní | Day spa, sauna and steam bath activities | 5 | podtřída | 9623 |
+| 963 | Pohřební a související činnosti | Funeral and related activities | 3 | skupina | 96 |
+| 9630 | Pohřební a související činnosti | Funeral and related activities | 4 | třída | 963 |
+| 96300 | Pohřební a související činnosti | Funeral and related activities | 5 | podtřída | 9630 |
+| 964 | Zprostředkování v oblasti osobních služeb | Intermediation service activities for personal services | 3 | skupina | 96 |
+| 9640 | Zprostředkování v oblasti osobních služeb | Intermediation service activities for personal services | 4 | třída | 964 |
+| 96400 | Zprostředkování v oblasti osobních služeb | Intermediation service activities for personal services | 5 | podtřída | 9640 |
+| 969 | Poskytování ostatních osobních služeb | Other personal service activities | 3 | skupina | 96 |
+| 9691 | Poskytování osobních služeb v domácnostech | Provision of domestic personal service activities | 4 | třída | 969 |
+| 96910 | Poskytování osobních služeb v domácnostech | Provision of domestic personal service activities | 5 | podtřída | 9691 |
+| 9699 | Poskytování ostatních osobních služeb j. n. | Other personal service activities n.e.c. | 4 | třída | 969 |
+| 96990 | Poskytování ostatních osobních služeb j. n. | Other personal service activities n.e.c. | 5 | podtřída | 9699 |
+| 97 | Činnosti domácností jako zaměstnavatelů domácího personálu | Activities of households as employers of domestic personnel | 2 | oddíl | U |
+| 970 | Činnosti domácností jako zaměstnavatelů domácího personálu | Activities of households as employers of domestic personnel | 3 | skupina | 97 |
+| 9700 | Činnosti domácností jako zaměstnavatelů domácího personálu | Activities of households as employers of domestic personnel | 4 | třída | 970 |
+| 97000 | Činnosti domácností jako zaměstnavatelů domácího personálu | Activities of households as employers of domestic personnel | 5 | podtřída | 9700 |
+| 98 | Činnosti domácností produkujících blíže neurčené výrobky a služby pro vlastní potřebu | Undifferentiated goods- and service-producing activities of private households for own use | 2 | oddíl | U |
+| 981 | Činnosti domácností produkujících blíže neurčené výrobky pro vlastní potřebu | Undifferentiated goods-producing activities of private households for own use | 3 | skupina | 98 |
+| 9810 | Činnosti domácností produkujících blíže neurčené výrobky pro vlastní potřebu | Undifferentiated goods-producing activities of private households for own use | 4 | třída | 981 |
+| 98100 | Činnosti domácností produkujících blíže neurčené výrobky pro vlastní potřebu | Undifferentiated goods-producing activities of private households for own use | 5 | podtřída | 9810 |
+| 982 | Činnosti domácností poskytujících blíže neurčené služby pro vlastní potřebu | Undifferentiated service-producing activities of private households for own use | 3 | skupina | 98 |
+| 9820 | Činnosti domácností poskytujících blíže neurčené služby pro vlastní potřebu | Undifferentiated service-producing activities of private households for own use | 4 | třída | 982 |
+| 98200 | Činnosti domácností poskytujících blíže neurčené služby pro vlastní potřebu | Undifferentiated service-producing activities of private households for own use | 5 | podtřída | 9820 |
+| 99 | Činnosti exteritoriálních organizací a institucí | Activities of extraterritorial organisations and bodies | 2 | oddíl | V |
+| 990 | Činnosti exteritoriálních organizací a institucí | Activities of extraterritorial organisations and bodies | 3 | skupina | 99 |
+| 9900 | Činnosti exteritoriálních organizací a institucí | Activities of extraterritorial organisations and bodies | 4 | třída | 990 |
+| 99000 | Činnosti exteritoriálních organizací a institucí | Activities of extraterritorial organisations and bodies | 5 | podtřída | 9900 |
+| A | Zemědělství, lesnictví a rybářství | Agriculture, forestry and fishing | 1 | sekce |  |
+| B | Těžba a dobývání nerostných surovin | Mining and quarrying | 1 | sekce |  |
+| C | Zpracovatelský průmysl | Manufacturing | 1 | sekce |  |
+| D | Dodávání elektřiny, plynu, páry a klimatizovaného vzduchu | Electricity, gas, steam and air conditioning supply | 1 | sekce |  |
+| E | Zásobování vodou; činnosti související s odpadními vodami, odpady a sanacemi | Water supply; sewerage, waste management and remediation activities | 1 | sekce |  |
+| F | Stavební činnosti | Construction | 1 | sekce |  |
+| G | Velkoobchod a maloobchod | Wholesale and retail trade | 1 | sekce |  |
+| H | Doprava a skladování | Transportation and storage | 1 | sekce |  |
+| I | Poskytování ubytování a stravování | Accommodation and food service activities | 1 | sekce |  |
+| J | Vydavatelské činnosti, vysílání a tvorba obsahu a distribuční činnosti | Publishing, broadcasting, and content production and distribution activities | 1 | sekce |  |
+| K | Telekomunikační činnosti, počítačové programování a poradenství, poskytování počítačové infrastruktury a ostatní informační činnosti | Telecommunication, computer programming, consulting, computing infrastructure and other information service activities | 1 | sekce |  |
+| L | Finanční a pojišťovací činnosti | Financial and insurance activities | 1 | sekce |  |
+| M | Činnosti v oblasti nemovitostí | Real estate activities | 1 | sekce |  |
+| N | Odborné, vědecké a technické činnosti | Professional, scientific and technical activities | 1 | sekce |  |
+| O | Administrativní a podpůrné činnosti | Administrative and support service activities | 1 | sekce |  |
+| P | Činnosti v oblasti veřejné správy, obrany a povinného sociálního zabezpečení | Public administration and defence; compulsory social security | 1 | sekce |  |
+| Q | Vzdělávání | Education | 1 | sekce |  |
+| R | Zdravotní a sociální péče | Human health and social work activities | 1 | sekce |  |
+| S | Činnosti v oblasti kultury, sportu a rekreace | Arts, sports and recreation | 1 | sekce |  |
+| T | Ostatní činnosti | Other service activities | 1 | sekce |  |
+| U | Činnosti domácností jako zaměstnavatelů; činnosti domácností produkujících blíže neurčené výrobky a služby pro vlastní potřebu | Activities of households as employers and undifferentiated goods - and service-producing activities of households for own use | 1 | sekce |  |
+| V | Činnosti exteritoriálních organizací a institucí | Activities of extraterritorial organisations and bodies | 1 | sekce |  |

@@ -1,0 +1,679 @@
+# Czech public holidays 2000–2050 with shop closure days (CSV, JSON)
+
+Public holidays in the Czech Republic for every year 2000–2050: date, name, weekday and whether large shops must be closed by law.
+
+Czechia has 13 public holidays a year. Shops with a sales area over 200 m² must close on 1 January, Easter Monday, 8 May, 28 September, 28 October, 25 and 26 December, and from noon on 24 December.
+
+- **Data as of:** 9 November 2026
+- **Rows:** 647
+- **Source:** [czechdatasets.com](https://czechdatasets.com/data/zdarma)
+- **Licence:** Free to use without restriction (computed from Czech Acts No. 245/2000 and No. 223/2016); attribution is welcome
+- **How to cite:** processed by czechdatasets.com, https://czechdatasets.com/en/otevrena-data/statni-svatky
+- **Download:** [CSV](https://czechdatasets.com/open/statni-svatky.csv) · [JSON](https://czechdatasets.com/open/statni-svatky.json) · [Markdown](https://czechdatasets.com/open/en/statni-svatky.md)
+- **Table page:** https://czechdatasets.com/en/otevrena-data/statni-svatky
+- **Full dataset:** [Free bundle](https://czechdatasets.com/en/data/zdarma)
+
+## Columns
+
+| Column | Description |
+| --- | --- |
+| `datum` | Date of the holiday |
+| `rok` | Year |
+| `den_v_tydnu` | Weekday (Czech) |
+| `nazev` | Holiday name (Czech) |
+| `typ` | statni_svatek = state holiday, ostatni_svatek = other holiday (both are non-working days) |
+| `je_pracovni_den` | Always false: a holiday is a non-working day |
+| `obchody_zavreno` | Shops over 200 m² must be closed all day (Act No. 223/2016) |
+| `obchody_rezim` | zavreno = closed, zavreno_od_12 = closed from noon (24 December), bez_omezeni = no restriction |
+
+## Data
+
+| datum | rok | den_v_tydnu | nazev | typ | je_pracovni_den | obchody_zavreno | obchody_rezim |
+| --- | ---: | --- | --- | --- | --- | --- | --- |
+| 2000-01-01 | 2000 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2000-04-24 | 2000 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2000-05-01 | 2000 | pondělí | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2000-05-08 | 2000 | pondělí | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2000-07-05 | 2000 | středa | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2000-07-06 | 2000 | čtvrtek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2000-09-28 | 2000 | čtvrtek | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2000-10-28 | 2000 | sobota | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2000-11-17 | 2000 | pátek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2000-12-24 | 2000 | neděle | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2000-12-25 | 2000 | pondělí | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2000-12-26 | 2000 | úterý | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2001-01-01 | 2001 | pondělí | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2001-04-16 | 2001 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2001-05-01 | 2001 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2001-05-08 | 2001 | úterý | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2001-07-05 | 2001 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2001-07-06 | 2001 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2001-09-28 | 2001 | pátek | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2001-10-28 | 2001 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2001-11-17 | 2001 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2001-12-24 | 2001 | pondělí | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2001-12-25 | 2001 | úterý | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2001-12-26 | 2001 | středa | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2002-01-01 | 2002 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2002-04-01 | 2002 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2002-05-01 | 2002 | středa | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2002-05-08 | 2002 | středa | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2002-07-05 | 2002 | pátek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2002-07-06 | 2002 | sobota | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2002-09-28 | 2002 | sobota | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2002-10-28 | 2002 | pondělí | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2002-11-17 | 2002 | neděle | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2002-12-24 | 2002 | úterý | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2002-12-25 | 2002 | středa | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2002-12-26 | 2002 | čtvrtek | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2003-01-01 | 2003 | středa | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2003-04-21 | 2003 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2003-05-01 | 2003 | čtvrtek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2003-05-08 | 2003 | čtvrtek | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2003-07-05 | 2003 | sobota | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2003-07-06 | 2003 | neděle | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2003-09-28 | 2003 | neděle | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2003-10-28 | 2003 | úterý | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2003-11-17 | 2003 | pondělí | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2003-12-24 | 2003 | středa | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2003-12-25 | 2003 | čtvrtek | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2003-12-26 | 2003 | pátek | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2004-01-01 | 2004 | čtvrtek | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2004-04-12 | 2004 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2004-05-01 | 2004 | sobota | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2004-05-08 | 2004 | sobota | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2004-07-05 | 2004 | pondělí | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2004-07-06 | 2004 | úterý | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2004-09-28 | 2004 | úterý | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2004-10-28 | 2004 | čtvrtek | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2004-11-17 | 2004 | středa | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2004-12-24 | 2004 | pátek | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2004-12-25 | 2004 | sobota | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2004-12-26 | 2004 | neděle | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2005-01-01 | 2005 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2005-03-28 | 2005 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2005-05-01 | 2005 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2005-05-08 | 2005 | neděle | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2005-07-05 | 2005 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2005-07-06 | 2005 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2005-09-28 | 2005 | středa | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2005-10-28 | 2005 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2005-11-17 | 2005 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2005-12-24 | 2005 | sobota | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2005-12-25 | 2005 | neděle | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2005-12-26 | 2005 | pondělí | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2006-01-01 | 2006 | neděle | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2006-04-17 | 2006 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2006-05-01 | 2006 | pondělí | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2006-05-08 | 2006 | pondělí | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2006-07-05 | 2006 | středa | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2006-07-06 | 2006 | čtvrtek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2006-09-28 | 2006 | čtvrtek | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2006-10-28 | 2006 | sobota | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2006-11-17 | 2006 | pátek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2006-12-24 | 2006 | neděle | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2006-12-25 | 2006 | pondělí | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2006-12-26 | 2006 | úterý | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2007-01-01 | 2007 | pondělí | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2007-04-09 | 2007 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2007-05-01 | 2007 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2007-05-08 | 2007 | úterý | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2007-07-05 | 2007 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2007-07-06 | 2007 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2007-09-28 | 2007 | pátek | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2007-10-28 | 2007 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2007-11-17 | 2007 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2007-12-24 | 2007 | pondělí | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2007-12-25 | 2007 | úterý | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2007-12-26 | 2007 | středa | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2008-01-01 | 2008 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2008-03-24 | 2008 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2008-05-01 | 2008 | čtvrtek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2008-05-08 | 2008 | čtvrtek | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2008-07-05 | 2008 | sobota | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2008-07-06 | 2008 | neděle | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2008-09-28 | 2008 | neděle | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2008-10-28 | 2008 | úterý | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2008-11-17 | 2008 | pondělí | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2008-12-24 | 2008 | středa | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2008-12-25 | 2008 | čtvrtek | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2008-12-26 | 2008 | pátek | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2009-01-01 | 2009 | čtvrtek | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2009-04-13 | 2009 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2009-05-01 | 2009 | pátek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2009-05-08 | 2009 | pátek | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2009-07-05 | 2009 | neděle | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2009-07-06 | 2009 | pondělí | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2009-09-28 | 2009 | pondělí | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2009-10-28 | 2009 | středa | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2009-11-17 | 2009 | úterý | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2009-12-24 | 2009 | čtvrtek | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2009-12-25 | 2009 | pátek | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2009-12-26 | 2009 | sobota | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2010-01-01 | 2010 | pátek | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2010-04-05 | 2010 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2010-05-01 | 2010 | sobota | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2010-05-08 | 2010 | sobota | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2010-07-05 | 2010 | pondělí | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2010-07-06 | 2010 | úterý | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2010-09-28 | 2010 | úterý | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2010-10-28 | 2010 | čtvrtek | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2010-11-17 | 2010 | středa | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2010-12-24 | 2010 | pátek | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2010-12-25 | 2010 | sobota | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2010-12-26 | 2010 | neděle | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2011-01-01 | 2011 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2011-04-25 | 2011 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2011-05-01 | 2011 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2011-05-08 | 2011 | neděle | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2011-07-05 | 2011 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2011-07-06 | 2011 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2011-09-28 | 2011 | středa | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2011-10-28 | 2011 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2011-11-17 | 2011 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2011-12-24 | 2011 | sobota | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2011-12-25 | 2011 | neděle | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2011-12-26 | 2011 | pondělí | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2012-01-01 | 2012 | neděle | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2012-04-09 | 2012 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2012-05-01 | 2012 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2012-05-08 | 2012 | úterý | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2012-07-05 | 2012 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2012-07-06 | 2012 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2012-09-28 | 2012 | pátek | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2012-10-28 | 2012 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2012-11-17 | 2012 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2012-12-24 | 2012 | pondělí | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2012-12-25 | 2012 | úterý | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2012-12-26 | 2012 | středa | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2013-01-01 | 2013 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2013-04-01 | 2013 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2013-05-01 | 2013 | středa | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2013-05-08 | 2013 | středa | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2013-07-05 | 2013 | pátek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2013-07-06 | 2013 | sobota | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2013-09-28 | 2013 | sobota | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2013-10-28 | 2013 | pondělí | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2013-11-17 | 2013 | neděle | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2013-12-24 | 2013 | úterý | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2013-12-25 | 2013 | středa | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2013-12-26 | 2013 | čtvrtek | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2014-01-01 | 2014 | středa | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2014-04-21 | 2014 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2014-05-01 | 2014 | čtvrtek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2014-05-08 | 2014 | čtvrtek | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2014-07-05 | 2014 | sobota | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2014-07-06 | 2014 | neděle | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2014-09-28 | 2014 | neděle | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2014-10-28 | 2014 | úterý | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2014-11-17 | 2014 | pondělí | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2014-12-24 | 2014 | středa | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2014-12-25 | 2014 | čtvrtek | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2014-12-26 | 2014 | pátek | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2015-01-01 | 2015 | čtvrtek | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2015-04-06 | 2015 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2015-05-01 | 2015 | pátek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2015-05-08 | 2015 | pátek | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2015-07-05 | 2015 | neděle | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2015-07-06 | 2015 | pondělí | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2015-09-28 | 2015 | pondělí | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2015-10-28 | 2015 | středa | Den vzniku samostatného československého státu | statni_svatek | false | false | bez_omezeni |
+| 2015-11-17 | 2015 | úterý | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2015-12-24 | 2015 | čtvrtek | Štědrý den | ostatni_svatek | false | false | bez_omezeni |
+| 2015-12-25 | 2015 | pátek | 1. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2015-12-26 | 2015 | sobota | 2. svátek vánoční | ostatni_svatek | false | false | bez_omezeni |
+| 2016-01-01 | 2016 | pátek | Den obnovy samostatného českého státu | statni_svatek | false | false | bez_omezeni |
+| 2016-03-25 | 2016 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2016-03-28 | 2016 | pondělí | Velikonoční pondělí | ostatni_svatek | false | false | bez_omezeni |
+| 2016-05-01 | 2016 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2016-05-08 | 2016 | neděle | Den vítězství | statni_svatek | false | false | bez_omezeni |
+| 2016-07-05 | 2016 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2016-07-06 | 2016 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2016-09-28 | 2016 | středa | Den české státnosti | statni_svatek | false | false | bez_omezeni |
+| 2016-10-28 | 2016 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2016-11-17 | 2016 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2016-12-24 | 2016 | sobota | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2016-12-25 | 2016 | neděle | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2016-12-26 | 2016 | pondělí | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2017-01-01 | 2017 | neděle | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2017-04-14 | 2017 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2017-04-17 | 2017 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2017-05-01 | 2017 | pondělí | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2017-05-08 | 2017 | pondělí | Den vítězství | statni_svatek | false | true | zavreno |
+| 2017-07-05 | 2017 | středa | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2017-07-06 | 2017 | čtvrtek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2017-09-28 | 2017 | čtvrtek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2017-10-28 | 2017 | sobota | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2017-11-17 | 2017 | pátek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2017-12-24 | 2017 | neděle | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2017-12-25 | 2017 | pondělí | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2017-12-26 | 2017 | úterý | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2018-01-01 | 2018 | pondělí | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2018-03-30 | 2018 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2018-04-02 | 2018 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2018-05-01 | 2018 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2018-05-08 | 2018 | úterý | Den vítězství | statni_svatek | false | true | zavreno |
+| 2018-07-05 | 2018 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2018-07-06 | 2018 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2018-09-28 | 2018 | pátek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2018-10-28 | 2018 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2018-11-17 | 2018 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2018-12-24 | 2018 | pondělí | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2018-12-25 | 2018 | úterý | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2018-12-26 | 2018 | středa | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2019-01-01 | 2019 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2019-04-19 | 2019 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2019-04-22 | 2019 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2019-05-01 | 2019 | středa | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2019-05-08 | 2019 | středa | Den vítězství | statni_svatek | false | true | zavreno |
+| 2019-07-05 | 2019 | pátek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2019-07-06 | 2019 | sobota | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2019-09-28 | 2019 | sobota | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2019-10-28 | 2019 | pondělí | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2019-11-17 | 2019 | neděle | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2019-12-24 | 2019 | úterý | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2019-12-25 | 2019 | středa | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2019-12-26 | 2019 | čtvrtek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2020-01-01 | 2020 | středa | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2020-04-10 | 2020 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2020-04-13 | 2020 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2020-05-01 | 2020 | pátek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2020-05-08 | 2020 | pátek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2020-07-05 | 2020 | neděle | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2020-07-06 | 2020 | pondělí | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2020-09-28 | 2020 | pondělí | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2020-10-28 | 2020 | středa | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2020-11-17 | 2020 | úterý | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2020-12-24 | 2020 | čtvrtek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2020-12-25 | 2020 | pátek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2020-12-26 | 2020 | sobota | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2021-01-01 | 2021 | pátek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2021-04-02 | 2021 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2021-04-05 | 2021 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2021-05-01 | 2021 | sobota | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2021-05-08 | 2021 | sobota | Den vítězství | statni_svatek | false | true | zavreno |
+| 2021-07-05 | 2021 | pondělí | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2021-07-06 | 2021 | úterý | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2021-09-28 | 2021 | úterý | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2021-10-28 | 2021 | čtvrtek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2021-11-17 | 2021 | středa | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2021-12-24 | 2021 | pátek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2021-12-25 | 2021 | sobota | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2021-12-26 | 2021 | neděle | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2022-01-01 | 2022 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2022-04-15 | 2022 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2022-04-18 | 2022 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2022-05-01 | 2022 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2022-05-08 | 2022 | neděle | Den vítězství | statni_svatek | false | true | zavreno |
+| 2022-07-05 | 2022 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2022-07-06 | 2022 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2022-09-28 | 2022 | středa | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2022-10-28 | 2022 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2022-11-17 | 2022 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2022-12-24 | 2022 | sobota | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2022-12-25 | 2022 | neděle | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2022-12-26 | 2022 | pondělí | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2023-01-01 | 2023 | neděle | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2023-04-07 | 2023 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2023-04-10 | 2023 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2023-05-01 | 2023 | pondělí | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2023-05-08 | 2023 | pondělí | Den vítězství | statni_svatek | false | true | zavreno |
+| 2023-07-05 | 2023 | středa | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2023-07-06 | 2023 | čtvrtek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2023-09-28 | 2023 | čtvrtek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2023-10-28 | 2023 | sobota | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2023-11-17 | 2023 | pátek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2023-12-24 | 2023 | neděle | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2023-12-25 | 2023 | pondělí | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2023-12-26 | 2023 | úterý | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2024-01-01 | 2024 | pondělí | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2024-03-29 | 2024 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2024-04-01 | 2024 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2024-05-01 | 2024 | středa | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2024-05-08 | 2024 | středa | Den vítězství | statni_svatek | false | true | zavreno |
+| 2024-07-05 | 2024 | pátek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2024-07-06 | 2024 | sobota | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2024-09-28 | 2024 | sobota | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2024-10-28 | 2024 | pondělí | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2024-11-17 | 2024 | neděle | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2024-12-24 | 2024 | úterý | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2024-12-25 | 2024 | středa | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2024-12-26 | 2024 | čtvrtek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2025-01-01 | 2025 | středa | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2025-04-18 | 2025 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2025-04-21 | 2025 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2025-05-01 | 2025 | čtvrtek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2025-05-08 | 2025 | čtvrtek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2025-07-05 | 2025 | sobota | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2025-07-06 | 2025 | neděle | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2025-09-28 | 2025 | neděle | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2025-10-28 | 2025 | úterý | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2025-11-17 | 2025 | pondělí | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2025-12-24 | 2025 | středa | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2025-12-25 | 2025 | čtvrtek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2025-12-26 | 2025 | pátek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2026-01-01 | 2026 | čtvrtek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2026-04-03 | 2026 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2026-04-06 | 2026 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2026-05-01 | 2026 | pátek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2026-05-08 | 2026 | pátek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2026-07-05 | 2026 | neděle | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2026-07-06 | 2026 | pondělí | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2026-09-28 | 2026 | pondělí | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2026-10-28 | 2026 | středa | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2026-11-17 | 2026 | úterý | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2026-12-24 | 2026 | čtvrtek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2026-12-25 | 2026 | pátek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2026-12-26 | 2026 | sobota | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2027-01-01 | 2027 | pátek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2027-03-26 | 2027 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2027-03-29 | 2027 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2027-05-01 | 2027 | sobota | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2027-05-08 | 2027 | sobota | Den vítězství | statni_svatek | false | true | zavreno |
+| 2027-07-05 | 2027 | pondělí | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2027-07-06 | 2027 | úterý | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2027-09-28 | 2027 | úterý | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2027-10-28 | 2027 | čtvrtek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2027-11-17 | 2027 | středa | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2027-12-24 | 2027 | pátek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2027-12-25 | 2027 | sobota | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2027-12-26 | 2027 | neděle | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2028-01-01 | 2028 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2028-04-14 | 2028 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2028-04-17 | 2028 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2028-05-01 | 2028 | pondělí | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2028-05-08 | 2028 | pondělí | Den vítězství | statni_svatek | false | true | zavreno |
+| 2028-07-05 | 2028 | středa | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2028-07-06 | 2028 | čtvrtek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2028-09-28 | 2028 | čtvrtek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2028-10-28 | 2028 | sobota | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2028-11-17 | 2028 | pátek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2028-12-24 | 2028 | neděle | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2028-12-25 | 2028 | pondělí | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2028-12-26 | 2028 | úterý | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2029-01-01 | 2029 | pondělí | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2029-03-30 | 2029 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2029-04-02 | 2029 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2029-05-01 | 2029 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2029-05-08 | 2029 | úterý | Den vítězství | statni_svatek | false | true | zavreno |
+| 2029-07-05 | 2029 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2029-07-06 | 2029 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2029-09-28 | 2029 | pátek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2029-10-28 | 2029 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2029-11-17 | 2029 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2029-12-24 | 2029 | pondělí | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2029-12-25 | 2029 | úterý | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2029-12-26 | 2029 | středa | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2030-01-01 | 2030 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2030-04-19 | 2030 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2030-04-22 | 2030 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2030-05-01 | 2030 | středa | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2030-05-08 | 2030 | středa | Den vítězství | statni_svatek | false | true | zavreno |
+| 2030-07-05 | 2030 | pátek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2030-07-06 | 2030 | sobota | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2030-09-28 | 2030 | sobota | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2030-10-28 | 2030 | pondělí | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2030-11-17 | 2030 | neděle | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2030-12-24 | 2030 | úterý | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2030-12-25 | 2030 | středa | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2030-12-26 | 2030 | čtvrtek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2031-01-01 | 2031 | středa | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2031-04-11 | 2031 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2031-04-14 | 2031 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2031-05-01 | 2031 | čtvrtek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2031-05-08 | 2031 | čtvrtek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2031-07-05 | 2031 | sobota | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2031-07-06 | 2031 | neděle | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2031-09-28 | 2031 | neděle | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2031-10-28 | 2031 | úterý | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2031-11-17 | 2031 | pondělí | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2031-12-24 | 2031 | středa | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2031-12-25 | 2031 | čtvrtek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2031-12-26 | 2031 | pátek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2032-01-01 | 2032 | čtvrtek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2032-03-26 | 2032 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2032-03-29 | 2032 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2032-05-01 | 2032 | sobota | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2032-05-08 | 2032 | sobota | Den vítězství | statni_svatek | false | true | zavreno |
+| 2032-07-05 | 2032 | pondělí | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2032-07-06 | 2032 | úterý | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2032-09-28 | 2032 | úterý | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2032-10-28 | 2032 | čtvrtek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2032-11-17 | 2032 | středa | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2032-12-24 | 2032 | pátek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2032-12-25 | 2032 | sobota | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2032-12-26 | 2032 | neděle | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2033-01-01 | 2033 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2033-04-15 | 2033 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2033-04-18 | 2033 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2033-05-01 | 2033 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2033-05-08 | 2033 | neděle | Den vítězství | statni_svatek | false | true | zavreno |
+| 2033-07-05 | 2033 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2033-07-06 | 2033 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2033-09-28 | 2033 | středa | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2033-10-28 | 2033 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2033-11-17 | 2033 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2033-12-24 | 2033 | sobota | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2033-12-25 | 2033 | neděle | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2033-12-26 | 2033 | pondělí | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2034-01-01 | 2034 | neděle | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2034-04-07 | 2034 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2034-04-10 | 2034 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2034-05-01 | 2034 | pondělí | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2034-05-08 | 2034 | pondělí | Den vítězství | statni_svatek | false | true | zavreno |
+| 2034-07-05 | 2034 | středa | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2034-07-06 | 2034 | čtvrtek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2034-09-28 | 2034 | čtvrtek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2034-10-28 | 2034 | sobota | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2034-11-17 | 2034 | pátek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2034-12-24 | 2034 | neděle | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2034-12-25 | 2034 | pondělí | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2034-12-26 | 2034 | úterý | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2035-01-01 | 2035 | pondělí | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2035-03-23 | 2035 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2035-03-26 | 2035 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2035-05-01 | 2035 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2035-05-08 | 2035 | úterý | Den vítězství | statni_svatek | false | true | zavreno |
+| 2035-07-05 | 2035 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2035-07-06 | 2035 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2035-09-28 | 2035 | pátek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2035-10-28 | 2035 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2035-11-17 | 2035 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2035-12-24 | 2035 | pondělí | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2035-12-25 | 2035 | úterý | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2035-12-26 | 2035 | středa | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2036-01-01 | 2036 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2036-04-11 | 2036 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2036-04-14 | 2036 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2036-05-01 | 2036 | čtvrtek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2036-05-08 | 2036 | čtvrtek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2036-07-05 | 2036 | sobota | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2036-07-06 | 2036 | neděle | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2036-09-28 | 2036 | neděle | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2036-10-28 | 2036 | úterý | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2036-11-17 | 2036 | pondělí | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2036-12-24 | 2036 | středa | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2036-12-25 | 2036 | čtvrtek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2036-12-26 | 2036 | pátek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2037-01-01 | 2037 | čtvrtek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2037-04-03 | 2037 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2037-04-06 | 2037 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2037-05-01 | 2037 | pátek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2037-05-08 | 2037 | pátek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2037-07-05 | 2037 | neděle | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2037-07-06 | 2037 | pondělí | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2037-09-28 | 2037 | pondělí | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2037-10-28 | 2037 | středa | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2037-11-17 | 2037 | úterý | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2037-12-24 | 2037 | čtvrtek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2037-12-25 | 2037 | pátek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2037-12-26 | 2037 | sobota | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2038-01-01 | 2038 | pátek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2038-04-23 | 2038 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2038-04-26 | 2038 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2038-05-01 | 2038 | sobota | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2038-05-08 | 2038 | sobota | Den vítězství | statni_svatek | false | true | zavreno |
+| 2038-07-05 | 2038 | pondělí | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2038-07-06 | 2038 | úterý | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2038-09-28 | 2038 | úterý | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2038-10-28 | 2038 | čtvrtek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2038-11-17 | 2038 | středa | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2038-12-24 | 2038 | pátek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2038-12-25 | 2038 | sobota | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2038-12-26 | 2038 | neděle | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2039-01-01 | 2039 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2039-04-08 | 2039 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2039-04-11 | 2039 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2039-05-01 | 2039 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2039-05-08 | 2039 | neděle | Den vítězství | statni_svatek | false | true | zavreno |
+| 2039-07-05 | 2039 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2039-07-06 | 2039 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2039-09-28 | 2039 | středa | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2039-10-28 | 2039 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2039-11-17 | 2039 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2039-12-24 | 2039 | sobota | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2039-12-25 | 2039 | neděle | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2039-12-26 | 2039 | pondělí | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2040-01-01 | 2040 | neděle | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2040-03-30 | 2040 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2040-04-02 | 2040 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2040-05-01 | 2040 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2040-05-08 | 2040 | úterý | Den vítězství | statni_svatek | false | true | zavreno |
+| 2040-07-05 | 2040 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2040-07-06 | 2040 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2040-09-28 | 2040 | pátek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2040-10-28 | 2040 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2040-11-17 | 2040 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2040-12-24 | 2040 | pondělí | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2040-12-25 | 2040 | úterý | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2040-12-26 | 2040 | středa | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2041-01-01 | 2041 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2041-04-19 | 2041 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2041-04-22 | 2041 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2041-05-01 | 2041 | středa | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2041-05-08 | 2041 | středa | Den vítězství | statni_svatek | false | true | zavreno |
+| 2041-07-05 | 2041 | pátek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2041-07-06 | 2041 | sobota | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2041-09-28 | 2041 | sobota | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2041-10-28 | 2041 | pondělí | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2041-11-17 | 2041 | neděle | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2041-12-24 | 2041 | úterý | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2041-12-25 | 2041 | středa | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2041-12-26 | 2041 | čtvrtek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2042-01-01 | 2042 | středa | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2042-04-04 | 2042 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2042-04-07 | 2042 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2042-05-01 | 2042 | čtvrtek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2042-05-08 | 2042 | čtvrtek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2042-07-05 | 2042 | sobota | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2042-07-06 | 2042 | neděle | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2042-09-28 | 2042 | neděle | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2042-10-28 | 2042 | úterý | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2042-11-17 | 2042 | pondělí | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2042-12-24 | 2042 | středa | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2042-12-25 | 2042 | čtvrtek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2042-12-26 | 2042 | pátek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2043-01-01 | 2043 | čtvrtek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2043-03-27 | 2043 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2043-03-30 | 2043 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2043-05-01 | 2043 | pátek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2043-05-08 | 2043 | pátek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2043-07-05 | 2043 | neděle | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2043-07-06 | 2043 | pondělí | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2043-09-28 | 2043 | pondělí | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2043-10-28 | 2043 | středa | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2043-11-17 | 2043 | úterý | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2043-12-24 | 2043 | čtvrtek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2043-12-25 | 2043 | pátek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2043-12-26 | 2043 | sobota | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2044-01-01 | 2044 | pátek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2044-04-15 | 2044 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2044-04-18 | 2044 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2044-05-01 | 2044 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2044-05-08 | 2044 | neděle | Den vítězství | statni_svatek | false | true | zavreno |
+| 2044-07-05 | 2044 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2044-07-06 | 2044 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2044-09-28 | 2044 | středa | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2044-10-28 | 2044 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2044-11-17 | 2044 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2044-12-24 | 2044 | sobota | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2044-12-25 | 2044 | neděle | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2044-12-26 | 2044 | pondělí | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2045-01-01 | 2045 | neděle | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2045-04-07 | 2045 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2045-04-10 | 2045 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2045-05-01 | 2045 | pondělí | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2045-05-08 | 2045 | pondělí | Den vítězství | statni_svatek | false | true | zavreno |
+| 2045-07-05 | 2045 | středa | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2045-07-06 | 2045 | čtvrtek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2045-09-28 | 2045 | čtvrtek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2045-10-28 | 2045 | sobota | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2045-11-17 | 2045 | pátek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2045-12-24 | 2045 | neděle | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2045-12-25 | 2045 | pondělí | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2045-12-26 | 2045 | úterý | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2046-01-01 | 2046 | pondělí | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2046-03-23 | 2046 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2046-03-26 | 2046 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2046-05-01 | 2046 | úterý | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2046-05-08 | 2046 | úterý | Den vítězství | statni_svatek | false | true | zavreno |
+| 2046-07-05 | 2046 | čtvrtek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2046-07-06 | 2046 | pátek | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2046-09-28 | 2046 | pátek | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2046-10-28 | 2046 | neděle | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2046-11-17 | 2046 | sobota | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2046-12-24 | 2046 | pondělí | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2046-12-25 | 2046 | úterý | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2046-12-26 | 2046 | středa | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2047-01-01 | 2047 | úterý | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2047-04-12 | 2047 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2047-04-15 | 2047 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2047-05-01 | 2047 | středa | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2047-05-08 | 2047 | středa | Den vítězství | statni_svatek | false | true | zavreno |
+| 2047-07-05 | 2047 | pátek | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2047-07-06 | 2047 | sobota | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2047-09-28 | 2047 | sobota | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2047-10-28 | 2047 | pondělí | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2047-11-17 | 2047 | neděle | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2047-12-24 | 2047 | úterý | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2047-12-25 | 2047 | středa | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2047-12-26 | 2047 | čtvrtek | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2048-01-01 | 2048 | středa | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2048-04-03 | 2048 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2048-04-06 | 2048 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2048-05-01 | 2048 | pátek | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2048-05-08 | 2048 | pátek | Den vítězství | statni_svatek | false | true | zavreno |
+| 2048-07-05 | 2048 | neděle | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2048-07-06 | 2048 | pondělí | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2048-09-28 | 2048 | pondělí | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2048-10-28 | 2048 | středa | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2048-11-17 | 2048 | úterý | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2048-12-24 | 2048 | čtvrtek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2048-12-25 | 2048 | pátek | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2048-12-26 | 2048 | sobota | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2049-01-01 | 2049 | pátek | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2049-04-16 | 2049 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2049-04-19 | 2049 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2049-05-01 | 2049 | sobota | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2049-05-08 | 2049 | sobota | Den vítězství | statni_svatek | false | true | zavreno |
+| 2049-07-05 | 2049 | pondělí | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2049-07-06 | 2049 | úterý | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2049-09-28 | 2049 | úterý | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2049-10-28 | 2049 | čtvrtek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2049-11-17 | 2049 | středa | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2049-12-24 | 2049 | pátek | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2049-12-25 | 2049 | sobota | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2049-12-26 | 2049 | neděle | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2050-01-01 | 2050 | sobota | Den obnovy samostatného českého státu | statni_svatek | false | true | zavreno |
+| 2050-04-08 | 2050 | pátek | Velký pátek | ostatni_svatek | false | false | bez_omezeni |
+| 2050-04-11 | 2050 | pondělí | Velikonoční pondělí | ostatni_svatek | false | true | zavreno |
+| 2050-05-01 | 2050 | neděle | Svátek práce | ostatni_svatek | false | false | bez_omezeni |
+| 2050-05-08 | 2050 | neděle | Den vítězství | statni_svatek | false | true | zavreno |
+| 2050-07-05 | 2050 | úterý | Den slovanských věrozvěstů Cyrila a Metoděje | statni_svatek | false | false | bez_omezeni |
+| 2050-07-06 | 2050 | středa | Den upálení mistra Jana Husa | statni_svatek | false | false | bez_omezeni |
+| 2050-09-28 | 2050 | středa | Den české státnosti | statni_svatek | false | true | zavreno |
+| 2050-10-28 | 2050 | pátek | Den vzniku samostatného československého státu | statni_svatek | false | true | zavreno |
+| 2050-11-17 | 2050 | čtvrtek | Den boje za svobodu a demokracii a Mezinárodní den studentstva | statni_svatek | false | false | bez_omezeni |
+| 2050-12-24 | 2050 | sobota | Štědrý den | ostatni_svatek | false | false | zavreno_od_12 |
+| 2050-12-25 | 2050 | neděle | 1. svátek vánoční | ostatni_svatek | false | true | zavreno |
+| 2050-12-26 | 2050 | pondělí | 2. svátek vánoční | ostatni_svatek | false | true | zavreno |

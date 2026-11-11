@@ -1,0 +1,71 @@
+# Average wage in the Czech Republic by industry (CZ-NACE), Q2 2026
+
+Average gross monthly wage in each CZ-NACE section (IT, finance, manufacturing, construction, health, education and others) in Q2 2026 and a year earlier.
+
+- **Data as of:** 30 June 2026
+- **Rows:** 40
+- **Source:** [Czech Statistical Office (ČSÚ)](https://data.csu.gov.cz/datastat/info/SADA/MZDQ1)
+- **Licence:** CC BY 4.0 (ČSÚ)
+- **How to cite:** Source: Czech Statistical Office (ČSÚ); processed by czechdatasets.com, https://czechdatasets.com/en/otevrena-data/mzdy-podle-odvetvi
+- **Download:** [CSV](https://czechdatasets.com/open/mzdy-podle-odvetvi.csv) · [JSON](https://czechdatasets.com/open/mzdy-podle-odvetvi.json) · [Markdown](https://czechdatasets.com/open/en/mzdy-podle-odvetvi.md)
+- **Table page:** https://czechdatasets.com/en/otevrena-data/mzdy-podle-odvetvi
+- **Full dataset:** [Wages by region and industry](https://czechdatasets.com/en/data/mzdy)
+
+Czech Statistical Office figures rounded to whole crowns, per full-time equivalent employee; the latest quarters are preliminary.
+
+## Columns
+
+| Column | Description |
+| --- | --- |
+| `rok` | Year |
+| `ctvrtleti` | Quarter (1–4) |
+| `sekce` | CZ-NACE section, 2008 version / NACE Rev. 2 (letter); celkem = whole economy |
+| `odvetvi` | Industry name (Czech) |
+| `prumerna_mzda` | Average gross monthly wage in CZK |
+| `mezirocne_pct` | Year-on-year change in percent (nominal) |
+| `predbezne` | Preliminary figure (true/false) |
+
+## Data
+
+| rok | ctvrtleti | sekce | odvetvi | prumerna_mzda | mezirocne_pct | predbezne |
+| ---: | ---: | --- | --- | ---: | ---: | --- |
+| 2026 | 2 | celkem | Celkem | 51966 | 6.4 | true |
+| 2026 | 2 | J | Informační a komunikační činnosti | 90948 | 5.6 | true |
+| 2026 | 2 | K | Peněžnictví a pojišťovnictví | 90808 | 7.3 | true |
+| 2026 | 2 | D | Výroba a rozvod elektřiny, plynu, tepla a klimatizovaného vzduchu | 72282 | 4.5 | true |
+| 2026 | 2 | M | Profesní, vědecké a technické činnosti | 64746 | 7.3 | true |
+| 2026 | 2 | Q | Zdravotní a sociální péče | 55998 | 4.8 | true |
+| 2026 | 2 | O | Veřejná správa a obrana; povinné sociální zabezpečení | 55321 | 9.0 | true |
+| 2026 | 2 | B | Těžba a dobývání | 52817 | 2.2 | true |
+| 2026 | 2 | C | Zpracovatelský průmysl | 52061 | 5.0 | true |
+| 2026 | 2 | P | Vzdělávání | 49056 | 7.9 | true |
+| 2026 | 2 | E | Zásobování vodou; činnosti související s odpadními vodami, odpady a sanacemi | 47920 | 7.9 | true |
+| 2026 | 2 | G | Velkoobchod a maloobchod; opravy a údržba motorových vozidel | 47344 | 6.2 | true |
+| 2026 | 2 | H | Doprava a skladování | 46743 | 4.2 | true |
+| 2026 | 2 | R | Kulturní, zábavní a rekreační činnosti | 45880 | 8.7 | true |
+| 2026 | 2 | F | Stavebnictví | 45330 | 6.8 | true |
+| 2026 | 2 | L | Činnosti v oblasti nemovitostí | 42785 | 6.3 | true |
+| 2026 | 2 | N | Administrativní a podpůrné činnosti | 40387 | 16.6 | true |
+| 2026 | 2 | A | Zemědělství, lesnictví, rybářství | 39979 | 8.5 | true |
+| 2026 | 2 | S | Ostatní činnosti | 36036 | 0.2 | true |
+| 2026 | 2 | I | Ubytování, stravování a pohostinství | 30394 | 6.8 | true |
+| 2025 | 2 | celkem | Celkem | 48860 | 7.2 | true |
+| 2025 | 2 | J | Informační a komunikační činnosti | 86091 | 7.7 | true |
+| 2025 | 2 | K | Peněžnictví a pojišťovnictví | 84625 | 5.9 | true |
+| 2025 | 2 | D | Výroba a rozvod elektřiny, plynu, tepla a klimatizovaného vzduchu | 69160 | 8.0 | true |
+| 2025 | 2 | M | Profesní, vědecké a technické činnosti | 60347 | 7.6 | true |
+| 2025 | 2 | Q | Zdravotní a sociální péče | 53435 | 5.6 | true |
+| 2025 | 2 | B | Těžba a dobývání | 51687 | 5.2 | true |
+| 2025 | 2 | O | Veřejná správa a obrana; povinné sociální zabezpečení | 50738 | 6.9 | true |
+| 2025 | 2 | C | Zpracovatelský průmysl | 49565 | 7.8 | true |
+| 2025 | 2 | P | Vzdělávání | 45467 | 5.5 | true |
+| 2025 | 2 | H | Doprava a skladování | 44859 | 10.2 | true |
+| 2025 | 2 | G | Velkoobchod a maloobchod; opravy a údržba motorových vozidel | 44591 | 5.1 | true |
+| 2025 | 2 | E | Zásobování vodou; činnosti související s odpadními vodami, odpady a sanacemi | 44421 | 6.6 | true |
+| 2025 | 2 | F | Stavebnictví | 42460 | 8.5 | true |
+| 2025 | 2 | R | Kulturní, zábavní a rekreační činnosti | 42205 | 9.4 | true |
+| 2025 | 2 | L | Činnosti v oblasti nemovitostí | 40258 | 0.2 | true |
+| 2025 | 2 | A | Zemědělství, lesnictví, rybářství | 36853 | 7.7 | true |
+| 2025 | 2 | S | Ostatní činnosti | 35958 | 8.1 | true |
+| 2025 | 2 | N | Administrativní a podpůrné činnosti | 34648 | 12.6 | true |
+| 2025 | 2 | I | Ubytování, stravování a pohostinství | 28457 | 6.9 | true |
